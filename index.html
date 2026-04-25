@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Prograde | Academic resource discovery</title>
+  <meta name="description" content="Find summer programs, scholarships, competitions, and online courses that move your education forward.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Geist:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <div class="site-grid"></div>
+  <header class="topbar">
+    <a class="brand" href="index.html" aria-label="Prograde home">
+      <svg class="mark" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="29"/><path d="M50 8v20M50 72v20M8 50h20M72 50h20"/><circle cx="50" cy="50" r="5"/></svg>
+      <span>Prograde</span>
+    </a>
+    <nav class="nav" aria-label="Main navigation">
+      <a aria-current="page" href="index.html">Search</a>
+      <a href="resources.html">Catalog</a>
+      <a href="onboarding.html">Fit profile</a>
+      <a href="about.html">About</a>
+    </nav>
+    <a class="nav-cta" href="onboarding.html">Start fit profile</a>
+  </header>
+
+  <main>
+    <section class="hero hero-tool">
+      <div class="hero-orbit" aria-hidden="true"><span class="orbit-probe"></span></div>
+      <div class="hero-copy">
+        <p class="eyebrow">Academic opportunities, mapped for students</p>
+        <h1>Find the next thing worth applying to.</h1>
+        <p class="lede">Prograde helps high-school and college students discover summer programs, scholarships, competitions, and courses without digging through stale lists or paywalled databases.</p>
+        <div class="hero-stats" aria-label="Prograde catalog stats">
+          <div><strong data-stat="resources" data-count="0">0</strong><span>resources indexed</span></div>
+          <div><strong data-stat="categories" data-count="0">0</strong><span>resource types</span></div>
+          <div><strong data-stat="signals" data-count="0">0</strong><span>fit signals</span></div>
+        </div>
+      </div>
+      <form class="search-panel" data-search-form>
+        <label for="home-search">What are you looking for?</label>
+        <div class="search-line">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16.5 16.5 4 4"/></svg>
+          <input id="home-search" name="q" type="search" placeholder="free AI research for juniors, remote math competitions, scholarships under 30 days">
+          <button type="submit">Search</button>
+        </div>
+        <div class="quick-filters" aria-label="Suggested searches">
+          <button type="button" data-fill="free summer programs for first-gen students">First-gen summer programs</button>
+          <button type="button" data-fill="scholarships closing soon">Closing soon</button>
+          <button type="button" data-fill="online computer science courses">Online CS</button>
+        </div>
+      </form>
+    </section>
+
+    <section class="orbit-board" aria-label="Featured resources">
+      <div class="board-head">
+        <div>
+          <p class="eyebrow">Live discovery board</p>
+          <h2>High-signal matches, not a wall of links.</h2>
+        </div>
+        <a class="text-link" href="resources.html">Open full catalog</a>
+      </div>
+      <div class="resource-grid" data-resource-grid data-limit="6"></div>
+    </section>
+
+    <section class="split-section">
+      <div>
+        <p class="eyebrow">Why opportunities matter</p>
+        <h2>The point is not resume decoration. It is evidence.</h2>
+      </div>
+      <div class="benefit-grid">
+        <article>
+          <span>Explore</span>
+          <h3>Test a field before committing to it.</h3>
+          <p>A summer course or competition can reveal whether you actually enjoy AI, policy, math, design, research, or entrepreneurship.</p>
+        </article>
+        <article>
+          <span>Build</span>
+          <h3>Create proof of skill.</h3>
+          <p>Projects, papers, presentations, code, awards, and mentor feedback are stronger than vague interest statements.</p>
+        </article>
+        <article>
+          <span>Access</span>
+          <h3>Find paths your school may not advertise.</h3>
+          <p>Free programs, scholarships, and open resources can replace expensive private prep when students know where to look early enough.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="split-section">
+      <div>
+        <p class="eyebrow">Why students use it</p>
+        <h2>Built for the moment when the application clock is already ticking.</h2>
+      </div>
+      <div class="benefit-grid">
+        <article>
+          <span>01</span>
+          <h3>Plain-English search</h3>
+          <p>Describe your grade, interests, budget, location, and constraints. The interface is designed around how students actually ask for help.</p>
+        </article>
+        <article>
+          <span>02</span>
+          <h3>Decision-ready cards</h3>
+          <p>Every card shows cost, deadline, eligibility, effort, and why it might fit. No mystery clicks just to learn it is unaffordable.</p>
+        </article>
+        <article>
+          <span>03</span>
+          <h3>Human verification</h3>
+          <p>Listings are checked for stale deadlines, hidden fees, and eligibility traps. Student notes add context official pages usually skip.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="split-section">
+      <div>
+        <p class="eyebrow">How to use Prograde</p>
+        <h2>Turn vague ambition into a short list you can actually act on.</h2>
+      </div>
+      <div class="benefit-grid">
+        <article>
+          <span>Step 1</span>
+          <h3>Set your profile</h3>
+          <p>Pick your grade, interests, cost tolerance, preferred format, and effort level. The catalog re-ranks around you.</p>
+        </article>
+        <article>
+          <span>Step 2</span>
+          <h3>Compare the tradeoffs</h3>
+          <p>Look at cost, deadline, effort, format, and eligibility before opening tabs. Skip anything that is prestigious but wrong for you.</p>
+        </article>
+        <article>
+          <span>Step 3</span>
+          <h3>Verify and apply</h3>
+          <p>Every resource card points to its official source. Use Prograde to shortlist, then confirm dates on the program page.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="timeline-section">
+      <div class="board-head">
+        <div>
+          <p class="eyebrow">Best time to apply</p>
+          <h2>Most "summer" opportunities are won months before summer.</h2>
+        </div>
+        <a class="text-link" href="resources.html">Check current status</a>
+      </div>
+      <div class="timeline-grid">
+        <article><span>9th-10th</span><h3>Build foundations</h3><p>Use free courses, competitions, clubs, and small projects. Do not wait for a prestigious program to give you permission to start.</p></article>
+        <article><span>Junior fall</span><h3>Shortlist serious programs</h3><p>Research-heavy programs and selective summer opportunities often need essays, recommendations, and problem sets before winter.</p></article>
+        <article><span>Junior winter</span><h3>Submit summer applications</h3><p>Many competitive summer programs close between December and March, even if the program happens in June or July.</p></article>
+        <article><span>Senior fall</span><h3>Scholarship season</h3><p>Major national scholarships often open in August and close by September-November. Summer before senior year is prep time.</p></article>
+      </div>
+    </section>
+
+    <section class="pathways">
+      <a href="programs.html">
+        <span>Summer programs</span>
+        <strong>Research labs, residential institutes, mentorships</strong>
+      </a>
+      <a href="scholarships.html">
+        <span>Scholarships</span>
+        <strong>Awards filtered by grade, need, merit, and effort</strong>
+      </a>
+      <a href="resources.html#competitions">
+        <span>Competitions</span>
+        <strong>STEM, humanities, entrepreneurship, writing</strong>
+      </a>
+      <a href="resources.html#hackathons">
+        <span>Hackathons</span>
+        <strong>Cybersecurity, app-building, team projects, and demos</strong>
+      </a>
+      <a href="courses.html">
+        <span>Online courses</span>
+        <strong>Free and low-cost ways to build proof of interest</strong>
+      </a>
+      <a href="free-resources.html">
+        <span>Free tools</span>
+        <strong>Design, coding, writing, research, and planning resources</strong>
+      </a>
+      <a href="resources.html#visits">
+        <span>Visits</span>
+        <strong>Campus tours, open houses, and college exploration events</strong>
+      </a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div><strong>Prograde</strong><span>Forward motion for ambitious students.</span></div>
+    <nav><a href="resources.html">Catalog</a><a href="about.html">Mission</a><a href="mailto:hello@prograde.app">hello@prograde.app</a></nav>
+  </footer>
+
+  <script src="assets/resources-data.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>
+
+
+

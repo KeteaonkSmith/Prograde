@@ -1,0 +1,117 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Build Your Fit Profile | Prograde</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Geist:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body class="onboarding-page">
+  <div class="site-grid"></div>
+  <header class="topbar">
+    <a class="brand" href="index.html"><svg class="mark" viewBox="0 0 100 100"><circle cx="50" cy="50" r="29"/><path d="M50 8v20M50 72v20M8 50h20M72 50h20"/><circle cx="50" cy="50" r="5"/></svg><span>Prograde</span></a>
+    <nav class="nav"><a href="index.html">Search</a><a href="resources.html">Catalog</a><a aria-current="page" href="onboarding.html">Fit profile</a><a href="about.html">About</a></nav>
+    <a class="nav-cta" href="resources.html">View matches</a>
+  </header>
+  <main>
+    <section class="page-hero">
+      <p class="eyebrow">Fit profile</p>
+      <h1>Tell Prograde what kind of opportunity would actually help you.</h1>
+      <p>These answers change the ranking on resource cards. They do not predict admissions; they help separate useful matches from prestige noise.</p>
+    </section>
+    <noscript>
+      <section class="critique-panel">
+        <p class="eyebrow">JavaScript needed for ranking</p>
+        <h2>Fit ranking needs JavaScript, but the catalog is still available.</h2>
+        <p>You can browse resources directly; profile saving, saved resources, and local ranking require JavaScript in this static prototype.</p>
+        <a class="source-button" href="resources.html">Browse catalog</a>
+      </section>
+    </noscript>
+    <section class="onboarding-embed" data-onboarding-host>
+      <div class="onboarding onboarding-inline is-open" aria-labelledby="onboarding-title" data-onboarding>
+        <form class="onboarding-card" data-onboarding-form>
+          <div class="onboarding-head">
+            <div>
+              <p class="eyebrow">Fit onboarding</p>
+              <h2 id="onboarding-title">Make Prograde rank resources around you.</h2>
+            </div>
+          </div>
+          <div class="onboarding-grid">
+            <section>
+              <h3>1. Student stage</h3>
+              <label>Grade / year
+                <select name="grade">
+                  <option value="9">9th</option><option value="10">10th</option><option value="11" selected>11th</option><option value="12">12th</option>
+                  <option value="13">College year 1</option><option value="14">College year 2</option><option value="15">College year 3</option><option value="16">College year 4</option>
+                </select>
+              </label>
+              <label>Experience level
+                <select name="experience">
+                  <option value="beginner">Beginner</option>
+                  <option value="some" selected>Some experience</option>
+                  <option value="advanced">Advanced</option>
+                </select>
+              </label>
+            </section>
+            <section>
+              <h3>2. Interests</h3>
+              <div class="choice-grid">
+                <label><input type="checkbox" name="interest" value="stem" checked> STEM</label>
+                <label><input type="checkbox" name="interest" value="cs" checked> CS</label>
+                <label><input type="checkbox" name="interest" value="ai"> AI</label>
+                <label><input type="checkbox" name="interest" value="cybersecurity"> Cybersecurity</label>
+                <label><input type="checkbox" name="interest" value="math"> Math</label>
+                <label><input type="checkbox" name="interest" value="research" checked> Research</label>
+                <label><input type="checkbox" name="interest" value="humanities"> Humanities</label>
+                <label><input type="checkbox" name="interest" value="writing"> Writing</label>
+                <label><input type="checkbox" name="interest" value="arts"> Arts</label>
+                <label><input type="checkbox" name="interest" value="leadership"> Leadership</label>
+              </div>
+            </section>
+            <section>
+              <h3>3. Goals</h3>
+              <div class="choice-grid">
+                <label><input type="checkbox" name="goal" value="skills" checked> Build skills</label>
+                <label><input type="checkbox" name="goal" value="portfolio" checked> Create a project</label>
+                <label><input type="checkbox" name="goal" value="research"> Do research</label>
+                <label><input type="checkbox" name="goal" value="awards"> Win recognition</label>
+                <label><input type="checkbox" name="goal" value="network"> Meet mentors</label>
+                <label><input type="checkbox" name="goal" value="team"> Work with a team</label>
+              </div>
+            </section>
+            <section>
+              <h3>4. Constraints</h3>
+              <label>Budget
+                <select name="budget"><option value="free" selected>Free only</option><option value="aid">Free / aid / awards</option><option value="any">Any cost</option></select>
+              </label>
+              <label>Preferred format
+                <select name="format"><option value="any" selected>Any</option><option value="remote">Remote</option><option value="in-person">In person</option><option value="residential">Residential</option><option value="application">Application only</option></select>
+              </label>
+              <label>Effort tolerance
+                <select name="effort"><option value="1">Low</option><option value="2">Flexible</option><option value="3" selected>Medium</option><option value="4">High</option><option value="5">Very high</option></select>
+              </label>
+              <label>How do you prefer to work?
+                <select name="support"><option value="solo" selected>Solo-friendly</option><option value="team">Team-based</option><option value="either">Either</option></select>
+              </label>
+            </section>
+          </div>
+          <div class="onboarding-actions">
+            <a class="source-button" href="resources.html">Not now</a>
+            <button type="submit">Save and rank matches</button>
+          </div>
+          <div class="onboarding-success" data-onboarding-success role="status" aria-live="polite" hidden>
+            <strong>Fit profile saved.</strong><span>Your catalog rankings are updated on this device.</span><a class="source-button" href="resources.html">View matches</a>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+  <script src="assets/resources-data.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>
+
+

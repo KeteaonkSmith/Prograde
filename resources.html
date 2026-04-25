@@ -1,0 +1,115 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Catalog | Prograde</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Geist:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <div class="site-grid"></div>
+  <header class="topbar">
+    <a class="brand" href="index.html"><svg class="mark" viewBox="0 0 100 100"><circle cx="50" cy="50" r="29"/><path d="M50 8v20M50 72v20M8 50h20M72 50h20"/><circle cx="50" cy="50" r="5"/></svg><span>Prograde</span></a>
+    <nav class="nav"><a href="index.html">Search</a><a aria-current="page" href="resources.html">Catalog</a><a href="onboarding.html">Fit profile</a><a href="about.html">About</a></nav>
+    <a class="nav-cta" href="onboarding.html">Update fit</a>
+  </header>
+  <main>
+    <section class="page-hero compact">
+      <p class="eyebrow">Verified catalog</p>
+      <h1>Browse opportunities with the important parts already surfaced.</h1>
+      <p>Filter by category, cost, deadline pressure, and student stage. Cards show whether a resource is active now, opening later, or likely closed for the current cycle.</p>
+    </section>
+    <section class="status-guide">
+      <article><span class="status-pill active">Active now</span><p>You can use it now or the listed application window appears open.</p></article>
+      <article><span class="status-pill upcoming">Opens later</span><p>Start preparing materials now, then apply when the official window opens.</p></article>
+      <article><span class="status-pill closed">Deadline passed</span><p>Useful for planning next cycle, but do not spend application time unless the official page has reopened.</p></article>
+    </section>
+    <section class="catalog-shell" id="catalog">
+      <aside class="filters" aria-label="Catalog filters">
+        <form class="profile-card" data-profile-form>
+          <h2>Your fit profile</h2>
+          <label for="grade">Grade / stage</label>
+          <select id="grade" name="grade">
+            <option value="9">9th</option>
+            <option value="10">10th</option>
+            <option value="11">11th</option>
+            <option value="12">12th</option>
+            <option value="13">College year 1</option>
+            <option value="14">College year 2</option>
+            <option value="15">College year 3</option>
+            <option value="16">College year 4</option>
+          </select>
+          <fieldset>
+            <legend>Interests</legend>
+            <label><input type="checkbox" name="interest" value="stem"> STEM</label>
+            <label><input type="checkbox" name="interest" value="cs"> CS</label>
+            <label><input type="checkbox" name="interest" value="ai"> AI</label>
+            <label><input type="checkbox" name="interest" value="math"> Math</label>
+            <label><input type="checkbox" name="interest" value="research"> Research</label>
+            <label><input type="checkbox" name="interest" value="humanities"> Humanities</label>
+            <label><input type="checkbox" name="interest" value="arts"> Arts</label>
+            <label><input type="checkbox" name="interest" value="leadership"> Leadership</label>
+          </fieldset>
+          <label for="budget">Budget</label>
+          <select id="budget" name="budget">
+            <option value="free">Free only</option>
+            <option value="aid">Free / aid / awards</option>
+            <option value="any">Any cost</option>
+          </select>
+          <label for="format">Format</label>
+          <select id="format" name="format">
+            <option value="any">Any</option>
+            <option value="remote">Remote</option>
+            <option value="in-person">In person</option>
+            <option value="residential">Residential</option>
+            <option value="application">Application only</option>
+          </select>
+          <label for="effort">Effort tolerance</label>
+          <select id="effort" name="effort">
+            <option value="1">Low</option>
+            <option value="2">Flexible</option>
+            <option value="3">Medium</option>
+            <option value="4">High</option>
+            <option value="5">Very high</option>
+          </select>
+        </form>
+        <label for="catalog-search">Search catalog</label>
+        <input id="catalog-search" data-catalog-search type="search" placeholder="AI, climate, writing, senior">
+        <div class="filter-group" data-filter-group>
+          <button class="is-active" data-filter="all">All</button>
+          <button data-filter="saved">Saved (<span data-saved-count>0</span>)</button>
+          <button data-filter="program">Programs</button>
+          <button data-filter="scholarship">Scholarships</button>
+          <button data-filter="scholarship:need-based">Need-based scholarships</button>
+          <button data-filter="scholarship:merit">Merit scholarships</button>
+          <button data-filter="scholarship:first-gen">First-gen scholarships</button>
+          <button data-filter="scholarship:identity-based">Identity-based scholarships</button>
+          <button data-filter="scholarship:essay">Essay scholarships</button>
+          <button data-filter="scholarship:STEM">STEM scholarships</button>
+          <button data-filter="scholarship:arts">Arts scholarships</button>
+          <button data-filter="scholarship:service">Service scholarships</button>
+          <button data-filter="competition">Competitions</button>
+          <button data-filter="hackathon">Hackathons</button>
+          <button data-filter="visit">Visits / open houses</button>
+          <button data-filter="course">Courses</button>
+          <button data-filter="tool">Free tools</button>
+          <button data-filter="study">Study materials</button>
+        </div>
+        <div class="filter-note">Fit is recalculated from your profile. It is a sorting aid, not an admissions prediction.</div>
+      </aside>
+      <div class="catalog-results">
+        <div class="results-head"><span data-result-count role="status" aria-live="polite">0 resources</span><span>Updated weekly</span></div>
+        <div class="resource-grid dense" data-resource-grid></div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"><div><strong>Prograde</strong><span>Opportunity discovery without the maze.</span></div><nav><a href="index.html">Search</a><a href="about.html">Mission</a></nav></footer>
+  <script src="assets/resources-data.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>
+
+
