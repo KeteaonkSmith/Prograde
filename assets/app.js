@@ -105,6 +105,8 @@ const categoryLabels = {
   study: "Study Material"
 };
 
+const catalogReviewedLabel = "Reviewed Apr 25, 2026";
+
 const defaultProfile = {
   grade: "11",
   interests: ["stem", "cs", "research"],
@@ -114,7 +116,11 @@ const defaultProfile = {
   format: "any",
   effort: "3",
   availability: "semester",
-  support: "solo"
+  support: "solo",
+  location: "",
+  citizenship: "unknown",
+  weeklyTime: "3-5",
+  applicationConfidence: "medium"
 };
 
 function loadProfile() {
@@ -136,8 +142,17 @@ function slugify(value) {
   return normalize(value).replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 }
 
+const usedResourceIds = new Set();
 resources.forEach((resource) => {
-  resource.id = resource.id || slugify(`${resource.title}-${resource.source || resource.category}`);
+  const baseId = resource.id || slugify(resource.title);
+  let candidateId = baseId;
+  let suffix = 2;
+  while (usedResourceIds.has(candidateId)) {
+    candidateId = `${baseId}-${suffix}`;
+    suffix += 1;
+  }
+  usedResourceIds.add(candidateId);
+  resource.id = candidateId;
   if (resource.category === "scholarship" && !resource.scholarshipType) {
     const text = [resource.title, resource.summary, resource.tags, resource.why, resource.audience].join(" ").toLowerCase();
     const types = [];
@@ -195,13 +210,16 @@ function fitFor(item) {
   const supportScore = profile.support === "team" && ["hackathon", "competition"].includes(item.category) ? 6 : profile.support === "solo" && item.format !== "application" ? 4 : 5;
   const effortDelta = Math.abs(Number(profile.effort) - item.effortLevel);
   const effortScore = Math.max(0, 9 - effortDelta * 3);
-  const score = Math.round((gradeMatch ? 24 : 4) + interestScore + goalScore + costScore(item, profile.budget) + formatScore(item, profile.format) + effortScore + experienceScore + supportScore);
+  const timeScore = profile.weeklyTime === "10+" || item.effortLevel <= 3 ? 4 : profile.weeklyTime === "0-2" && item.effortLevel >= 4 ? 0 : 2;
+  const confidenceScore = profile.applicationConfidence === "high" || item.category !== "program" ? 3 : profile.applicationConfidence === "low" && item.effortLevel >= 4 ? 0 : 2;
+  const score = Math.round((gradeMatch ? 22 : 4) + interestScore + goalScore + costScore(item, profile.budget) + formatScore(item, profile.format) + effortScore + experienceScore + supportScore + timeScore + confidenceScore);
   const reasons = [
     gradeMatch ? `matches ${profile.gradeLabel || "your grade"}` : "grade eligibility may not line up",
     interestMatches.length ? `matches ${interestMatches.join(", ")}` : "interest match is weak",
     goalMatches.length ? `supports ${goalMatches.join(", ")}` : "goal fit is limited",
     item.costType === "free" ? "free to use/apply" : item.costType === "aid" ? "aid or waiver path exists" : item.costType === "award" ? "pays or awards funding" : "cost needs review",
-    item.format === "hybrid" ? "format has multiple paths" : `${item.format} format`
+    item.format === "hybrid" ? "format has multiple paths" : `${item.format} format`,
+    profile.weeklyTime === "0-2" && item.effortLevel >= 4 ? "may need more weekly time" : "time load looks workable"
   ];
   return { score: Math.max(0, Math.min(100, score)), reasons };
 }
@@ -326,12 +344,14 @@ function cardTemplate(item) {
         <div class="details-panel" id="${detailsId}-body" data-details-panel>
           <p>${item.why}</p>
           <p><strong>Best time:</strong> ${item.bestTime || "Use the official page to confirm timing."}</p>
+          <p><strong>Trust note:</strong> ${catalogReviewedLabel}. Always confirm dates and eligibility on the official source.</p>
           <ul>
             ${fit.reasons.slice(0, 2).map((reason) => `<li>${reason}</li>`).join("")}
           </ul>
         </div>
       </div>
       <div class="card-actions">
+        <a class="ghost-button" href="resource-pages/${item.id}.html" aria-label="Read Prograde detail page for ${item.title}">Details</a>
         <a class="source-button" href="${item.source}" target="_blank" rel="noreferrer" aria-label="Open official source for ${item.title}">Open official source</a>
       </div>
     </article>`;
@@ -350,6 +370,7 @@ function bindSaves(root = document) {
       button.setAttribute("aria-label", `${savedResources.has(id) ? "Remove saved resource" : "Save"} ${button.closest(".resource-card")?.querySelector("h3")?.textContent || "resource"}`);
       updateSavedCount();
       updateCatalog();
+      renderDashboard();
     });
   });
 }
@@ -360,6 +381,7 @@ function closeOpenDetails(except = null) {
   document.querySelectorAll(".resource-details.is-open").forEach((openDetails) => {
     if (openDetails !== except) {
       openDetails.classList.remove("is-open");
+      openDetails.closest(".resource-card")?.classList.remove("has-open-details");
       openDetails.querySelector("[data-details-toggle]")?.setAttribute("aria-expanded", "false");
     }
   });
@@ -375,6 +397,7 @@ function bindDetails() {
       const wasOpen = details.classList.contains("is-open");
       closeOpenDetails(details);
       details.classList.toggle("is-open", !wasOpen);
+      details.closest(".resource-card")?.classList.toggle("has-open-details", !wasOpen);
       button.setAttribute("aria-expanded", String(!wasOpen));
       return;
     }
@@ -538,6 +561,18 @@ function injectOnboarding() {
             <label>How do you prefer to work?
               <select name="support"><option value="solo">Solo-friendly</option><option value="team">Team-based</option><option value="either">Either</option></select>
             </label>
+            <label>State / region
+              <input name="location" type="text" placeholder="Illinois, Texas, remote only">
+            </label>
+            <label>Citizenship / eligibility context
+              <select name="citizenship"><option value="unknown">Prefer not to say / unsure</option><option value="us">U.S. citizen or permanent resident</option><option value="non-us">International / non-U.S.</option><option value="mixed">Varies by opportunity</option></select>
+            </label>
+            <label>Weekly time available
+              <select name="weeklyTime"><option value="0-2">0-2 hours</option><option value="3-5">3-5 hours</option><option value="6-10">6-10 hours</option><option value="10+">10+ hours</option></select>
+            </label>
+            <label>Application confidence
+              <select name="applicationConfidence"><option value="low">I need beginner-friendly applications</option><option value="medium">I can handle normal applications</option><option value="high">I can handle selective applications</option></select>
+            </label>
           </section>
         </div>
         <div class="onboarding-actions">
@@ -559,6 +594,10 @@ function syncOnboardingForm(form) {
   form.format.value = profile.format;
   form.effort.value = profile.effort;
   form.support.value = profile.support || defaultProfile.support;
+  if (form.location) form.location.value = profile.location || "";
+  if (form.citizenship) form.citizenship.value = profile.citizenship || defaultProfile.citizenship;
+  if (form.weeklyTime) form.weeklyTime.value = profile.weeklyTime || defaultProfile.weeklyTime;
+  if (form.applicationConfidence) form.applicationConfidence.value = profile.applicationConfidence || defaultProfile.applicationConfidence;
   form.querySelectorAll("[name='interest']").forEach((box) => {
     box.checked = (profile.interests || []).includes(box.value);
   });
@@ -606,12 +645,17 @@ function bindOnboarding() {
       budget: data.get("budget") || defaultProfile.budget,
       format: data.get("format") || defaultProfile.format,
       effort: data.get("effort") || defaultProfile.effort,
-      support: data.get("support") || defaultProfile.support
+      support: data.get("support") || defaultProfile.support,
+      location: data.get("location") || "",
+      citizenship: data.get("citizenship") || defaultProfile.citizenship,
+      weeklyTime: data.get("weeklyTime") || defaultProfile.weeklyTime,
+      applicationConfidence: data.get("applicationConfidence") || defaultProfile.applicationConfidence
     };
     localStorage.setItem("progradeProfile", JSON.stringify(profile));
     localStorage.setItem("progradeOnboarded", "true");
     renderAllStaticGrids();
     updateCatalog();
+    renderDashboard();
     closeOnboarding();
     const form = event.currentTarget;
     let success = form.querySelector("[data-onboarding-success]");
@@ -681,7 +725,39 @@ function bindProfileControls() {
     localStorage.setItem("progradeProfile", JSON.stringify(profile));
     renderAllStaticGrids();
     updateCatalog();
+    renderDashboard();
   });
+}
+
+function renderDashboard() {
+  const grid = document.querySelector("[data-dashboard-grid]");
+  if (!grid) return;
+  const saved = resources.filter((item) => savedResources.has(item.id)).sort((a, b) => fitFor(b).score - fitFor(a).score);
+  updateSavedCount();
+  if (!saved.length) {
+    grid.innerHTML = `<div class="empty-state"><h2>No saved resources yet.</h2><p>Use the catalog to save programs, scholarships, courses, and tools. Your dashboard turns those saves into a shortlist with next actions.</p><a class="source-button" href="resources.html">Browse catalog</a></div>`;
+    return;
+  }
+  grid.innerHTML = saved.map((item) => {
+    const status = deadlineStatus(item);
+    const fit = fitFor(item);
+    const nextAction = item.category === "scholarship" ? "Check eligibility and draft the shortest required essay." : item.category === "program" ? "Confirm the application window and list required materials." : item.category === "course" ? "Start the first module and save one output as proof." : "Open the official page and decide whether it belongs in your active plan.";
+    return `<article class="dashboard-item">
+      <div>
+        <span class="tag ${item.category}">${categoryLabels[item.category]}</span>
+        <h2>${item.title}</h2>
+        <p>${item.summary}</p>
+      </div>
+      <div class="dashboard-meta">
+        <span><strong>${fit.score}</strong> fit</span>
+        <span class="status-pill ${status.tone}">${status.label}</span>
+        <span>${item.deadline}</span>
+      </div>
+      <div class="next-action"><strong>Next action</strong><p>${nextAction}</p></div>
+      <div class="card-actions"><a class="ghost-button" href="resource-pages/${item.id}.html">Details</a><a class="source-button" href="${item.source}" target="_blank" rel="noreferrer">Official source</a></div>
+    </article>`;
+  }).join("");
+  prepareAnimatedCards(grid);
 }
 
 filterButtons.forEach((button) => {
@@ -721,6 +797,7 @@ bindProfileControls();
 injectOnboarding();
 renderAllStaticGrids();
 updateCatalog();
+renderDashboard();
 prepareAnimatedCards();
 bindDetails();
 updateSavedCount();

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Saved Dashboard | Prograde</title>
+  <meta name="description" content="Turn saved Prograde resources into a student opportunity shortlist with fit scores, deadline status, and next actions.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Geist:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <div class="site-grid"></div>
+  <header class="topbar">
+    <a class="brand" href="index.html"><svg class="mark" viewBox="0 0 100 100"><circle cx="50" cy="50" r="29"/><path d="M50 8v20M50 72v20M8 50h20M72 50h20"/><circle cx="50" cy="50" r="5"/></svg><span>Prograde</span></a>
+    <nav class="nav"><a href="index.html">Search</a><a href="resources.html">Catalog</a><a href="onboarding.html">Fit profile</a><a aria-current="page" href="dashboard.html">Dashboard</a><a href="paths.html">Paths</a><a href="about.html">About</a></nav>
+    <a class="nav-cta" href="resources.html">Add saves</a>
+  </header>
+  <main>
+    <section class="page-hero compact">
+      <p class="eyebrow">Saved shortlist</p>
+      <h1>Your opportunity cockpit.</h1>
+      <p>Saved resources become a working shortlist with fit scores, current timing, and a next action. This is where discovery turns into a plan.</p>
+    </section>
+    <section class="status-guide">
+      <article><span class="status-pill active">Active now</span><p>Move these first if they fit your goals and timeline.</p></article>
+      <article><span class="status-pill upcoming">Opens later</span><p>Prepare essays, recommendations, project links, or prerequisites early.</p></article>
+      <article><span class="status-pill closed">Deadline passed</span><p>Keep only if it is worth planning for the next cycle.</p></article>
+    </section>
+    <section class="dashboard-grid" data-dashboard-grid></section>
+  </main>
+  <footer class="footer"><div><strong>Prograde</strong><span>Save less noise. Act on better fits.</span></div><nav><a href="resources.html">Catalog</a><a href="onboarding.html">Update fit</a></nav></footer>
+  <script src="assets/resources-data.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>
+

@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -13,7 +13,7 @@
   <div class="site-grid"></div>
   <header class="topbar">
     <a class="brand" href="index.html"><svg class="mark" viewBox="0 0 100 100"><circle cx="50" cy="50" r="29"/><path d="M50 8v20M50 72v20M8 50h20M72 50h20"/><circle cx="50" cy="50" r="5"/></svg><span>Prograde</span></a>
-    <nav class="nav"><a href="index.html">Search</a><a href="resources.html">Catalog</a><a aria-current="page" href="onboarding.html">Fit profile</a><a href="about.html">About</a></nav>
+    <nav class="nav"><a href="index.html">Search</a><a href="resources.html">Catalog</a><a aria-current="page" href="onboarding.html">Fit profile</a><a href="dashboard.html">Dashboard</a><a href="paths.html">Paths</a><a href="about.html">About</a></nav>
     <a class="nav-cta" href="resources.html">View matches</a>
   </header>
   <main>
@@ -96,6 +96,18 @@
               <label>How do you prefer to work?
                 <select name="support"><option value="solo" selected>Solo-friendly</option><option value="team">Team-based</option><option value="either">Either</option></select>
               </label>
+              <label>State / region
+                <input name="location" type="text" placeholder="Illinois, Texas, remote only">
+              </label>
+              <label>Citizenship / eligibility context
+                <select name="citizenship"><option value="unknown" selected>Prefer not to say / unsure</option><option value="us">U.S. citizen or permanent resident</option><option value="non-us">International / non-U.S.</option><option value="mixed">Varies by opportunity</option></select>
+              </label>
+              <label>Weekly time available
+                <select name="weeklyTime"><option value="0-2">0-2 hours</option><option value="3-5" selected>3-5 hours</option><option value="6-10">6-10 hours</option><option value="10+">10+ hours</option></select>
+              </label>
+              <label>Application confidence
+                <select name="applicationConfidence"><option value="low">I need beginner-friendly applications</option><option value="medium" selected>I can handle normal applications</option><option value="high">I can handle selective applications</option></select>
+              </label>
             </section>
           </div>
           <div class="onboarding-actions">
@@ -113,5 +125,6 @@
   <script src="assets/app.js"></script>
 </body>
 </html>
+
 
 

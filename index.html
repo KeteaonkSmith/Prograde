@@ -20,8 +20,7 @@
     <nav class="nav" aria-label="Main navigation">
       <a aria-current="page" href="index.html">Search</a>
       <a href="resources.html">Catalog</a>
-      <a href="onboarding.html">Fit profile</a>
-      <a href="about.html">About</a>
+      <a href="onboarding.html">Fit profile</a><a href="dashboard.html">Dashboard</a><a href="paths.html">Paths</a><a href="about.html">About</a>
     </nav>
     <a class="nav-cta" href="onboarding.html">Start fit profile</a>
   </header>
@@ -33,6 +32,16 @@
         <p class="eyebrow">Academic opportunities, mapped for students</p>
         <h1>Find the next thing worth applying to.</h1>
         <p class="lede">Prograde helps high-school and college students discover summer programs, scholarships, competitions, and courses without digging through stale lists or paywalled databases.</p>
+        <div class="hero-actions" aria-label="Primary actions">
+          <a class="source-button" href="onboarding.html">Start with your fit profile</a>
+          <a class="ghost-button" href="resources.html">Browse catalog first</a>
+        </div>
+        <div class="mission-path" aria-label="How Prograde works">
+          <span><strong>1</strong> Search</span>
+          <span><strong>2</strong> Rank by fit</span>
+          <span><strong>3</strong> Save a shortlist</span>
+          <span><strong>4</strong> Verify and apply</span>
+        </div>
         <div class="hero-stats" aria-label="Prograde catalog stats">
           <div><strong data-stat="resources" data-count="0">0</strong><span>resources indexed</span></div>
           <div><strong data-stat="categories" data-count="0">0</strong><span>resource types</span></div>
@@ -40,7 +49,8 @@
         </div>
       </div>
       <form class="search-panel" data-search-form>
-        <label for="home-search">What are you looking for?</label>
+        <p class="eyebrow">Start anywhere</p>
+        <label for="home-search">Search by goal, subject, grade, cost, or deadline</label>
         <div class="search-line">
           <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16.5 16.5 4 4"/></svg>
           <input id="home-search" name="q" type="search" placeholder="free AI research for juniors, remote math competitions, scholarships under 30 days">
@@ -51,6 +61,7 @@
           <button type="button" data-fill="scholarships closing soon">Closing soon</button>
           <button type="button" data-fill="online computer science courses">Online CS</button>
         </div>
+        <p class="search-hint">The catalog will show fit, cost, timing, and the official source before you leave Prograde.</p>
       </form>
     </section>
 
@@ -153,6 +164,18 @@
       </div>
     </section>
 
+    <section class="split-section">
+      <div>
+        <p class="eyebrow">Popular student searches</p>
+        <h2>Start from the question students actually type.</h2>
+      </div>
+      <div class="benefit-grid">
+        <article><span>Programs</span><h3>Free summer programs</h3><p>Find free and funded summer opportunities with timing and fit guidance.</p><a class="source-button" href="guides/free-summer-programs-high-school.html">Open guide</a></article>
+        <article><span>Money</span><h3>Scholarships and waivers</h3><p>Compare need-based, merit, fee-waiver, and college-affordability paths.</p><a class="source-button" href="guides/free-college-credit-and-fee-waivers.html">Open guide</a></article>
+        <article><span>Cyber</span><h3>Cybersecurity competitions</h3><p>Build a route from beginner learning to team competitions and projects.</p><a class="source-button" href="guides/cybersecurity-competitions-for-students.html">Open guide</a></article>
+      </div>
+    </section>
+
     <section class="pathways">
       <a href="programs.html">
         <span>Summer programs</span>
@@ -194,6 +217,7 @@
   <script src="assets/app.js"></script>
 </body>
 </html>
+
 
 
 
