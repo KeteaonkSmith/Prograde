@@ -554,7 +554,7 @@ function injectOnboarding() {
             <p class="eyebrow">Fit onboarding</p>
             <h2 id="onboarding-title">Make Prograde rank resources around you.</h2>
           </div>
-          <button type="button" class="onboarding-close" data-close-onboarding aria-label="Close onboarding">x</button>
+          <button type="button" class="onboarding-close" data-close-onboarding aria-label="Close onboarding">&times;</button>
         </div>
         <div class="onboarding-grid">
           <section>
