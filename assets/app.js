@@ -24,7 +24,7 @@ function initStarfield() {
   let pointerY = 0;
   let glowX = 0;
   let glowY = 0;
-  const allowPointerField = !window.matchMedia("(prefers-reduced-motion: reduce)").matches && window.matchMedia("(pointer: fine)").matches;
+  const allowPointerField = !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
   function rand(min, max) {
     return Math.random() * (max - min) + min;
@@ -96,7 +96,7 @@ function initStarfield() {
     const dy = pointerY - glowY;
     const distance = Math.hypot(dx, dy);
     if (distance > 18 && now - lastRippleAt > 90) {
-      spawnRipple(pointerX, pointerY, Math.min(1.15, 0.78 + distance / 220));
+      spawnRipple(pointerX, pointerY, Math.min(1.35, 0.92 + distance / 180));
       lastRippleAt = now;
     }
   }
@@ -109,9 +109,9 @@ function initStarfield() {
     glowX += (targetX - glowX) * 0.08;
     glowY += (targetY - glowY) * 0.08;
 
-    const glow = ctx.createRadialGradient(glowX, glowY, 0, glowX, glowY, 180);
-    glow.addColorStop(0, "rgba(95,227,179,0.065)");
-    glow.addColorStop(0.45, "rgba(95,227,179,0.035)");
+    const glow = ctx.createRadialGradient(glowX, glowY, 0, glowX, glowY, 220);
+    glow.addColorStop(0, "rgba(95,227,179,0.11)");
+    glow.addColorStop(0.38, "rgba(95,227,179,0.06)");
     glow.addColorStop(1, "rgba(95,227,179,0)");
     ctx.fillStyle = glow;
     ctx.fillRect(0, 0, width, height);
@@ -132,11 +132,11 @@ function initStarfield() {
       ctx.beginPath();
       ctx.arc(ripple.x, ripple.y, radius, 0, Math.PI * 2);
       ctx.strokeStyle = `rgba(95,227,179,${alpha})`;
-      ctx.lineWidth = 1.1;
+      ctx.lineWidth = 1.4;
       ctx.stroke();
 
       const halo = ctx.createRadialGradient(ripple.x, ripple.y, 0, ripple.x, ripple.y, radius * 1.4);
-      halo.addColorStop(0, `rgba(95,227,179,${alpha * 0.16})`);
+      halo.addColorStop(0, `rgba(95,227,179,${alpha * 0.28})`);
       halo.addColorStop(1, "rgba(95,227,179,0)");
       ctx.fillStyle = halo;
       ctx.fillRect(ripple.x - radius * 1.4, ripple.y - radius * 1.4, radius * 2.8, radius * 2.8);
@@ -169,8 +169,10 @@ function initStarfield() {
   resize();
   window.addEventListener("resize", resize);
   if (allowPointerField) {
+    spawnRipple(width * 0.68, height * 0.24, 1.2);
     window.addEventListener("pointermove", updatePointer, { passive: true });
-    window.addEventListener("pointerleave", () => { pointerActive = false; });
+    window.addEventListener("mousemove", updatePointer, { passive: true });
+    document.addEventListener("mouseleave", () => { pointerActive = false; });
   }
   requestAnimationFrame(draw);
 }
