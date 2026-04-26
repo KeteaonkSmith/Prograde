@@ -1,0 +1,755 @@
+{
+  "siteUrl": "https://keteaonksmith.github.io/Prograde",
+  "summary": {
+    "totalResources": 124,
+    "reachable": 0,
+    "unreachable": 0,
+    "redirected": 0
+  },
+  "entries": [
+    {
+      "id": "CyberPatriot",
+      "title": "CyberPatriot",
+      "category": "hackathon",
+      "source": "https://www.uscyberpatriot.org/competition/Competition-Overview/competition-overview"
+    },
+    {
+      "id": "Congressional App Challenge",
+      "title": "Congressional App Challenge",
+      "category": "hackathon",
+      "source": "https://www.congressionalappchallenge.us/students/student-registration/"
+    },
+    {
+      "id": "Technovation Girls",
+      "title": "Technovation Girls",
+      "category": "hackathon",
+      "source": "https://technovationchallenge.org/program-overview/program-overview-us/"
+    },
+    {
+      "id": "Major League Hacking Events",
+      "title": "Major League Hacking Events",
+      "category": "hackathon",
+      "source": "https://mlh.io/"
+    },
+    {
+      "id": "MIT PRIMES / PRIMES-USA",
+      "title": "MIT PRIMES / PRIMES-USA",
+      "category": "program",
+      "source": "https://math.mit.edu/research/highschool/primes/index.php"
+    },
+    {
+      "id": "Research Science Institute",
+      "title": "Research Science Institute",
+      "category": "program",
+      "source": "https://www.cee.org/programs/research-science-institute"
+    },
+    {
+      "id": "PROMYS",
+      "title": "PROMYS",
+      "category": "program",
+      "source": "https://promys.org/programs/promys/for-students/"
+    },
+    {
+      "id": "Girls Who Code Pathways",
+      "title": "Girls Who Code Pathways",
+      "category": "program",
+      "source": "https://girlswhocode.zendesk.com/hc/en-us/articles/44033965033243-What-program-is-Girls-Who-Code-offering-during-the-summer"
+    },
+    {
+      "id": "Bank of America Student Leaders",
+      "title": "Bank of America Student Leaders",
+      "category": "program",
+      "source": "https://about.bankofamerica.com/en/making-an-impact/student-leaders"
+    },
+    {
+      "id": "Harvard Secondary School Program",
+      "title": "Harvard Secondary School Program",
+      "category": "program",
+      "source": "https://summer.harvard.edu/high-school-programs/secondary-school-program/"
+    },
+    {
+      "id": "Stanford Summer Session High School",
+      "title": "Stanford Summer Session High School",
+      "category": "program",
+      "source": "https://summer.stanford.edu/high-school"
+    },
+    {
+      "id": "Coca-Cola Scholars Program",
+      "title": "Coca-Cola Scholars Program",
+      "category": "scholarship",
+      "source": "https://www.coca-colascholarsfoundation.org/about/faq"
+    },
+    {
+      "id": "QuestBridge National College Match",
+      "title": "QuestBridge National College Match",
+      "category": "scholarship",
+      "source": "https://www.questbridge.org/apply-to-college/programs/national-college-match"
+    },
+    {
+      "id": "Jack Kent Cooke College Scholarship",
+      "title": "Jack Kent Cooke College Scholarship",
+      "category": "scholarship",
+      "source": "https://www.jkcf.org/our-scholarships/college-scholarship-program/"
+    },
+    {
+      "id": "Elks Most Valuable Student",
+      "title": "Elks Most Valuable Student",
+      "category": "scholarship",
+      "source": "https://hq.elks.org/scholars/mvs.cfm"
+    },
+    {
+      "id": "Davidson Fellows Scholarship",
+      "title": "Davidson Fellows Scholarship",
+      "category": "scholarship",
+      "source": "https://www.davidsongifted.org/gifted-programs/fellows-scholarship/eligibility/"
+    },
+    {
+      "id": "Regeneron Science Talent Search",
+      "title": "Regeneron Science Talent Search",
+      "category": "competition",
+      "source": "https://www.societyforscience.org/regeneron-sts/"
+    },
+    {
+      "id": "USA Computing Olympiad",
+      "title": "USA Computing Olympiad",
+      "category": "competition",
+      "source": "https://usaco.org/"
+    },
+    {
+      "id": "Conrad Challenge",
+      "title": "Conrad Challenge",
+      "category": "competition",
+      "source": "https://www.conradchallenge.org/"
+    },
+    {
+      "id": "National History Day",
+      "title": "National History Day",
+      "category": "competition",
+      "source": "https://nhd.org/"
+    },
+    {
+      "id": "Scholastic Art & Writing Awards",
+      "title": "Scholastic Art & Writing Awards",
+      "category": "competition",
+      "source": "https://www.artandwriting.org/"
+    },
+    {
+      "id": "Harvard CS50x",
+      "title": "Harvard CS50x",
+      "category": "course",
+      "source": "https://harvardonline.harvard.edu/course/cs50-introduction-computer-science"
+    },
+    {
+      "id": "MIT OpenCourseWare",
+      "title": "MIT OpenCourseWare",
+      "category": "course",
+      "source": "https://ocw.mit.edu/pages/get-started/"
+    },
+    {
+      "id": "Khan Academy AP Calculus",
+      "title": "Khan Academy AP Calculus",
+      "category": "course",
+      "source": "https://www.khanacademy.org/math/ap-calculus-ab"
+    },
+    {
+      "id": "edX CS50 AI with Python",
+      "title": "edX CS50 AI with Python",
+      "category": "course",
+      "source": "https://www.edx.org/learn/artificial-intelligence/harvard-university-cs50-s-introduction-to-artificial-intelligence-with-python"
+    },
+    {
+      "id": "Coursera Machine Learning Specialization",
+      "title": "Coursera Machine Learning Specialization",
+      "category": "course",
+      "source": "https://www.coursera.org/specializations/machine-learning-introduction"
+    },
+    {
+      "id": "NASA STEM Engagement Internships",
+      "title": "NASA STEM Engagement Internships",
+      "category": "program",
+      "source": "https://stemgateway.nasa.gov/s/"
+    },
+    {
+      "id": "NSF Research Experiences for Undergraduates",
+      "title": "NSF Research Experiences for Undergraduates",
+      "category": "program",
+      "source": "https://www.nsf.gov/funding/initiatives/reu"
+    },
+    {
+      "id": "Canva Education",
+      "title": "Canva Education",
+      "category": "tool",
+      "source": "https://www.canva.com/education/eligibility-guidelines/"
+    },
+    {
+      "id": "GitHub Student Developer Pack",
+      "title": "GitHub Student Developer Pack",
+      "category": "tool",
+      "source": "https://docs.github.com/articles/using-github-for-your-schoolwork"
+    },
+    {
+      "id": "Figma for Education",
+      "title": "Figma for Education",
+      "category": "tool",
+      "source": "https://help.figma.com/hc/en-us/articles/360041061214-Figma-for-Education"
+    },
+    {
+      "id": "Notion for Education",
+      "title": "Notion for Education",
+      "category": "tool",
+      "source": "https://www.notion.com/help/notion-for-education"
+    },
+    {
+      "id": "Purdue OWL",
+      "title": "Purdue OWL",
+      "category": "study",
+      "source": "https://owl.purdue.edu/"
+    },
+    {
+      "id": "Zotero",
+      "title": "Zotero",
+      "category": "study",
+      "source": "https://www.zotero.org/"
+    },
+    {
+      "id": "Desmos",
+      "title": "Desmos",
+      "category": "study",
+      "source": "https://www.desmos.com/"
+    },
+    {
+      "id": "Purdue Campus Visits",
+      "title": "Purdue Campus Visits",
+      "category": "visit",
+      "source": "https://admissions.purdue.edu/visit/"
+    },
+    {
+      "id": "Purdue AAE Prospective Family Visits",
+      "title": "Purdue AAE Prospective Family Visits",
+      "category": "visit",
+      "source": "https://engineering.purdue.edu/AAE/academics/undergraduate/Visit"
+    },
+    {
+      "id": "UIUC Engineering Open House",
+      "title": "UIUC Engineering Open House",
+      "category": "visit",
+      "source": "https://www.eohillinois.org/"
+    },
+    {
+      "id": "UIUC College Open Houses",
+      "title": "UIUC College Open Houses",
+      "category": "visit",
+      "source": "https://www.admissions.illinois.edu/visit/open-houses"
+    },
+    {
+      "id": "Summer SAIL at University of Oregon",
+      "title": "Summer SAIL at University of Oregon",
+      "category": "program",
+      "source": "https://fyp.uoregon.edu/sail/summer"
+    },
+    {
+      "id": "Stanford AI4ALL",
+      "title": "Stanford AI4ALL",
+      "category": "program",
+      "source": "https://spcs.stanford.edu/programs/stanford-ai4all"
+    },
+    {
+      "id": "MIT Admissions Visit",
+      "title": "MIT Admissions Visit",
+      "category": "visit",
+      "source": "https://mitadmissions.org/visit/"
+    },
+    {
+      "id": "Stanford Campus Visit",
+      "title": "Stanford Campus Visit",
+      "category": "visit",
+      "source": "https://admission.stanford.edu/engage/"
+    },
+    {
+      "id": "Georgia Tech Visit",
+      "title": "Georgia Tech Visit",
+      "category": "visit",
+      "source": "https://admission.gatech.edu/visit"
+    },
+    {
+      "id": "UC Berkeley Visitor Services",
+      "title": "UC Berkeley Visitor Services",
+      "category": "visit",
+      "source": "https://visit.berkeley.edu/"
+    },
+    {
+      "id": "Carnegie Mellon Admission Visits",
+      "title": "Carnegie Mellon Admission Visits",
+      "category": "visit",
+      "source": "https://www.cmu.edu/admission/visit"
+    },
+    {
+      "id": "University of Michigan Visit",
+      "title": "University of Michigan Visit",
+      "category": "visit",
+      "source": "https://admissions.umich.edu/explore-visit/visit-campus"
+    },
+    {
+      "id": "Cornell Visit",
+      "title": "Cornell Visit",
+      "category": "visit",
+      "source": "https://admissions.cornell.edu/visit"
+    },
+    {
+      "id": "Princeton Visit",
+      "title": "Princeton Visit",
+      "category": "visit",
+      "source": "https://admission.princeton.edu/visit"
+    },
+    {
+      "id": "Harvard Visit",
+      "title": "Harvard Visit",
+      "category": "visit",
+      "source": "https://college.harvard.edu/admissions/explore-harvard/visit-harvard"
+    },
+    {
+      "id": "MIT Splash",
+      "title": "MIT Splash",
+      "category": "program",
+      "source": "https://esp.mit.edu/learn/Splash/index.html"
+    },
+    {
+      "id": "Stanford Splash",
+      "title": "Stanford Splash",
+      "category": "program",
+      "source": "https://stanfordesp.org/"
+    },
+    {
+      "id": "Summer Science Program",
+      "title": "Summer Science Program",
+      "category": "program",
+      "source": "https://summerscience.org/"
+    },
+    {
+      "id": "COSMOS",
+      "title": "COSMOS",
+      "category": "program",
+      "source": "https://cosmos-ucop.ucdavis.edu/"
+    },
+    {
+      "id": "Boston University RISE",
+      "title": "Boston University RISE",
+      "category": "program",
+      "source": "https://www.bu.edu/summer/high-school-programs/rise-internship-practicum/"
+    },
+    {
+      "id": "Simons Summer Research Program",
+      "title": "Simons Summer Research Program",
+      "category": "program",
+      "source": "https://www.stonybrook.edu/commcms/simons/"
+    },
+    {
+      "id": "George Mason ASSIP",
+      "title": "George Mason ASSIP",
+      "category": "program",
+      "source": "https://science.gmu.edu/assip"
+    },
+    {
+      "id": "Texas Tech Clark Scholars",
+      "title": "Texas Tech Clark Scholars",
+      "category": "program",
+      "source": "https://www.depts.ttu.edu/honors/academicsandenrichment/affiliatedandhighschool/clarks/"
+    },
+    {
+      "id": "Michigan State HSHSP",
+      "title": "Michigan State HSHSP",
+      "category": "program",
+      "source": "https://education.msu.edu/hshsp/"
+    },
+    {
+      "id": "UCSB Research Mentorship Program",
+      "title": "UCSB Research Mentorship Program",
+      "category": "program",
+      "source": "https://www.summer.ucsb.edu/programs/research-mentorship-program"
+    },
+    {
+      "id": "Notre Dame Leadership Seminars",
+      "title": "Notre Dame Leadership Seminars",
+      "category": "program",
+      "source": "https://precollege.nd.edu/leadership-seminars/"
+    },
+    {
+      "id": "Yale Young Global Scholars",
+      "title": "Yale Young Global Scholars",
+      "category": "program",
+      "source": "https://globalscholars.yale.edu/"
+    },
+    {
+      "id": "TASS",
+      "title": "TASS",
+      "category": "program",
+      "source": "https://www.tellurideassociation.org/our-programs/high-school-students/"
+    },
+    {
+      "id": "NSLI-Y",
+      "title": "NSLI-Y",
+      "category": "program",
+      "source": "https://www.nsliforyouth.org/"
+    },
+    {
+      "id": "SAMS at Carnegie Mellon",
+      "title": "SAMS at Carnegie Mellon",
+      "category": "program",
+      "source": "https://www.cmu.edu/pre-college/academic-programs/sams.html"
+    },
+    {
+      "id": "LEDA Scholars",
+      "title": "LEDA Scholars",
+      "category": "program",
+      "source": "https://ledascholars.org/our-program/"
+    },
+    {
+      "id": "Matriculate",
+      "title": "Matriculate",
+      "category": "program",
+      "source": "https://matriculate.org/"
+    },
+    {
+      "id": "CollegePoint",
+      "title": "CollegePoint",
+      "category": "program",
+      "source": "https://www.collegepoint.info/"
+    },
+    {
+      "id": "Gates Scholarship",
+      "title": "Gates Scholarship",
+      "category": "scholarship",
+      "source": "https://www.thegatesscholarship.org/scholarship"
+    },
+    {
+      "id": "Dell Scholars",
+      "title": "Dell Scholars",
+      "category": "scholarship",
+      "source": "https://www.dellscholars.org/scholarship/"
+    },
+    {
+      "id": "Horatio Alger Scholarships",
+      "title": "Horatio Alger Scholarships",
+      "category": "scholarship",
+      "source": "https://horatioalger.org/scholarships/"
+    },
+    {
+      "id": "Ron Brown Scholar Program",
+      "title": "Ron Brown Scholar Program",
+      "category": "scholarship",
+      "source": "https://ronbrown.org/apply/ron-brown-scholarship/"
+    },
+    {
+      "id": "Hispanic Scholarship Fund",
+      "title": "Hispanic Scholarship Fund",
+      "category": "scholarship",
+      "source": "https://www.hsf.net/scholarship"
+    },
+    {
+      "id": "Jackie Robinson Foundation Scholarship",
+      "title": "Jackie Robinson Foundation Scholarship",
+      "category": "scholarship",
+      "source": "https://jackierobinson.org/apply/"
+    },
+    {
+      "id": "Amazon Future Engineer Scholarship",
+      "title": "Amazon Future Engineer Scholarship",
+      "category": "scholarship",
+      "source": "https://www.amazonfutureengineer.com/scholarships"
+    },
+    {
+      "id": "FIRST Robotics Competition",
+      "title": "FIRST Robotics Competition",
+      "category": "competition",
+      "source": "https://www.firstinspires.org/robotics/frc"
+    },
+    {
+      "id": "FIRST Tech Challenge",
+      "title": "FIRST Tech Challenge",
+      "category": "competition",
+      "source": "https://www.firstinspires.org/robotics/ftc"
+    },
+    {
+      "id": "VEX Robotics Competition",
+      "title": "VEX Robotics Competition",
+      "category": "competition",
+      "source": "https://www.vexrobotics.com/competition"
+    },
+    {
+      "id": "Regeneron ISEF",
+      "title": "Regeneron ISEF",
+      "category": "competition",
+      "source": "https://www.societyforscience.org/isef/"
+    },
+    {
+      "id": "Junior Science and Humanities Symposium",
+      "title": "Junior Science and Humanities Symposium",
+      "category": "competition",
+      "source": "https://jshs.org/"
+    },
+    {
+      "id": "Science Olympiad",
+      "title": "Science Olympiad",
+      "category": "competition",
+      "source": "https://www.soinc.org/"
+    },
+    {
+      "id": "MathWorks Math Modeling Challenge",
+      "title": "MathWorks Math Modeling Challenge",
+      "category": "competition",
+      "source": "https://m3challenge.siam.org/"
+    },
+    {
+      "id": "American Mathematics Competitions",
+      "title": "American Mathematics Competitions",
+      "category": "competition",
+      "source": "https://maa.org/student-programs/amc/"
+    },
+    {
+      "id": "picoCTF",
+      "title": "picoCTF",
+      "category": "hackathon",
+      "source": "https://picoctf.org/"
+    },
+    {
+      "id": "National Cyber League",
+      "title": "National Cyber League",
+      "category": "hackathon",
+      "source": "https://nationalcyberleague.org/"
+    },
+    {
+      "id": "NASA HUNCH",
+      "title": "NASA HUNCH",
+      "category": "program",
+      "source": "https://www.nasa.gov/learning-resources/hunch/"
+    },
+    {
+      "id": "NASA High School Aerospace Scholars",
+      "title": "NASA High School Aerospace Scholars",
+      "category": "program",
+      "source": "https://www.nasa.gov/learning-resources/high-school-aerospace-scholars/"
+    },
+    {
+      "id": "NASA STEM Gateway",
+      "title": "NASA STEM Gateway",
+      "category": "program",
+      "source": "https://stemgateway.nasa.gov/s/"
+    },
+    {
+      "id": "OpenStax",
+      "title": "OpenStax",
+      "category": "study",
+      "source": "https://openstax.org/"
+    },
+    {
+      "id": "PhET Interactive Simulations",
+      "title": "PhET Interactive Simulations",
+      "category": "study",
+      "source": "https://phet.colorado.edu/"
+    },
+    {
+      "id": "CK-12",
+      "title": "CK-12",
+      "category": "study",
+      "source": "https://www.ck12.org/student/"
+    },
+    {
+      "id": "BigFuture",
+      "title": "BigFuture",
+      "category": "tool",
+      "source": "https://bigfuture.collegeboard.org/"
+    },
+    {
+      "id": "College Scorecard",
+      "title": "College Scorecard",
+      "category": "tool",
+      "source": "https://collegescorecard.ed.gov/"
+    },
+    {
+      "id": "FAFSA",
+      "title": "FAFSA",
+      "category": "tool",
+      "source": "https://studentaid.gov/h/apply-for-aid/fafsa"
+    },
+    {
+      "id": "Common App",
+      "title": "Common App",
+      "category": "tool",
+      "source": "https://www.commonapp.org/"
+    },
+    {
+      "id": "Coalition / Scoir Application",
+      "title": "Coalition / Scoir Application",
+      "category": "tool",
+      "source": "https://www.scoir.com/coalition"
+    },
+    {
+      "id": "RaiseMe",
+      "title": "RaiseMe",
+      "category": "tool",
+      "source": "https://www.raise.me/"
+    },
+    {
+      "id": "QuestBridge College Prep Scholars",
+      "title": "QuestBridge College Prep Scholars",
+      "category": "program",
+      "source": "https://www.questbridge.org/apply-to-college/programs/college-prep-scholars"
+    },
+    {
+      "id": "Davidson Young Scholars",
+      "title": "Davidson Young Scholars",
+      "category": "program",
+      "source": "https://www.davidsongifted.org/gifted-programs/young-scholars/"
+    },
+    {
+      "id": "Davidson Institute THINK",
+      "title": "Davidson Institute THINK",
+      "category": "program",
+      "source": "https://www.davidsongifted.org/gifted-programs/think-summer/"
+    },
+    {
+      "id": "iD Tech Scholarships",
+      "title": "iD Tech Scholarships",
+      "category": "scholarship",
+      "source": "https://www.idtech.com/scholarships"
+    },
+    {
+      "id": "Google Code Next",
+      "title": "Google Code Next",
+      "category": "program",
+      "source": "https://codenext.withgoogle.com/"
+    },
+    {
+      "id": "Girls Who Code Clubs",
+      "title": "Girls Who Code Clubs",
+      "category": "program",
+      "source": "https://girlswhocode.com/programs/clubs-program"
+    },
+    {
+      "id": "Kode With Klossy",
+      "title": "Kode With Klossy",
+      "category": "program",
+      "source": "https://www.kodewithklossy.com/"
+    },
+    {
+      "id": "MIT Beaver Works Summer Institute",
+      "title": "MIT Beaver Works Summer Institute",
+      "category": "program",
+      "source": "https://beaverworks.ll.mit.edu/CMS/bw/bwsi"
+    },
+    {
+      "id": "AI Scholars Live Online",
+      "title": "AI Scholars Live Online",
+      "category": "course",
+      "source": "https://www.inspiritai.com/"
+    },
+    {
+      "id": "Google Applied Digital Skills",
+      "title": "Google Applied Digital Skills",
+      "category": "course",
+      "source": "https://applieddigitalskills.withgoogle.com/"
+    },
+    {
+      "id": "Microsoft Learn Student Hub",
+      "title": "Microsoft Learn Student Hub",
+      "category": "course",
+      "source": "https://learn.microsoft.com/en-us/training/student-hub/"
+    },
+    {
+      "id": "AWS Educate",
+      "title": "AWS Educate",
+      "category": "course",
+      "source": "https://aws.amazon.com/education/awseducate/"
+    },
+    {
+      "id": "IBM SkillsBuild",
+      "title": "IBM SkillsBuild",
+      "category": "course",
+      "source": "https://skillsbuild.org/"
+    },
+    {
+      "id": "Codecademy Free Courses",
+      "title": "Codecademy Free Courses",
+      "category": "course",
+      "source": "https://www.codecademy.com/catalog/all"
+    },
+    {
+      "id": "Anki",
+      "title": "Anki",
+      "category": "study",
+      "source": "https://apps.ankiweb.net/"
+    },
+    {
+      "id": "WolframAlpha",
+      "title": "WolframAlpha",
+      "category": "study",
+      "source": "https://www.wolframalpha.com/"
+    },
+    {
+      "id": "Open Yale Courses",
+      "title": "Open Yale Courses",
+      "category": "course",
+      "source": "https://oyc.yale.edu/"
+    },
+    {
+      "id": "Yale Online",
+      "title": "Yale Online",
+      "category": "course",
+      "source": "https://online.yale.edu/"
+    },
+    {
+      "id": "Khan Academy AP US History",
+      "title": "Khan Academy AP US History",
+      "category": "course",
+      "source": "https://www.khanacademy.org/humanities/ap-us-history"
+    },
+    {
+      "id": "Library of Congress Research Guides",
+      "title": "Library of Congress Research Guides",
+      "category": "study",
+      "source": "https://guides.loc.gov/"
+    },
+    {
+      "id": "Stanford Encyclopedia of Philosophy",
+      "title": "Stanford Encyclopedia of Philosophy",
+      "category": "study",
+      "source": "https://plato.stanford.edu/"
+    },
+    {
+      "id": "Mendeley Reference Manager",
+      "title": "Mendeley Reference Manager",
+      "category": "tool",
+      "source": "https://www.mendeley.com/reference-management/reference-manager"
+    },
+    {
+      "id": "Obsidian",
+      "title": "Obsidian",
+      "category": "tool",
+      "source": "https://obsidian.md/"
+    },
+    {
+      "id": "Duolingo",
+      "title": "Duolingo",
+      "category": "study",
+      "source": "https://www.duolingo.com/"
+    },
+    {
+      "id": "Grammarly for Students",
+      "title": "Grammarly for Students",
+      "category": "tool",
+      "source": "https://www.grammarly.com/students"
+    },
+    {
+      "id": "College Board BigFuture Scholarships",
+      "title": "College Board BigFuture Scholarships",
+      "category": "scholarship",
+      "source": "https://bigfuture.collegeboard.org/pay-for-college/bigfuture-scholarships"
+    },
+    {
+      "id": "Scholarship America Student Resources",
+      "title": "Scholarship America Student Resources",
+      "category": "scholarship",
+      "source": "https://scholarshipamerica.org/students/"
+    }
+  ]
+}
