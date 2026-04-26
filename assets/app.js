@@ -14,9 +14,17 @@ function initStarfield() {
     { count: 34, speed: 0.18, size: [1.3, 1.8], alpha: [0.28, 0.9] }
   ];
   const stars = [];
+  const ripples = [];
   let width = 0;
   let height = 0;
   let dpr = 1;
+  let pointerActive = false;
+  let lastRippleAt = 0;
+  let pointerX = 0;
+  let pointerY = 0;
+  let glowX = 0;
+  let glowY = 0;
+  const allowPointerField = !window.matchMedia("(prefers-reduced-motion: reduce)").matches && window.matchMedia("(pointer: fine)").matches;
 
   function rand(min, max) {
     return Math.random() * (max - min) + min;
@@ -63,6 +71,76 @@ function initStarfield() {
     canvas.style.height = `${height}px`;
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
     resetStars();
+    glowX = width * 0.72;
+    glowY = height * 0.18;
+  }
+
+  function spawnRipple(x, y, strength = 1) {
+    ripples.push({
+      x,
+      y,
+      age: 0,
+      life: 84,
+      radius: 18,
+      maxRadius: 130 + strength * 20,
+      alpha: 0.14 * strength
+    });
+  }
+
+  function updatePointer(event) {
+    pointerActive = true;
+    pointerX = event.clientX;
+    pointerY = event.clientY;
+    const now = performance.now();
+    const dx = pointerX - glowX;
+    const dy = pointerY - glowY;
+    const distance = Math.hypot(dx, dy);
+    if (distance > 18 && now - lastRippleAt > 90) {
+      spawnRipple(pointerX, pointerY, Math.min(1.15, 0.78 + distance / 220));
+      lastRippleAt = now;
+    }
+  }
+
+  function drawPointerField() {
+    if (!allowPointerField) return;
+
+    const targetX = pointerActive ? pointerX : width * 0.72;
+    const targetY = pointerActive ? pointerY : height * 0.18;
+    glowX += (targetX - glowX) * 0.08;
+    glowY += (targetY - glowY) * 0.08;
+
+    const glow = ctx.createRadialGradient(glowX, glowY, 0, glowX, glowY, 180);
+    glow.addColorStop(0, "rgba(95,227,179,0.065)");
+    glow.addColorStop(0.45, "rgba(95,227,179,0.035)");
+    glow.addColorStop(1, "rgba(95,227,179,0)");
+    ctx.fillStyle = glow;
+    ctx.fillRect(0, 0, width, height);
+
+    for (let i = ripples.length - 1; i >= 0; i -= 1) {
+      const ripple = ripples[i];
+      ripple.age += 1;
+      const progress = ripple.age / ripple.life;
+      if (progress >= 1) {
+        ripples.splice(i, 1);
+        continue;
+      }
+
+      const eased = 1 - Math.pow(1 - progress, 2);
+      const radius = ripple.radius + (ripple.maxRadius - ripple.radius) * eased;
+      const alpha = ripple.alpha * (1 - progress);
+
+      ctx.beginPath();
+      ctx.arc(ripple.x, ripple.y, radius, 0, Math.PI * 2);
+      ctx.strokeStyle = `rgba(95,227,179,${alpha})`;
+      ctx.lineWidth = 1.1;
+      ctx.stroke();
+
+      const halo = ctx.createRadialGradient(ripple.x, ripple.y, 0, ripple.x, ripple.y, radius * 1.4);
+      halo.addColorStop(0, `rgba(95,227,179,${alpha * 0.16})`);
+      halo.addColorStop(1, "rgba(95,227,179,0)");
+      ctx.fillStyle = halo;
+      ctx.fillRect(ripple.x - radius * 1.4, ripple.y - radius * 1.4, radius * 2.8, radius * 2.8);
+    }
   }
 
   function draw(time) {
@@ -84,11 +162,16 @@ function initStarfield() {
       ctx.fillStyle = pickColor(alpha);
       ctx.fill();
     });
+    drawPointerField();
     requestAnimationFrame(draw);
   }
 
   resize();
   window.addEventListener("resize", resize);
+  if (allowPointerField) {
+    window.addEventListener("pointermove", updatePointer, { passive: true });
+    window.addEventListener("pointerleave", () => { pointerActive = false; });
+  }
   requestAnimationFrame(draw);
 }
 
