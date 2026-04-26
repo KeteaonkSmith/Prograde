@@ -24,7 +24,7 @@ body { position: relative; isolation: isolate; margin: 0; min-height: 100vh; bac
 body.onboarding-active { overflow: hidden; }
 body.page-leaving { opacity: 0; transform: translateY(8px); }
 a { color: inherit; text-decoration: none; }
-button, input { font: inherit; }
+button, input, select, textarea { font: inherit; }
 button { cursor: pointer; }
 
 .site-grid { position: fixed; inset: 0; pointer-events: none; z-index: 0; background-image: radial-gradient(ellipse at 72% 12%, rgba(95,227,179,.12), transparent 34rem), radial-gradient(ellipse at 8% 80%, rgba(119,168,255,.10), transparent 30rem); background-size: 100% 100%; mask-image: radial-gradient(circle at 50% 12%, #000, transparent 78%); animation: grid-float 32s ease-in-out infinite; }
@@ -149,7 +149,57 @@ h3 { font-size: 18px; margin-bottom: 8px; }
 .about-hero { background: radial-gradient(circle at 82% 42%, rgba(95,227,179,.16), transparent 24rem); }
 .catalog-shell { display: grid; grid-template-columns: 280px 1fr; gap: 22px; padding: 24px clamp(16px, 5vw, 72px) clamp(52px, 7vw, 86px); }
 .filters { position: sticky; top: 86px; align-self: start; border: 1px solid var(--rivet); border-radius: 8px; padding: 18px; background: rgba(17,21,27,.9); }
-.filters input, .filters select, .profile-card select, .onboarding-grid input { width: 100%; border: 1px solid var(--strut); border-radius: 5px; padding: 13px; color: var(--paper); background: var(--vacuum); }
+.filters input,
+.filters select,
+.profile-card select,
+.profile-card input,
+.onboarding-grid input,
+.onboarding-grid select {
+  width: 100%;
+  min-height: 52px;
+  border: 1px solid var(--strut);
+  border-radius: 8px;
+  padding: 14px 16px;
+  color: var(--paper);
+  background: linear-gradient(180deg, rgba(13,16,21,.98), rgba(10,13,18,.98));
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.03);
+  transition: border-color .18s ease, box-shadow .18s ease, background .18s ease;
+}
+.filters input::placeholder,
+.profile-card input::placeholder,
+.onboarding-grid input::placeholder { color: var(--paper-dim); }
+.filters input:hover,
+.filters select:hover,
+.profile-card select:hover,
+.profile-card input:hover,
+.onboarding-grid input:hover,
+.onboarding-grid select:hover {
+  border-color: color-mix(in srgb, var(--prograde) 35%, var(--strut));
+}
+.filters input:focus,
+.filters select:focus,
+.profile-card select:focus,
+.profile-card input:focus,
+.onboarding-grid input:focus,
+.onboarding-grid select:focus {
+  outline: none;
+  border-color: rgba(95,227,179,.72);
+  box-shadow: 0 0 0 3px rgba(95,227,179,.12), inset 0 1px 0 rgba(255,255,255,.04);
+}
+.filters select,
+.profile-card select,
+.onboarding-grid select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding-right: 48px;
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 14 14'%3E%3Cpath d='M3 5.25 7 9l4-3.75' fill='none' stroke='%23c9c3b7' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E"),
+    linear-gradient(180deg, rgba(13,16,21,.98), rgba(10,13,18,.98));
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 16px center, center;
+  background-size: 14px 14px, auto;
+}
 .profile-card { display: grid; gap: 12px; margin-bottom: 22px; padding-bottom: 20px; border-bottom: 1px solid var(--rivet); }
 .profile-card h2 { margin: 0; font: 700 24px/1.05 var(--display); letter-spacing: -.02em; }
 .profile-card > label { display: grid; gap: 8px; color: var(--paper); font-weight: 700; }
