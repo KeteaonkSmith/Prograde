@@ -53,13 +53,25 @@ module.exports = [
   },
   {
     file: "cybersecurity-competitions-for-students.html",
-    title: "Cybersecurity Competitions for Students",
-    description: "A practical cybersecurity guide for students who want beginner-to-intermediate routes through competitions, courses, and public proof.",
-    audience: "Students interested in cyber, systems, and hands-on technical skill who need a route that starts before internships become realistic.",
-    whyThisPage: "Students interested in cybersecurity often need a path, not just one flashy competition. This guide mixes competitions, builders, and low-friction training options so you can move from curiosity to visible proof.",
+    title: "Cybersecurity and Adjacent CS for Students",
+    description: "An honest student guide that separates real cybersecurity options from adjacent CS builder routes, so students are not misled by category drift.",
+    audience: "Students interested in cybersecurity who need a real starting map, plus adjacent CS builders that still help before internships become realistic.",
+    whyThisPage: "Students searching for cybersecurity opportunities should not have to decode whether a listing is actually cyber or just cyber-adjacent. This page separates the real security entries from the broader builder ecosystem that can still help a student become more technical.",
     query: "cyber cybersecurity cyberpatriot ctf netacad",
     bestBetsIntro: "These three together create a better starting loop than hunting for prestige too early.",
     bestBets: ["picoCTF", "CyberPatriot", "IBM SkillsBuild"],
+    sections: [
+      {
+        title: "Actual cybersecurity options",
+        intro: "These are the entries on this page that are genuinely about cybersecurity, systems defense, or security-flavored training.",
+        entries: ["picoCTF", "CyberPatriot", "IBM SkillsBuild", "National Cyber League", "AWS Educate"]
+      },
+      {
+        title: "Adjacent CS builder routes",
+        intro: "These are not cybersecurity competitions, but they can still help a student build technical confidence, projects, or community before they specialize harder.",
+        entries: ["Congressional App Challenge", "Technovation Girls", "USA Computing Olympiad", "Microsoft Learn Student Hub", "Girls Who Code Clubs", "Google Code Next", "Major League Hacking Events"]
+      }
+    ],
     entries: [
       { title: "picoCTF", note: "Probably the best starting point here for students who want to learn by doing instead of reading about cyber forever.", goodFor: "Beginners who want approachable challenges and visible progress.", skipIf: "You need a team-based structure to stay engaged.", reachMatchSafety: "safety" },
       { title: "CyberPatriot", note: "Excellent for students who want teamwork, season structure, and proof they can work under constraints.", goodFor: "Students who can find or build a team and want a serious competition loop.", skipIf: "You only want solo learning.", reachMatchSafety: "match" },

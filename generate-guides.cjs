@@ -115,6 +115,11 @@ function renderGuidePage(guide) {
   const bestBets = guide.bestBets.map((title) => entries.find((entry) => entry.title === title)).filter(Boolean);
   const bestBetSet = new Set(bestBets.map((entry) => entry.title));
   const remainingEntries = entries.filter((entry) => !bestBetSet.has(entry.title));
+  const sectionMap = new Map((guide.sections || []).map((section) => [
+    section.title,
+    section.entries.map((title) => remainingEntries.find((entry) => entry.title === title)).filter(Boolean)
+  ]));
+  const unsectionedEntries = remainingEntries.filter((entry) => !(guide.sections || []).some((section) => section.entries.includes(entry.title)));
 
   const body = `
     <section class="page-hero compact">
@@ -171,8 +176,16 @@ function renderGuidePage(guide) {
         </div>
         <a class="text-link" href="../resources.html?q=${encodeURIComponent(guide.query)}">Open matching catalog search</a>
       </div>
-      <div class="editorial-list">
-        ${remainingEntries.map((entry) => `
+      ${(guide.sections || []).map((section) => `
+        <div class="editorial-section">
+          <div class="board-head">
+            <div>
+              <p class="eyebrow">${esc(section.title)}</p>
+              <h2>${esc(section.intro)}</h2>
+            </div>
+          </div>
+          <div class="editorial-list">
+            ${(sectionMap.get(section.title) || []).map((entry) => `
           <article class="editorial-entry">
             <div class="editorial-entry__head">
               <div>
@@ -197,7 +210,36 @@ function renderGuidePage(guide) {
             <div class="card-actions"><a class="ghost-button" href="../resource-pages/${entry.resource.id}.html">Read Prograde detail</a><a class="source-button" href="${esc(entry.resource.source)}" target="_blank" rel="noreferrer">Official source</a></div>
           </article>
         `).join("")}
-      </div>
+          </div>
+        </div>
+      `).join("")}
+      ${unsectionedEntries.length ? `<div class="editorial-list">
+        ${unsectionedEntries.map((entry) => `
+          <article class="editorial-entry">
+            <div class="editorial-entry__head">
+              <div>
+                <span class="guide-rank">#${entry.rank}</span>
+                <h3>${esc(entry.title)}</h3>
+                <p>${esc(entry.note)}</p>
+              </div>
+              ${entry.reachMatchSafety ? `<span class="status-pill ${rankTone(entry.reachMatchSafety)}">${esc(entry.reachMatchSafety)}</span>` : ""}
+            </div>
+            <div class="card-meta">
+              <div><span>Category</span><strong>${esc(categoryLabels[entry.resource.category] || entry.resource.category)}</strong></div>
+              <div><span>Stage</span><strong>${esc(formatGrades(entry.resource.grades))}</strong></div>
+              <div><span>Cost</span><strong>${esc(entry.resource.cost)}</strong></div>
+              <div><span>Timing</span><strong>${esc(entry.resource.deadline)}</strong></div>
+              <div><span>Selectivity</span><strong>${esc(entry.resource.selectivity || "Check source")}</strong></div>
+              <div><span>Format</span><strong>${esc(locationLabel(entry.resource))}</strong></div>
+            </div>
+            <div class="editorial-entry__notes">
+              <div class="student-note"><strong>Good for</strong><p>${esc(entry.goodFor)}</p></div>
+              <div class="student-note"><strong>Skip if</strong><p>${esc(entry.skipIf)}</p></div>
+            </div>
+            <div class="card-actions"><a class="ghost-button" href="../resource-pages/${entry.resource.id}.html">Read Prograde detail</a><a class="source-button" href="${esc(entry.resource.source)}" target="_blank" rel="noreferrer">Official source</a></div>
+          </article>
+        `).join("")}
+      </div>` : ""}
     </section>
 
     <section class="status-guide">
