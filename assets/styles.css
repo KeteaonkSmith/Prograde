@@ -168,6 +168,10 @@ h3 { font-size: 18px; margin-bottom: 8px; }
 .filter-group button.is-active { background: var(--prograde); color: var(--void); border-color: var(--prograde); }
 .filter-note { margin-top: 18px; color: var(--paper-dim); font-size: 13px; line-height: 1.45; }
 .results-head { margin-bottom: 16px; color: var(--paper-dim); font: 800 12px/1 var(--sans); letter-spacing: .03em; text-transform: uppercase; }
+.catalog-pagination { display: flex; align-items: center; justify-content: center; gap: 14px; margin-top: 22px; }
+.catalog-pagination button { border: 1px solid var(--rivet); border-radius: 999px; padding: 10px 14px; color: var(--paper); background: rgba(255,255,255,.03); font-weight: 700; }
+.catalog-pagination button:disabled { opacity: .4; cursor: default; }
+.catalog-pagination span { color: var(--paper-mute); font-size: 14px; font-weight: 700; }
 .status-guide { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; padding: 18px clamp(16px, 5vw, 72px); border-bottom: 1px solid var(--rivet); }
 .status-guide article { border: 1px solid var(--rivet); border-radius: 8px; padding: 16px; background: rgba(17,21,27,.72); animation: card-in .52s cubic-bezier(.16, 1, .3, 1) both; animation-delay: var(--enter-delay, 0ms); }
 .status-guide p { margin: 10px 0 0; color: var(--paper-mute); font-size: 13px; line-height: 1.45; }
@@ -216,16 +220,18 @@ h3 { font-size: 18px; margin-bottom: 8px; }
 .onboarding-head h2 { max-width: 720px; margin-bottom: 0; font-size: clamp(30px, 5vw, 52px); }
 .onboarding-close { width: 38px; height: 38px; border: 1px solid var(--rivet); border-radius: 50%; background: transparent; color: var(--paper); font-size: 22px; }
 .onboarding-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
-.onboarding-grid section { border: 1px solid var(--rivet); border-radius: 8px; padding: 18px; background: rgba(255,255,255,.025); }
-.onboarding-grid h3 { margin-bottom: 14px; font-size: 18px; }
-.onboarding-grid label { display: grid; gap: 8px; color: var(--paper); font-weight: 700; }
-.onboarding-grid select { width: 100%; border: 1px solid var(--strut); border-radius: 6px; padding: 12px; color: var(--paper); background: var(--vacuum); }
+.onboarding-grid section { border: 1px solid var(--rivet); border-radius: 8px; padding: 22px; background: rgba(255,255,255,.025); }
+.onboarding-grid h3 { margin-bottom: 16px; font-size: 24px; line-height: 1.1; }
+.onboarding-grid label { display: grid; gap: 8px; color: var(--paper); font-size: 16px; font-weight: 700; }
+.onboarding-grid select, .onboarding-grid input { font-size: 16px; }
 .choice-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
-.choice-grid label { display: flex; align-items: center; gap: 8px; border: 1px solid var(--rivet); border-radius: 999px; padding: 9px 11px; color: var(--paper-mute); font-size: 13px; font-weight: 700; }
-.choice-grid input { accent-color: var(--prograde); }
+.choice-grid label { display: grid; grid-template-columns: 18px minmax(0, 1fr); align-items: center; gap: 14px; min-height: 48px; border: 1px solid var(--rivet); border-radius: 999px; padding: 12px 18px; color: var(--paper); font-size: 15px; font-weight: 700; line-height: 1.25; }
+.choice-grid label span { display: block; text-align: left; }
+.choice-grid input { width: 18px; height: 18px; margin: 0; accent-color: var(--prograde); }
 .onboarding-actions { display: flex; justify-content: flex-end; gap: 10px; margin-top: 18px; }
 .onboarding-actions button { border: 1px solid var(--rivet); border-radius: 7px; padding: 12px 16px; color: var(--paper); background: transparent; font-weight: 800; }
 .onboarding-actions button[type="submit"] { border-color: var(--prograde); background: var(--prograde); color: var(--void); }
+.privacy-note { margin: 12px 2px 0; color: var(--paper-dim); font-size: 12px; line-height: 1.5; }
 .onboarding-success { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin-top: 18px; border: 1px solid rgba(95,227,179,.28); border-radius: 8px; padding: 14px; background: rgba(95,227,179,.07); color: var(--paper-mute); }
 .onboarding-success[hidden] { display: none; }
 .onboarding-success strong { color: var(--prograde); }

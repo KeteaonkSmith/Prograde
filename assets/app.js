@@ -344,7 +344,7 @@ function cardTemplate(item) {
         <div class="details-panel" id="${detailsId}-body" data-details-panel>
           <p>${item.why}</p>
           <p><strong>Best time:</strong> ${item.bestTime || "Use the official page to confirm timing."}</p>
-          <p><strong>Trust note:</strong> ${catalogReviewedLabel}. Always confirm dates and eligibility on the official source.</p>
+          <p><strong>Trust note:</strong> ${catalogReviewedLabel}. Always confirm dates and eligibility on the official page before you apply.</p>
           <ul>
             ${fit.reasons.slice(0, 2).map((reason) => `<li>${reason}</li>`).join("")}
           </ul>
@@ -447,7 +447,10 @@ const catalogSearch = document.querySelector("[data-catalog-search]");
 const filterButtons = document.querySelectorAll("[data-filter]");
 const resultCount = document.querySelector("[data-result-count]");
 const catalogGrid = document.querySelector(".catalog-results [data-resource-grid]");
+const catalogPagination = document.querySelector("[data-catalog-pagination]");
 let activeFilter = "all";
+let catalogPage = 1;
+const catalogPageSize = 12;
 
 const hashFilters = {
   "#programs": "program",
@@ -469,13 +472,31 @@ function updateCatalog() {
     .filter((entry) => !query || entry.search > 0)
     .sort((a, b) => (query ? b.search - a.search || b.fit - a.fit : b.fit - a.fit));
   const sorted = scored.map((entry) => entry.item);
+  const totalPages = Math.max(1, Math.ceil(sorted.length / catalogPageSize));
+  if (catalogPage > totalPages) catalogPage = totalPages;
+  const pageStart = (catalogPage - 1) * catalogPageSize;
+  const pageItems = sorted.slice(pageStart, pageStart + catalogPageSize);
   const emptyCopy = activeFilter === "saved"
-    ? "No saved resources yet. Save useful cards from the catalog, then come back here to compare them."
+    ? "No saved resources yet. Save useful options from the catalog, then come back here to compare them."
     : query
       ? `No strong local match for "${query}". Try a broader phrase like coding, cyber, writing, fee waiver, college credit, or scholarship.`
       : "No resources match this filter yet. Try All or broaden your fit profile.";
-  catalogGrid.innerHTML = sorted.length ? sorted.map(cardTemplate).join("") : `<div class="empty-state">${emptyCopy}</div>`;
+  catalogGrid.innerHTML = sorted.length ? pageItems.map(cardTemplate).join("") : `<div class="empty-state">${emptyCopy}</div>`;
   if (resultCount) resultCount.textContent = `${sorted.length} ${sorted.length === 1 ? "resource" : "resources"} ranked for your profile`;
+  if (catalogPagination) {
+    catalogPagination.innerHTML = sorted.length > catalogPageSize
+      ? `<button type="button" data-page-dir="-1" ${catalogPage === 1 ? "disabled" : ""}>Previous</button><span>Page ${catalogPage} of ${totalPages}</span><button type="button" data-page-dir="1" ${catalogPage === totalPages ? "disabled" : ""}>Next</button>`
+      : "";
+    catalogPagination.querySelectorAll("[data-page-dir]").forEach((button) => {
+      button.addEventListener("click", () => {
+        const nextPage = catalogPage + Number(button.dataset.pageDir || 0);
+        if (nextPage < 1 || nextPage > totalPages) return;
+        catalogPage = nextPage;
+        updateCatalog();
+        document.querySelector(".catalog-results")?.scrollIntoView({ block: "start", behavior: "smooth" });
+      });
+    });
+  }
   prepareAnimatedCards(catalogGrid);
   bindSaves(catalogGrid);
   bindDetails(catalogGrid);
@@ -489,7 +510,7 @@ function updateSavedCount() {
 }
 
 function checkbox(name, value, label, checkedValues = []) {
-  return `<label><input type="checkbox" name="${name}" value="${value}" ${checkedValues.includes(value) ? "checked" : ""}> ${label}</label>`;
+  return `<label><input type="checkbox" name="${name}" value="${value}" ${checkedValues.includes(value) ? "checked" : ""}><span>${label}</span></label>`;
 }
 
 function injectOnboarding() {
@@ -502,7 +523,20 @@ function injectOnboarding() {
     return;
   }
   const isDedicatedPage = Boolean(document.querySelector("[data-onboarding-host]"));
-  const interests = ["stem", "cs", "ai", "cybersecurity", "math", "research", "design", "entrepreneurship", "humanities", "arts", "leadership", "writing"];
+  const interests = [
+    ["stem", "STEM"],
+    ["cs", "Computer science"],
+    ["ai", "AI"],
+    ["cybersecurity", "Cybersecurity"],
+    ["math", "Math"],
+    ["research", "Research"],
+    ["design", "Design"],
+    ["entrepreneurship", "Entrepreneurship"],
+    ["humanities", "Humanities"],
+    ["arts", "Arts"],
+    ["leadership", "Leadership"],
+    ["writing", "Writing"]
+  ];
   const goals = [
     ["skills", "Build skills"],
     ["portfolio", "Create a project"],
@@ -541,7 +575,7 @@ function injectOnboarding() {
           </section>
           <section>
             <h3>2. Interests</h3>
-            <div class="choice-grid">${interests.map((interest) => checkbox("interest", interest, interest[0].toUpperCase() + interest.slice(1), profile.interests || [])).join("")}</div>
+            <div class="choice-grid">${interests.map(([value, label]) => checkbox("interest", value, label, profile.interests || [])).join("")}</div>
           </section>
           <section>
             <h3>3. Goals</h3>
@@ -579,6 +613,7 @@ function injectOnboarding() {
           <button type="button" data-close-onboarding>Not now</button>
           <button type="submit">Save and rank matches</button>
         </div>
+        <p class="privacy-note">Your fit profile stays on this device. Prograde does not store this form data on a server.</p>
       </form>
     </div>
   `;
@@ -735,7 +770,7 @@ function renderDashboard() {
   const saved = resources.filter((item) => savedResources.has(item.id)).sort((a, b) => fitFor(b).score - fitFor(a).score);
   updateSavedCount();
   if (!saved.length) {
-    grid.innerHTML = `<div class="empty-state"><h2>No saved resources yet.</h2><p>Use the catalog to save programs, scholarships, courses, and tools. Your dashboard turns those saves into a shortlist with next actions.</p><a class="source-button" href="resources.html">Browse catalog</a></div>`;
+    grid.innerHTML = `<div class="empty-state"><h2>No saved resources yet.</h2><p>Use the catalog to save programs, scholarships, courses, and tools. Your dashboard turns those saves into a clearer short list with next steps.</p><a class="source-button" href="resources.html">Browse catalog</a></div>`;
     return;
   }
   grid.innerHTML = saved.map((item) => {
@@ -763,12 +798,16 @@ function renderDashboard() {
 filterButtons.forEach((button) => {
   button.addEventListener("click", () => {
     activeFilter = button.dataset.filter;
+    catalogPage = 1;
     filterButtons.forEach((candidate) => candidate.classList.toggle("is-active", candidate === button));
     updateCatalog();
   });
 });
 
-catalogSearch?.addEventListener("input", updateCatalog);
+catalogSearch?.addEventListener("input", () => {
+  catalogPage = 1;
+  updateCatalog();
+});
 
 if (hashFilters[window.location.hash]) {
   activeFilter = hashFilters[window.location.hash];

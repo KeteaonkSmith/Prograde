@@ -18,9 +18,9 @@
   </header>
   <main>
     <section class="page-hero compact">
-      <p class="eyebrow">Verified catalog</p>
-      <h1>Browse opportunities with the important parts already surfaced.</h1>
-      <p>Filter by category, cost, deadline pressure, and student stage. Cards show whether a resource is active now, opening later, or likely closed for the current cycle.</p>
+      <p class="eyebrow">Student-ready catalog</p>
+      <h1>Browse opportunities without doing detective work first.</h1>
+      <p>Filter by category, cost, timing, and student stage. Cards show whether something is open now, opening later, or probably closed for this cycle.</p>
     </section>
     <section class="status-guide">
       <article><span class="status-pill active">Active now</span><p>You can use it now or the listed application window appears open.</p></article>
@@ -45,7 +45,7 @@
           <fieldset>
             <legend>Interests</legend>
             <label><input type="checkbox" name="interest" value="stem"> STEM</label>
-            <label><input type="checkbox" name="interest" value="cs"> CS</label>
+            <label><input type="checkbox" name="interest" value="cs"> Computer science</label>
             <label><input type="checkbox" name="interest" value="ai"> AI</label>
             <label><input type="checkbox" name="interest" value="math"> Math</label>
             <label><input type="checkbox" name="interest" value="research"> Research</label>
@@ -98,11 +98,12 @@
           <button data-filter="tool">Free tools</button>
           <button data-filter="study">Study materials</button>
         </div>
-        <div class="filter-note">Fit is recalculated from your profile. It is a sorting aid, not an admissions prediction.</div>
+        <div class="filter-note">Fit updates from your profile. It helps you sort faster; it is not a prediction of admission or selection.</div>
       </aside>
       <div class="catalog-results">
         <div class="results-head"><span data-result-count role="status" aria-live="polite">0 resources</span><span>Updated weekly</span></div>
         <div class="resource-grid dense" data-resource-grid></div>
+        <div class="catalog-pagination" data-catalog-pagination></div>
       </div>
     </section>
   </main>
