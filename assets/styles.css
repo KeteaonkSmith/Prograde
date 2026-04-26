@@ -236,7 +236,9 @@ h3 { font-size: 18px; margin-bottom: 8px; }
 .status-guide article { border: 1px solid var(--rivet); border-radius: 8px; padding: 16px; background: rgba(17,21,27,.72); animation: card-in .52s cubic-bezier(.16, 1, .3, 1) both; animation-delay: var(--enter-delay, 0ms); }
 .status-guide p { margin: 10px 0 0; color: var(--paper-mute); font-size: 13px; line-height: 1.45; }
 .empty-state { border: 1px dashed var(--strut); border-radius: 8px; padding: 28px; color: var(--paper-mute); }
-.dashboard-grid, .path-map { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; padding: clamp(32px, 6vw, 72px) clamp(16px, 5vw, 72px); }
+.dashboard-grid, .path-map { display: grid; gap: 16px; padding: clamp(32px, 6vw, 72px) clamp(16px, 5vw, 72px); }
+.dashboard-grid { grid-template-columns: minmax(0, 1fr); }
+.path-map { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .dashboard-item, .path-map article { border: 1px solid var(--rivet); border-radius: 8px; padding: 22px; background: rgba(17,21,27,.82); animation: card-in .52s cubic-bezier(.16, 1, .3, 1) both; }
 .dashboard-item h2, .path-map h2 { margin: 12px 0 10px; font-size: clamp(22px, 3vw, 34px); line-height: 1.08; }
 .dashboard-item p, .path-map p { color: var(--paper-mute); }
