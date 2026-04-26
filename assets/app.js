@@ -147,6 +147,125 @@ const categoryLabels = {
 };
 
 const catalogReviewedLabel = "Reviewed Apr 25, 2026";
+const storageKeys = {
+  profile: "progradeProfile",
+  saved: "progradeSavedResources",
+  activePath: "progradeActivePath",
+  opportunityStatus: "progradeOpportunityStatus",
+  completedTasks: "progradeCompletedTasks",
+  weeklyFocus: "progradeWeeklyFocus",
+  progressLog: "progradeProgressLog"
+};
+
+const defaultWeeklyFocus = {
+  energy: "steady",
+  goal: "finish-step"
+};
+
+const pathDefinitions = [
+  {
+    id: "cybersecurity",
+    title: "Cybersecurity path",
+    audience: "Students who want hands-on problem solving, systems thinking, and public proof through writeups or team competition.",
+    tagline: "Learn the basics, join a team, then turn skill into proof.",
+    query: "cyber cybersecurity cyberpatriot netacad ctf linux",
+    starterTasks: [
+      "Finish one beginner networking or Linux lesson.",
+      "Save one cyber course and one competition to compare.",
+      "Read the official CyberPatriot overview before joining a team."
+    ],
+    stages: ["Foundation", "Practice", "Competition", "Project", "Apply"],
+    milestone: "You can explain what kind of cyber work you actually enjoy and point to one concrete artifact.",
+    studentTip: "Start smaller than your ego wants. A clean writeup or tiny lab often teaches more than waiting for a prestigious program.",
+    wishIKnew: "You do not need to feel “ready” before trying a public challenge. Trying is how readiness starts.",
+    communityPrompt: "Turn your notes into a beginner guide for someone in your club or school."
+  },
+  {
+    id: "engineering",
+    title: "Engineering path",
+    audience: "Students curious about building real things, understanding systems, and connecting software to the physical world.",
+    tagline: "Build something visible, visit real engineering spaces, then apply with evidence.",
+    query: "engineering open house robotics maker hardware embedded arduino",
+    starterTasks: [
+      "Pick one core skill to learn this month: circuits, CAD, microcontrollers, or fabrication.",
+      "Save one engineering open house or campus visit.",
+      "Make a short list of physical projects you could actually finish."
+    ],
+    stages: ["Explore", "Build", "Visit", "Document", "Apply"],
+    milestone: "You have one visible build or prototype and one engineering event or program worth pursuing next.",
+    studentTip: "A small finished build beats a huge unfinished idea almost every time.",
+    wishIKnew: "Engineering interest becomes believable when people can see what you built, tested, or repaired.",
+    communityPrompt: "Document your build so another student can replicate it or improve it."
+  },
+  {
+    id: "affordability",
+    title: "College affordability path",
+    audience: "Students trying to lower cost, unlock waivers, and find money without drowning in scholarship spam.",
+    tagline: "Start with waivers and planning tools, then move toward good-fit scholarships.",
+    query: "fee waiver scholarship affordability dual enrollment act sat bigfuture",
+    starterTasks: [
+      "Check whether you qualify for any fee waivers.",
+      "Save two scholarships that actually match your background or work.",
+      "Read one official eligibility page carefully instead of skimming ten."
+    ],
+    stages: ["Waivers", "Planning", "Shortlist", "Prepare", "Submit"],
+    milestone: "You have a realistic shortlist of opportunities worth the effort, not just a pile of names.",
+    studentTip: "The best scholarship is not always the biggest one. It is the one you can realistically finish well.",
+    wishIKnew: "A clean spreadsheet and a small shortlist save more stress than chasing every possible scholarship.",
+    communityPrompt: "Share one affordability resource with a student who thinks college costs are fixed."
+  },
+  {
+    id: "humanities",
+    title: "Writing and humanities path",
+    audience: "Students building evidence through essays, argument, history, language, and close reading rather than only STEM signals.",
+    tagline: "Read well, write with intention, then turn that work into public proof.",
+    query: "writing history humanities essay debate language research",
+    starterTasks: [
+      "Choose one humanities resource you will actually use this week.",
+      "Draft one argument, reflection, or competition response paragraph.",
+      "Save one writing or history competition with a deadline worth tracking."
+    ],
+    stages: ["Read", "Draft", "Revise", "Share", "Compete"],
+    milestone: "You can point to a piece of writing, research, or argument that shows how you think.",
+    studentTip: "Your portfolio gets stronger when you revise one piece deeply instead of writing many shallow ones.",
+    wishIKnew: "Humanities work counts most when it feels finished enough to show another person.",
+    communityPrompt: "Turn your notes or essay lessons into a guide for younger students who hate starting from a blank page."
+  },
+  {
+    id: "science",
+    title: "Pre-med and science path",
+    audience: "Students exploring scientific research, medicine, or lab-heavy study and trying to build real foundations first.",
+    tagline: "Strengthen the basics, understand research, then move toward stronger programs.",
+    query: "science research biology chemistry medicine summer program",
+    starterTasks: [
+      "Save one science program and one course so you can compare preparation versus prestige.",
+      "Read one research-oriented opportunity page slowly enough to understand what it expects.",
+      "Write down which part of science you want more exposure to."
+    ],
+    stages: ["Foundation", "Exposure", "Read", "Prepare", "Apply"],
+    milestone: "You know whether you want coursework, volunteering, research reading, or a selective summer program next.",
+    studentTip: "Science paths get clearer when you separate “I like the idea of it” from “I like the day-to-day work.”",
+    wishIKnew: "Research programs make more sense once you understand what a paper, lab, or method actually looks like.",
+    communityPrompt: "Explain one science opportunity to a younger student in plain language."
+  },
+  {
+    id: "entrepreneurship",
+    title: "Business and entrepreneurship path",
+    audience: "Students who like building ideas, pitching, organizing, or creating something useful with other people.",
+    tagline: "Learn the basics, make something real, then show traction.",
+    query: "entrepreneurship business startup pitch hackathon leadership",
+    starterTasks: [
+      "Define one problem you want to solve, not just one app idea.",
+      "Save one business or entrepreneurship competition.",
+      "Make a rough plan for a project, pitch, or prototype."
+    ],
+    stages: ["Observe", "Pitch", "Build", "Test", "Present"],
+    milestone: "You have a project, pitch, or public artifact that shows initiative beyond talking about ideas.",
+    studentTip: "Good entrepreneurship evidence usually looks like usefulness, not just ambition.",
+    wishIKnew: "A simple useful project with real users can be more persuasive than a dramatic but imaginary startup story.",
+    communityPrompt: "Ask how your project could solve a problem for students around you, not just impress adults."
+  }
+];
 
 const defaultProfile = {
   grade: "11",
@@ -166,14 +285,40 @@ const defaultProfile = {
 
 function loadProfile() {
   try {
-    return { ...defaultProfile, ...JSON.parse(localStorage.getItem("progradeProfile") || "{}") };
+    return { ...defaultProfile, ...JSON.parse(localStorage.getItem(storageKeys.profile) || "{}") };
   } catch {
     return { ...defaultProfile };
   }
 }
 
+function loadJson(key, fallback) {
+  try {
+    return JSON.parse(localStorage.getItem(key) || JSON.stringify(fallback));
+  } catch {
+    return fallback;
+  }
+}
+
+function saveJson(key, value) {
+  localStorage.setItem(key, JSON.stringify(value));
+}
+
+function recordProgress(message) {
+  const next = [
+    { message, date: new Date().toLocaleDateString(undefined, { month: "short", day: "numeric" }) },
+    ...progressLog
+  ].slice(0, 8);
+  progressLog = next;
+  saveJson(storageKeys.progressLog, next);
+}
+
 let profile = loadProfile();
 let savedResources = loadSavedResources();
+let activePathId = localStorage.getItem(storageKeys.activePath) || "";
+let opportunityStatuses = loadJson(storageKeys.opportunityStatus, {});
+let completedTasks = loadJson(storageKeys.completedTasks, {});
+let weeklyFocus = { ...defaultWeeklyFocus, ...loadJson(storageKeys.weeklyFocus, defaultWeeklyFocus) };
+let progressLog = loadJson(storageKeys.progressLog, []);
 
 function normalize(value) {
   return String(value || "").trim().toLowerCase();
@@ -213,14 +358,139 @@ resources.forEach((resource) => {
 
 function loadSavedResources() {
   try {
-    return new Set(JSON.parse(localStorage.getItem("progradeSavedResources") || "[]"));
+    return new Set(JSON.parse(localStorage.getItem(storageKeys.saved) || "[]"));
   } catch {
     return new Set();
   }
 }
 
+function getActivePath() {
+  return pathDefinitions.find((path) => path.id === activePathId) || null;
+}
+
+function setActivePath(pathId) {
+  activePathId = pathDefinitions.some((path) => path.id === pathId) ? pathId : "";
+  if (activePathId) {
+    localStorage.setItem(storageKeys.activePath, activePathId);
+    recordProgress(`Selected the ${getActivePath()?.title || "student"} path`);
+  } else {
+    localStorage.removeItem(storageKeys.activePath);
+  }
+}
+
+function getOpportunityStatus(id) {
+  return opportunityStatuses[id] || "saved";
+}
+
+function setOpportunityStatus(id, status) {
+  opportunityStatuses = { ...opportunityStatuses, [id]: status };
+  saveJson(storageKeys.opportunityStatus, opportunityStatuses);
+}
+
 function saveSavedResources() {
-  localStorage.setItem("progradeSavedResources", JSON.stringify([...savedResources]));
+  saveJson(storageKeys.saved, [...savedResources]);
+}
+
+const opportunityStatusLabels = {
+  saved: "Saved",
+  researching: "Researching",
+  preparing: "Preparing",
+  applying: "Applying",
+  submitted: "Submitted",
+  completed: "Completed"
+};
+
+const weeklyEnergyOptions = {
+  low: "Low energy",
+  steady: "Steady pace",
+  deep: "Deep focus"
+};
+
+const weeklyGoalOptions = {
+  "finish-step": "Finish one concrete step",
+  "compare-options": "Compare better-fit options",
+  "prepare-application": "Prepare one application task",
+  "build-skill": "Build one proof-of-skill item"
+};
+
+function resourceTextBlob(item) {
+  return [item.title, item.summary, item.tags, item.why, item.audience, item.interests?.join(" "), item.goals?.join(" ")]
+    .filter(Boolean)
+    .join(" ")
+    .toLowerCase();
+}
+
+function pathMatchScore(item, path) {
+  if (!path) return 0;
+  const blob = resourceTextBlob(item);
+  return path.query.split(/\s+/).reduce((score, term) => score + (blob.includes(term) ? 1 : 0), 0);
+}
+
+function sortedSavedResources(activePath = getActivePath()) {
+  return resources
+    .filter((item) => savedResources.has(item.id))
+    .sort((a, b) => {
+      const aFit = fitFor(a).score + pathMatchScore(a, activePath) * 4;
+      const bFit = fitFor(b).score + pathMatchScore(b, activePath) * 4;
+      return bFit - aFit;
+    });
+}
+
+function nextActionFor(item, status) {
+  if (status === "saved") return `Open the official source for ${item.title} and decide whether it belongs in this month's plan.`;
+  if (status === "researching") return `Read the eligibility and timing details carefully, then keep one short note about whether ${item.title} still fits.`;
+  if (status === "preparing") return item.category === "scholarship" ? "Draft the shortest essay, eligibility answer, or activity list first." : "List the materials you would need so this stops feeling vague.";
+  if (status === "applying") return "Finish one application step today: a paragraph, recommendation request, or form section.";
+  if (status === "submitted") return "Record what you submitted and decide whether you should prepare for the next cycle or a related option.";
+  return "Turn what you learned into something useful: a note, a guide, or advice for another student.";
+}
+
+function studentTipFor(item, activePath = getActivePath()) {
+  if (activePath?.id === "engineering") return "If you are building an engineering story, save proof of what you made, not just the idea.";
+  if (activePath?.id === "cybersecurity") return "A small writeup or lab note can be stronger than waiting for a giant project.";
+  if (item.category === "scholarship") return "Scholarships get easier once you stop chasing every option and focus on the ones that really fit.";
+  if (item.category === "program") return "Programs are easier to judge when you ask what you will actually learn, not just how famous they sound.";
+  if (item.category === "course") return "Finish one module and keep one output. Proof beats intention.";
+  return "Use this as a step in a path, not just a tab you opened once.";
+}
+
+function buildWeeklyTasks(activePath, saved) {
+  const tasks = [];
+  if (!activePath) {
+    tasks.push({ id: "choose-path", label: "Choose one path so Prograde can guide your next steps.", source: "path" });
+  } else {
+    tasks.push({ id: `path-${activePath.id}-starter-1`, label: activePath.starterTasks[0], source: "path" });
+    tasks.push({ id: `path-${activePath.id}-starter-2`, label: activePath.starterTasks[1], source: "path" });
+  }
+
+  if (saved.length < 2) {
+    tasks.push({ id: "save-two", label: "Save at least two opportunities worth comparing this week.", source: "dashboard" });
+  } else {
+    const actionable = saved.find((item) => ["saved", "researching", "preparing"].includes(getOpportunityStatus(item.id)));
+    if (actionable) {
+      tasks.push({ id: `resource-${actionable.id}-next`, label: nextActionFor(actionable, getOpportunityStatus(actionable.id)), source: actionable.title });
+    }
+  }
+
+  const course = saved.find((item) => item.category === "course");
+  if (course) tasks.push({ id: `course-${course.id}`, label: `Finish one lesson or proof-of-work step for ${course.title}.`, source: "skill" });
+
+  const scholarship = saved.find((item) => item.category === "scholarship");
+  if (scholarship) tasks.push({ id: `scholarship-${scholarship.id}`, label: `Read the official eligibility page for ${scholarship.title} and keep one note about fit.`, source: "money" });
+
+  return tasks.slice(0, 4);
+}
+
+function pathProgress(activePath, saved, tasks) {
+  if (!activePath) return { percent: 0, completed: 0, total: tasks.length || 1 };
+  const completedTaskCount = tasks.filter((task) => completedTasks[task.id]).length;
+  const statusPoints = saved.reduce((sum, item) => {
+    const status = getOpportunityStatus(item.id);
+    return sum + (status === "completed" ? 2 : status === "submitted" ? 1.6 : status === "applying" ? 1.2 : status === "preparing" ? 0.8 : status === "researching" ? 0.4 : 0);
+  }, 0);
+  const total = Math.max(4, tasks.length + 2);
+  const completed = Math.min(total, completedTaskCount + statusPoints);
+  return { percent: Math.round((completed / total) * 100), completed: Math.round(completed * 10) / 10, total };
 }
 
 function costScore(item, budget) {
@@ -403,8 +673,14 @@ function bindSaves(root = document) {
     button.addEventListener("click", () => {
       const id = button.dataset.save;
       if (!id) return;
-      if (savedResources.has(id)) savedResources.delete(id);
-      else savedResources.add(id);
+      const item = resources.find((resource) => resource.id === id);
+      if (savedResources.has(id)) {
+        savedResources.delete(id);
+        recordProgress(`Removed ${item?.title || "a resource"} from your shortlist`);
+      } else {
+        savedResources.add(id);
+        recordProgress(`Saved ${item?.title || "a resource"} to your shortlist`);
+      }
       saveSavedResources();
       button.classList.toggle("is-saved", savedResources.has(id));
       button.textContent = savedResources.has(id) ? "Saved" : "+";
@@ -727,8 +1003,9 @@ function bindOnboarding() {
       weeklyTime: data.get("weeklyTime") || defaultProfile.weeklyTime,
       applicationConfidence: data.get("applicationConfidence") || defaultProfile.applicationConfidence
     };
-    localStorage.setItem("progradeProfile", JSON.stringify(profile));
+    saveJson(storageKeys.profile, profile);
     localStorage.setItem("progradeOnboarded", "true");
+    recordProgress("Updated your fit profile");
     renderAllStaticGrids();
     updateCatalog();
     renderDashboard();
@@ -798,7 +1075,8 @@ function bindProfileControls() {
       format: data.get("format") || defaultProfile.format,
       effort: data.get("effort") || defaultProfile.effort
     };
-    localStorage.setItem("progradeProfile", JSON.stringify(profile));
+    saveJson(storageKeys.profile, profile);
+    recordProgress("Adjusted catalog fit settings");
     renderAllStaticGrids();
     updateCatalog();
     renderDashboard();
@@ -808,32 +1086,205 @@ function bindProfileControls() {
 function renderDashboard() {
   const grid = document.querySelector("[data-dashboard-grid]");
   if (!grid) return;
-  const saved = resources.filter((item) => savedResources.has(item.id)).sort((a, b) => fitFor(b).score - fitFor(a).score);
+  const activePath = getActivePath();
+  const saved = sortedSavedResources(activePath);
+  const tasks = buildWeeklyTasks(activePath, saved);
+  const progress = pathProgress(activePath, saved, tasks);
+  const upcoming = saved.filter((item) => deadlineStatus(item).tone !== "closed").slice(0, 3);
+  const completedThisWeek = tasks.filter((task) => completedTasks[task.id]).length;
+
   updateSavedCount();
-  if (!saved.length) {
-    grid.innerHTML = `<div class="empty-state"><h2>No saved resources yet.</h2><p>Use the catalog to save programs, scholarships, courses, and tools. Your dashboard turns those saves into a clearer short list with next steps.</p><a class="source-button" href="resources.html">Browse catalog</a></div>`;
-    return;
-  }
-  grid.innerHTML = saved.map((item) => {
-    const status = deadlineStatus(item);
-    const fit = fitFor(item);
-    const nextAction = item.category === "scholarship" ? "Check eligibility and draft the shortest required essay." : item.category === "program" ? "Confirm the application window and list required materials." : item.category === "course" ? "Start the first module and save one output as proof." : "Open the official page and decide whether it belongs in your active plan.";
-    return `<article class="dashboard-item">
-      <div>
-        <span class="tag ${item.category}">${categoryLabels[item.category]}</span>
-        <h2>${item.title}</h2>
-        <p>${item.summary}</p>
+  grid.innerHTML = `
+    <section class="dashboard-shell">
+      <article class="dashboard-panel dashboard-panel--hero">
+        <div>
+          <p class="eyebrow">By students, for students</p>
+          <h2>${activePath ? `Keep moving on the ${activePath.title}.` : "Turn browsing into real forward motion."}</h2>
+          <p>${activePath ? activePath.tagline : "Choose a path, save what fits, and let the dashboard turn vague ambition into a weekly plan you can actually use."}</p>
+        </div>
+        <div class="dashboard-hero-actions">
+          <a class="source-button" href="${activePath ? "resources.html" : "paths.html"}">${activePath ? "Add resources to this path" : "Choose your path"}</a>
+          <a class="ghost-button" href="resources.html">Browse catalog</a>
+        </div>
+      </article>
+
+      <div class="dashboard-overview">
+        <article class="dashboard-panel">
+          <p class="eyebrow">Current path</p>
+          <h3>${activePath ? activePath.title : "No active path yet"}</h3>
+          <p>${activePath ? activePath.audience : "Pick one path so Prograde can guide your next steps instead of dumping every option at you."}</p>
+          <div class="dashboard-path-picker">
+            ${pathDefinitions.map((path) => `<button type="button" class="${path.id === activePathId ? "is-active" : ""}" data-set-path="${path.id}">${path.title.replace(" path", "")}</button>`).join("")}
+          </div>
+          ${activePath ? `<div class="student-note"><strong>What I wish I knew</strong><p>${activePath.wishIKnew}</p></div>` : ""}
+        </article>
+
+        <article class="dashboard-panel">
+          <p class="eyebrow">This week's focus</p>
+          <h3>${weeklyEnergyOptions[weeklyFocus.energy]}</h3>
+          <p>${weeklyGoalOptions[weeklyFocus.goal]}</p>
+          <div class="focus-grid">
+            <label>Energy
+              <select data-weekly-focus="energy">
+                ${Object.entries(weeklyEnergyOptions).map(([value, label]) => `<option value="${value}" ${weeklyFocus.energy === value ? "selected" : ""}>${label}</option>`).join("")}
+              </select>
+            </label>
+            <label>Goal
+              <select data-weekly-focus="goal">
+                ${Object.entries(weeklyGoalOptions).map(([value, label]) => `<option value="${value}" ${weeklyFocus.goal === value ? "selected" : ""}>${label}</option>`).join("")}
+              </select>
+            </label>
+          </div>
+          <div class="progress-meter">
+            <div class="progress-meter__bar"><i style="width:${progress.percent}%"></i></div>
+            <span>${progress.percent}% path momentum</span>
+          </div>
+        </article>
+
+        <article class="dashboard-panel">
+          <p class="eyebrow">This week</p>
+          <h3>${completedThisWeek} of ${tasks.length} steps done</h3>
+          <p>${saved.length ? `${saved.length} saved opportunities are ready to turn into action.` : "Your dashboard gets better once you save a few opportunities worth comparing."}</p>
+          <ul class="dashboard-task-list">
+            ${tasks.map((task) => `<li><label class="task-check"><input type="checkbox" data-task-id="${task.id}" ${completedTasks[task.id] ? "checked" : ""}><span><strong>${task.label}</strong><em>${task.source === "path" ? "Path step" : task.source}</em></span></label></li>`).join("")}
+          </ul>
+        </article>
       </div>
-      <div class="dashboard-meta">
-        <span><strong>${fit.score}</strong> fit</span>
-        <span class="status-pill ${status.tone}">${status.label}</span>
-        <span>${item.deadline}</span>
+
+      <div class="dashboard-columns">
+        <div class="dashboard-main-stack">
+          <article class="dashboard-panel">
+            <div class="dashboard-section-head">
+              <div>
+                <p class="eyebrow">Saved opportunities</p>
+                <h3>What should you do next?</h3>
+              </div>
+              <span class="dashboard-count">${saved.length} saved</span>
+            </div>
+            ${saved.length ? `<div class="dashboard-card-list">
+              ${saved.map((item) => {
+                const status = deadlineStatus(item);
+                const fit = fitFor(item);
+                const workflow = getOpportunityStatus(item.id);
+                const match = pathMatchScore(item, activePath);
+                return `<article class="dashboard-item">
+                  <div>
+                    <span class="tag ${item.category}">${categoryLabels[item.category]}</span>
+                    <h2>${item.title}</h2>
+                    <p>${item.summary}</p>
+                  </div>
+                  <div class="dashboard-meta">
+                    <span><strong>${fit.score}</strong> fit</span>
+                    <span class="status-pill ${status.tone}">${status.label}</span>
+                    ${activePath ? `<span>${match > 0 ? "Matches your path" : "Useful outside your path"}</span>` : `<span>${item.deadline}</span>`}
+                  </div>
+                  <div class="dashboard-status-row">
+                    <label>Stage
+                      <select data-opportunity-status="${item.id}">
+                        ${Object.entries(opportunityStatusLabels).map(([value, label]) => `<option value="${value}" ${workflow === value ? "selected" : ""}>${label}</option>`).join("")}
+                      </select>
+                    </label>
+                    <div class="next-action"><strong>Next action</strong><p>${nextActionFor(item, workflow)}</p></div>
+                  </div>
+                  <div class="student-note"><strong>Student note</strong><p>${studentTipFor(item, activePath)}</p></div>
+                  <div class="card-actions"><a class="ghost-button" href="resource-pages/${item.id}.html">Details</a><a class="source-button" href="${item.source}" target="_blank" rel="noreferrer">Official source</a></div>
+                </article>`;
+              }).join("")}
+            </div>` : `<div class="empty-state"><h2>No saved resources yet.</h2><p>Choose a path, then save programs, scholarships, courses, and tools that actually fit. The dashboard will turn those saves into a weekly plan.</p><a class="source-button" href="resources.html">Browse catalog</a></div>`}
+          </article>
+        </div>
+
+        <aside class="dashboard-side-stack">
+          <article class="dashboard-panel">
+            <p class="eyebrow">Upcoming deadlines</p>
+            <h3>Move before momentum turns into regret.</h3>
+            ${upcoming.length ? `<ul class="deadline-list">${upcoming.map((item) => {
+              const status = deadlineStatus(item);
+              return `<li><strong>${item.title}</strong><span class="status-pill ${status.tone}">${status.label}</span><p>${item.bestTime || item.deadline}</p></li>`;
+            }).join("")}</ul>` : `<p class="dashboard-empty-copy">Once you save opportunities, Prograde will surface the ones that need attention first.</p>`}
+          </article>
+          <article class="dashboard-panel">
+            <p class="eyebrow">Recent progress</p>
+            <h3>Keep the loop visible.</h3>
+            ${progressLog.length ? `<ul class="progress-log">${progressLog.slice(0, 5).map((entry) => `<li><strong>${entry.message}</strong><span>${entry.date}</span></li>`).join("")}</ul>` : `<p class="dashboard-empty-copy">Completed tasks, path choices, and workflow updates will show up here so progress feels real.</p>`}
+          </article>
+          <article class="dashboard-panel">
+            <p class="eyebrow">Pass it on</p>
+            <h3>By students, for students.</h3>
+            <div class="student-note">
+              <strong>Give-back prompt</strong>
+              <p>${activePath ? activePath.communityPrompt : "As you find useful opportunities, keep a note that could help another student start faster than you did."}</p>
+            </div>
+            <div class="student-note">
+              <strong>Local-first privacy</strong>
+              <p>Your path, saved opportunities, statuses, and tasks stay on this device in local storage for this beta. Prograde does not need an account yet to stay useful.</p>
+            </div>
+          </article>
+        </aside>
       </div>
-      <div class="next-action"><strong>Next action</strong><p>${nextAction}</p></div>
-      <div class="card-actions"><a class="ghost-button" href="resource-pages/${item.id}.html">Details</a><a class="source-button" href="${item.source}" target="_blank" rel="noreferrer">Official source</a></div>
-    </article>`;
-  }).join("");
+    </section>`;
+
+  grid.querySelectorAll("[data-set-path]").forEach((button) => {
+    button.addEventListener("click", () => {
+      setActivePath(button.dataset.setPath || "");
+      renderDashboard();
+      renderPathMap();
+      renderAllStaticGrids();
+    });
+  });
+  grid.querySelectorAll("[data-weekly-focus]").forEach((select) => {
+    select.addEventListener("change", () => {
+      weeklyFocus = { ...weeklyFocus, [select.dataset.weeklyFocus]: select.value };
+      saveJson(storageKeys.weeklyFocus, weeklyFocus);
+      recordProgress(`Updated this week's focus: ${weeklyFocus.goal}`);
+      renderDashboard();
+    });
+  });
+  grid.querySelectorAll("[data-task-id]").forEach((input) => {
+    input.addEventListener("change", () => {
+      completedTasks = { ...completedTasks, [input.dataset.taskId]: input.checked };
+      saveJson(storageKeys.completedTasks, completedTasks);
+      recordProgress(`${input.checked ? "Completed" : "Reopened"} a weekly step`);
+      renderDashboard();
+    });
+  });
+  grid.querySelectorAll("[data-opportunity-status]").forEach((select) => {
+    select.addEventListener("change", () => {
+      const resourceId = select.dataset.opportunityStatus;
+      setOpportunityStatus(resourceId, select.value);
+      recordProgress(`Moved ${resources.find((item) => item.id === resourceId)?.title || "a resource"} to ${opportunityStatusLabels[select.value].toLowerCase()}`);
+      renderDashboard();
+    });
+  });
+
   prepareAnimatedCards(grid);
+}
+
+function renderPathMap() {
+  const host = document.querySelector("[data-path-map]");
+  if (!host) return;
+  const activePath = getActivePath();
+  host.innerHTML = pathDefinitions.map((path) => `
+    <article class="${path.id === activePathId ? "is-active" : ""}">
+      <span>${path.title.replace(" path", "")}</span>
+      <h2>${path.tagline}</h2>
+      <p>${path.audience}</p>
+      <div class="path-stage-list">${path.stages.map((stage) => `<i>${stage}</i>`).join("")}</div>
+      <div class="student-note"><strong>What I wish I knew</strong><p>${path.wishIKnew}</p></div>
+      <div class="card-actions">
+        <button type="button" class="ghost-button" data-set-path="${path.id}">${path.id === activePathId ? "Current path" : "Make this my path"}</button>
+        <a class="source-button" href="resources.html?q=${encodeURIComponent(path.query)}">Find matching resources</a>
+      </div>
+    </article>
+  `).join("");
+  host.querySelectorAll("[data-set-path]").forEach((button) => {
+    button.addEventListener("click", () => {
+      setActivePath(button.dataset.setPath || "");
+      renderDashboard();
+      renderPathMap();
+    });
+  });
+  prepareAnimatedCards(host);
 }
 
 filterButtons.forEach((button) => {
@@ -878,6 +1329,7 @@ injectOnboarding();
 renderAllStaticGrids();
 updateCatalog();
 renderDashboard();
+renderPathMap();
 prepareAnimatedCards();
 bindDetails();
 updateSavedCount();
