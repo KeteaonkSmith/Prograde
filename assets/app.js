@@ -154,12 +154,21 @@ const storageKeys = {
   opportunityStatus: "progradeOpportunityStatus",
   completedTasks: "progradeCompletedTasks",
   weeklyFocus: "progradeWeeklyFocus",
-  progressLog: "progradeProgressLog"
+  progressLog: "progradeProgressLog",
+  dailySession: "progradeDailySession"
 };
 
 const defaultWeeklyFocus = {
   energy: "steady",
   goal: "finish-step"
+};
+
+const defaultDailySession = {
+  mode: "steady",
+  durationMinutes: 25,
+  remainingSeconds: 25 * 60,
+  running: false,
+  startedAt: 0
 };
 
 const pathDefinitions = [
@@ -319,6 +328,8 @@ let opportunityStatuses = loadJson(storageKeys.opportunityStatus, {});
 let completedTasks = loadJson(storageKeys.completedTasks, {});
 let weeklyFocus = { ...defaultWeeklyFocus, ...loadJson(storageKeys.weeklyFocus, defaultWeeklyFocus) };
 let progressLog = loadJson(storageKeys.progressLog, []);
+let dailySession = { ...defaultDailySession, ...loadJson(storageKeys.dailySession, defaultDailySession) };
+let studyTimerHandle = 0;
 
 function normalize(value) {
   return String(value || "").trim().toLowerCase();
@@ -412,6 +423,40 @@ const weeklyGoalOptions = {
   "prepare-application": "Prepare one application task",
   "build-skill": "Build one proof-of-skill item"
 };
+
+const studyDurationOptions = {
+  15: "15 min reset",
+  25: "25 min focus sprint",
+  45: "45 min deep work"
+};
+
+function syncDailySession() {
+  if (!dailySession.running || !dailySession.startedAt) return dailySession;
+  const elapsed = Math.floor((Date.now() - dailySession.startedAt) / 1000);
+  const nextRemaining = Math.max(0, dailySession.remainingSeconds - elapsed);
+  if (nextRemaining === 0) {
+    dailySession = { ...dailySession, running: false, remainingSeconds: 0, startedAt: 0 };
+    saveJson(storageKeys.dailySession, dailySession);
+    return dailySession;
+  }
+  return { ...dailySession, remainingSeconds: nextRemaining };
+}
+
+function persistDailySession(nextSession) {
+  dailySession = { ...nextSession };
+  saveJson(storageKeys.dailySession, dailySession);
+}
+
+function formatDuration(totalSeconds) {
+  const minutes = Math.floor(totalSeconds / 60);
+  const seconds = totalSeconds % 60;
+  return `${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
+}
+
+function completedTodayCount() {
+  const today = new Date().toLocaleDateString(undefined, { month: "short", day: "numeric" });
+  return progressLog.filter((entry) => entry.date === today && /Completed|Updated|Moved|Saved|Selected/.test(entry.message)).length;
+}
 
 function resourceTextBlob(item) {
   return [item.title, item.summary, item.tags, item.why, item.audience, item.interests?.join(" "), item.goals?.join(" ")]
@@ -653,8 +698,10 @@ function cardTemplate(item) {
       <div class="resource-details" id="${detailsId}">
         <button class="details-toggle" type="button" aria-expanded="false" aria-controls="${detailsId}-body" data-details-toggle>Why and when</button>
         <div class="details-panel" id="${detailsId}-body" data-details-panel>
-          <p>${item.why}</p>
+          <p>${item.progradeNote || item.why}</p>
           <p><strong>Best time:</strong> ${item.bestTime || "Use the official page to confirm timing."}</p>
+          ${item.goodFor ? `<p><strong>Good for:</strong> ${item.goodFor}</p>` : ""}
+          ${item.skipIf ? `<p><strong>Skip if:</strong> ${item.skipIf}</p>` : ""}
           <p><strong>Trust note:</strong> ${catalogReviewedLabel}. Always confirm dates and eligibility on the official page before you apply.</p>
           <ul>
             ${fit.reasons.slice(0, 2).map((reason) => `<li>${reason}</li>`).join("")}
@@ -1092,15 +1139,17 @@ function renderDashboard() {
   const progress = pathProgress(activePath, saved, tasks);
   const upcoming = saved.filter((item) => deadlineStatus(item).tone !== "closed").slice(0, 3);
   const completedThisWeek = tasks.filter((task) => completedTasks[task.id]).length;
+  const currentSession = syncDailySession();
+  const todayWins = completedTodayCount();
 
   updateSavedCount();
   grid.innerHTML = `
     <section class="dashboard-shell">
       <article class="dashboard-panel dashboard-panel--hero">
         <div>
-          <p class="eyebrow">By students, for students</p>
-          <h2>${activePath ? `Keep moving on the ${activePath.title}.` : "Turn browsing into real forward motion."}</h2>
-          <p>${activePath ? activePath.tagline : "Choose a path, save what fits, and let the dashboard turn vague ambition into a weekly plan you can actually use."}</p>
+          <p class="eyebrow">Study hub</p>
+          <h2>${activePath ? `Keep moving on the ${activePath.title}.` : "Turn browsing into a study rhythm and a real plan."}</h2>
+          <p>${activePath ? `${activePath.tagline} Use the dashboard to study, save useful opportunities, and keep your next step visible.` : "Choose a path, save what fits, and let the dashboard turn vague ambition into study sessions, next actions, and momentum you can actually feel."}</p>
         </div>
         <div class="dashboard-hero-actions">
           <a class="source-button" href="${activePath ? "resources.html" : "paths.html"}">${activePath ? "Add resources to this path" : "Choose your path"}</a>
@@ -1110,7 +1159,39 @@ function renderDashboard() {
 
       <div class="dashboard-overview">
         <article class="dashboard-panel">
-          <p class="eyebrow">Current path</p>
+          <p class="eyebrow">Today</p>
+          <h3>${todayWins} small win${todayWins === 1 ? "" : "s"} recorded</h3>
+          <p>${activePath ? `You are working inside the ${activePath.title}. Keep the next action smaller than your stress.` : "You do not need a perfect plan first. Pick one path and one tiny step so today does not disappear into scrolling."}</p>
+          <div class="student-note"><strong>Next move</strong><p>${tasks[0]?.label || "Save one opportunity or start one short focus block."}</p></div>
+        </article>
+
+        <article class="dashboard-panel">
+          <p class="eyebrow">Study mode</p>
+          <h3>${weeklyEnergyOptions[currentSession.mode]}</h3>
+          <p>${studyDurationOptions[currentSession.durationMinutes] || "25 min focus sprint"}</p>
+          <div class="focus-grid">
+            <label>Mode
+              <select data-study-mode>
+                ${Object.entries(weeklyEnergyOptions).map(([value, label]) => `<option value="${value}" ${currentSession.mode === value ? "selected" : ""}>${label}</option>`).join("")}
+              </select>
+            </label>
+            <label>Session
+              <select data-study-duration>
+                ${Object.entries(studyDurationOptions).map(([value, label]) => `<option value="${value}" ${Number(value) === currentSession.durationMinutes ? "selected" : ""}>${label}</option>`).join("")}
+              </select>
+            </label>
+          </div>
+          <div class="study-timer">
+            <strong data-timer-display>${formatDuration(currentSession.remainingSeconds)}</strong>
+            <div class="card-actions">
+              <button type="button" class="ghost-button" data-study-action="${currentSession.running ? "pause" : "start"}">${currentSession.running ? "Pause" : "Start focus block"}</button>
+              <button type="button" class="ghost-button" data-study-action="reset">Reset</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="dashboard-panel">
+          <p class="eyebrow">Path progress</p>
           <h3>${activePath ? activePath.title : "No active path yet"}</h3>
           <p>${activePath ? activePath.audience : "Pick one path so Prograde can guide your next steps instead of dumping every option at you."}</p>
           <div class="dashboard-path-picker">
@@ -1142,7 +1223,7 @@ function renderDashboard() {
         </article>
 
         <article class="dashboard-panel">
-          <p class="eyebrow">This week</p>
+          <p class="eyebrow">Next application steps</p>
           <h3>${completedThisWeek} of ${tasks.length} steps done</h3>
           <p>${saved.length ? `${saved.length} saved opportunities are ready to turn into action.` : "Your dashboard gets better once you save a few opportunities worth comparing."}</p>
           <ul class="dashboard-task-list">
@@ -1204,20 +1285,24 @@ function renderDashboard() {
             }).join("")}</ul>` : `<p class="dashboard-empty-copy">Once you save opportunities, Prograde will surface the ones that need attention first.</p>`}
           </article>
           <article class="dashboard-panel">
-            <p class="eyebrow">Recent progress</p>
+            <p class="eyebrow">Recent wins</p>
             <h3>Keep the loop visible.</h3>
             ${progressLog.length ? `<ul class="progress-log">${progressLog.slice(0, 5).map((entry) => `<li><strong>${entry.message}</strong><span>${entry.date}</span></li>`).join("")}</ul>` : `<p class="dashboard-empty-copy">Completed tasks, path choices, and workflow updates will show up here so progress feels real.</p>`}
           </article>
           <article class="dashboard-panel">
-            <p class="eyebrow">Pass it on</p>
-            <h3>By students, for students.</h3>
+            <p class="eyebrow">What comes next</p>
+            <h3>Accounts and sync are the next major upgrade.</h3>
             <div class="student-note">
-              <strong>Give-back prompt</strong>
-              <p>${activePath ? activePath.communityPrompt : "As you find useful opportunities, keep a note that could help another student start faster than you did."}</p>
+              <strong>Why it matters</strong>
+              <p>Your current dashboard is local-first for this beta. The next big step is email sign-in so your study sessions, saved opportunities, and notes can follow you across devices.</p>
             </div>
             <div class="student-note">
               <strong>Local-first privacy</strong>
               <p>Your path, saved opportunities, statuses, and tasks stay on this device in local storage for this beta. Prograde does not need an account yet to stay useful.</p>
+            </div>
+            <div class="student-note">
+              <strong>By students, for students</strong>
+              <p>${activePath ? activePath.communityPrompt : "As you find useful opportunities, keep one note that could help another student start faster than you did."}</p>
             </div>
           </article>
         </aside>
@@ -1256,6 +1341,49 @@ function renderDashboard() {
       renderDashboard();
     });
   });
+
+  grid.querySelector("[data-study-mode]")?.addEventListener("change", (event) => {
+    const nextMode = event.currentTarget.value;
+    persistDailySession({ ...dailySession, mode: nextMode });
+    renderDashboard();
+  });
+
+  grid.querySelector("[data-study-duration]")?.addEventListener("change", (event) => {
+    const minutes = Number(event.currentTarget.value) || defaultDailySession.durationMinutes;
+    persistDailySession({ ...dailySession, durationMinutes: minutes, remainingSeconds: minutes * 60, running: false, startedAt: 0 });
+    renderDashboard();
+  });
+
+  grid.querySelectorAll("[data-study-action]").forEach((button) => {
+    button.addEventListener("click", () => {
+      const action = button.dataset.studyAction;
+      if (action === "start") {
+        persistDailySession({ ...dailySession, running: true, startedAt: Date.now() });
+        recordProgress("Started a focus block");
+      } else if (action === "pause") {
+        const synced = syncDailySession();
+        persistDailySession({ ...synced, running: false, startedAt: 0 });
+        recordProgress("Paused a focus block");
+      } else if (action === "reset") {
+        persistDailySession({ ...dailySession, running: false, startedAt: 0, remainingSeconds: dailySession.durationMinutes * 60 });
+      }
+      renderDashboard();
+    });
+  });
+
+  window.clearInterval(studyTimerHandle);
+  if (currentSession.running) {
+    studyTimerHandle = window.setInterval(() => {
+      const latest = syncDailySession();
+      const display = grid.querySelector("[data-timer-display]");
+      if (display) display.textContent = formatDuration(latest.remainingSeconds);
+      if (!latest.running) {
+        window.clearInterval(studyTimerHandle);
+        recordProgress("Finished a focus block");
+        renderDashboard();
+      }
+    }, 1000);
+  }
 
   prepareAnimatedCards(grid);
 }

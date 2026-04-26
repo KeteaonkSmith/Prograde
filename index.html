@@ -3,53 +3,19 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Prograde | Academic resource discovery</title>
-  <meta name="description" content="Prograde is a student opportunity discovery site for scholarships, summer programs, competitions, campus visits, free tools, and academic resources.">
+  <title>Prograde | Student opportunity guides</title>
+  <meta name="description" content="Guide-led student opportunity discovery for scholarships, summer programs, competitions, campus visits, and study resources.">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "Prograde",
     "url": "https://keteaonksmith.github.io/Prograde/",
-    "description": "Prograde is a student opportunity discovery site for scholarships, summer programs, competitions, campus visits, free tools, and academic resources.",
-    "about": {
-      "@type": "Thing",
-      "name": "Student opportunity discovery"
-    },
+    "description": "Prograde is a guide-led student opportunity and study hub for scholarships, summer programs, competitions, campus visits, free tools, and academic resources.",
     "audience": {
       "@type": "EducationalAudience",
       "educationalRole": "student"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Prograde"
-    },
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "What is Prograde?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Prograde is a student opportunity discovery platform that helps high-school and college students find scholarships, summer programs, competitions, campus visits, free tools, and academic resources."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Is Prograde an AI grading tool?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "No. Prograde is not a grading platform, LMS, or teacher feedback tool. It helps students discover and compare academic opportunities."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Does Prograde guarantee admission, scholarships, or acceptance?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "No. Prograde helps students find and sort opportunities, but students still need to verify official requirements and apply through the source organization."
-        }
-      }
-    ]
+    }
   }
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -65,9 +31,10 @@
       <span>Prograde</span>
     </a>
     <nav class="nav" aria-label="Main navigation">
-      <a aria-current="page" href="index.html">Search</a>
+      <a aria-current="page" href="index.html">Guides</a>
       <a href="resources.html">Catalog</a>
-      <a href="onboarding.html">Fit profile</a><a href="dashboard.html">Dashboard</a><a href="paths.html">Paths</a><a href="about.html">About</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="about.html">About</a>
     </nav>
     <a class="nav-cta" href="onboarding.html">Start fit profile</a>
   </header>
@@ -76,17 +43,17 @@
     <section class="hero hero-tool">
       <div class="hero-orbit" aria-hidden="true"><span class="orbit-probe"></span></div>
       <div class="hero-copy">
-        <p class="eyebrow">Academic opportunities, mapped for students</p>
-        <h1>Find academic opportunities that fit you.</h1>
-        <p class="lede">Prograde helps high-school and college students find scholarships, summer programs, competitions, campus visits, free tools, and academic resources without digging through scattered lists, stale pages, or paywalled databases.</p>
+        <p class="eyebrow">By students, for students</p>
+        <h1>Start with a guide that actually tells you what is worth your time.</h1>
+        <p class="lede">Prograde is a student opportunity and study hub built around real ranked guides, official-source links, and a dashboard that helps you keep moving after the first click.</p>
         <div class="hero-actions" aria-label="Primary actions">
-          <a class="source-button" href="onboarding.html">Start with your fit profile</a>
-          <a class="ghost-button" href="dashboard.html">See the dashboard loop</a>
+          <a class="source-button" href="guides/free-summer-programs-high-school.html">Read a flagship guide</a>
+          <a class="ghost-button" href="dashboard.html">Open the study dashboard</a>
         </div>
         <div class="mission-path" aria-label="How Prograde works">
-          <span><strong>1</strong> Search</span>
-          <span><strong>2</strong> Rank by fit</span>
-          <span><strong>3</strong> Save a shortlist</span>
+          <span><strong>1</strong> Read the guide</span>
+          <span><strong>2</strong> Save what fits</span>
+          <span><strong>3</strong> Study and prepare</span>
           <span><strong>4</strong> Come back and keep moving</span>
         </div>
         <div class="hero-stats" aria-label="Prograde catalog stats">
@@ -96,7 +63,7 @@
         </div>
       </div>
       <form class="search-panel" data-search-form>
-        <p class="eyebrow">Start anywhere</p>
+        <p class="eyebrow">Find a real entry point</p>
         <label for="home-search">Search by goal, subject, grade, cost, or deadline</label>
         <div class="search-line">
           <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16.5 16.5 4 4"/></svg>
@@ -108,31 +75,22 @@
           <button type="button" data-fill="scholarships closing soon">Closing soon</button>
           <button type="button" data-fill="online computer science courses">Online CS</button>
         </div>
-        <p class="search-hint">The catalog will show fit, cost, timing, and the official source before you leave Prograde.</p>
+        <p class="search-hint">The catalog is still here when you need the broader field, but the fastest way in is usually one good guide and one honest shortlist.</p>
       </form>
     </section>
 
     <section class="split-section">
       <div>
-        <p class="eyebrow">What Prograde is</p>
-        <h2>A student opportunity discovery site, not a teacher grading product.</h2>
+        <p class="eyebrow">Start with a flagship guide</p>
+        <h2>These are the pages that should earn the bookmark, the share, and the first real bit of trust.</h2>
       </div>
       <div class="benefit-grid">
-        <article>
-          <span>What it is</span>
-          <h3>Search and compare real opportunities.</h3>
-          <p>Prograde is built for students looking for scholarships, summer programs, competitions, hackathons, campus visits, courses, and free academic tools.</p>
-        </article>
-        <article>
-          <span>What it is not</span>
-          <h3>Not a grading app, LMS, or admissions consultancy.</h3>
-          <p>Prograde does not grade assignments, manage classrooms, or promise acceptance. It helps students find worthwhile opportunities and verify them faster.</p>
-        </article>
-        <article>
-          <span>Why it exists</span>
-          <h3>Good opportunities are often badly organized.</h3>
-          <p>Students should not need insider knowledge to find open, affordable, legitimate options with clear timing, eligibility, and official sources attached.</p>
-        </article>
+        <article><span>Summer</span><h3><a href="guides/free-summer-programs-high-school.html">Free Summer Programs for High School Students</a></h3><p>Ranked options, top picks, and plain-English notes on what is actually worth the effort.</p></article>
+        <article><span>Money</span><h3><a href="guides/scholarships-for-juniors-and-seniors.html">Scholarships for Juniors and Seniors</a></h3><p>Better than scholarship spam: reputable options, real tradeoffs, and where to start first.</p></article>
+        <article><span>Cyber</span><h3><a href="guides/cybersecurity-competitions-for-students.html">Cybersecurity Competitions for Students</a></h3><p>A beginner-to-builder path through competitions, training, and public proof.</p></article>
+        <article><span>Engineering</span><h3><a href="guides/engineering-open-houses-and-campus-visits.html">Engineering Open Houses and Campus Visits</a></h3><p>Use visits to inspect culture, labs, and day-to-day engineering life before you apply.</p></article>
+        <article><span>Affordability</span><h3><a href="guides/free-college-credit-and-fee-waivers.html">Free College Credit and Fee Waiver Resources</a></h3><p>Start reducing cost before senior panic turns every decision into a rushed one.</p></article>
+        <article><span>Humanities</span><h3><a href="guides/writing-history-humanities-resources.html">Writing, History, and Humanities Resources</a></h3><p>Stronger reading, writing, research, and visible work for students beyond STEM-only lists.</p></article>
       </div>
     </section>
 
@@ -140,7 +98,7 @@
       <div class="board-head">
         <div>
           <p class="eyebrow">Live discovery board</p>
-          <h2>Viable options, not just what-ifs.</h2>
+          <h2>Still useful when you need the broader field.</h2>
         </div>
         <a class="text-link" href="resources.html">Open full catalog</a>
       </div>
@@ -149,204 +107,63 @@
 
     <section class="split-section">
       <div>
-        <p class="eyebrow">Why opportunities matter</p>
-        <h2>The goal is not just to look impressive. It is to learn, contribute, and show real evidence.</h2>
+        <p class="eyebrow">What the dashboard is for</p>
+        <h2>Discovery is only the first half. The dashboard is where Prograde becomes something you come back to.</h2>
       </div>
       <div class="benefit-grid">
-        <article>
-          <span>Explore</span>
-          <h3>Test a field before committing to it.</h3>
-          <p>A summer course or competition can show whether you really enjoy AI, policy, math, design, research, or entrepreneurship before you commit harder.</p>
-        </article>
-        <article>
-          <span>Build</span>
-          <h3>Create proof of skill.</h3>
-          <p>Projects, papers, presentations, code, awards, and mentor feedback carry more weight than saying you are interested in something.</p>
-        </article>
-        <article>
-          <span>Access</span>
-          <h3>Find paths your school may not advertise.</h3>
-          <p>Free programs, scholarships, and open resources can open doors that expensive private prep often tries to gatekeep.</p>
-        </article>
+        <article><span>Save</span><h3>Keep a shortlist that still matters tomorrow.</h3><p>Saved opportunities, next actions, and deadline context should survive after the first late-night search.</p></article>
+        <article><span>Study</span><h3>Use short focus blocks and micro-tasks.</h3><p>The goal is gentle momentum, especially for students who need smaller steps and less cognitive clutter.</p></article>
+        <article><span>Return</span><h3>Come back because progress is visible.</h3><p>The strongest version of Prograde helps you keep moving, not just browse once and disappear.</p></article>
       </div>
     </section>
 
     <section class="split-section">
       <div>
-        <p class="eyebrow">Why students use it</p>
-        <h2>Built for the moment when you know you should be doing something, but do not know where to start.</h2>
+        <p class="eyebrow">Why this matters</p>
+        <h2>The goal is not just to look impressive. It is to learn, contribute, and build proof that means something.</h2>
       </div>
       <div class="benefit-grid">
-        <article>
-          <span>01</span>
-          <h3>Plain-English search</h3>
-          <p>Describe your grade, interests, budget, location, and constraints in normal language. The site is built around how students actually ask for help.</p>
-        </article>
-        <article>
-          <span>02</span>
-          <h3>Decision-ready cards</h3>
-          <p>Every card shows cost, deadline, eligibility, effort, and why it may fit. You should not have to open five tabs just to learn something is too expensive or already closed.</p>
-        </article>
-        <article>
-          <span>03</span>
-          <h3>Human verification</h3>
-          <p>Listings are checked for stale deadlines, hidden fees, and eligibility traps. Prograde is meant to save students from wasting time on bad leads.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="split-section">
-      <div>
-        <p class="eyebrow">How Prograde works</p>
-        <h2>Official sources first, fit sorting second, human judgment always.</h2>
-      </div>
-      <div class="benefit-grid">
-        <article>
-          <span>Source</span>
-          <h3>Every resource points back to its official page.</h3>
-          <p>Prograde summarizes opportunities, but the source organization still controls deadlines, eligibility, and application rules.</p>
-        </article>
-        <article>
-          <span>Fit</span>
-          <h3>The ranking helps sort, not predict.</h3>
-          <p>Fit scores use your profile to surface useful options faster. They do not predict admission, scholarship success, or competitive outcomes.</p>
-        </article>
-        <article>
-          <span>Refresh</span>
-          <h3>The catalog is reviewed and republished on a recurring scout cycle.</h3>
-          <p>Prograde checks source links, rebuilds pages, and flags updates so the site stays useful instead of turning into another stale directory.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="split-section">
-      <div>
-        <p class="eyebrow">How to use Prograde</p>
-        <h2>Turn vague ambition into a short list you can actually use.</h2>
-      </div>
-      <div class="benefit-grid">
-        <article>
-          <span>Step 1</span>
-          <h3>Set your profile</h3>
-          <p>Pick your grade, interests, cost tolerance, preferred format, and effort level. The catalog starts to feel personal instead of generic.</p>
-        </article>
-        <article>
-          <span>Step 2</span>
-          <h3>Compare the tradeoffs</h3>
-          <p>Look at cost, deadline, effort, format, and eligibility before opening tabs. Skip anything that is prestigious but wrong for you.</p>
-        </article>
-        <article>
-          <span>Step 3</span>
-          <h3>Verify and apply</h3>
-          <p>Every resource card points to its official source. Use Prograde to narrow the field, then confirm dates and requirements before you submit anything.</p>
-        </article>
+        <article><span>Explore</span><h3>Test a field before committing to it.</h3><p>A course, challenge, or visit can tell you whether you actually like the work, not just the idea of the field.</p></article>
+        <article><span>Build</span><h3>Create visible evidence.</h3><p>Projects, essays, papers, demos, and public work say more than “I’m interested in this.”</p></article>
+        <article><span>Share</span><h3>Help the next student start faster.</h3><p>Prograde is strongest when students leave behind notes, shortcuts, and context that make opportunity less hidden.</p></article>
       </div>
     </section>
 
     <section class="timeline-section">
       <div class="board-head">
         <div>
-          <p class="eyebrow">Best time to apply</p>
-          <h2>Most "summer" opportunities are won months before summer.</h2>
+          <p class="eyebrow">Best time to move</p>
+          <h2>Most of the work starts earlier than students think.</h2>
         </div>
         <a class="text-link" href="resources.html">Check current status</a>
       </div>
       <div class="timeline-grid">
-        <article><span>9th-10th</span><h3>Build foundations</h3><p>Use free courses, competitions, clubs, and small projects. Do not wait for a prestigious program to give you permission to start.</p></article>
-        <article><span>Junior fall</span><h3>Shortlist serious programs</h3><p>Research-heavy programs and selective summer opportunities often need essays, recommendations, and problem sets before winter.</p></article>
-        <article><span>Junior winter</span><h3>Submit summer applications</h3><p>Many competitive summer programs close between December and March, even if the program happens in June or July.</p></article>
-        <article><span>Senior fall</span><h3>Scholarship season</h3><p>Major national scholarships often open in August and close by September-November. Summer before senior year is prep time.</p></article>
+        <article><span>9th-10th</span><h3>Build foundations</h3><p>Use free courses, clubs, competitions, and smaller projects so you are not waiting on prestige to begin.</p></article>
+        <article><span>Junior fall</span><h3>Shortlist serious programs</h3><p>Selective summer and research programs often need recommendation-ready work long before winter.</p></article>
+        <article><span>Junior winter</span><h3>Submit summer applications</h3><p>Many summer opportunities close months before summer actually starts.</p></article>
+        <article><span>Senior fall</span><h3>Hit scholarship season early</h3><p>Major scholarships often open in August and close fast. Summer before senior year is prep time.</p></article>
       </div>
     </section>
 
     <section class="split-section">
       <div>
-        <p class="eyebrow">Popular student searches</p>
-        <h2>Start from the question students actually type.</h2>
+        <p class="eyebrow">What Prograde is not</p>
+        <h2>Not a grading app, not a counselor replacement, and not a promise machine.</h2>
       </div>
       <div class="benefit-grid">
-        <article><span>Programs</span><h3>Free summer programs</h3><p>Find free and funded summer opportunities with timing and fit guidance.</p><a class="source-button" href="guides/free-summer-programs-high-school.html">Open guide</a></article>
-        <article><span>Money</span><h3>Scholarships and waivers</h3><p>Compare need-based, merit, fee-waiver, and college-affordability paths.</p><a class="source-button" href="guides/free-college-credit-and-fee-waivers.html">Open guide</a></article>
-        <article><span>Cyber</span><h3>Cybersecurity competitions</h3><p>Build a route from beginner learning to team competitions and projects.</p><a class="source-button" href="guides/cybersecurity-competitions-for-students.html">Open guide</a></article>
+        <article><span>Not grading</span><h3>It is for students, not teacher workflows.</h3><p>Prograde does not grade assignments, manage classrooms, or automate teacher feedback.</p></article>
+        <article><span>Not magic</span><h3>Fit helps sort, not predict.</h3><p>The site can help you narrow the field and keep your next step visible, but it cannot guarantee scholarships or admission.</p></article>
+        <article><span>Still human</span><h3>Official sources stay attached.</h3><p>Every serious decision still ends at the source page, where dates, eligibility, and rules can change.</p></article>
       </div>
-    </section>
-
-    <section class="split-section">
-      <div>
-        <p class="eyebrow">Community impact</p>
-        <h2>The best opportunities should help more than one person.</h2>
-      </div>
-      <div class="benefit-grid">
-        <article><span>Share</span><h3>Turn what you learn into something useful for other students.</h3><p>Workshop notes, club resources, tutoring, and public guides help your community while also showing leadership and follow-through.</p></article>
-        <article><span>Build</span><h3>Create projects that solve a real local problem.</h3><p>A resume gets stronger when a project helps actual people: a tutoring system, scholarship sheet, club toolkit, or event guide is evidence with impact.</p></article>
-        <article><span>Lead</span><h3>Use access to pull other students forward.</h3><p>Once you find a good opportunity, share it, explain the process, and make it easier for someone else to apply next time.</p></article>
-      </div>
-    </section>
-
-    <section class="split-section">
-      <div>
-        <p class="eyebrow">Quick answers</p>
-        <h2>Plain-language answers for students, parents, counselors, and search systems.</h2>
-      </div>
-      <div class="benefit-grid">
-        <article>
-          <span>FAQ</span>
-          <h3>What does Prograde do?</h3>
-          <p>It helps students find and compare scholarships, summer programs, competitions, hackathons, campus visits, free tools, and academic resources.</p>
-        </article>
-        <article>
-          <span>FAQ</span>
-          <h3>Who is it for?</h3>
-          <p>High-school and college students, especially students who need clearer guidance on cost, eligibility, deadlines, and where to start.</p>
-        </article>
-        <article>
-          <span>FAQ</span>
-          <h3>What should students expect?</h3>
-          <p>A curated discovery layer with fit sorting and official links, not guaranteed outcomes or a replacement for reading the source page carefully.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="pathways">
-      <a href="programs.html">
-        <span>Summer programs</span>
-        <strong>Research labs, residential institutes, mentorships</strong>
-      </a>
-      <a href="scholarships.html">
-        <span>Scholarships</span>
-        <strong>Awards filtered by grade, need, merit, and effort</strong>
-      </a>
-      <a href="resources.html#competitions">
-        <span>Competitions</span>
-        <strong>STEM, humanities, entrepreneurship, writing</strong>
-      </a>
-      <a href="resources.html#hackathons">
-        <span>Hackathons</span>
-        <strong>Cybersecurity, app-building, team projects, and demos</strong>
-      </a>
-      <a href="courses.html">
-        <span>Online courses</span>
-        <strong>Free and low-cost ways to build proof of interest</strong>
-      </a>
-      <a href="free-resources.html">
-        <span>Free tools</span>
-        <strong>Design, coding, writing, research, and planning resources</strong>
-      </a>
-      <a href="resources.html#visits">
-        <span>Visits</span>
-        <strong>Campus tours, open houses, and college exploration events</strong>
-      </a>
     </section>
   </main>
 
   <footer class="footer">
-    <div><strong>Prograde</strong><span>By students, for students who want to keep moving.</span></div>
-    <nav><a href="resources.html">Catalog</a><a href="about.html">Mission</a><a href="mailto:hello@prograde.app">hello@prograde.app</a></nav>
+    <div><strong>Prograde</strong><span>Student-built guides, a real catalog, and a dashboard meant to keep students moving.</span></div>
+    <nav><a href="resources.html">Catalog</a><a href="dashboard.html">Dashboard</a><a href="about.html">About</a></nav>
   </footer>
 
   <script src="assets/resources-data.js"></script>
   <script src="assets/app.js"></script>
 </body>
 </html>
-
-

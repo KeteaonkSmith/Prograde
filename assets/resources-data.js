@@ -2701,4 +2701,32 @@ window.PROGRADE_RESOURCES.push(
   }
 );
 
+(() => {
+  const editorialByTitle = {
+    "Girls Who Code Pathways": { guides: ["Free Summer Programs for High School Students"], bestBet: true, progradeNote: "A strong low-cost builder if you want to leave summer with a project instead of just a certificate.", goodFor: "Students who want a free, remote, beginner-friendly way to build a project.", skipIf: "You need a research-heavy or math-heavy program." },
+    "Summer Science Program": { guides: ["Free Summer Programs for High School Students"], bestBet: true, progradeNote: "A serious STEM summer with real upside if you are ready for intensity.", goodFor: "Students with solid science or math preparation.", skipIf: "You are still figuring out whether you even like STEM work day to day." },
+    "Yale Young Global Scholars": { guides: ["Free Summer Programs for High School Students"], bestBet: true, progradeNote: "One of the better-known funded options if aid makes it realistic for you.", goodFor: "Students who want a broad academic or leadership summer with strong peers.", skipIf: "You need a guaranteed no-cost option." },
+    "QuestBridge College Prep Scholars": { guides: ["Scholarships for Juniors and Seniors", "Free College Credit and Fee Waiver Resources"], bestBet: true, progradeNote: "An unusually strong early move for high-achieving, low-income juniors because it builds momentum before senior year.", goodFor: "Juniors who want structure, visibility, and college-access support.", skipIf: "You do not match the financial context it is built for." },
+    "Dell Scholars": { guides: ["Scholarships for Juniors and Seniors"], bestBet: true, progradeNote: "Worth real attention because it values context and persistence, not just polished stats.", goodFor: "Students with strong resilience stories and real college-going need.", skipIf: "You are looking for a low-effort, no-context application." },
+    "College Board BigFuture Scholarships": { guides: ["Scholarships for Juniors and Seniors", "Free College Credit and Fee Waiver Resources"], bestBet: true, progradeNote: "A practical early habit-builder even if it is not the flashiest scholarship on the page.", goodFor: "Students in 9th-11th grade who need a low-friction way to start planning.", skipIf: "You only want highly selective named awards." },
+    "picoCTF": { guides: ["Cybersecurity Competitions for Students"], bestBet: true, progradeNote: "Probably the best beginner entry here if you want to learn by doing instead of reading about cyber forever.", goodFor: "Beginners who want approachable challenges and visible progress.", skipIf: "You need a team-based structure to stay engaged." },
+    "CyberPatriot": { guides: ["Cybersecurity Competitions for Students"], bestBet: true, progradeNote: "Excellent if you want team structure, season-long reps, and proof you can work under pressure.", goodFor: "Students who can find or build a team and want a serious competition loop.", skipIf: "You only want solo learning." },
+    "IBM SkillsBuild": { guides: ["Cybersecurity Competitions for Students"], bestBet: true, progradeNote: "A clean free training layer when you need skill-building before bigger competitions make sense.", goodFor: "Students who need accessible self-paced training.", skipIf: "You only care about competition signal." },
+    "UIUC Engineering Open House": { guides: ["Engineering Open Houses and Campus Visits"], bestBet: true, progradeNote: "One of the clearest examples of a visit that shows engineering culture instead of just talking about it.", goodFor: "Students who want to see projects, teams, and lab energy in person.", skipIf: "Travel makes it unrealistic this cycle." },
+    "Purdue AAE Prospective Family Visits": { guides: ["Engineering Open Houses and Campus Visits"], bestBet: true, progradeNote: "Especially strong if aerospace or a highly specific engineering direction is already on your mind.", goodFor: "Students interested in aerospace or wanting a closer academic look than a general tour.", skipIf: "You still need broad campus context first." },
+    "Purdue Campus Visits": { guides: ["Engineering Open Houses and Campus Visits"], bestBet: true, progradeNote: "A practical starting point because it gives broader context before you decide whether a more specialized visit is worth the trip.", goodFor: "Students beginning the campus-comparison stage.", skipIf: "You already know the school and need only department depth." },
+    "FAFSA": { guides: ["Free College Credit and Fee Waiver Resources"], bestBet: true, progradeNote: "Not optional if affordability matters. Understanding it early beats panicking about it late.", goodFor: "Students and families preparing for financial-aid reality.", skipIf: "You want scholarship-only thinking instead of the full affordability picture." },
+    "BigFuture": { guides: ["Free College Credit and Fee Waiver Resources"], bestBet: true, progradeNote: "A better planning layer than many students realize when used as a tool instead of a brand page.", goodFor: "Students starting a college-cost and search workflow.", skipIf: "You already have a strong planning system." },
+    "Purdue OWL": { guides: ["Writing, History, and Humanities Resources"], bestBet: true, progradeNote: "Still one of the most practical writing resources because it helps the actual work in front of you.", goodFor: "Students writing essays, scholarship responses, or research papers.", skipIf: "You need deep subject content more than writing support." },
+    "National History Day": { guides: ["Writing, History, and Humanities Resources"], bestBet: true, progradeNote: "A strong way to turn history interest into visible evidence instead of just another class grade.", goodFor: "Students who want research, argument, and presentation evidence.", skipIf: "You do not want project work with deadlines." },
+    "Open Yale Courses": { guides: ["Writing, History, and Humanities Resources"], bestBet: true, progradeNote: "A serious free content layer for humanities students who are ready to self-direct.", goodFor: "Students ready to self-direct their reading and note-taking.", skipIf: "You need structure more than content." }
+  };
+
+  window.PROGRADE_RESOURCES.forEach((resource) => {
+    const editorial = editorialByTitle[resource.title];
+    if (!editorial) return;
+    Object.assign(resource, editorial);
+  });
+})();
+
 
