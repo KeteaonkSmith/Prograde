@@ -2,754 +2,1830 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 0,
-    "unreachable": 0,
-    "redirected": 0
+    "reachable": 106,
+    "unreachable": 18,
+    "redirected": 20
   },
   "entries": [
     {
       "id": "CyberPatriot",
       "title": "CyberPatriot",
       "category": "hackathon",
-      "source": "https://www.uscyberpatriot.org/competition/Competition-Overview/competition-overview"
+      "source": "https://www.uscyberpatriot.org/competition/Competition-Overview/competition-overview",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://www.uscyberpatriot.org/competition/Competition-Overview/competition-overview",
+      "pageTitle": "Competition Overview",
+      "sourceChanged": false,
+      "signals": [
+        "Register Team or Volunteer Registration Competition Getting Started Competition Overview Join the Competition New Coach Resources Current Competitio",
+        "open to all schools and approved youth organizations",
+        "registration process, review this competition overview to get a better understanding of the competition! WHO TEAM MEMBERS Coach&#58; An adult (e"
+      ]
     },
     {
       "id": "Congressional App Challenge",
       "title": "Congressional App Challenge",
       "category": "hackathon",
-      "source": "https://www.congressionalappchallenge.us/students/student-registration/"
+      "source": "https://www.congressionalappchallenge.us/students/student-registration/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://www.congressionalappchallenge.us/students/student-registration/",
+      "pageTitle": "STUDENT REGISTRATION -",
+      "sourceChanged": false,
+      "signals": [
+        "REGISTRATION - Skip to content Menu Connecting today's Congress with tomorrow's innovators",
+        "REGISTRATION RULES PARTICIPATING DISTRICTS PAST WINNERS LEARN TO CODE TOP APPS PRESENTED BY THECODERSCHOOL #HOUSEOFCODE CONGRESS RESOURCES CONGRESSIONAL",
+        "Close Menu REGISTER IN 2026 Registration for the 2026 Congressional App Challenge will open on May 1, 2026"
+      ]
     },
     {
       "id": "Technovation Girls",
       "title": "Technovation Girls",
       "category": "hackathon",
-      "source": "https://technovationchallenge.org/program-overview/program-overview-us/"
+      "source": "https://technovationchallenge.org/program-overview/program-overview-us/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://technovationchallenge.org/program-overview/program-overview-us/",
+      "pageTitle": "U.S. Program Overview - Technovation Girls",
+      "sourceChanged": false,
+      "signals": [
+        "open to girls, non-binary, and gender non-conforming youth there are ways boys are welcome to use the curriculum and resources too! ANYONE can u"
+      ]
     },
     {
       "id": "Major League Hacking Events",
       "title": "Major League Hacking Events",
       "category": "hackathon",
-      "source": "https://mlh.io/"
+      "source": "https://mlh.io/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://mlh.io/",
+      "pageTitle": "Major League Hacking",
+      "sourceChanged": false,
+      "signals": [
+        "Open Source From October 16th-23rd, DigitalOcean will be partnering with MLH for Global Hack Week: Open Source in honor of Hacktoberfest taking"
+      ]
     },
     {
       "id": "MIT PRIMES / PRIMES-USA",
       "title": "MIT PRIMES / PRIMES-USA",
       "category": "program",
-      "source": "https://math.mit.edu/research/highschool/primes/index.php"
+      "source": "https://math.mit.edu/research/highschool/primes/index.php",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://math.mit.edu/research/highschool/primes/index.php",
+      "pageTitle": "PRIMES",
+      "sourceChanged": false,
+      "signals": [
+        "Apply PRIMES-USA PRIMES-USA Apply CrowdMath PRIMES Circle PRIMES Circle Students Say Circle Mentors Papers Apply Yulia's Dream Yulia's Dream 2025",
+        "Apply Other Programs FAQ Contact RSI RSI Past Projects Lecture Series Academics Academics Academic Services Academic Services Forms and Requests",
+        "Apply Other Programs FAQ Contact RSI RSI Past Projects Lecture Series PRIMES: Program for Research in Mathematics, Engineering and Science for Hi"
+      ]
     },
     {
       "id": "Research Science Institute",
       "title": "Research Science Institute",
       "category": "program",
-      "source": "https://www.cee.org/programs/research-science-institute"
+      "source": "https://www.cee.org/programs/research-science-institute",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://www.cee.org/programs/research-science-institute",
+      "pageTitle": "Research Science Institute | Center for Excellence in Education",
+      "sourceChanged": false,
+      "signals": [
+        "Apply to the RSI Program RSI Application FAQs RSI-India International Outreach Global Community USA Biolympiad USABO Portal Teacher Enrichment Pr",
+        "Apply to RSI High school juniors are eligible"
+      ]
     },
     {
       "id": "PROMYS",
       "title": "PROMYS",
       "category": "program",
-      "source": "https://promys.org/programs/promys/for-students/"
+      "source": "https://promys.org/programs/promys/for-students/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://promys.org/programs/promys/for-students/",
+      "pageTitle": "For Students &#8211; PROMYS | Program in Mathematics for Young Scientists",
+      "sourceChanged": false,
+      "signals": [
+        "Apply For Counselors Quick Facts Counselor Mathematics FAQ Testimonials To Apply PROMYS for Teachers PROMYS Pathways PROMYS Europe PROMYS India P",
+        "close environment of people with a shared passion fosters truly brilliant collaboration, and the structure of each problem set weaves deep thinki",
+        "Application Deadline: February 27, 2026, 11:59 pm (EST) Admissions Decisions: end of April 2026 TBD Cost and Financial Aid &amp; Scholarships PROMYS be"
+      ]
     },
     {
       "id": "Girls Who Code Pathways",
       "title": "Girls Who Code Pathways",
       "category": "program",
-      "source": "https://girlswhocode.zendesk.com/hc/en-us/articles/44033965033243-What-program-is-Girls-Who-Code-offering-during-the-summer"
+      "source": "https://girlswhocode.zendesk.com/hc/en-us/articles/44033965033243-What-program-is-Girls-Who-Code-offering-during-the-summer",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://girlswhocode.zendesk.com/hc/en-us/articles/44033965033243-What-program-is-Girls-Who-Code-offering-during-the-summer",
+      "pageTitle": "What program is Girls Who Code offering during the summer? &ndash; Girls Who Code FAQ",
+      "sourceChanged": false,
+      "signals": [
+        "apply"
+      ]
     },
     {
       "id": "Bank of America Student Leaders",
       "title": "Bank of America Student Leaders",
       "category": "program",
-      "source": "https://about.bankofamerica.com/en/making-an-impact/student-leaders"
+      "source": "https://about.bankofamerica.com/en/making-an-impact/student-leaders",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://about.bankofamerica.com/en/making-an-impact/student-leaders",
+      "pageTitle": "Bank of America Student Leaders® Program - Bank of America",
+      "sourceChanged": false,
+      "signals": [
+        "Close Important notice you are now leaving Bank of America Top Sign in Contact us Location finder Help Our company Responsible growth Business pr",
+        "apply",
+        "apply to wires and certain transfers"
+      ]
     },
     {
       "id": "Harvard Secondary School Program",
       "title": "Harvard Secondary School Program",
       "category": "program",
-      "source": "https://summer.harvard.edu/high-school-programs/secondary-school-program/"
+      "source": "https://summer.harvard.edu/high-school-programs/secondary-school-program/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://summer.harvard.edu/high-school-programs/secondary-school-program/",
+      "pageTitle": "Secondary School Program for High School Students | Harvard Summer School",
+      "sourceChanged": false,
+      "signals": [
+        "Registration Summer 2026 Academic Calendar Harvard Extension School Students Adult Course Takers Visiting College Students Harvard College Students Tuit",
+        "Apply Costs and Funding Policies and Safety For Admitted Students Students in Need of Accommodations For Students Campus Life Support and Service",
+        "Registration for Summer 2026 Is Open Browse Courses How to Register Facebook YouTube Instagram LinkedIn High School Programs / Secondary School Program"
+      ]
     },
     {
       "id": "Stanford Summer Session High School",
       "title": "Stanford Summer Session High School",
       "category": "program",
-      "source": "https://summer.stanford.edu/high-school"
+      "source": "https://summer.stanford.edu/high-school",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://summer.stanford.edu/students/high-school",
+      "pageTitle": "High School | Summer Session",
+      "sourceChanged": true,
+      "signals": [
+        "Apply now Menu Search this site Submit Search Apply now Request info Students Undergraduate Graduate Gap Year High School Stanford Students Cours",
+        "Application Process Dates and Deadlines International Students Cost Tuition &amp; Fees Calculator Tuition Grants Student Life Events Residential or Com",
+        "Application Requirements As part of the application, you will be asked to supply: transcripts, one essay, and proof of English proficiency (if necessar"
+      ]
     },
     {
       "id": "Coca-Cola Scholars Program",
       "title": "Coca-Cola Scholars Program",
       "category": "scholarship",
-      "source": "https://www.coca-colascholarsfoundation.org/about/faq"
+      "source": "https://www.coca-colascholarsfoundation.org/about/faq",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://www.coca-colascholarsfoundation.org/about/faq",
+      "pageTitle": "FAQ - Coca-Cola Scholars Foundation",
+      "sourceChanged": false,
+      "signals": [
+        "Application Questions If you're in your final year of high school and have questions about our scholarship application, this is for you",
+        "application open? Expand The Coke Scholars application will reopen for students graduating high school during the 2025-2026 academic year on August 1,",
+        "deadline for the Coca-Cola Scholars application? Expand The deadline for the 2026 Coke Scholars application is 5 pm Eastern on September 30, 2025"
+      ]
     },
     {
       "id": "QuestBridge National College Match",
       "title": "QuestBridge National College Match",
       "category": "scholarship",
-      "source": "https://www.questbridge.org/apply-to-college/programs/national-college-match"
+      "source": "https://www.questbridge.org/apply-to-college/programs/national-college-match",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://www.questbridge.org/apply-to-college/programs/national-college-match",
+      "pageTitle": "National College Match | QuestBridge",
+      "sourceChanged": false,
+      "signals": [
+        "apply-to-college')) hovering = true; openPanel('apply-to-college') })\" > Apply to College Apply to College QuestBridge supports high-achieving st",
+        "Apply High School Seniors National College Match The Match Scholarship Apply Dates & Deadlines Ranking Colleges Regular Decision Learn More Colle",
+        "Open Mobile Menu Search Term svg]:size-full p-2"
+      ]
     },
     {
       "id": "Jack Kent Cooke College Scholarship",
       "title": "Jack Kent Cooke College Scholarship",
       "category": "scholarship",
-      "source": "https://www.jkcf.org/our-scholarships/college-scholarship-program/"
+      "source": "https://www.jkcf.org/our-scholarships/college-scholarship-program/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://www.jkcf.org/our-scholarships/college-scholarship-program/",
+      "pageTitle": "College Scholarship Program - Jack Kent Cooke Foundation",
+      "sourceChanged": false,
+      "signals": [
+        "Apply FAQs For Educators Resources for High Schoolers Notify Me College Scholarship Program The Cooke College Scholarship Program is an undergrad",
+        "Apply Learn More Contact Us The Cooke College Scholarship Program application is closed",
+        "application or the program, please do not call the Foundation"
+      ]
     },
     {
       "id": "Elks Most Valuable Student",
       "title": "Elks Most Valuable Student",
       "category": "scholarship",
-      "source": "https://hq.elks.org/scholars/mvs.cfm"
+      "source": "https://hq.elks.org/scholars/mvs.cfm",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://hq.elks.org/scholars/mvs.cfm",
+      "pageTitle": "Most Valuable Student",
+      "sourceChanged": false,
+      "signals": [
+        "Register Login &#160; Menu Donate ELKS HOME WHO WE ARE Who We Are Info and Testimonials Elks History Project History of BPO Elks Elks Video Gallery",
+        "application has closed",
+        "application opens on August 1, 2026"
+      ]
     },
     {
       "id": "Davidson Fellows Scholarship",
       "title": "Davidson Fellows Scholarship",
       "category": "scholarship",
-      "source": "https://www.davidsongifted.org/gifted-programs/fellows-scholarship/eligibility/"
+      "source": "https://www.davidsongifted.org/gifted-programs/fellows-scholarship/eligibility/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://www.davidsongifted.org/gifted-programs/fellows-scholarship/eligibility/",
+      "pageTitle": "Fellows Scholarship Eligibility | Davidson Institute",
+      "sourceChanged": false,
+      "signals": [
+        "Open Search Open Search Programs and Scholarships Toggle Submenu Young Scholars Summer Opportunities Toggle Submenu Camps Annual Family Events F",
+        "Close search dialog Enter a search term Search Fellows Scholarship Eligibility Brochures on chairs at the Fellows reception Step 1: Eligibility a",
+        "Deadline To be eligible for consideration as a Davidson Fellow, applicants must: Be 18 or younger as of the application deadline to be eligible"
+      ]
     },
     {
       "id": "Regeneron Science Talent Search",
       "title": "Regeneron Science Talent Search",
       "category": "competition",
-      "source": "https://www.societyforscience.org/regeneron-sts/"
+      "source": "https://www.societyforscience.org/regeneron-sts/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://www.societyforscience.org/regeneron-sts/",
+      "pageTitle": "Regeneron Science Talent Search - Society for Science",
+      "sourceChanged": false,
+      "signals": [
+        "Close the menu Site Search Search Close the sitewide search Congratulations to the winners of this year’s Regeneron Science Talent Search! Forty",
+        "Application Period Now Closed The 2027 application will open on June 1, 2026",
+        "Application Requirements Awards For Educators and Mentors Spread the Word! Meet the 2025 Finalists Visit the Virtual Project Exhibition of Projects to"
+      ]
     },
     {
       "id": "USA Computing Olympiad",
       "title": "USA Computing Olympiad",
       "category": "competition",
-      "source": "https://usaco.org/"
+      "source": "https://usaco.org/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://usaco.org/",
+      "pageTitle": "USACO",
+      "sourceChanged": false,
+      "signals": [
+        "Open / EGOI Selection Contest Our final contest of the season (the US Open / EGOI Selection contest) has recently been held -- an invitational c",
+        "Register for New Account 2025-2026 Schedule Jan 9-12: First Contest Jan 30-Feb 2: Second Contest Feb 20-23: Third Contest For each contest, USA stud",
+        "Open (Proctored) May 12-18: EGOI (Italy) May 21-30: Training Camp Aug 9-16: IOI (Uzbekistan) Our Sponsors"
+      ]
     },
     {
       "id": "Conrad Challenge",
       "title": "Conrad Challenge",
       "category": "competition",
-      "source": "https://www.conradchallenge.org/"
+      "source": "https://www.conradchallenge.org/",
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "National History Day",
       "title": "National History Day",
       "category": "competition",
-      "source": "https://nhd.org/"
+      "source": "https://nhd.org/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://nhd.org/en/",
+      "pageTitle": "Home - National History Day",
+      "sourceChanged": true,
+      "signals": [
+        "Apply Now! April 23, 2026 National History Day Introduces Revolutionary Ideals Webinar Series for 114 Educators ahead of America’s 250th Annivers"
+      ]
     },
     {
       "id": "Scholastic Art & Writing Awards",
       "title": "Scholastic Art & Writing Awards",
       "category": "competition",
-      "source": "https://www.artandwriting.org/"
+      "source": "https://www.artandwriting.org/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://www.artandwriting.org/",
+      "pageTitle": "",
+      "sourceChanged": false,
+      "signals": [
+        "opens the door for recognition, scholarships, and more Programs Exhibitions and workshop for teens, professional development for educators Suppor"
+      ]
     },
     {
       "id": "Harvard CS50x",
       "title": "Harvard CS50x",
       "category": "course",
-      "source": "https://harvardonline.harvard.edu/course/cs50-introduction-computer-science"
+      "source": "https://harvardonline.harvard.edu/course/cs50-introduction-computer-science",
+      "status": 429,
+      "reachable": false,
+      "finalUrl": "https://harvardonline.harvard.edu/course/cs50-introduction-computer-science",
+      "pageTitle": "Vercel Security Checkpoint",
+      "sourceChanged": false,
+      "signals": []
     },
     {
       "id": "MIT OpenCourseWare",
       "title": "MIT OpenCourseWare",
       "category": "course",
-      "source": "https://ocw.mit.edu/pages/get-started/"
+      "source": "https://ocw.mit.edu/pages/get-started/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://ocw.mit.edu/pages/get-started/",
+      "pageTitle": "Get Started | MIT OpenCourseWare | Free Online Course Materials",
+      "sourceChanged": false,
+      "signals": [
+        "open publication of material from thousands of MIT courses across the entire MIT curriculum",
+        "Open Educational Resources (OER)",
+        "register to use MIT OpenCourseWare? There’s no registration and no enrollment to use OCW"
+      ]
     },
     {
       "id": "Khan Academy AP Calculus",
       "title": "Khan Academy AP Calculus",
       "category": "course",
-      "source": "https://www.khanacademy.org/math/ap-calculus-ab"
+      "source": "https://www.khanacademy.org/math/ap-calculus-ab",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://www.khanacademy.org/math/ap-calculus-ab",
+      "pageTitle": "Khan Academy",
+      "sourceChanged": false,
+      "signals": []
     },
     {
       "id": "edX CS50 AI with Python",
       "title": "edX CS50 AI with Python",
       "category": "course",
-      "source": "https://www.edx.org/learn/artificial-intelligence/harvard-university-cs50-s-introduction-to-artificial-intelligence-with-python"
+      "source": "https://www.edx.org/learn/artificial-intelligence/harvard-university-cs50-s-introduction-to-artificial-intelligence-with-python",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://www.edx.org/learn/artificial-intelligence/harvard-university-cs50-s-introduction-to-artificial-intelligence-with-python",
+      "pageTitle": "HarvardX: CS50&#x27;s Introduction to Artificial Intelligence with Python | edX",
+      "sourceChanged": false,
+      "signals": [
+        "Open edX 2U Advisory Council Careers News Connect Idea Hub Contact Us Help Center Security Media Kit Legal Terms of Service &amp; Honor Code Pri",
+        "Apply © 2026 edX LLC"
+      ]
     },
     {
       "id": "Coursera Machine Learning Specialization",
       "title": "Coursera Machine Learning Specialization",
       "category": "course",
-      "source": "https://www.coursera.org/specializations/machine-learning-introduction"
+      "source": "https://www.coursera.org/specializations/machine-learning-introduction",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://www.coursera.org/specializations/machine-learning-introduction",
+      "pageTitle": "Machine Learning | Coursera",
+      "sourceChanged": false,
+      "signals": [
+        "Apply best practices for ML development &amp; use unsupervised learning techniques for unsupervised learning including clustering &amp; anomaly d",
+        "apply machine learning to challenging real-world problems",
+        "Apply best practices for machine learning development so that your models generalize to data and tasks in the real world"
+      ]
     },
     {
       "id": "NASA STEM Engagement Internships",
       "title": "NASA STEM Engagement Internships",
       "category": "program",
-      "source": "https://stemgateway.nasa.gov/s/"
+      "source": "https://stemgateway.nasa.gov/s/",
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "NSF Research Experiences for Undergraduates",
       "title": "NSF Research Experiences for Undergraduates",
       "category": "program",
-      "source": "https://www.nsf.gov/funding/initiatives/reu"
+      "source": "https://www.nsf.gov/funding/initiatives/reu",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://www.nsf.gov/funding/initiatives/reu",
+      "pageTitle": "NSF Research Experiences for Undergraduates | NSF - U.S. National Science Foundation",
+      "sourceChanged": false,
+      "signals": [
+        "Apply Preparing Your Proposal Submitting Your Proposal Proposal &amp; Award Policies &amp; Procedures Guide (PAPPG) Additional Resources Research",
+        "apply for funding to support a cohort of undergraduate students in research projects designed specifically for the NSF REU program (an REU Site)",
+        "apply for additional funding to involve undergraduate students in a new or ongoing NSF-funded research project (an REU Supplement)"
+      ]
     },
     {
       "id": "Canva Education",
       "title": "Canva Education",
       "category": "tool",
-      "source": "https://www.canva.com/education/eligibility-guidelines/"
+      "source": "https://www.canva.com/education/eligibility-guidelines/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://www.canva.com/education/eligibility-guidelines/",
+      "pageTitle": "Eligibility Guidelines | Canva Education",
+      "sourceChanged": false,
+      "signals": [
+        "opens in a new tab or window) Jump to: Eligibility guidelines How long does my access to Canva Education last? Who can’t access Canva Education?",
+        "opens in a new tab or window) ) College and university students ( Check out our Canva for Campus product ⁠ (opens in a new tab or window) ) Conti",
+        "opens in a new tab or window) ) Early stage start-ups with an educational focus Parents of children who are in K-12 (primary or secondary) educat"
+      ]
     },
     {
       "id": "GitHub Student Developer Pack",
       "title": "GitHub Student Developer Pack",
       "category": "tool",
-      "source": "https://docs.github.com/articles/using-github-for-your-schoolwork"
+      "source": "https://docs.github.com/articles/using-github-for-your-schoolwork",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://docs.github.com/en/education/about-github-education/github-education-for-students",
+      "pageTitle": "GitHub Education for students - GitHub Docs",
+      "sourceChanged": true,
+      "signals": [
+        "Open menu Open Sidebar GitHub Education / About GitHub Education / For students Home GitHub Education Quickstart for educators About GitHub Educ",
+        "Apply to GitHub Education Troubleshooting access About Community Exchange Terms for Student Benefits For teachers About Apply to GitHub Education",
+        "Application not approved At your institution GitHub Campus Program GitHub Campus Experts Program Apply to Campus Experts GitHub Community Exchange Get"
+      ]
     },
     {
       "id": "Figma for Education",
       "title": "Figma for Education",
       "category": "tool",
-      "source": "https://help.figma.com/hc/en-us/articles/360041061214-Figma-for-Education"
+      "source": "https://help.figma.com/hc/en-us/articles/360041061214-Figma-for-Education",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://help.figma.com/hc/en-us/articles/360041061214-Figma-for-Education",
+      "pageTitle": "Figma for Education &ndash; Figma Learn - Help Center",
+      "sourceChanged": false,
+      "signals": [
+        "close Figma Design Design and prototype in one place Dev Mode Translate designs into code FigJam Collaborate with a digital whiteboard Figma Slid",
+        "apply to Education users: AI tools : AI tools are available for higher education and bootcamp Education users",
+        "Application process 1"
+      ]
     },
     {
       "id": "Notion for Education",
       "title": "Notion for Education",
       "category": "tool",
-      "source": "https://www.notion.com/help/notion-for-education"
+      "source": "https://www.notion.com/help/notion-for-education",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://www.notion.com/help/notion-for-education",
+      "pageTitle": "Notion for education – Notion Help Center",
+      "sourceChanged": false,
+      "signals": [
+        "application here → Check out more of the differences below: Plus Plan for individual students and teachers Plus Plan for student organizations One memb",
+        "apply, make sure of the following: You&#x27;re a student representing a student organization at an accredited institution recognized by and liste",
+        "apply here"
+      ]
     },
     {
       "id": "Purdue OWL",
       "title": "Purdue OWL",
       "category": "study",
-      "source": "https://owl.purdue.edu/"
+      "source": "https://owl.purdue.edu/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://owl.purdue.edu/",
+      "pageTitle": "Purdue OWL® - Purdue OWL® - Purdue University",
+      "sourceChanged": false,
+      "signals": []
     },
     {
       "id": "Zotero",
       "title": "Zotero",
       "category": "study",
-      "source": "https://www.zotero.org/"
+      "source": "https://www.zotero.org/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://www.zotero.org/",
+      "pageTitle": "Zotero | Your personal research assistant",
+      "sourceChanged": false,
+      "signals": [
+        "open source and developed by an independent, nonprofit organization that has no financial interest in your private information"
+      ]
     },
     {
       "id": "Desmos",
       "title": "Desmos",
       "category": "study",
-      "source": "https://www.desmos.com/"
+      "source": "https://www.desmos.com/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://www.desmos.com/",
+      "pageTitle": "Desmos | Beautiful free math.",
+      "sourceChanged": false,
+      "signals": []
     },
     {
       "id": "Purdue Campus Visits",
       "title": "Purdue Campus Visits",
       "category": "visit",
-      "source": "https://admissions.purdue.edu/visit/"
+      "source": "https://admissions.purdue.edu/visit/",
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "Purdue AAE Prospective Family Visits",
       "title": "Purdue AAE Prospective Family Visits",
       "category": "visit",
-      "source": "https://engineering.purdue.edu/AAE/academics/undergraduate/Visit"
+      "source": "https://engineering.purdue.edu/AAE/academics/undergraduate/Visit",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://engineering.purdue.edu/AAE/academics/undergraduate/Visit",
+      "pageTitle": "Visit - School of Aeronautics and Astronautics - Purdue University",
+      "sourceChanged": false,
+      "signals": [
+        "Open Positions in AAE Academics Academics Prospective Students Undergraduate Program Space Engineering Certificate Graduate Program Online Gradu",
+        "Registration Course Information Reserve a Room Research Research Research Areas and Expertise Centers of Excellence Apollo 11 Postdoctoral Fellowship AA"
+      ]
     },
     {
       "id": "UIUC Engineering Open House",
       "title": "UIUC Engineering Open House",
       "category": "visit",
-      "source": "https://www.eohillinois.org/"
+      "source": "https://www.eohillinois.org/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://www.eohillinois.org/",
+      "pageTitle": "EOH 2026",
+      "sourceChanged": false,
+      "signals": [
+        "Open House at the University of Illinois Urbana-Champaign brings Forging the Future April 10th &amp; April 11th, 2026 EOH 2026 Awards The Awards",
+        "Open House (EOH) at the University of Illinois Urbana–Champaign! Whether this is your first visit or your tenth, we are incredibly excited to we",
+        "open"
+      ]
     },
     {
       "id": "UIUC College Open Houses",
       "title": "UIUC College Open Houses",
       "category": "visit",
-      "source": "https://www.admissions.illinois.edu/visit/open-houses"
+      "source": "https://www.admissions.illinois.edu/visit/open-houses",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://www.admissions.illinois.edu/visit/open-houses",
+      "pageTitle": "College Open Houses, Undergraduate Admissions, University of Illinois Urbana-Champaign",
+      "sourceChanged": false,
+      "signals": [
+        "Open Houses, Undergraduate Admissions, University of Illinois Urbana-Champaign You are using an outdated browser",
+        "Apply First-Year How to Apply Help With Applying Dates &amp; Deadlines Requirements Majors Writing Prompts How We Review College Credit College P",
+        "Apply Dates &amp; Deadlines Transfer Handbook Majors Essay Questions How We Review Transferring Credit GPA Guidelines Applicant FAQ More Internat"
+      ]
     },
     {
       "id": "Summer SAIL at University of Oregon",
       "title": "Summer SAIL at University of Oregon",
       "category": "program",
-      "source": "https://fyp.uoregon.edu/sail/summer"
+      "source": "https://fyp.uoregon.edu/sail/summer",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://fyp.uoregon.edu/sail/summer",
+      "pageTitle": "Summer SAIL | UO First-Year Programs",
+      "sourceChanged": false,
+      "signals": [
+        "Apply Visit Give Search Search this site Search Menu Back to First-Year Programs Student Academy to Inspire Learning Menu Summer SAIL Summer SAIL",
+        "Apply Visit Give First-Year Programs Student Academy to Inspire Learning Division of Undergraduate Education and Student Success Promoted Section",
+        "Register Here Residential (Overnight) Program: July 12-17, 2026 Day Program: July 20-24, 2026 FREE&nbsp;weeklong day programs for high school studen"
+      ]
     },
     {
       "id": "Stanford AI4ALL",
       "title": "Stanford AI4ALL",
       "category": "program",
-      "source": "https://spcs.stanford.edu/programs/stanford-ai4all"
+      "source": "https://spcs.stanford.edu/programs/stanford-ai4all",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://spcs.stanford.edu/programs/stanford-ai4all",
+      "pageTitle": "Stanford AI4ALL | Stanford Pre-Collegiate Studies",
+      "sourceChanged": false,
+      "signals": [
+        "Close Help Navigation Explore Our Programs Jobs Join Our Mailing List Contact Us Support Us Search Search About Us Our Offerings Academic Enrichm",
+        "Open to current 9th graders, students learn alongside peers from around the globe and explore how AI tools can make a positive impact in the wor",
+        "Application Deadline February 6, 2026 Grade level(s) 9 Credit Non-Credit Enrichment Program format Online Residential Time of year Summer Program subje"
+      ]
     },
     {
       "id": "MIT Admissions Visit",
       "title": "MIT Admissions Visit",
       "category": "visit",
-      "source": "https://mitadmissions.org/visit/"
+      "source": "https://mitadmissions.org/visit/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://mitadmissions.org/visit/",
+      "pageTitle": "Visit | MIT Admissions",
+      "sourceChanged": false,
+      "signals": [
+        "Open Search Discover About MIT The MIT education Life & culture Learn more Apply Understanding the process Preparing for MIT First-year applican",
+        "apply for aid Student Financial Services Visit Explore MIT on your own Online info sessions Schedule your campus visit MIT visits you Request a g",
+        "Open Search Form Search Pages, Blogs, and FAQs for Submit Search Home Visit Visit MIT We invite you to learn more about MIT through an info sess"
+      ]
     },
     {
       "id": "Stanford Campus Visit",
       "title": "Stanford Campus Visit",
       "category": "visit",
-      "source": "https://admission.stanford.edu/engage/"
+      "source": "https://admission.stanford.edu/engage/",
+      "status": 403,
+      "reachable": false,
+      "finalUrl": "https://admission.stanford.edu/engage/",
+      "pageTitle": "Visitor anti-robot validation",
+      "sourceChanged": false,
+      "signals": []
     },
     {
       "id": "Georgia Tech Visit",
       "title": "Georgia Tech Visit",
       "category": "visit",
-      "source": "https://admission.gatech.edu/visit"
+      "source": "https://admission.gatech.edu/visit",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://admission.gatech.edu/visit/",
+      "pageTitle": "Visit Georgia Tech | Undergraduate Admission",
+      "sourceChanged": true,
+      "signals": [
+        "Apply First-Year Admission Transfer Admission International Applicants International First-Year Applicants International Transfer Applicants Othe",
+        "register for campus tours and programming specifically for admitted students",
+        "application requirements for first-year admission and the many opportunities available for undergraduate students at Georgia Tech"
+      ]
     },
     {
       "id": "UC Berkeley Visitor Services",
       "title": "UC Berkeley Visitor Services",
       "category": "visit",
-      "source": "https://visit.berkeley.edu/"
+      "source": "https://visit.berkeley.edu/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://visit.berkeley.edu/",
+      "pageTitle": "Home | Visitor Services",
+      "sourceChanged": false,
+      "signals": [
+        "Close Welcome! We welcome you to visit UC Berkeley! We offer in-person, virtual, and self-guided campus tours, highlight campus attractions to vi",
+        "register for a virtual campus visit ! Bear Talk blog March 16, 2026 Mar 16 Being Myself at Berkeley March 9, 2026 Mar 09 Yes or Yes: Learning to Say",
+        "Open Berkeley Accessibility Statement Nondiscrimination Policy Statement Privacy Statement Copyright © 2026 UC Regents; all rights reserved Back"
+      ]
     },
     {
       "id": "Carnegie Mellon Admission Visits",
       "title": "Carnegie Mellon Admission Visits",
       "category": "visit",
-      "source": "https://www.cmu.edu/admission/visit"
+      "source": "https://www.cmu.edu/admission/visit",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://www.cmu.edu/visit/campus-tours/",
+      "pageTitle": "Campus Tours | CMU Visit",
+      "sourceChanged": true,
+      "signals": [
+        "close look at our academic buildings and vibrant student life , allowing you to click and explore on your own schedule",
+        "open houses, we may limit the number of guests to three in order to allow more visitors the opportunity to register",
+        "open from 9 a"
+      ]
     },
     {
       "id": "University of Michigan Visit",
       "title": "University of Michigan Visit",
       "category": "visit",
-      "source": "https://admissions.umich.edu/explore-visit/visit-campus"
+      "source": "https://admissions.umich.edu/explore-visit/visit-campus",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://admissions.umich.edu/explore-visit/visit-campus",
+      "pageTitle": "Visit Campus | University of Michigan Office of Undergraduate Admissions",
+      "sourceChanged": false,
+      "signals": [
+        "Apply Costs &amp; Aid Explore &amp; Visit Search Close search menu Academics &amp; Majors Apply Costs &amp; Aid Explore &amp; Visit Visit Campus",
+        "Apply to U-M Costs AP &amp; IB Credit Visit Campus Transfer Applicants Common Questions What materials does U-M need in order to review a first-y",
+        "application? Am I required to submit an SAT or ACT score with my admissions application? What is Early Action (EA) and will an EA app be reviewed diffe"
+      ]
     },
     {
       "id": "Cornell Visit",
       "title": "Cornell Visit",
       "category": "visit",
-      "source": "https://admissions.cornell.edu/visit"
+      "source": "https://admissions.cornell.edu/visit",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://www.cornell.edu/visit/",
+      "pageTitle": "Visit | Cornell University",
+      "sourceChanged": true,
+      "signals": [
+        "close About Cornell About Cornell Overview Cornell History Maps & Directions Mission & Vision Core Values Locations Ithaca New York City Related",
+        "Apply Admissions Dates and Deadlines Costs and Aid Graduate Admissions Fields of Study Financial Support Continuing Education & Summer Sessions S",
+        "Apply Undergraduate Graduate Visit Give Students Families Faculty & Staff Alumni Search Search Visit Cornell Plan Your Visit Discover the wonders"
+      ]
     },
     {
       "id": "Princeton Visit",
       "title": "Princeton Visit",
       "category": "visit",
-      "source": "https://admission.princeton.edu/visit"
+      "source": "https://admission.princeton.edu/visit",
+      "status": 404,
+      "reachable": false,
+      "finalUrl": "https://admission.princeton.edu/visit",
+      "pageTitle": "Page Not Found | Princeton Admission",
+      "sourceChanged": false,
+      "signals": [
+        "Apply Cost &amp; Aid Academics Community Diversity Main Navigation (Mid Col) Apply Overview Before you apply Helpful Tips How to Apply Internatio",
+        "Application Dates &amp; Deadlines Transfer Application Dates &amp; Deadlines Application Checklist Transfer Application Checklist Princeton-specific Qu",
+        "Apply Overview Before you apply Helpful Tips How to Apply International Students Standardized Testing Application Dates &amp; Deadlines Transfer"
+      ]
     },
     {
       "id": "Harvard Visit",
       "title": "Harvard Visit",
       "category": "visit",
-      "source": "https://college.harvard.edu/admissions/explore-harvard/visit-harvard"
+      "source": "https://college.harvard.edu/admissions/explore-harvard/visit-harvard",
+      "status": 404,
+      "reachable": false,
+      "finalUrl": "https://college.harvard.edu/admissions/explore-harvard/visit-harvard",
+      "pageTitle": "Page not found | Harvard",
+      "sourceChanged": false,
+      "signals": [
+        "Apply Apply Submenu First-Year Applicants Considering a Gap Year Application Requirements Transfer Applicants U",
+        "Application High School Counselors High School Counselors Submenu Parents &amp; Families Financial Aid Financial Aid Overview Net Price Calculator Net",
+        "Apply For Financial Aid Apply For Financial Aid Submenu Prospective Students Current Students Financial Aid Forms Additional Funding &amp; Proced"
+      ]
     },
     {
       "id": "MIT Splash",
       "title": "MIT Splash",
       "category": "program",
-      "source": "https://esp.mit.edu/learn/Splash/index.html"
+      "source": "https://esp.mit.edu/learn/Splash/index.html",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://esp.mit.edu/learn/Splash/index.html",
+      "pageTitle": "MIT ESP - Splash!",
+      "sourceChanged": false,
+      "signals": [
+        "Register! Registration Steps Program Details Walk-In Activities Navbar Category: Splash Learn Set navbar name/path/description Edit navbar contents",
+        "registration for Splash Fall 2025&nbsp;(Nov 22-23, 9th-12th graders) is now closed",
+        "open to you! Who Can Participate? High school studen ts&nbsp;in grades 9–12 can attend Splash"
+      ]
     },
     {
       "id": "Stanford Splash",
       "title": "Stanford Splash",
       "category": "program",
-      "source": "https://stanfordesp.org/"
+      "source": "https://stanfordesp.org/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://stanfordesp.org/",
+      "pageTitle": "Stanford Splash - Welcome",
+      "sourceChanged": false,
+      "signals": [
+        "Register Forgot Password Help Privacy Policy contact us Privacy Policy This is editable text",
+        "Register For Parents Directions My Classes Registration Guide Teachers Register Ideas Logistics LiveScan My Classes Volunteers Join the Admin FAQ Na",
+        "Register For Parents Directions My Classes Registration Guide Teachers Register Ideas Logistics LiveScan My Classes Volunteers Join the Admin FAQ Un"
+      ]
     },
     {
       "id": "Summer Science Program",
       "title": "Summer Science Program",
       "category": "program",
-      "source": "https://summerscience.org/"
+      "source": "https://summerscience.org/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://ssp.org/",
+      "pageTitle": "Homepage - SSP International",
+      "sourceChanged": true,
+      "signals": [
+        "Application &nbsp; What We Do The Power of Science Programs Impact Mission & History Who We Are Board of Directors Leadership & Staff Faculty Contact U",
+        "Apply Getting Started Fees & Financial Aid Application Process Applicant Portal FAQs Get Involved Alumni Network College Link Mentorship Program",
+        "Apply Getting Started Fees & Financial Aid Application Process Applicant Portal FAQs Back Alumni Get Involved Alumni Network College Link Mentors"
+      ]
     },
     {
       "id": "COSMOS",
       "title": "COSMOS",
       "category": "program",
-      "source": "https://cosmos-ucop.ucdavis.edu/"
+      "source": "https://cosmos-ucop.ucdavis.edu/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://cosmos-ucop.ucdavis.edu/app/main",
+      "pageTitle": "Welcome to COSMOS - COSMOS Platform",
+      "sourceChanged": true,
+      "signals": [
+        "Apply to COSMOS Application and Payment Basics Dates &amp; Deadlines Program Fees Financial Assistance Residential Life Statewide Policies and Pr",
+        "Apply Now Preparing the next generation of STEM leaders ONLINE APPLICATIONS WILL BE AVAILABLE: JANUARY 7, 2026, 8:00 AM DEADLINE FOR ALL APPLICAT",
+        "apply to ONE of the listed University of California’s COSMOS campuses — UC Davis, UC Irvine, UC Los Angeles, UC Merced, UC San Diego, and UC Sant"
+      ]
     },
     {
       "id": "Boston University RISE",
       "title": "Boston University RISE",
       "category": "program",
-      "source": "https://www.bu.edu/summer/high-school-programs/rise-internship-practicum/"
+      "source": "https://www.bu.edu/summer/high-school-programs/rise-internship-practicum/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://www.bu.edu/summer/high-school-programs/rise-internship-practicum/",
+      "pageTitle": "RISE Internship/Practicum | Boston University Summer Term",
+      "sourceChanged": false,
+      "signals": [
+        "Register English Proficiency Requirements Health Records &amp; Medical Insurance Housing &amp; Dining Arriving on Campus Contact Us High School Prog",
+        "Registration Current BU Students Visiting US Students Visiting International Students High School Students Adults &amp; Professionals Course Codes &amp;",
+        "Apply Now Ask a Question RISE Internship / Practicum A 6-week program The RISE application deadline has passed and applications are now closed"
+      ]
     },
     {
       "id": "Simons Summer Research Program",
       "title": "Simons Summer Research Program",
       "category": "program",
-      "source": "https://www.stonybrook.edu/commcms/simons/"
+      "source": "https://www.stonybrook.edu/commcms/simons/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://www.stonybrook.edu/commcms/simons/",
+      "pageTitle": "Simons Summer Research Program | Stony Brook University",
+      "sourceChanged": false,
+      "signals": [
+        "Application Guidelines Nomination Recommendations Forms Alumni News Recent Announcements Science Talent Search&nbsp;(STS) Siemens Competition Useful Li"
+      ]
     },
     {
       "id": "George Mason ASSIP",
       "title": "George Mason ASSIP",
       "category": "program",
-      "source": "https://science.gmu.edu/assip"
+      "source": "https://science.gmu.edu/assip",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://science.gmu.edu/assip",
+      "pageTitle": "Aspiring Scientists Summer Internship Program (ASSIP) | GMU College of Science",
+      "sourceChanged": false,
+      "signals": [
+        "apply Tuition and Fees FAQs Prospective 2026 ASSIP Mentors ASSIP News Prior ASSIP Research Support ASSIP K-12 STEM Programs Learning Assistants L",
+        "apply Tuition and Fees FAQs Prospective 2026 ASSIP Mentors ASSIP News Prior ASSIP Research Support ASSIP Gain original, cutting-edge research exp",
+        "Application is now closed"
+      ]
     },
     {
       "id": "Texas Tech Clark Scholars",
       "title": "Texas Tech Clark Scholars",
       "category": "program",
-      "source": "https://www.depts.ttu.edu/honors/academicsandenrichment/affiliatedandhighschool/clarks/"
+      "source": "https://www.depts.ttu.edu/honors/academicsandenrichment/affiliatedandhighschool/clarks/",
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "Michigan State HSHSP",
       "title": "Michigan State HSHSP",
       "category": "program",
-      "source": "https://education.msu.edu/hshsp/"
+      "source": "https://education.msu.edu/hshsp/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://education.msu.edu/hshsp/",
+      "pageTitle": "High School Honors Science, Math and Engineering Program | College of Education | Michigan State University",
+      "sourceChanged": false,
+      "signals": [
+        "Application information Join us for the sixty-third annual High School Honors Science, Mathematics, and Engineering Program at Michigan State Universit"
+      ]
     },
     {
       "id": "UCSB Research Mentorship Program",
       "title": "UCSB Research Mentorship Program",
       "category": "program",
-      "source": "https://www.summer.ucsb.edu/programs/research-mentorship-program"
+      "source": "https://www.summer.ucsb.edu/programs/research-mentorship-program",
+      "status": 404,
+      "reachable": false,
+      "finalUrl": "https://www.summer.ucsb.edu/programs/research-mentorship-program",
+      "pageTitle": "404 page not found | UCSB Summer Sessions",
+      "sourceChanged": false,
+      "signals": [
+        "Application Portal Faculty And Staff Quick Links Toggle navigation Search Search Search Enter the terms you wish to search for",
+        "Registration Type of Student Registration Dates Session Dates Deadlines Courses Course Spotlight Online Courses Course Offerings Programs Overview Fresh",
+        "Application Portal Faculty And Staff Quick links Housing Financial Aid BARC Office of the Registrar Basic Needs Research Mentorship Program Research Me"
+      ]
     },
     {
       "id": "Notre Dame Leadership Seminars",
       "title": "Notre Dame Leadership Seminars",
       "category": "program",
-      "source": "https://precollege.nd.edu/leadership-seminars/"
+      "source": "https://precollege.nd.edu/leadership-seminars/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://precollege.nd.edu/leadership-seminars/",
+      "pageTitle": "Leadership Seminars | Office of Pre-College Programs | University of Notre Dame",
+      "sourceChanged": false,
+      "signals": [
+        "apply what I learn to real world problems and issues",
+        "Application Requirements Fees &amp; Financial Aid Dates &amp; Deadlines Summer Scholars Study Abroad ADAM Program Contact Us Eligibility &amp; Applicat"
+      ]
     },
     {
       "id": "Yale Young Global Scholars",
       "title": "Yale Young Global Scholars",
       "category": "program",
-      "source": "https://globalscholars.yale.edu/"
+      "source": "https://globalscholars.yale.edu/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://globalscholars.yale.edu/",
+      "pageTitle": "Welcome | Yale Young Global Scholars",
+      "sourceChanged": false,
+      "signals": [
+        "Open Main Navigation Close Main Navigation Search this site YYGS Partners YYGS Employment Yale Young Global Scholars About Deadlines Eligibility",
+        "APPLICATION IS CLOSED",
+        "application is currently closed"
+      ]
     },
     {
       "id": "TASS",
       "title": "TASS",
       "category": "program",
-      "source": "https://www.tellurideassociation.org/our-programs/high-school-students/"
+      "source": "https://www.tellurideassociation.org/our-programs/high-school-students/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://tellurideassociation.org/our-programs/high-school-students/",
+      "pageTitle": "Telluride Association Summer Seminar (TASS) - Telluride Association",
+      "sourceChanged": true,
+      "signals": [
+        "Application Timeline FAQ for Applicants FAQ for Parents FAQ for Educators Past TASS Topics What is TASS? The Telluride Association Summer Seminar (TASS",
+        "open October 15, 2025 and close December 3, 2025 Applications for the TASS 2026 are now closed",
+        "apply? TASS applications are open to high school sophomores and juniors (“rising juniors” and “rising seniors”)"
+      ]
     },
     {
       "id": "NSLI-Y",
       "title": "NSLI-Y",
       "category": "program",
-      "source": "https://www.nsliforyouth.org/"
+      "source": "https://www.nsliforyouth.org/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://www.nsliforyouth.org/",
+      "pageTitle": "National Security Language Initiative for Youth (NSLI-Y)",
+      "sourceChanged": false,
+      "signals": [
+        "Apply Eligibility Participation Requirements Dates and Deadlines Application Components Selection Process Post-Acceptance Apply for NSLI-Y Menu C",
+        "Apply Eligibility Participation Requirements Dates and Deadlines Application Components Selection Process Post-Acceptance Apply for NSLI-Y Storie",
+        "application is now closed"
+      ]
     },
     {
       "id": "SAMS at Carnegie Mellon",
       "title": "SAMS at Carnegie Mellon",
       "category": "program",
-      "source": "https://www.cmu.edu/pre-college/academic-programs/sams.html"
+      "source": "https://www.cmu.edu/pre-college/academic-programs/sams.html",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://www.cmu.edu/pre-college/academic-programs/sams.html",
+      "pageTitle": "Summer Academy for Math and Science - Pre-College Programs - Carnegie Mellon University",
+      "sourceChanged": false,
+      "signals": [
+        "application preparation",
+        "apply collaborative learning strategies by engaging in group tutoring and academic coaching offered through the Student Academic Success Center",
+        "Application Essay SAMS offers a writing course to help students develop their Common App essays, recognizing that not having a strong draft can be a ma"
+      ]
     },
     {
       "id": "LEDA Scholars",
       "title": "LEDA Scholars",
       "category": "program",
-      "source": "https://ledascholars.org/our-program/"
+      "source": "https://ledascholars.org/our-program/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://ledascholars.org/our-program/",
+      "pageTitle": "What We Do | LEDA",
+      "sourceChanged": false,
+      "signals": [
+        "Close The Need The Need Exceptional students from low-income backgrounds have unequal access to the top-tier colleges that cultivate most of our",
+        "Close What We Do What We Do LEDA runs the LEDA Scholars Program, the LEDA Career Network, and the LEDA Policy Project",
+        "Close Impact Impact A look at LEDA Scholars since our inception in 2003"
+      ]
     },
     {
       "id": "Matriculate",
       "title": "Matriculate",
       "category": "program",
-      "source": "https://matriculate.org/"
+      "source": "https://matriculate.org/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://matriculate.org/",
+      "pageTitle": "Home - Matriculate",
+      "sourceChanged": false,
+      "signals": []
     },
     {
       "id": "CollegePoint",
       "title": "CollegePoint",
       "category": "program",
-      "source": "https://www.collegepoint.info/"
+      "source": "https://www.collegepoint.info/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://www.collegepoint.info/",
+      "pageTitle": "CollegePoint - Free Virtual Advising for High School Students",
+      "sourceChanged": false,
+      "signals": [
+        "Close Menu Who we are What we do Stories Media FAQs Free college advising",
+        "application process can be overwhelming – we’re here to help",
+        "apply to, enroll in, and graduate from top colleges"
+      ]
     },
     {
       "id": "Gates Scholarship",
       "title": "Gates Scholarship",
       "category": "scholarship",
-      "source": "https://www.thegatesscholarship.org/scholarship"
+      "source": "https://www.thegatesscholarship.org/scholarship",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://www.thegatesscholarship.org/scholarship/",
+      "pageTitle": "The Gates Scholarship: Scholarship Main",
+      "sourceChanged": true,
+      "signals": [
+        "Application Resources Help Center About Apply toggle menu Home The Gates Scholarship The Gates Scholarship Status: Closed Sign in to apply Start Profil",
+        "Deadline Sept 15 2025 Semifinalist Phase Dec - Jan 2026 Finalist Interviews March 2026 Selection April 2026 Awards July-Sept 2026 About The Gates Sc",
+        "Application for Federal Student Aid (FAFSA), or the methodology used by a Scholar&rsquo;s college or university"
+      ]
     },
     {
       "id": "Dell Scholars",
       "title": "Dell Scholars",
       "category": "scholarship",
-      "source": "https://www.dellscholars.org/scholarship/"
+      "source": "https://www.dellscholars.org/scholarship/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://www.dellscholars.org/students/",
+      "pageTitle": "For Students - Dell Scholars",
+      "sourceChanged": true,
+      "signals": [
+        "Apply The challenges of navigating higher education while worrying about basic needs like food and housing felt overwhelming",
+        "open to talk to is very helpful",
+        "Apply? To be eligible, you must: Be a high school senior participating in an approved college readiness program Plan to enroll full-time at an ac"
+      ]
     },
     {
       "id": "Horatio Alger Scholarships",
       "title": "Horatio Alger Scholarships",
       "category": "scholarship",
-      "source": "https://horatioalger.org/scholarships/"
+      "source": "https://horatioalger.org/scholarships/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://horatioalger.org/scholarships/",
+      "pageTitle": "Scholarships | Horatio Alger",
+      "sourceChanged": false,
+      "signals": [
+        "Close Toggle Main Menu Close Promoting &amp; Ensuring the American Dream for Future Generations About Us More Toggle primary Menu Who We Are Our",
+        "Open Search Close Search Canada Canada Login Profile Login Facebook LinkedIn Instagram YouTube Scholarships While most other scholarships focus",
+        "Application Period: December 1 &#8211; March 1 Senior Application Period: December 1 &#8211; February 15 Learn More View More &nbsp; CAREER &amp; TECHN"
+      ]
     },
     {
       "id": "Ron Brown Scholar Program",
       "title": "Ron Brown Scholar Program",
       "category": "scholarship",
-      "source": "https://ronbrown.org/apply/ron-brown-scholarship/"
+      "source": "https://ronbrown.org/apply/ron-brown-scholarship/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://ronbrown.org/ron-brown-scholarship/",
+      "pageTitle": "The Ron Brown Signature Scholarship &#8211; Ron Brown Scholar Program",
+      "sourceChanged": true,
+      "signals": [
+        "Application for 2026 is now closed",
+        "APPLY NOW - 2025 Application is now open! Tickets &amp; Sponsorships Now Available for AJA 2025—Reserve Your Place! Remembering Our Dear Friend C",
+        "APPLICATION FOR THE 2026 SCHOLARSHIP COMPETITION IS NOW CLOSED - ABOUT THE RON BROWN SIGNATURE SCHOLARSHIP The Ron Brown Scholarship honors the legacy"
+      ]
     },
     {
       "id": "Hispanic Scholarship Fund",
       "title": "Hispanic Scholarship Fund",
       "category": "scholarship",
-      "source": "https://www.hsf.net/scholarship"
+      "source": "https://www.hsf.net/scholarship",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://www.hsf.net/scholarship/",
+      "pageTitle": "Hispanic Scholarship Fund: Scholarship Main",
+      "sourceChanged": true,
+      "signals": [
+        "Apply toggle menu Home 2026 HSF Scholar Program Application 2026 HSF Scholar Program Application Status: Closed Sign in to apply Start Profile Av",
+        "Deadline February 15 2026 Finalist Phase March 2026 Selection June 2026 Documents June - November 2026 Awards Fall 2026 HSF Scholar Benefits As an H",
+        "apply for all Scholar Conferences including, the National Leadership Conference, STEM Summit, Finance Conference, and the Sports, Media, &amp; En"
+      ]
     },
     {
       "id": "Jackie Robinson Foundation Scholarship",
       "title": "Jackie Robinson Foundation Scholarship",
       "category": "scholarship",
-      "source": "https://jackierobinson.org/apply/"
+      "source": "https://jackierobinson.org/apply/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://jackierobinson.org/apply/",
+      "pageTitle": "Apply - Jackie Robinson Foundation",
+      "sourceChanged": false,
+      "signals": [
+        "Apply - Jackie Robinson Foundation Skip to content Donate About Us History Board of Directors Jackie Robinson Licensing Scholarship Program Appli",
+        "Apply Museum IMPACT Support Ways To Give Donate Become a JRF Scholar The Jackie Robinson Foundation provides a multi-faceted experience designed",
+        "application flye r"
+      ]
     },
     {
       "id": "Amazon Future Engineer Scholarship",
       "title": "Amazon Future Engineer Scholarship",
       "category": "scholarship",
-      "source": "https://www.amazonfutureengineer.com/scholarships"
+      "source": "https://www.amazonfutureengineer.com/scholarships",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://www.amazonfutureengineer.com/scholarships",
+      "pageTitle": "Scholarship and Internship - Amazon Future Engineer",
+      "sourceChanged": false,
+      "signals": [
+        "Apply! Danielle Darfour University of Pennsylvania, 2027 I’m grateful for the opportunity to grow my career with Amazon, especially so early in m",
+        "Apply)&nbsp; (required) K 1st 2nd 3rd 4th 5th 6th 7th 8th 9th 10th 11th 12th Email Opt-In I would like to receive emails from Amazon Future Engin"
+      ]
     },
     {
       "id": "FIRST Robotics Competition",
       "title": "FIRST Robotics Competition",
       "category": "competition",
-      "source": "https://www.firstinspires.org/robotics/frc"
+      "source": "https://www.firstinspires.org/robotics/frc",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://www.firstinspires.org/programs/frc/",
+      "pageTitle": "FIRST Robotics Competition | STEM Program for Grades 9-12",
+      "sourceChanged": true,
+      "signals": [
+        "Registration FIRST K-8 Programs: 2027 &amp; Beyond Events Team Grant Opportunities Youth Protection Program Youth Registration Classroom to Career &amp;",
+        "Registration Youth Protection Program Resources &amp; Documentation Educators &amp; Org Leaders Educators &amp; Org Leaders Professional Development Res",
+        "Registration Youth Protection Program Resources &amp; Documentation Educators &amp; Org Leaders Overview Professional Development Resources &amp; Docume"
+      ]
     },
     {
       "id": "FIRST Tech Challenge",
       "title": "FIRST Tech Challenge",
       "category": "competition",
-      "source": "https://www.firstinspires.org/robotics/ftc"
+      "source": "https://www.firstinspires.org/robotics/ftc",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://www.firstinspires.org/programs/ftc/",
+      "pageTitle": "FIRST Tech Challenge | STEM Robotics Program for Grades 7-12",
+      "sourceChanged": true,
+      "signals": [
+        "Registration FIRST K-8 Programs: 2027 &amp; Beyond Events Team Grant Opportunities Youth Protection Program Youth Registration Classroom to Career &amp;",
+        "Registration Youth Protection Program Resources &amp; Documentation Educators &amp; Org Leaders Educators &amp; Org Leaders Professional Development Res",
+        "Registration Youth Protection Program Resources &amp; Documentation Educators &amp; Org Leaders Overview Professional Development Resources &amp; Docume"
+      ]
     },
     {
       "id": "VEX Robotics Competition",
       "title": "VEX Robotics Competition",
       "category": "competition",
-      "source": "https://www.vexrobotics.com/competition"
+      "source": "https://www.vexrobotics.com/competition",
+      "status": 403,
+      "reachable": false,
+      "finalUrl": "https://www.vexrobotics.com/competition",
+      "pageTitle": "Just a moment...",
+      "sourceChanged": false,
+      "signals": []
     },
     {
       "id": "Regeneron ISEF",
       "title": "Regeneron ISEF",
       "category": "competition",
-      "source": "https://www.societyforscience.org/isef/"
+      "source": "https://www.societyforscience.org/isef/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://www.societyforscience.org/isef/",
+      "pageTitle": "Regeneron International Science and Engineering Fair - Society for Science",
+      "sourceChanged": false,
+      "signals": [
+        "Close the menu Site Search Search Close the sitewide search Regeneron ISEF 2026 - Phoenix, Arizona Regeneron ISEF is coming to Phoenix, Arizona!",
+        "application here! Interested in competing? Use the links below to find an Affiliated Fair in your area, learn about the Updated 2026 International Rule",
+        "Registration Complimentary press registration, including access to most Regeneron ISEF programs and events, is available to applicants with valid media"
+      ]
     },
     {
       "id": "Junior Science and Humanities Symposium",
       "title": "Junior Science and Humanities Symposium",
       "category": "competition",
-      "source": "https://jshs.org/"
+      "source": "https://jshs.org/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://jshs.org/",
+      "pageTitle": "",
+      "sourceChanged": false,
+      "signals": []
     },
     {
       "id": "Science Olympiad",
       "title": "Science Olympiad",
       "category": "competition",
-      "source": "https://www.soinc.org/"
+      "source": "https://www.soinc.org/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://www.soinc.org/",
+      "pageTitle": "Science Olympiad",
+      "sourceChanged": false,
+      "signals": [
+        "Application March Newsletter USC National Tournament Website $50K&nbsp; Founders' Scholarships &gt; opens 2/16/26 SO Alumni Research Grants &gt; opens",
+        "Open now! 2026 Div"
+      ]
     },
     {
       "id": "MathWorks Math Modeling Challenge",
       "title": "MathWorks Math Modeling Challenge",
       "category": "competition",
-      "source": "https://m3challenge.siam.org/"
+      "source": "https://m3challenge.siam.org/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://m3challenge.siam.org/",
+      "pageTitle": "MathWorks Math Modeling Challenge (M3 Challenge)",
+      "sourceChanged": false,
+      "signals": [
+        "Register Math Modeling Modeling Handbooks Teaching Math Modeling The Challenge Important Dates Scholarships and Recognition Judging Rules and Guidel",
+        "registration or participation fees Flexible work time Learn More Eligibility ↗ High school juniors and seniors (U",
+        "Register ↗ Registration is now closed for 2026"
+      ]
     },
     {
       "id": "American Mathematics Competitions",
       "title": "American Mathematics Competitions",
       "category": "competition",
-      "source": "https://maa.org/student-programs/amc/"
+      "source": "https://maa.org/student-programs/amc/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://maa.org/student-programs/amc/",
+      "pageTitle": "American Mathematics Competitions &#8211; Mathematical Association of America",
+      "sourceChanged": false,
+      "signals": [
+        "Registration + Information MAA American Mathematics Competitions Policies AMC International MAA Putnam Events MAA MathFest National Events Community Eve",
+        "Registration Info AMC Policies &nbsp; Founded in 1950, the AMC is the preeminent math competition for students K-12",
+        "register directly with the MAA"
+      ]
     },
     {
       "id": "picoCTF",
       "title": "picoCTF",
       "category": "hackathon",
-      "source": "https://picoctf.org/"
+      "source": "https://picoctf.org/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://picoctf.org/",
+      "pageTitle": "picoCTF - CMU Cybersecurity Competition",
+      "sourceChanged": false,
+      "signals": [
+        "open year-round for anyone 13 and older to learn, practice, and--> --> --> --> --> --> --> --> --> --> --> --> --> --> --> Teachers Summer Camp",
+        "open to anyone, with prizes available to eligible teams",
+        "Registration open March 9, 2026 12:00 PM EDT - CTF begins March 19, 2026 3:00 PM EDT - CTF ends Eligibility Open to everyone: Existing or new accounts a"
+      ]
     },
     {
       "id": "National Cyber League",
       "title": "National Cyber League",
       "category": "hackathon",
-      "source": "https://nationalcyberleague.org/"
+      "source": "https://nationalcyberleague.org/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://nationalcyberleague.org/",
+      "pageTitle": "National Cyber League Webpage",
+      "sourceChanged": false,
+      "signals": [
+        "Registration Waiver Form CrowdStrike Mentorship Program Form Spirit Week Subscribe Terms of Use Privacy Policy Contact Us Players Committee Donate to Re"
+      ]
     },
     {
       "id": "NASA HUNCH",
       "title": "NASA HUNCH",
       "category": "program",
-      "source": "https://www.nasa.gov/learning-resources/hunch/"
+      "source": "https://www.nasa.gov/learning-resources/hunch/",
+      "status": 404,
+      "reachable": false,
+      "finalUrl": "https://www.nasa.gov/learning-resources/hunch/",
+      "pageTitle": "Page Not Found - NASA",
+      "sourceChanged": false,
+      "signals": [
+        "opens in new tab) Follow NASA More NASA Social Accounts NASA Newsletters Sitemap For Media Privacy Policy FOIA No FEAR Act Office of the IG (open"
+      ]
     },
     {
       "id": "NASA High School Aerospace Scholars",
       "title": "NASA High School Aerospace Scholars",
       "category": "program",
-      "source": "https://www.nasa.gov/learning-resources/high-school-aerospace-scholars/"
+      "source": "https://www.nasa.gov/learning-resources/high-school-aerospace-scholars/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://www.nasa.gov/learning-resources/texas-aerospace-scholars/",
+      "pageTitle": "Texas Aerospace Scholars - NASA",
+      "sourceChanged": true,
+      "signals": [
+        "open Summer 2026 event location Virtual",
+        "Apply Important Dates FAQs Senior Experience Educator Opportunities How to Apply Review the eligibility requirements and learn how to submit an a",
+        "open in the summer of 2026"
+      ]
     },
     {
       "id": "NASA STEM Gateway",
       "title": "NASA STEM Gateway",
       "category": "program",
-      "source": "https://stemgateway.nasa.gov/s/"
+      "source": "https://stemgateway.nasa.gov/s/",
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "OpenStax",
       "title": "OpenStax",
       "category": "study",
-      "source": "https://openstax.org/"
+      "source": "https://openstax.org/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://openstax.org/",
+      "pageTitle": "OpenStax",
+      "sourceChanged": false,
+      "signals": []
     },
     {
       "id": "PhET Interactive Simulations",
       "title": "PhET Interactive Simulations",
       "category": "study",
-      "source": "https://phet.colorado.edu/"
+      "source": "https://phet.colorado.edu/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://phet.colorado.edu/",
+      "pageTitle": "PhET: Free online physics, chemistry, biology, earth science and math simulations",
+      "sourceChanged": false,
+      "signals": [
+        "Register Sign in / Register My Account My Account My Bookmarks My Contributions My Presets My License Administration Activity Review Edit profile Si"
+      ]
     },
     {
       "id": "CK-12",
       "title": "CK-12",
       "category": "study",
-      "source": "https://www.ck12.org/student/"
+      "source": "https://www.ck12.org/student/",
+      "status": 403,
+      "reachable": false,
+      "finalUrl": "https://www.ck12.org/student/",
+      "pageTitle": "ERROR: The request could not be satisfied",
+      "sourceChanged": false,
+      "signals": []
     },
     {
       "id": "BigFuture",
       "title": "BigFuture",
       "category": "tool",
-      "source": "https://bigfuture.collegeboard.org/"
+      "source": "https://bigfuture.collegeboard.org/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://bigfuture.collegeboard.org/",
+      "pageTitle": "Home – BigFuture | College Board",
+      "sourceChanged": false,
+      "signals": [
+        "Apply to College Learn about Majors Majors Directory Pay for College Pay Home Scholarship Search How Much Will College Cost Get Help Paying for C",
+        "close to home? Find what schools are right for you",
+        "Close Modal Close ✦What can you do with BigFuture? Learn More About Us✦ Find the right college for you"
+      ]
     },
     {
       "id": "College Scorecard",
       "title": "College Scorecard",
       "category": "tool",
-      "source": "https://collegescorecard.ed.gov/"
+      "source": "https://collegescorecard.ed.gov/",
+      "status": 403,
+      "reachable": false,
+      "finalUrl": "https://collegescorecard.ed.gov/",
+      "pageTitle": "ERROR: The request could not be satisfied",
+      "sourceChanged": false,
+      "signals": []
     },
     {
       "id": "FAFSA",
       "title": "FAFSA",
       "category": "tool",
-      "source": "https://studentaid.gov/h/apply-for-aid/fafsa"
+      "source": "https://studentaid.gov/h/apply-for-aid/fafsa",
+      "reachable": false,
+      "error": "AbortError"
     },
     {
       "id": "Common App",
       "title": "Common App",
       "category": "tool",
-      "source": "https://www.commonapp.org/"
+      "source": "https://www.commonapp.org/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://www.commonapp.org/",
+      "pageTitle": "Apply to college with Common App | Your future starts here",
+      "sourceChanged": false,
+      "signals": [
+        "Apply to college with Common App | Your future starts here Skip navigation For counselors and teachers Overview Recommender guide Recommender sys",
+        "Apply to college Overview Guides and resources Essay prompts Help and FAQs Pay for college Overview Scholarship matching Menu Sign in Create an a",
+        "Apply to college for the first time or transfer to complete your degree"
+      ]
     },
     {
       "id": "Coalition / Scoir Application",
       "title": "Coalition / Scoir Application",
       "category": "tool",
-      "source": "https://www.scoir.com/coalition"
+      "source": "https://www.scoir.com/coalition",
+      "status": 404,
+      "reachable": false,
+      "finalUrl": "https://www.scoir.com/coalition",
+      "pageTitle": "",
+      "sourceChanged": false,
+      "signals": []
     },
     {
       "id": "RaiseMe",
       "title": "RaiseMe",
       "category": "tool",
-      "source": "https://www.raise.me/"
+      "source": "https://www.raise.me/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://www.raise.me/",
+      "pageTitle": "Raise Me",
+      "sourceChanged": false,
+      "signals": [
+        "apply for",
+        "apply and be rewarded"
+      ]
     },
     {
       "id": "QuestBridge College Prep Scholars",
       "title": "QuestBridge College Prep Scholars",
       "category": "program",
-      "source": "https://www.questbridge.org/apply-to-college/programs/college-prep-scholars"
+      "source": "https://www.questbridge.org/apply-to-college/programs/college-prep-scholars",
+      "status": 404,
+      "reachable": false,
+      "finalUrl": "https://www.questbridge.org/apply-to-college/programs/college-prep-scholars",
+      "pageTitle": "QuestBridge | QuestBridge",
+      "sourceChanged": false,
+      "signals": [
+        "apply-to-college')) hovering = true; openPanel('apply-to-college') })\" > Apply to College Apply to College QuestBridge supports high-achieving st",
+        "Apply High School Seniors National College Match The Match Scholarship Apply Dates & Deadlines Ranking Colleges Regular Decision Learn More Colle",
+        "Open Mobile Menu Search Term svg]:size-full p-2"
+      ]
     },
     {
       "id": "Davidson Young Scholars",
       "title": "Davidson Young Scholars",
       "category": "program",
-      "source": "https://www.davidsongifted.org/gifted-programs/young-scholars/"
+      "source": "https://www.davidsongifted.org/gifted-programs/young-scholars/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://www.davidsongifted.org/gifted-programs/young-scholars/",
+      "pageTitle": "Davidson Young Scholars for the Highly Gifted | Gifted Program",
+      "sourceChanged": false,
+      "signals": [
+        "Open Search Open Search Programs and Scholarships Toggle Submenu Young Scholars Summer Opportunities Toggle Submenu Camps Annual Family Events F",
+        "Close search dialog Enter a search term Search Young Scholars A Program for Profoundly Gifted Young Minds There should be no ceiling to your chil",
+        "Apply Connecting and Supporting Gifted Families We provide a range of family services designed to nurture the intellectual, social, emotional, an"
+      ]
     },
     {
       "id": "Davidson Institute THINK",
       "title": "Davidson Institute THINK",
       "category": "program",
-      "source": "https://www.davidsongifted.org/gifted-programs/think-summer/"
+      "source": "https://www.davidsongifted.org/gifted-programs/think-summer/",
+      "status": 404,
+      "reachable": false,
+      "finalUrl": "https://www.davidsongifted.org/gifted-programs/think-summer/",
+      "pageTitle": "Page not found - Davidson Institute",
+      "sourceChanged": false,
+      "signals": [
+        "Open Search Open Search Programs and Scholarships Toggle Submenu Young Scholars Summer Opportunities Toggle Submenu Camps Annual Family Events F",
+        "Close search dialog Enter a search term Search Oh no! The page you're looking for doesn't exist Please use the quick links or the link below to g"
+      ]
     },
     {
       "id": "iD Tech Scholarships",
       "title": "iD Tech Scholarships",
       "category": "scholarship",
-      "source": "https://www.idtech.com/scholarships"
+      "source": "https://www.idtech.com/scholarships",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://www.idtech.com/scholarships",
+      "pageTitle": "iD Tech Scholarship Programs | 2026",
+      "sourceChanged": false,
+      "signals": [
+        "Register with confidence knowing you have complete flexibility! Make changes to your registration anytime (no fees!) until 28 days before camp",
+        "Close Payment plans available during checkout, for as low as $375! Close Automatically save $50 when you add courses or siblings! Pay standard tu",
+        "apply to Online Private Lessons"
+      ]
     },
     {
       "id": "Google Code Next",
       "title": "Google Code Next",
       "category": "program",
-      "source": "https://codenext.withgoogle.com/"
+      "source": "https://codenext.withgoogle.com/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://codenext.withgoogle.com/",
+      "pageTitle": "Code Next",
+      "sourceChanged": false,
+      "signals": []
     },
     {
       "id": "Girls Who Code Clubs",
       "title": "Girls Who Code Clubs",
       "category": "program",
-      "source": "https://girlswhocode.com/programs/clubs-program"
+      "source": "https://girlswhocode.com/programs/clubs-program",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://girlswhocode.com/programs/clubs-program",
+      "pageTitle": "Girls Who Code | Clubs",
+      "sourceChanged": false,
+      "signals": [
+        "Apply to Start a Club What&#x27;s a Club? Clubs are free programs for all 3rd-12th graders of any skill level to join a sisterhood of supportive",
+        "Apply to Start a Club Sisterhood Join a safe and supportive environment of peers and role models where students learn to see themselves as comput",
+        "apply computational thinking and problem-solving skills in a rapidly evolving tech landscape"
+      ]
     },
     {
       "id": "Kode With Klossy",
       "title": "Kode With Klossy",
       "category": "program",
-      "source": "https://www.kodewithklossy.com/"
+      "source": "https://www.kodewithklossy.com/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://www.kodewithklossy.com/",
+      "pageTitle": "Kode With Klossy | free coding program",
+      "sourceChanged": false,
+      "signals": [
+        "APPLY HERE DISCOVER MORE OUR IMPACT IS&nbsp;TANGIBLE LEARN MORE prior to camp, only 1 in 5 scholars have any computer science experience as a res",
+        "application! Share Thu, Feb 29 Summer 2024 Scholar Info Session (INDIA TIME) / Zoom Link in Description Details Feb 29, 2024, 7:00 PM – 8:00 PM GMT+5:3",
+        "application! Share Wed, Feb 14 Apple Swift Student Challenge Info Session / https://bit"
+      ]
     },
     {
       "id": "MIT Beaver Works Summer Institute",
       "title": "MIT Beaver Works Summer Institute",
       "category": "program",
-      "source": "https://beaverworks.ll.mit.edu/CMS/bw/bwsi"
+      "source": "https://beaverworks.ll.mit.edu/CMS/bw/bwsi",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://beaverworks.ll.mit.edu/classes",
+      "pageTitle": "Classes | Beaver Works",
+      "sourceChanged": true,
+      "signals": [
+        "Open-Source Fluidics for Synthetic Biology (IAP) – Dr",
+        "apply principles of lasers and optical components, communication link design, and analog and digital modulation to build their own free-space las",
+        "Open Robotics Laboratory (IAP) Software Radio (IAP) Reverse Engineering (IAP) Courses may not be offered every semester or every year, may not a"
+      ]
     },
     {
       "id": "AI Scholars Live Online",
       "title": "AI Scholars Live Online",
       "category": "course",
-      "source": "https://www.inspiritai.com/"
+      "source": "https://www.inspiritai.com/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://www.inspiritai.com/",
+      "pageTitle": "Inspirit AI: AI High School Program taught by Stanford/MIT Alums",
+      "sourceChanged": false,
+      "signals": [
+        "Apply Now Open Menu Close Menu Home Our Impact Team Programs AI Scholars Program Overview AI Scholars Program Schedule AI Scholars Projects 2026",
+        "Apply Now Open Menu Close Menu Folder: Home Back Our Impact Team Folder: Programs Back AI Scholars Program Overview AI Scholars Program Schedule",
+        "Apply Now AI Scholars 2026 Artificial Intelligence Program for High School Students Developed and Taught by Stanford and MIT Alumni and Graduate"
+      ]
     },
     {
       "id": "Google Applied Digital Skills",
       "title": "Google Applied Digital Skills",
       "category": "course",
-      "source": "https://applieddigitalskills.withgoogle.com/"
+      "source": "https://applieddigitalskills.withgoogle.com/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://edu.exceedlms.com/student/catalog/list?category_ids=10934-for-students-applied-digital-skills",
+      "pageTitle": "Applied Digital Skills : Google for Education",
+      "sourceChanged": true,
+      "signals": []
     },
     {
       "id": "Microsoft Learn Student Hub",
       "title": "Microsoft Learn Student Hub",
       "category": "course",
-      "source": "https://learn.microsoft.com/en-us/training/student-hub/"
+      "source": "https://learn.microsoft.com/en-us/training/student-hub/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://learn.microsoft.com/en-us/training/student-hub/",
+      "pageTitle": "Student Hub Overview - Microsoft Learn Student Hub | Microsoft Learn",
+      "sourceChanged": false,
+      "signals": [
+        "Apply now: Red Bull Basement 2026 Imagine Cup 2026 Follow the Imagine Cup finalists to the winners stage! All the submissions are in and now each",
+        "apply them with hands-on coding in Python and TypeScript"
+      ]
     },
     {
       "id": "AWS Educate",
       "title": "AWS Educate",
       "category": "course",
-      "source": "https://aws.amazon.com/education/awseducate/"
+      "source": "https://aws.amazon.com/education/awseducate/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://aws.amazon.com/education/awseducate/",
+      "pageTitle": "AWS Educate - Cloud Skills for Education- AWS",
+      "sourceChanged": false,
+      "signals": [
+        "Register now Sign in to AWS Educate Overwhelmed by too many choices when it comes to learning cloud? AWS Educate is open to any individual, regardle",
+        "Register now Compute Getting Started with Compute Practice building and managing your own cloud computing instance in the AWS Cloud",
+        "Register now Networking Getting Started with Networking Gain hands-on experience with Amazon Virtual Private Cloud (Amazon VPC) and learn how to set"
+      ]
     },
     {
       "id": "IBM SkillsBuild",
       "title": "IBM SkillsBuild",
       "category": "course",
-      "source": "https://skillsbuild.org/"
+      "source": "https://skillsbuild.org/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://skillsbuild.org/",
+      "pageTitle": "Free Skills-Based Learning From Technology Experts | IBM SkillsBuild",
+      "sourceChanged": false,
+      "signals": [
+        "register College students Overview Course catalog Hackathons Adult learners Overview Explore learning Digital credentials Try it before you register",
+        "Register Orgs",
+        "Register Spotlights Events Sign up Log in SkillsBuild Learners High school students Overview Explore learning Digital credentials Try it before you"
+      ]
     },
     {
       "id": "Codecademy Free Courses",
       "title": "Codecademy Free Courses",
       "category": "course",
-      "source": "https://www.codecademy.com/catalog/all"
+      "source": "https://www.codecademy.com/catalog/all",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://www.codecademy.com/catalog",
+      "pageTitle": "Catalog Home | Codecademy",
+      "sourceChanged": true,
+      "signals": [
+        "Open source PHP Professional skills Python R Ruby SQL Swift Web design Web development Beta catalog For business Where do I begin? Trending subj",
+        "open-source programming language supported by Google! Checker Dense Beginner Friendly"
+      ]
     },
     {
       "id": "Anki",
       "title": "Anki",
       "category": "study",
-      "source": "https://apps.ankiweb.net/"
+      "source": "https://apps.ankiweb.net/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://apps.ankiweb.net/",
+      "pageTitle": "Anki - powerful, intelligent flashcards",
+      "sourceChanged": false,
+      "signals": [
+        "open source If you know how to code you could help maintain Anki or create new add-ons/features"
+      ]
     },
     {
       "id": "WolframAlpha",
       "title": "WolframAlpha",
       "category": "study",
-      "source": "https://www.wolframalpha.com/"
+      "source": "https://www.wolframalpha.com/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://www.wolframalpha.com/",
+      "pageTitle": "Wolfram|Alpha: Computational Intelligence",
+      "sourceChanged": false,
+      "signals": []
     },
     {
       "id": "Open Yale Courses",
       "title": "Open Yale Courses",
       "category": "course",
-      "source": "https://oyc.yale.edu/"
+      "source": "https://oyc.yale.edu/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://oyc.yale.edu/",
+      "pageTitle": "Welcome | Open Yale Courses",
+      "sourceChanged": false,
+      "signals": [
+        "Open Yale Courses Skip to main content Yale University Menu Secondary navigation Help Search Open Yale Courses Main navigation Courses About Ter",
+        "Open Yale Courses provides free and open access to a selection of introductory courses taught by distinguished teachers and scholars at Yale Uni",
+        "Registration is not required No course credit, degree, or certificate is available through the Open Yale Courses website"
+      ]
     },
     {
       "id": "Yale Online",
       "title": "Yale Online",
       "category": "course",
-      "source": "https://online.yale.edu/"
+      "source": "https://online.yale.edu/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://online.yale.edu/",
+      "pageTitle": "Welcome to Yale Online | Yale Online",
+      "sourceChanged": false,
+      "signals": [
+        "Open Submenu Financing and Deploying Clean Energy SOM Executive Education Yale Divinity School Open Submenu Youth Ministry Leadership Summer Stu",
+        "Open Submenu Foundations of Animal Ethics Foundations of Bioethics Yale School of Medicine Open Submenu Continuing Medical Education Medical Sof",
+        "Open Submenu Hybrid Doctor of Nursing Practice Hybrid Psychiatric-Mental Health Nurse Practitioner Yale School of Public Health Open Submenu Cli"
+      ]
     },
     {
       "id": "Khan Academy AP US History",
       "title": "Khan Academy AP US History",
       "category": "course",
-      "source": "https://www.khanacademy.org/humanities/ap-us-history"
+      "source": "https://www.khanacademy.org/humanities/ap-us-history",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://www.khanacademy.org/humanities/ap-us-history",
+      "pageTitle": "Khan Academy",
+      "sourceChanged": false,
+      "signals": []
     },
     {
       "id": "Library of Congress Research Guides",
       "title": "Library of Congress Research Guides",
       "category": "study",
-      "source": "https://guides.loc.gov/"
+      "source": "https://guides.loc.gov/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://guides.loc.gov/",
+      "pageTitle": "Home - Research Guides at Library of Congress",
+      "sourceChanged": false,
+      "signals": [
+        "Close &nbsp; Back to top Hosted by Springshare Library of Congress Legal SpringShare Privacy Policy"
+      ]
     },
     {
       "id": "Stanford Encyclopedia of Philosophy",
       "title": "Stanford Encyclopedia of Philosophy",
       "category": "study",
-      "source": "https://plato.stanford.edu/"
+      "source": "https://plato.stanford.edu/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://plato.stanford.edu/",
+      "pageTitle": "Stanford Encyclopedia of Philosophy",
+      "sourceChanged": false,
+      "signals": []
     },
     {
       "id": "Mendeley Reference Manager",
       "title": "Mendeley Reference Manager",
       "category": "tool",
-      "source": "https://www.mendeley.com/reference-management/reference-manager"
+      "source": "https://www.mendeley.com/reference-management/reference-manager",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://www.mendeley.com/features/",
+      "pageTitle": "Mendeley | Features",
+      "sourceChanged": true,
+      "signals": [
+        "open access content, the relevant licensing terms apply"
+      ]
     },
     {
       "id": "Obsidian",
       "title": "Obsidian",
       "category": "tool",
-      "source": "https://obsidian.md/"
+      "source": "https://obsidian.md/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://obsidian.md/",
+      "pageTitle": "Obsidian - Sharpen your thinking",
+      "sourceChanged": false,
+      "signals": [
+        "close",
+        "open file formats, so you’re never locked in",
+        "open API, it’s easy to tailor Obsidian to fit your personal workflow"
+      ]
     },
     {
       "id": "Duolingo",
       "title": "Duolingo",
       "category": "study",
-      "source": "https://www.duolingo.com/"
+      "source": "https://www.duolingo.com/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://www.duolingo.com/",
+      "pageTitle": "Duolingo",
+      "sourceChanged": false,
+      "signals": []
     },
     {
       "id": "Grammarly for Students",
       "title": "Grammarly for Students",
       "category": "tool",
-      "source": "https://www.grammarly.com/students"
+      "source": "https://www.grammarly.com/students",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://www.grammarly.com/students",
+      "pageTitle": "Free AI Writing Assistance for Students | Grammarly",
+      "sourceChanged": false,
+      "signals": []
     },
     {
       "id": "College Board BigFuture Scholarships",
       "title": "College Board BigFuture Scholarships",
       "category": "scholarship",
-      "source": "https://bigfuture.collegeboard.org/pay-for-college/bigfuture-scholarships"
+      "source": "https://bigfuture.collegeboard.org/pay-for-college/bigfuture-scholarships",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://bigfuture.collegeboard.org/pay-for-college/bigfuture-scholarships",
+      "pageTitle": "BigFuture Scholarships: Earn by Planning for College and Career - BigFuture | College Board",
+      "sourceChanged": false,
+      "signals": [
+        "Apply to College Learn about Majors Majors Directory Pay for College Pay Home Scholarship Search How Much Will College Cost Get Help Paying for C"
+      ]
     },
     {
       "id": "Scholarship America Student Resources",
       "title": "Scholarship America Student Resources",
       "category": "scholarship",
-      "source": "https://scholarshipamerica.org/students/"
+      "source": "https://scholarshipamerica.org/students/",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://scholarshipamerica.org/students/",
+      "pageTitle": "Students - Scholarship America",
+      "sourceChanged": false,
+      "signals": [
+        "apply for scholarships and pay for college",
+        "application",
+        "Apply Browse Scholarships Find out what you can apply for right now, and what’s opening soon"
+      ]
     }
   ]
 }
