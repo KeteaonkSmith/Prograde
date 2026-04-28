@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 106,
-    "unreachable": 18,
+    "reachable": 107,
+    "unreachable": 17,
     "redirected": 20
   },
   "entries": [
@@ -424,12 +424,16 @@
       "title": "Canva Education",
       "category": "tool",
       "source": "https://www.canva.com/education/eligibility-guidelines/",
-      "status": 403,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://www.canva.com/education/eligibility-guidelines/",
-      "pageTitle": "Canva",
+      "pageTitle": "Eligibility Guidelines | Canva Education",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "opens in a new tab or window) Jump to: Eligibility guidelines How long does my access to Canva Education last? Who can’t access Canva Education?",
+        "opens in a new tab or window) ) College and university students ( Check out our Canva for Campus product ⁠ (opens in a new tab or window) ) Conti",
+        "opens in a new tab or window) ) Early stage start-ups with an educational focus Parents of children who are in K-12 (primary or secondary) educat"
+      ]
     },
     {
       "id": "GitHub Student Developer Pack",
@@ -484,12 +488,8 @@
       "title": "Purdue OWL",
       "category": "study",
       "source": "https://owl.purdue.edu/",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://owl.purdue.edu/",
-      "pageTitle": "Purdue OWL® - Purdue OWL® - Purdue University",
-      "sourceChanged": false,
-      "signals": []
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "Zotero",
@@ -538,15 +538,8 @@
       "title": "Purdue AAE Prospective Family Visits",
       "category": "visit",
       "source": "https://engineering.purdue.edu/AAE/academics/undergraduate/Visit",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://engineering.purdue.edu/AAE/academics/undergraduate/Visit",
-      "pageTitle": "Visit - School of Aeronautics and Astronautics - Purdue University",
-      "sourceChanged": false,
-      "signals": [
-        "Open Positions in AAE Academics Academics Prospective Students Undergraduate Program Space Engineering Certificate Graduate Program Online Gradu",
-        "Registration Course Information Reserve a Room Research Research Research Areas and Expertise Centers of Excellence Apollo 11 Postdoctoral Fellowship AA"
-      ]
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "UIUC Engineering Open House",
@@ -633,12 +626,8 @@
       "title": "Stanford Campus Visit",
       "category": "visit",
       "source": "https://admission.stanford.edu/engage/",
-      "status": 403,
       "reachable": false,
-      "finalUrl": "https://admission.stanford.edu/engage/",
-      "pageTitle": "Visitor anti-robot validation",
-      "sourceChanged": false,
-      "signals": []
+      "error": "TypeError"
     },
     {
       "id": "Georgia Tech Visit",
@@ -1229,12 +1218,16 @@
       "title": "MathWorks Math Modeling Challenge",
       "category": "competition",
       "source": "https://m3challenge.siam.org/",
-      "status": 403,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://m3challenge.siam.org/",
-      "pageTitle": "Just a moment...",
+      "pageTitle": "MathWorks Math Modeling Challenge (M3 Challenge)",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Register Math Modeling Modeling Handbooks Teaching Math Modeling The Challenge Important Dates Scholarships and Recognition Judging Rules and Guidel",
+        "registration or participation fees Flexible work time Learn More Eligibility ↗ High school juniors and seniors (U",
+        "Register ↗ Registration is now closed for 2026"
+      ]
     },
     {
       "id": "American Mathematics Competitions",
@@ -1379,10 +1372,10 @@
       "title": "College Scorecard",
       "category": "tool",
       "source": "https://collegescorecard.ed.gov/",
-      "status": 403,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://collegescorecard.ed.gov/",
-      "pageTitle": "ERROR: The request could not be satisfied",
+      "pageTitle": "Home | College Scorecard",
       "sourceChanged": false,
       "signals": []
     },
@@ -1704,7 +1697,7 @@
       "sourceChanged": false,
       "signals": [
         "Open Submenu Financing and Deploying Clean Energy SOM Executive Education Yale Divinity School Open Submenu Youth Ministry Leadership Summer Stu",
-        "Open Submenu Foundations of Animal Ethics Foundations of Bioethics Yale School of Medicine Open Submenu Continuing Medical Education Medical Sof",
+        "Open Submenu Foundations of Animal Ethics Foundations of Bioethics Yale School of Medicine Open Submenu Continuing Medical Education Master of H",
         "Open Submenu Hybrid Doctor of Nursing Practice Hybrid Psychiatric-Mental Health Nurse Practitioner Yale School of Public Health Open Submenu Cli"
       ]
     },
