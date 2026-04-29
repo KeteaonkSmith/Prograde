@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 107,
-    "unreachable": 17,
+    "reachable": 106,
+    "unreachable": 18,
     "redirected": 20
   },
   "entries": [
@@ -375,6 +375,7 @@
       "pageTitle": "HarvardX: CS50&#x27;s Introduction to Artificial Intelligence with Python | edX",
       "sourceChanged": false,
       "signals": [
+        "Close site banner",
         "Open edX 2U Advisory Council Careers News Connect Idea Hub Contact Us Help Center Security Media Kit Legal Terms of Service &amp; Honor Code Pri",
         "Apply © 2026 edX LLC"
       ]
@@ -522,16 +523,8 @@
       "title": "Purdue Campus Visits",
       "category": "visit",
       "source": "https://admissions.purdue.edu/visit/",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://admissions.purdue.edu/visit/",
-      "pageTitle": "Purdue University – Visit Us",
-      "sourceChanged": false,
-      "signals": [
-        "CLOSE Undergraduate Admissions Search Home Become a Student Support Your Student Admitted Students Academics Cost &amp; Aid Student Life Visit Co",
-        "Application Deadlines Apply Now Check Application Status Transfer Scholarships Quick links Accept Your Offer Class Profile College Prep Guide to Applyi",
-        "Apply plus_icon Apply Now Guide to Applying Deadlines First-Year Class Profile Closed Programs Application Status College Prep Timeline Informati"
-      ]
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "Purdue AAE Prospective Family Visits",
@@ -539,7 +532,7 @@
       "category": "visit",
       "source": "https://engineering.purdue.edu/AAE/academics/undergraduate/Visit",
       "reachable": false,
-      "error": "TypeError"
+      "error": "AbortError"
     },
     {
       "id": "UIUC Engineering Open House",
@@ -626,8 +619,12 @@
       "title": "Stanford Campus Visit",
       "category": "visit",
       "source": "https://admission.stanford.edu/engage/",
+      "status": 403,
       "reachable": false,
-      "error": "TypeError"
+      "finalUrl": "https://admission.stanford.edu/engage/",
+      "pageTitle": "Visitor anti-robot validation",
+      "sourceChanged": false,
+      "signals": []
     },
     {
       "id": "Georgia Tech Visit",
@@ -1488,9 +1485,9 @@
       "pageTitle": "iD Tech Scholarship Programs | 2026",
       "sourceChanged": false,
       "signals": [
-        "Register with confidence knowing you have complete flexibility! Make changes to your registration anytime (no fees!) until 28 days before camp",
-        "Close Payment plans available during checkout, for as low as $375! Close Automatically save $50 when you add courses or siblings! Pay standard tu",
-        "apply to Online Private Lessons"
+        "Close Automatically save $50 when you add courses or siblings! Pay standard tuition for one student to attend a small-group program and receive $",
+        "apply to Online Private Lessons",
+        "Close Refer a friend and save $25"
       ]
     },
     {
