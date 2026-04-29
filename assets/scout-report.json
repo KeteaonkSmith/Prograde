@@ -2,9 +2,9 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 106,
-    "unreachable": 18,
-    "redirected": 20
+    "reachable": 105,
+    "unreachable": 19,
+    "redirected": 19
   },
   "entries": [
     {
@@ -133,16 +133,12 @@
       "title": "Bank of America Student Leaders",
       "category": "program",
       "source": "https://about.bankofamerica.com/en/making-an-impact/student-leaders",
-      "status": 200,
-      "reachable": true,
+      "status": 403,
+      "reachable": false,
       "finalUrl": "https://about.bankofamerica.com/en/making-an-impact/student-leaders",
-      "pageTitle": "Bank of America Student Leaders® Program - Bank of America",
+      "pageTitle": "Access Denied",
       "sourceChanged": false,
-      "signals": [
-        "Close Important notice you are now leaving Bank of America Top Sign in Contact us Location finder Help Our company Responsible growth Business pr",
-        "apply",
-        "apply to wires and certain transfers"
-      ]
+      "signals": []
     },
     {
       "id": "Harvard Secondary School Program",
@@ -523,16 +519,31 @@
       "title": "Purdue Campus Visits",
       "category": "visit",
       "source": "https://admissions.purdue.edu/visit/",
-      "reachable": false,
-      "error": "TypeError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://admissions.purdue.edu/visit/",
+      "pageTitle": "Purdue University – Visit Us",
+      "sourceChanged": false,
+      "signals": [
+        "CLOSE Undergraduate Admissions Search Home Become a Student Support Your Student Admitted Students Academics Cost &amp; Aid Student Life Visit Co",
+        "Application Deadlines Apply Now Check Application Status Transfer Scholarships Quick links Accept Your Offer Class Profile College Prep Guide to Applyi",
+        "Apply plus_icon Apply Now Guide to Applying Deadlines First-Year Class Profile Closed Programs Application Status College Prep Timeline Informati"
+      ]
     },
     {
       "id": "Purdue AAE Prospective Family Visits",
       "title": "Purdue AAE Prospective Family Visits",
       "category": "visit",
       "source": "https://engineering.purdue.edu/AAE/academics/undergraduate/Visit",
-      "reachable": false,
-      "error": "AbortError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://engineering.purdue.edu/AAE/academics/undergraduate/Visit",
+      "pageTitle": "Visit - School of Aeronautics and Astronautics - Purdue University",
+      "sourceChanged": false,
+      "signals": [
+        "Open Positions in AAE Academics Academics Prospective Students Undergraduate Program Space Engineering Certificate Graduate Program Online Gradu",
+        "Registration Course Information Reserve a Room Research Research Research Areas and Expertise Centers of Excellence Apollo 11 Postdoctoral Fellowship AA"
+      ]
     },
     {
       "id": "UIUC Engineering Open House",
@@ -619,12 +630,8 @@
       "title": "Stanford Campus Visit",
       "category": "visit",
       "source": "https://admission.stanford.edu/engage/",
-      "status": 403,
       "reachable": false,
-      "finalUrl": "https://admission.stanford.edu/engage/",
-      "pageTitle": "Visitor anti-robot validation",
-      "sourceChanged": false,
-      "signals": []
+      "error": "TypeError"
     },
     {
       "id": "Georgia Tech Visit",
@@ -970,16 +977,12 @@
       "title": "LEDA Scholars",
       "category": "program",
       "source": "https://ledascholars.org/our-program/",
-      "status": 200,
+      "status": 202,
       "reachable": true,
       "finalUrl": "https://ledascholars.org/our-program/",
-      "pageTitle": "What We Do | LEDA",
+      "pageTitle": "",
       "sourceChanged": false,
-      "signals": [
-        "Close The Need The Need Exceptional students from low-income backgrounds have unequal access to the top-tier colleges that cultivate most of our",
-        "Close What We Do What We Do LEDA runs the LEDA Scholars Program, the LEDA Career Network, and the LEDA Policy Project",
-        "Close Impact Impact A look at LEDA Scholars since our inception in 2003"
-      ]
+      "signals": []
     },
     {
       "id": "Matriculate",
@@ -1062,16 +1065,12 @@
       "title": "Ron Brown Scholar Program",
       "category": "scholarship",
       "source": "https://ronbrown.org/apply/ron-brown-scholarship/",
-      "status": 200,
+      "status": 202,
       "reachable": true,
-      "finalUrl": "https://ronbrown.org/ron-brown-scholarship/",
-      "pageTitle": "The Ron Brown Signature Scholarship &#8211; Ron Brown Scholar Program",
-      "sourceChanged": true,
-      "signals": [
-        "Application for 2026 is now closed",
-        "APPLY NOW - 2025 Application is now open! Tickets &amp; Sponsorships Now Available for AJA 2025—Reserve Your Place! Remembering Our Dear Friend C",
-        "APPLICATION FOR THE 2026 SCHOLARSHIP COMPETITION IS NOW CLOSED - ABOUT THE RON BROWN SIGNATURE SCHOLARSHIP The Ron Brown Scholarship honors the legacy"
-      ]
+      "finalUrl": "https://ronbrown.org/apply/ron-brown-scholarship/",
+      "pageTitle": "",
+      "sourceChanged": false,
+      "signals": []
     },
     {
       "id": "Hispanic Scholarship Fund",
@@ -1157,15 +1156,12 @@
       "title": "VEX Robotics Competition",
       "category": "competition",
       "source": "https://www.vexrobotics.com/competition",
-      "status": 200,
-      "reachable": true,
+      "status": 403,
+      "reachable": false,
       "finalUrl": "https://www.vexrobotics.com/competition",
-      "pageTitle": "VEX Robotics Competitions | Events, Rules and Resources | Grades 4-12 - VEX Robotics",
+      "pageTitle": "Just a moment...",
       "sourceChanged": false,
-      "signals": [
-        "Apply for a Grant Competition Support Downloads View All Build Instructions VEXcode Software VEXos Firmware Competition Game Manuals Printable VE",
-        "Apply for a grant"
-      ]
+      "signals": []
     },
     {
       "id": "Regeneron ISEF",
@@ -1200,15 +1196,12 @@
       "title": "Science Olympiad",
       "category": "competition",
       "source": "https://www.soinc.org/",
-      "status": 200,
+      "status": 202,
       "reachable": true,
       "finalUrl": "https://www.soinc.org/",
-      "pageTitle": "Science Olympiad",
+      "pageTitle": "",
       "sourceChanged": false,
-      "signals": [
-        "Application March Newsletter USC National Tournament Website $50K&nbsp; Founders' Scholarships &gt; opens 2/16/26 SO Alumni Research Grants &gt; opens",
-        "Open now! 2026 Div"
-      ]
+      "signals": []
     },
     {
       "id": "MathWorks Math Modeling Challenge",
@@ -1291,16 +1284,12 @@
       "title": "NASA High School Aerospace Scholars",
       "category": "program",
       "source": "https://www.nasa.gov/learning-resources/high-school-aerospace-scholars/",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://www.nasa.gov/learning-resources/texas-aerospace-scholars/",
-      "pageTitle": "Texas Aerospace Scholars - NASA",
+      "status": 429,
+      "reachable": false,
+      "finalUrl": "https://www.nasa.gov/learning-resources/texas-aerospace-scholars",
+      "pageTitle": "429 Too Many Requests",
       "sourceChanged": true,
-      "signals": [
-        "open Summer 2026 event location Virtual",
-        "Apply Important Dates FAQs Senior Experience Educator Opportunities How to Apply Review the eligibility requirements and learn how to submit an a",
-        "open in the summer of 2026"
-      ]
+      "signals": []
     },
     {
       "id": "NASA STEM Gateway",
