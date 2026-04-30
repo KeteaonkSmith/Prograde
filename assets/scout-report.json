@@ -2,9 +2,9 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 105,
-    "unreachable": 19,
-    "redirected": 19
+    "reachable": 107,
+    "unreachable": 17,
+    "redirected": 20
   },
   "entries": [
     {
@@ -60,11 +60,12 @@
       "source": "https://mlh.io/",
       "status": 200,
       "reachable": true,
-      "finalUrl": "https://mlh.io/",
-      "pageTitle": "Major League Hacking",
-      "sourceChanged": false,
+      "finalUrl": "https://www.mlh.com/",
+      "pageTitle": "Major League Hacking | Hackathons and Developer Programs | Major League Hacking",
+      "sourceChanged": true,
       "signals": [
-        "Open Source From October 16th-23rd, DigitalOcean will be partnering with MLH for Global Hack Week: Open Source in honor of Hacktoberfest taking"
+        "open source projects with peers and engineers from top companies",
+        "Apply Resources Code of Conduct Prizes &amp; Freebies Branding Guidelines About MLH Contact Us Blog Partners Work at MLH Privacy Terms of Service"
       ]
     },
     {
@@ -133,12 +134,16 @@
       "title": "Bank of America Student Leaders",
       "category": "program",
       "source": "https://about.bankofamerica.com/en/making-an-impact/student-leaders",
-      "status": 403,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://about.bankofamerica.com/en/making-an-impact/student-leaders",
-      "pageTitle": "Access Denied",
+      "pageTitle": "Bank of America Student Leaders® Program - Bank of America",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Close Important notice you are now leaving Bank of America Top Sign in Contact us Location finder Help Our company Responsible growth Business pr",
+        "apply",
+        "apply to wires and certain transfers"
+      ]
     },
     {
       "id": "Harvard Secondary School Program",
@@ -485,8 +490,12 @@
       "title": "Purdue OWL",
       "category": "study",
       "source": "https://owl.purdue.edu/",
-      "reachable": false,
-      "error": "TypeError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://owl.purdue.edu/",
+      "pageTitle": "Purdue OWL® - Purdue OWL® - Purdue University",
+      "sourceChanged": false,
+      "signals": []
     },
     {
       "id": "Zotero",
@@ -661,8 +670,8 @@
       "sourceChanged": false,
       "signals": [
         "Close Welcome! We welcome you to visit UC Berkeley! We offer in-person, virtual, and self-guided campus tours, highlight campus attractions to vi",
-        "register for a virtual campus visit ! Bear Talk blog March 16, 2026 Mar 16 Being Myself at Berkeley March 9, 2026 Mar 09 Yes or Yes: Learning to Say",
-        "Open Berkeley Accessibility Statement Nondiscrimination Policy Statement Privacy Statement Copyright © 2026 UC Regents; all rights reserved Back"
+        "open for Golden Bear Welcome) Saturday, May 16: CLOSED for Commencement Virtual Campus Experiences Wander the campus virtually through our YouVi",
+        "register for a virtual campus visit ! Bear Talk blog March 16, 2026 Mar 16 Being Myself at Berkeley March 9, 2026 Mar 09 Yes or Yes: Learning to Say"
       ]
     },
     {
@@ -1284,12 +1293,16 @@
       "title": "NASA High School Aerospace Scholars",
       "category": "program",
       "source": "https://www.nasa.gov/learning-resources/high-school-aerospace-scholars/",
-      "status": 429,
-      "reachable": false,
-      "finalUrl": "https://www.nasa.gov/learning-resources/texas-aerospace-scholars",
-      "pageTitle": "429 Too Many Requests",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://www.nasa.gov/learning-resources/texas-aerospace-scholars/",
+      "pageTitle": "Texas Aerospace Scholars - NASA",
       "sourceChanged": true,
-      "signals": []
+      "signals": [
+        "open Summer 2026 event location Virtual",
+        "Apply Important Dates FAQs Senior Experience Educator Opportunities How to Apply Review the eligibility requirements and learn how to submit an a",
+        "open in the summer of 2026"
+      ]
     },
     {
       "id": "NASA STEM Gateway",
@@ -1358,10 +1371,10 @@
       "title": "College Scorecard",
       "category": "tool",
       "source": "https://collegescorecard.ed.gov/",
-      "status": 200,
-      "reachable": true,
+      "status": 403,
+      "reachable": false,
       "finalUrl": "https://collegescorecard.ed.gov/",
-      "pageTitle": "Home | College Scorecard",
+      "pageTitle": "ERROR: The request could not be satisfied",
       "sourceChanged": false,
       "signals": []
     },
@@ -1578,7 +1591,6 @@
       "pageTitle": "Student Hub Overview - Microsoft Learn Student Hub | Microsoft Learn",
       "sourceChanged": false,
       "signals": [
-        "Apply now: Red Bull Basement 2026 Imagine Cup 2026 Follow the Imagine Cup finalists to the winners stage! All the submissions are in and now each",
         "apply them with hands-on coding in Python and TypeScript"
       ]
     },
