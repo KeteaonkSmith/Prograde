@@ -2,9 +2,9 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 106,
-    "unreachable": 18,
-    "redirected": 21
+    "reachable": 108,
+    "unreachable": 16,
+    "redirected": 20
   },
   "entries": [
     {
@@ -36,7 +36,7 @@
       "signals": [
         "REGISTRATION - Skip to content Menu Connecting today's Congress with tomorrow's innovators",
         "REGISTRATION RULES PARTICIPATING DISTRICTS PAST WINNERS LEARN TO CODE TOP APPS PRESENTED BY THECODERSCHOOL #HOUSEOFCODE CONGRESS RESOURCES CONGRESSIONAL",
-        "Close Menu REGISTER IN 2026 Registration for the 2026 Congressional App Challenge will open on May 1, 2026"
+        "Close Menu REGISTER IN 2026 Registration for the 2026 Congressional App Challenge will open in May 2026"
       ]
     },
     {
@@ -172,9 +172,9 @@
       "pageTitle": "High School | Summer Session",
       "sourceChanged": true,
       "signals": [
-        "Apply now Menu Search this site Submit Search Apply now Request info Students Undergraduate Graduate Gap Year High School Stanford Students Cours",
-        "Application Process Dates and Deadlines International Students Cost Tuition &amp; Fees Calculator Tuition Grants Student Life Events Residential or Com",
-        "Application Requirements As part of the application, you will be asked to supply: transcripts, one essay, and proof of English proficiency (if necessar"
+        "Deadline: Final Application Submission The final application deadline for university level students is May 22 at 9 p",
+        "Apply now to spend your summer at Stanford",
+        "Apply now Summer Session Request info Apply now Menu Search this site Submit Search Apply now Request info Students Undergraduate Graduate Gap Ye"
       ]
     },
     {
@@ -426,12 +426,16 @@
       "title": "Canva Education",
       "category": "tool",
       "source": "https://www.canva.com/education/eligibility-guidelines/",
-      "status": 403,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://www.canva.com/education/eligibility-guidelines/",
-      "pageTitle": "Canva",
+      "pageTitle": "Eligibility Guidelines | Canva Education",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "opens in a new tab or window) Jump to: Eligibility guidelines How long does my access to Canva Education last? Who can’t access Canva Education?",
+        "opens in a new tab or window) ) College and university students ( Check out our Canva for Campus product ⁠ (opens in a new tab or window) ) Conti",
+        "opens in a new tab or window) ) Early stage start-ups with an educational focus Parents of children who are in K-12 (primary or secondary) educat"
+      ]
     },
     {
       "id": "GitHub Student Developer Pack",
@@ -691,12 +695,16 @@
       "title": "University of Michigan Visit",
       "category": "visit",
       "source": "https://admissions.umich.edu/explore-visit/visit-campus",
-      "status": 403,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://admissions.umich.edu/explore-visit/visit-campus",
-      "pageTitle": "Just a moment...",
+      "pageTitle": "Visit Campus | University of Michigan Office of Undergraduate Admissions",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Apply Costs &amp; Aid Explore &amp; Visit Search Close search menu Academics &amp; Majors Apply Costs &amp; Aid Explore &amp; Visit Visit Campus",
+        "Apply to U-M Costs AP &amp; IB Credit Visit Campus Transfer Applicants Common Questions What materials does U-M need in order to review a first-y",
+        "application? Am I required to submit an SAT or ACT score with my admissions application? What is Early Action (EA) and will an EA app be reviewed diffe"
+      ]
     },
     {
       "id": "Cornell Visit",
@@ -954,7 +962,7 @@
       "signals": [
         "Apply Eligibility Participation Requirements Dates and Deadlines Application Components Selection Process Post-Acceptance Apply for NSLI-Y Menu C",
         "Apply Eligibility Participation Requirements Dates and Deadlines Application Components Selection Process Post-Acceptance Apply for NSLI-Y Storie",
-        "application is now closed"
+        "application for Virtual NSLI-Y&#8217;s Fall 2026 program is now available"
       ]
     },
     {
@@ -978,16 +986,12 @@
       "title": "LEDA Scholars",
       "category": "program",
       "source": "https://ledascholars.org/our-program/",
-      "status": 200,
+      "status": 202,
       "reachable": true,
       "finalUrl": "https://ledascholars.org/our-program/",
-      "pageTitle": "What We Do | LEDA",
+      "pageTitle": "",
       "sourceChanged": false,
-      "signals": [
-        "Close The Need The Need Exceptional students from low-income backgrounds have unequal access to the top-tier colleges that cultivate most of our",
-        "Close What We Do What We Do LEDA runs the LEDA Scholars Program, the LEDA Career Network, and the LEDA Policy Project",
-        "Close Impact Impact A look at LEDA Scholars since our inception in 2003"
-      ]
+      "signals": []
     },
     {
       "id": "Matriculate",
@@ -1006,16 +1010,12 @@
       "title": "CollegePoint",
       "category": "program",
       "source": "https://www.collegepoint.info/",
-      "status": 200,
-      "reachable": true,
+      "status": 403,
+      "reachable": false,
       "finalUrl": "https://www.collegepoint.info/",
-      "pageTitle": "CollegePoint - Free Virtual Advising for High School Students",
+      "pageTitle": "Access to this page has been denied",
       "sourceChanged": false,
-      "signals": [
-        "Close Menu Who we are What we do Stories Media FAQs Free college advising",
-        "application process can be overwhelming – we’re here to help",
-        "apply to, enroll in, and graduate from top colleges"
-      ]
+      "signals": []
     },
     {
       "id": "Gates Scholarship",
@@ -1070,16 +1070,12 @@
       "title": "Ron Brown Scholar Program",
       "category": "scholarship",
       "source": "https://ronbrown.org/apply/ron-brown-scholarship/",
-      "status": 200,
+      "status": 202,
       "reachable": true,
-      "finalUrl": "https://ronbrown.org/ron-brown-scholarship/",
-      "pageTitle": "The Ron Brown Signature Scholarship &#8211; Ron Brown Scholar Program",
-      "sourceChanged": true,
-      "signals": [
-        "Application for 2026 is now closed",
-        "APPLY NOW - 2025 Application is now open! Tickets &amp; Sponsorships Now Available for AJA 2025—Reserve Your Place! Remembering Our Dear Friend C",
-        "APPLICATION FOR THE 2026 SCHOLARSHIP COMPETITION IS NOW CLOSED - ABOUT THE RON BROWN SIGNATURE SCHOLARSHIP The Ron Brown Scholarship honors the legacy"
-      ]
+      "finalUrl": "https://ronbrown.org/apply/ron-brown-scholarship/",
+      "pageTitle": "",
+      "sourceChanged": false,
+      "signals": []
     },
     {
       "id": "Hispanic Scholarship Fund",
@@ -1208,15 +1204,12 @@
       "title": "Science Olympiad",
       "category": "competition",
       "source": "https://www.soinc.org/",
-      "status": 200,
+      "status": 202,
       "reachable": true,
       "finalUrl": "https://www.soinc.org/",
-      "pageTitle": "Science Olympiad",
+      "pageTitle": "",
       "sourceChanged": false,
-      "signals": [
-        "Application March Newsletter USC National Tournament Website $50K&nbsp; Founders' Scholarships &gt; opens 2/16/26 SO Alumni Research Grants &gt; opens",
-        "Open now! 2026 Div"
-      ]
+      "signals": []
     },
     {
       "id": "MathWorks Math Modeling Challenge",
@@ -1377,10 +1370,10 @@
       "title": "College Scorecard",
       "category": "tool",
       "source": "https://collegescorecard.ed.gov/",
-      "status": 403,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://collegescorecard.ed.gov/",
-      "pageTitle": "ERROR: The request could not be satisfied",
+      "pageTitle": "Home | College Scorecard",
       "sourceChanged": false,
       "signals": []
     },
