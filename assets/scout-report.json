@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 109,
-    "unreachable": 15,
+    "reachable": 107,
+    "unreachable": 17,
     "redirected": 21
   },
   "entries": [
@@ -639,16 +639,12 @@
       "title": "Stanford Campus Visit",
       "category": "visit",
       "source": "https://admission.stanford.edu/engage/",
-      "status": 200,
-      "reachable": true,
+      "status": 403,
+      "reachable": false,
       "finalUrl": "https://admission.stanford.edu/engage/",
-      "pageTitle": "Engage : Stanford University",
+      "pageTitle": "Visitor anti-robot validation",
       "sourceChanged": false,
-      "signals": [
-        "Apply Visit --> Quick Links News &amp; Announcements Application Requirements Tours and Programs Cost of Attendance Parents Counselors --> Admiss",
-        "Application Requirements Tours and Programs Cost of Attendance Parents Counselors Admission Volunteers --> Updates for applicants in response to COVID-",
-        "Register for a live, virtual \"visit\" Nothing can replace visiting a college campus, but we are happy to offer virtual visit programming for those wh"
-      ]
+      "signals": []
     },
     {
       "id": "Georgia Tech Visit",
@@ -1226,7 +1222,7 @@
       "pageTitle": "Science Olympiad",
       "sourceChanged": false,
       "signals": [
-        "Application March Newsletter USC National Tournament Website $50K&nbsp; Founders' Scholarships &gt; opens 2/16/26 SO Alumni Research Grants &gt; opens",
+        "open now! 2026 National Tournament State Team Numbers CCIR Coaching Scholarship Application USC National Tournament Website Science Olympiad Sto",
         "Open now! 2026 Div"
       ]
     },
@@ -1388,10 +1384,10 @@
       "title": "College Scorecard",
       "category": "tool",
       "source": "https://collegescorecard.ed.gov/",
-      "status": 200,
-      "reachable": true,
+      "status": 403,
+      "reachable": false,
       "finalUrl": "https://collegescorecard.ed.gov/",
-      "pageTitle": "Home | College Scorecard",
+      "pageTitle": "ERROR: The request could not be satisfied",
       "sourceChanged": false,
       "signals": []
     },
