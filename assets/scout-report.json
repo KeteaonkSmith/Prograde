@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 107,
-    "unreachable": 17,
+    "reachable": 104,
+    "unreachable": 20,
     "redirected": 21
   },
   "entries": [
@@ -528,16 +528,8 @@
       "title": "Purdue Campus Visits",
       "category": "visit",
       "source": "https://admissions.purdue.edu/visit/",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://admissions.purdue.edu/visit/",
-      "pageTitle": "Purdue University – Visit Us",
-      "sourceChanged": false,
-      "signals": [
-        "CLOSE Undergraduate Admissions Search Home Become a Student Support Your Student Admitted Students Academics Cost &amp; Aid Student Life Visit Co",
-        "Application Deadlines Apply Now Check Application Status Transfer Scholarships Quick links Accept Your Offer Class Profile College Prep Guide to Applyi",
-        "Apply plus_icon Apply Now Guide to Applying Deadlines First-Year Class Profile Closed Programs Application Status College Prep Timeline Informati"
-      ]
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "Purdue AAE Prospective Family Visits",
@@ -678,8 +670,8 @@
       "sourceChanged": false,
       "signals": [
         "Close Welcome! We welcome you to visit UC Berkeley! We offer in-person, virtual, and self-guided campus tours, highlight campus attractions to vi",
-        "open for Golden Bear Welcome) Saturday, May 16: CLOSED for Commencement Virtual Campus Experiences Wander the campus virtually through our YouVi",
-        "register for a virtual campus visit ! Bear Talk blog March 16, 2026 Mar 16 Being Myself at Berkeley March 9, 2026 Mar 09 Yes or Yes: Learning to Say"
+        "register for a virtual campus visit ! Bear Talk blog March 16, 2026 Mar 16 Being Myself at Berkeley March 9, 2026 Mar 09 Yes or Yes: Learning to Say",
+        "Open Berkeley Accessibility Statement Nondiscrimination Policy Statement Privacy Statement Copyright © 2026 UC Regents; all rights reserved Back"
       ]
     },
     {
@@ -1232,16 +1224,12 @@
       "title": "MathWorks Math Modeling Challenge",
       "category": "competition",
       "source": "https://m3challenge.siam.org/",
-      "status": 200,
-      "reachable": true,
+      "status": 403,
+      "reachable": false,
       "finalUrl": "https://m3challenge.siam.org/",
-      "pageTitle": "MathWorks Math Modeling Challenge (M3 Challenge)",
+      "pageTitle": "Just a moment...",
       "sourceChanged": false,
-      "signals": [
-        "Register Math Modeling Modeling Handbooks Teaching Math Modeling The Challenge Important Dates Scholarships and Recognition Judging Rules and Guidel",
-        "registration or participation fees Flexible work time Learn More Eligibility ↗ High school juniors and seniors (U",
-        "Register ↗ Registration is now closed for 2026"
-      ]
+      "signals": []
     },
     {
       "id": "American Mathematics Competitions",
@@ -1307,16 +1295,12 @@
       "title": "NASA High School Aerospace Scholars",
       "category": "program",
       "source": "https://www.nasa.gov/learning-resources/high-school-aerospace-scholars/",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://www.nasa.gov/learning-resources/texas-aerospace-scholars/",
-      "pageTitle": "Texas Aerospace Scholars - NASA",
+      "status": 429,
+      "reachable": false,
+      "finalUrl": "https://www.nasa.gov/learning-resources/texas-aerospace-scholars",
+      "pageTitle": "429 Too Many Requests",
       "sourceChanged": true,
-      "signals": [
-        "open Summer 2026 event location Virtual",
-        "Apply Important Dates FAQs Senior Experience Educator Opportunities How to Apply Review the eligibility requirements and learn how to submit an a",
-        "open in the summer of 2026"
-      ]
+      "signals": []
     },
     {
       "id": "NASA STEM Gateway",
