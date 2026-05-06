@@ -639,16 +639,8 @@
       "title": "Stanford Campus Visit",
       "category": "visit",
       "source": "https://admission.stanford.edu/engage/",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://admission.stanford.edu/engage/",
-      "pageTitle": "Engage : Stanford University",
-      "sourceChanged": false,
-      "signals": [
-        "Apply Visit --> Quick Links News &amp; Announcements Application Requirements Tours and Programs Cost of Attendance Parents Counselors --> Admiss",
-        "Application Requirements Tours and Programs Cost of Attendance Parents Counselors Admission Volunteers --> Updates for applicants in response to COVID-",
-        "Register for a live, virtual \"visit\" Nothing can replace visiting a college campus, but we are happy to offer virtual visit programming for those wh"
-      ]
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "Georgia Tech Visit",
@@ -703,12 +695,16 @@
       "title": "University of Michigan Visit",
       "category": "visit",
       "source": "https://admissions.umich.edu/explore-visit/visit-campus",
-      "status": 403,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://admissions.umich.edu/explore-visit/visit-campus",
-      "pageTitle": "Just a moment...",
+      "pageTitle": "Visit Campus | University of Michigan Office of Undergraduate Admissions",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Apply Costs &amp; Aid Explore &amp; Visit Search Close search menu Academics &amp; Majors Apply Costs &amp; Aid Explore &amp; Visit Visit Campus",
+        "Apply to U-M Costs AP &amp; IB Credit Visit Campus Transfer Applicants Common Questions What materials does U-M need in order to review a first-y",
+        "application? Am I required to submit an SAT or ACT score with my admissions application? What is Early Action (EA) and will an EA app be reviewed diffe"
+      ]
     },
     {
       "id": "Cornell Visit",
@@ -1182,10 +1178,7 @@
       "finalUrl": "https://www.vexrobotics.com/competition",
       "pageTitle": "VEX Robotics Competitions | Events, Rules and Resources | Grades 4-12 - VEX Robotics",
       "sourceChanged": false,
-      "signals": [
-        "Apply for a Grant Competition Support Downloads View All Build Instructions VEXcode Software VEXos Firmware Competition Game Manuals Printable VE",
-        "Apply for a grant"
-      ]
+      "signals": []
     },
     {
       "id": "Regeneron ISEF",
@@ -1235,12 +1228,16 @@
       "title": "MathWorks Math Modeling Challenge",
       "category": "competition",
       "source": "https://m3challenge.siam.org/",
-      "status": 403,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://m3challenge.siam.org/",
-      "pageTitle": "Just a moment...",
+      "pageTitle": "MathWorks Math Modeling Challenge (M3 Challenge)",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Register Math Modeling Modeling Handbooks Teaching Math Modeling The Challenge Important Dates Scholarships and Recognition Judging Rules and Guidel",
+        "registration or participation fees Flexible work time Learn More Eligibility ↗ High school juniors and seniors (U",
+        "Register ↗ Registration is now closed for 2026"
+      ]
     },
     {
       "id": "American Mathematics Competitions",
@@ -1522,16 +1519,8 @@
       "title": "Girls Who Code Clubs",
       "category": "program",
       "source": "https://girlswhocode.com/programs/clubs-program",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://girlswhocode.com/programs/clubs-program",
-      "pageTitle": "Girls Who Code | Clubs",
-      "sourceChanged": false,
-      "signals": [
-        "Apply to Start a Club What&#x27;s a Club? Clubs are free programs for all 3rd-12th graders of any skill level to join a sisterhood of supportive",
-        "Apply to Start a Club Sisterhood Join a safe and supportive environment of peers and role models where students learn to see themselves as comput",
-        "apply computational thinking and problem-solving skills in a rapidly evolving tech landscape"
-      ]
+      "reachable": false,
+      "error": "AbortError"
     },
     {
       "id": "Kode With Klossy",
