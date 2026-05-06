@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 108,
-    "unreachable": 16,
+    "reachable": 106,
+    "unreachable": 18,
     "redirected": 21
   },
   "entries": [
@@ -559,16 +559,12 @@
       "title": "UIUC Engineering Open House",
       "category": "visit",
       "source": "https://www.eohillinois.org/",
-      "status": 200,
-      "reachable": true,
+      "status": 402,
+      "reachable": false,
       "finalUrl": "https://www.eohillinois.org/",
-      "pageTitle": "EOH 2026",
+      "pageTitle": "",
       "sourceChanged": false,
-      "signals": [
-        "Open House at the University of Illinois Urbana-Champaign brings Forging the Future April 10th &amp; April 11th, 2026 EOH 2026 Awards The Awards",
-        "Open House (EOH) at the University of Illinois Urbana–Champaign! Whether this is your first visit or your tenth, we are incredibly excited to we",
-        "open"
-      ]
+      "signals": []
     },
     {
       "id": "UIUC College Open Houses",
@@ -639,8 +635,16 @@
       "title": "Stanford Campus Visit",
       "category": "visit",
       "source": "https://admission.stanford.edu/engage/",
-      "reachable": false,
-      "error": "TypeError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://admission.stanford.edu/engage/",
+      "pageTitle": "Engage : Stanford University",
+      "sourceChanged": false,
+      "signals": [
+        "Apply Visit --> Quick Links News &amp; Announcements Application Requirements Tours and Programs Cost of Attendance Parents Counselors --> Admiss",
+        "Application Requirements Tours and Programs Cost of Attendance Parents Counselors Admission Volunteers --> Updates for applicants in response to COVID-",
+        "Register for a live, virtual \"visit\" Nothing can replace visiting a college campus, but we are happy to offer virtual visit programming for those wh"
+      ]
     },
     {
       "id": "Georgia Tech Visit",
@@ -1173,10 +1177,10 @@
       "title": "VEX Robotics Competition",
       "category": "competition",
       "source": "https://www.vexrobotics.com/competition",
-      "status": 200,
-      "reachable": true,
+      "status": 403,
+      "reachable": false,
       "finalUrl": "https://www.vexrobotics.com/competition",
-      "pageTitle": "VEX Robotics Competitions | Events, Rules and Resources | Grades 4-12 - VEX Robotics",
+      "pageTitle": "Just a moment...",
       "sourceChanged": false,
       "signals": []
     },
@@ -1228,16 +1232,12 @@
       "title": "MathWorks Math Modeling Challenge",
       "category": "competition",
       "source": "https://m3challenge.siam.org/",
-      "status": 200,
-      "reachable": true,
+      "status": 403,
+      "reachable": false,
       "finalUrl": "https://m3challenge.siam.org/",
-      "pageTitle": "MathWorks Math Modeling Challenge (M3 Challenge)",
+      "pageTitle": "Just a moment...",
       "sourceChanged": false,
-      "signals": [
-        "Register Math Modeling Modeling Handbooks Teaching Math Modeling The Challenge Important Dates Scholarships and Recognition Judging Rules and Guidel",
-        "registration or participation fees Flexible work time Learn More Eligibility ↗ High school juniors and seniors (U",
-        "Register ↗ Registration is now closed for 2026"
-      ]
+      "signals": []
     },
     {
       "id": "American Mathematics Competitions",
@@ -1381,10 +1381,10 @@
       "title": "College Scorecard",
       "category": "tool",
       "source": "https://collegescorecard.ed.gov/",
-      "status": 200,
-      "reachable": true,
+      "status": 403,
+      "reachable": false,
       "finalUrl": "https://collegescorecard.ed.gov/",
-      "pageTitle": "Home | College Scorecard",
+      "pageTitle": "ERROR: The request could not be satisfied",
       "sourceChanged": false,
       "signals": []
     },
@@ -1519,8 +1519,16 @@
       "title": "Girls Who Code Clubs",
       "category": "program",
       "source": "https://girlswhocode.com/programs/clubs-program",
-      "reachable": false,
-      "error": "AbortError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://girlswhocode.com/programs/clubs-program",
+      "pageTitle": "Girls Who Code | Join 670,000 Girls Who Code today!",
+      "sourceChanged": false,
+      "signals": [
+        "Apply to Start a Club What&#x27;s a Club? Clubs are free programs for all 3rd-12th graders of any skill level to join a sisterhood of supportive",
+        "Apply to Start a Club Sisterhood Join a safe and supportive environment of peers and role models where students learn to see themselves as comput",
+        "apply computational thinking and problem-solving skills in a rapidly evolving tech landscape"
+      ]
     },
     {
       "id": "Kode With Klossy",
