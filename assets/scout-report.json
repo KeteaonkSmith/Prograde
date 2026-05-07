@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 105,
-    "unreachable": 19,
+    "reachable": 107,
+    "unreachable": 17,
     "redirected": 21
   },
   "entries": [
@@ -695,12 +695,16 @@
       "title": "University of Michigan Visit",
       "category": "visit",
       "source": "https://admissions.umich.edu/explore-visit/visit-campus",
-      "status": 403,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://admissions.umich.edu/explore-visit/visit-campus",
-      "pageTitle": "Just a moment...",
+      "pageTitle": "Visit Campus | University of Michigan Office of Undergraduate Admissions",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Apply Costs &amp; Aid Explore &amp; Visit Search Close search menu Academics &amp; Majors Apply Costs &amp; Aid Explore &amp; Visit Visit Campus",
+        "Apply to U-M Costs AP &amp; IB Credit Visit Campus Transfer Applicants Common Questions What materials does U-M need in order to review a first-y",
+        "application? Am I required to submit an SAT or ACT score with my admissions application? What is Early Action (EA) and will an EA app be reviewed diffe"
+      ]
     },
     {
       "id": "Cornell Visit",
@@ -1377,10 +1381,10 @@
       "title": "College Scorecard",
       "category": "tool",
       "source": "https://collegescorecard.ed.gov/",
-      "status": 403,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://collegescorecard.ed.gov/",
-      "pageTitle": "ERROR: The request could not be satisfied",
+      "pageTitle": "Home | College Scorecard",
       "sourceChanged": false,
       "signals": []
     },
