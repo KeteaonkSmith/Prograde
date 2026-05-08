@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 102,
-    "unreachable": 22,
+    "reachable": 108,
+    "unreachable": 16,
     "redirected": 21
   },
   "entries": [
@@ -563,8 +563,16 @@
       "title": "UIUC College Open Houses",
       "category": "visit",
       "source": "https://www.admissions.illinois.edu/visit/open-houses",
-      "reachable": false,
-      "error": "TypeError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://www.admissions.illinois.edu/visit/open-houses",
+      "pageTitle": "College Open Houses, Undergraduate Admissions, University of Illinois Urbana-Champaign",
+      "sourceChanged": false,
+      "signals": [
+        "Open Houses, Undergraduate Admissions, University of Illinois Urbana-Champaign You are using an outdated browser",
+        "Apply First-Year How to Apply Help With Applying Dates &amp; Deadlines Requirements Majors Writing Prompts How We Review College Credit College P",
+        "Apply Dates &amp; Deadlines Transfer Handbook Majors Essay Questions How We Review Transferring Credit GPA Guidelines Applicant FAQ More Internat"
+      ]
     },
     {
       "id": "Summer SAIL at University of Oregon",
@@ -619,8 +627,16 @@
       "title": "Stanford Campus Visit",
       "category": "visit",
       "source": "https://admission.stanford.edu/engage/",
-      "reachable": false,
-      "error": "TypeError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://admission.stanford.edu/engage/",
+      "pageTitle": "Engage : Stanford University",
+      "sourceChanged": false,
+      "signals": [
+        "Apply Visit --> Quick Links News &amp; Announcements Application Requirements Tours and Programs Cost of Attendance Parents Counselors --> Admiss",
+        "Application Requirements Tours and Programs Cost of Attendance Parents Counselors Admission Volunteers --> Updates for applicants in response to COVID-",
+        "Register for a live, virtual \"visit\" Nothing can replace visiting a college campus, but we are happy to offer virtual visit programming for those wh"
+      ]
     },
     {
       "id": "Georgia Tech Visit",
@@ -675,12 +691,16 @@
       "title": "University of Michigan Visit",
       "category": "visit",
       "source": "https://admissions.umich.edu/explore-visit/visit-campus",
-      "status": 403,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://admissions.umich.edu/explore-visit/visit-campus",
-      "pageTitle": "Just a moment...",
+      "pageTitle": "Visit Campus | University of Michigan Office of Undergraduate Admissions",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Apply Costs &amp; Aid Explore &amp; Visit Search Close search menu Academics &amp; Majors Apply Costs &amp; Aid Explore &amp; Visit Visit Campus",
+        "Apply to U-M Costs AP &amp; IB Credit Visit Campus Transfer Applicants Common Questions What materials does U-M need in order to review a first-y",
+        "application? Am I required to submit an SAT or ACT score with my admissions application? What is Early Action (EA) and will an EA app be reviewed diffe"
+      ]
     },
     {
       "id": "Cornell Visit",
@@ -835,9 +855,9 @@
       "pageTitle": "Aspiring Scientists Summer Internship Program (ASSIP) | GMU College of Science",
       "sourceChanged": false,
       "signals": [
+        "Close alert Mason Alert: Canvas is back online",
         "apply Tuition and Fees FAQs Prospective 2026 ASSIP Mentors ASSIP News Prior ASSIP Research Support ASSIP K-12 STEM Programs Learning Assistants L",
-        "apply Tuition and Fees FAQs Prospective 2026 ASSIP Mentors ASSIP News Prior ASSIP Research Support ASSIP Gain original, cutting-edge research exp",
-        "Application is now closed"
+        "apply Tuition and Fees FAQs Prospective 2026 ASSIP Mentors ASSIP News Prior ASSIP Research Support ASSIP Gain original, cutting-edge research exp"
       ]
     },
     {
@@ -1149,12 +1169,14 @@
       "title": "VEX Robotics Competition",
       "category": "competition",
       "source": "https://www.vexrobotics.com/competition",
-      "status": 403,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://www.vexrobotics.com/competition",
-      "pageTitle": "Just a moment...",
+      "pageTitle": "VEX Robotics Competitions | Events, Rules and Resources | Grades 4-12 - VEX Robotics",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Apply for a grant"
+      ]
     },
     {
       "id": "Regeneron ISEF",
@@ -1167,8 +1189,7 @@
       "pageTitle": "Regeneron International Science and Engineering Fair - Society for Science",
       "sourceChanged": false,
       "signals": [
-        "Close the menu Site Search Search Close the sitewide search Regeneron ISEF 2026 - Phoenix, Arizona Regeneron ISEF is coming to Phoenix, Arizona!",
-        "application here! Interested in competing? Use the links below to find an Affiliated Fair in your area, learn about the Updated 2026 International Rule",
+        "Close the menu Site Search Search Close the sitewide search Regeneron ISEF 2026 - Phoenix, Arizona From May 9 to May 15, more than 1,700 young sc",
         "Registration Complimentary press registration, including access to most Regeneron ISEF programs and events, is available to applicants with valid media"
       ]
     },
@@ -1204,12 +1225,16 @@
       "title": "MathWorks Math Modeling Challenge",
       "category": "competition",
       "source": "https://m3challenge.siam.org/",
-      "status": 403,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://m3challenge.siam.org/",
-      "pageTitle": "Just a moment...",
+      "pageTitle": "MathWorks Math Modeling Challenge (M3 Challenge)",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Register Math Modeling Modeling Handbooks Teaching Math Modeling The Challenge Important Dates Scholarships and Recognition Judging Rules and Guidel",
+        "registration or participation fees Flexible work time Learn More Eligibility ↗ High school juniors and seniors (U",
+        "Register ↗ Registration is now closed for 2026"
+      ]
     },
     {
       "id": "American Mathematics Competitions",
@@ -1353,10 +1378,10 @@
       "title": "College Scorecard",
       "category": "tool",
       "source": "https://collegescorecard.ed.gov/",
-      "status": 403,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://collegescorecard.ed.gov/",
-      "pageTitle": "ERROR: The request could not be satisfied",
+      "pageTitle": "Home | College Scorecard",
       "sourceChanged": false,
       "signals": []
     },
