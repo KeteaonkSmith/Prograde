@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 108,
-    "unreachable": 16,
+    "reachable": 106,
+    "unreachable": 18,
     "redirected": 21
   },
   "entries": [
@@ -422,12 +422,16 @@
       "title": "Canva Education",
       "category": "tool",
       "source": "https://www.canva.com/education/eligibility-guidelines/",
-      "status": 403,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://www.canva.com/education/eligibility-guidelines/",
-      "pageTitle": "Canva",
+      "pageTitle": "Eligibility Guidelines | Canva Education",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "opens in a new tab or window) Jump to: Eligibility guidelines How long does my access to Canva Education last? Who can’t access Canva Education?",
+        "opens in a new tab or window) ) College and university students ( Check out our Canva for Campus product ⁠ (opens in a new tab or window) ) Conti",
+        "opens in a new tab or window) ) Early stage start-ups with an educational focus Parents of children who are in K-12 (primary or secondary) educat"
+      ]
     },
     {
       "id": "GitHub Student Developer Pack",
@@ -691,16 +695,12 @@
       "title": "University of Michigan Visit",
       "category": "visit",
       "source": "https://admissions.umich.edu/explore-visit/visit-campus",
-      "status": 200,
-      "reachable": true,
+      "status": 403,
+      "reachable": false,
       "finalUrl": "https://admissions.umich.edu/explore-visit/visit-campus",
-      "pageTitle": "Visit Campus | University of Michigan Office of Undergraduate Admissions",
+      "pageTitle": "Just a moment...",
       "sourceChanged": false,
-      "signals": [
-        "Apply Costs &amp; Aid Explore &amp; Visit Search Close search menu Academics &amp; Majors Apply Costs &amp; Aid Explore &amp; Visit Visit Campus",
-        "Apply to U-M Costs AP &amp; IB Credit Visit Campus Transfer Applicants Common Questions What materials does U-M need in order to review a first-y",
-        "application? Am I required to submit an SAT or ACT score with my admissions application? What is Early Action (EA) and will an EA app be reviewed diffe"
-      ]
+      "signals": []
     },
     {
       "id": "Cornell Visit",
@@ -1169,14 +1169,12 @@
       "title": "VEX Robotics Competition",
       "category": "competition",
       "source": "https://www.vexrobotics.com/competition",
-      "status": 200,
-      "reachable": true,
+      "status": 403,
+      "reachable": false,
       "finalUrl": "https://www.vexrobotics.com/competition",
-      "pageTitle": "VEX Robotics Competitions | Events, Rules and Resources | Grades 4-12 - VEX Robotics",
+      "pageTitle": "Just a moment...",
       "sourceChanged": false,
-      "signals": [
-        "Apply for a grant"
-      ]
+      "signals": []
     },
     {
       "id": "Regeneron ISEF",
@@ -1225,16 +1223,12 @@
       "title": "MathWorks Math Modeling Challenge",
       "category": "competition",
       "source": "https://m3challenge.siam.org/",
-      "status": 200,
-      "reachable": true,
+      "status": 403,
+      "reachable": false,
       "finalUrl": "https://m3challenge.siam.org/",
-      "pageTitle": "MathWorks Math Modeling Challenge (M3 Challenge)",
+      "pageTitle": "Just a moment...",
       "sourceChanged": false,
-      "signals": [
-        "Register Math Modeling Modeling Handbooks Teaching Math Modeling The Challenge Important Dates Scholarships and Recognition Judging Rules and Guidel",
-        "registration or participation fees Flexible work time Learn More Eligibility ↗ High school juniors and seniors (U",
-        "Register ↗ Registration is now closed for 2026"
-      ]
+      "signals": []
     },
     {
       "id": "American Mathematics Competitions",
@@ -1260,12 +1254,9 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://picoctf.org/",
-      "pageTitle": "picoCTF - CMU Cybersecurity Competition",
+      "pageTitle": "Welcome to CyLab Security Academy — Welcome to CyLab Security Academy",
       "sourceChanged": false,
-      "signals": [
-        "open to anyone, with prizes available to eligible teams",
-        "Registration open March 9, 2026 12:00 PM EDT - CTF begins March 19, 2026 3:00 PM EDT - CTF ends Eligibility Open to everyone: Existing or new accounts a"
-      ]
+      "signals": []
     },
     {
       "id": "National Cyber League",
