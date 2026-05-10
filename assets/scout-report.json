@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 107,
-    "unreachable": 17,
+    "reachable": 104,
+    "unreachable": 20,
     "redirected": 21
   },
   "entries": [
@@ -104,16 +104,8 @@
       "title": "PROMYS",
       "category": "program",
       "source": "https://promys.org/programs/promys/for-students/",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://promys.org/programs/promys/for-students/",
-      "pageTitle": "For Students &#8211; PROMYS | Program in Mathematics for Young Scientists",
-      "sourceChanged": false,
-      "signals": [
-        "Apply For Counselors Quick Facts Counselor Mathematics FAQ Testimonials To Apply PROMYS for Teachers PROMYS Pathways PROMYS Europe PROMYS India P",
-        "close environment of people with a shared passion fosters truly brilliant collaboration, and the structure of each problem set weaves deep thinki",
-        "Application Deadline: February 27, 2026, 11:59 pm (EST) Admissions Decisions: end of April 2026 TBD Cost and Financial Aid &amp; Scholarships PROMYS be"
-      ]
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "Girls Who Code Pathways",
@@ -631,8 +623,12 @@
       "title": "Stanford Campus Visit",
       "category": "visit",
       "source": "https://admission.stanford.edu/engage/",
+      "status": 403,
       "reachable": false,
-      "error": "TypeError"
+      "finalUrl": "https://admission.stanford.edu/engage/",
+      "pageTitle": "Visitor anti-robot validation",
+      "sourceChanged": false,
+      "signals": []
     },
     {
       "id": "Georgia Tech Visit",
@@ -687,16 +683,12 @@
       "title": "University of Michigan Visit",
       "category": "visit",
       "source": "https://admissions.umich.edu/explore-visit/visit-campus",
-      "status": 200,
-      "reachable": true,
+      "status": 403,
+      "reachable": false,
       "finalUrl": "https://admissions.umich.edu/explore-visit/visit-campus",
-      "pageTitle": "Visit Campus | University of Michigan Office of Undergraduate Admissions",
+      "pageTitle": "Just a moment...",
       "sourceChanged": false,
-      "signals": [
-        "Apply Costs &amp; Aid Explore &amp; Visit Search Close search menu Academics &amp; Majors Apply Costs &amp; Aid Explore &amp; Visit Visit Campus",
-        "Apply to U-M Costs AP &amp; IB Credit Visit Campus Transfer Applicants Common Questions What materials does U-M need in order to review a first-y",
-        "application? Am I required to submit an SAT or ACT score with my admissions application? What is Early Action (EA) and will an EA app be reviewed diffe"
-      ]
+      "signals": []
     },
     {
       "id": "Cornell Visit",
@@ -1165,10 +1157,10 @@
       "title": "VEX Robotics Competition",
       "category": "competition",
       "source": "https://www.vexrobotics.com/competition",
-      "status": 200,
-      "reachable": true,
+      "status": 403,
+      "reachable": false,
       "finalUrl": "https://www.vexrobotics.com/competition",
-      "pageTitle": "VEX Robotics Competitions | Events, Rules and Resources | Grades 4-12 - VEX Robotics",
+      "pageTitle": "Just a moment...",
       "sourceChanged": false,
       "signals": []
     },
@@ -1219,16 +1211,12 @@
       "title": "MathWorks Math Modeling Challenge",
       "category": "competition",
       "source": "https://m3challenge.siam.org/",
-      "status": 200,
-      "reachable": true,
+      "status": 403,
+      "reachable": false,
       "finalUrl": "https://m3challenge.siam.org/",
-      "pageTitle": "MathWorks Math Modeling Challenge (M3 Challenge)",
+      "pageTitle": "Just a moment...",
       "sourceChanged": false,
-      "signals": [
-        "Register Math Modeling Modeling Handbooks Teaching Math Modeling The Challenge Important Dates Scholarships and Recognition Judging Rules and Guidel",
-        "registration or participation fees Flexible work time Learn More Eligibility ↗ High school juniors and seniors (U",
-        "Register ↗ Registration is now closed for 2026"
-      ]
+      "signals": []
     },
     {
       "id": "American Mathematics Competitions",
@@ -1369,10 +1357,10 @@
       "title": "College Scorecard",
       "category": "tool",
       "source": "https://collegescorecard.ed.gov/",
-      "status": 403,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://collegescorecard.ed.gov/",
-      "pageTitle": "ERROR: The request could not be satisfied",
+      "pageTitle": "Home | College Scorecard",
       "sourceChanged": false,
       "signals": []
     },
