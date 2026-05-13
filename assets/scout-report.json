@@ -631,12 +631,16 @@
       "title": "Stanford Campus Visit",
       "category": "visit",
       "source": "https://admission.stanford.edu/engage/",
-      "status": 403,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://admission.stanford.edu/engage/",
-      "pageTitle": "Visitor anti-robot validation",
+      "pageTitle": "Engage : Stanford University",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Apply Visit --> Quick Links News &amp; Announcements Application Requirements Tours and Programs Cost of Attendance Parents Counselors --> Admiss",
+        "Application Requirements Tours and Programs Cost of Attendance Parents Counselors Admission Volunteers --> Updates for applicants in response to COVID-",
+        "Register for a live, virtual \"visit\" Nothing can replace visiting a college campus, but we are happy to offer virtual visit programming for those wh"
+      ]
     },
     {
       "id": "Georgia Tech Visit",
@@ -1369,10 +1373,10 @@
       "title": "College Scorecard",
       "category": "tool",
       "source": "https://collegescorecard.ed.gov/",
-      "status": 200,
-      "reachable": true,
+      "status": 403,
+      "reachable": false,
       "finalUrl": "https://collegescorecard.ed.gov/",
-      "pageTitle": "Home | College Scorecard",
+      "pageTitle": "ERROR: The request could not be satisfied",
       "sourceChanged": false,
       "signals": []
     },
