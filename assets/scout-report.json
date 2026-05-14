@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 106,
-    "unreachable": 18,
+    "reachable": 104,
+    "unreachable": 20,
     "redirected": 21
   },
   "entries": [
@@ -120,14 +120,12 @@
       "title": "Girls Who Code Pathways",
       "category": "program",
       "source": "https://girlswhocode.zendesk.com/hc/en-us/articles/44033965033243-What-program-is-Girls-Who-Code-offering-during-the-summer",
-      "status": 200,
-      "reachable": true,
+      "status": 403,
+      "reachable": false,
       "finalUrl": "https://girlswhocode.zendesk.com/hc/en-us/articles/44033965033243-What-program-is-Girls-Who-Code-offering-during-the-summer",
-      "pageTitle": "What program is Girls Who Code offering during the summer? &ndash; Girls Who Code FAQ",
+      "pageTitle": "Just a moment...",
       "sourceChanged": false,
-      "signals": [
-        "apply"
-      ]
+      "signals": []
     },
     {
       "id": "Bank of America Student Leaders",
@@ -635,16 +633,12 @@
       "title": "Stanford Campus Visit",
       "category": "visit",
       "source": "https://admission.stanford.edu/engage/",
-      "status": 200,
-      "reachable": true,
+      "status": 403,
+      "reachable": false,
       "finalUrl": "https://admission.stanford.edu/engage/",
-      "pageTitle": "Engage : Stanford University",
+      "pageTitle": "Visitor anti-robot validation",
       "sourceChanged": false,
-      "signals": [
-        "Apply Visit --> Quick Links News &amp; Announcements Application Requirements Tours and Programs Cost of Attendance Parents Counselors --> Admiss",
-        "Application Requirements Tours and Programs Cost of Attendance Parents Counselors Admission Volunteers --> Updates for applicants in response to COVID-",
-        "Register for a live, virtual \"visit\" Nothing can replace visiting a college campus, but we are happy to offer virtual visit programming for those wh"
-      ]
+      "signals": []
     },
     {
       "id": "Georgia Tech Visit",
@@ -699,12 +693,16 @@
       "title": "University of Michigan Visit",
       "category": "visit",
       "source": "https://admissions.umich.edu/explore-visit/visit-campus",
-      "status": 403,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://admissions.umich.edu/explore-visit/visit-campus",
-      "pageTitle": "Just a moment...",
+      "pageTitle": "Visit Campus | University of Michigan Office of Undergraduate Admissions",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Apply Costs &amp; Aid Explore &amp; Visit Search Close search menu Academics &amp; Majors Apply Costs &amp; Aid Explore &amp; Visit Visit Campus",
+        "Apply to U-M Costs AP &amp; IB Credit Visit Campus Transfer Applicants Common Questions What materials does U-M need in order to review a first-y",
+        "application? Am I required to submit an SAT or ACT score with my admissions application? What is Early Action (EA) and will an EA app be reviewed diffe"
+      ]
     },
     {
       "id": "Cornell Visit",
@@ -1227,16 +1225,12 @@
       "title": "MathWorks Math Modeling Challenge",
       "category": "competition",
       "source": "https://m3challenge.siam.org/",
-      "status": 200,
-      "reachable": true,
+      "status": 403,
+      "reachable": false,
       "finalUrl": "https://m3challenge.siam.org/",
-      "pageTitle": "MathWorks Math Modeling Challenge (M3 Challenge)",
+      "pageTitle": "Just a moment...",
       "sourceChanged": false,
-      "signals": [
-        "Register Math Modeling Modeling Handbooks Teaching Math Modeling The Challenge Important Dates Scholarships and Recognition Judging Rules and Guidel",
-        "registration or participation fees Flexible work time Learn More Eligibility ↗ High school juniors and seniors (U",
-        "Register ↗ Registration is now closed for 2026"
-      ]
+      "signals": []
     },
     {
       "id": "American Mathematics Competitions",
@@ -1518,7 +1512,7 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://girlswhocode.com/programs/clubs-program",
-      "pageTitle": "Girls Who Code | Clubs",
+      "pageTitle": "Girls Who Code | Join 670,000 Girls Who Code today!",
       "sourceChanged": false,
       "signals": [
         "Apply to Start a Club What&#x27;s a Club? Clubs are free programs for all 3rd-12th graders of any skill level to join a sisterhood of supportive",
