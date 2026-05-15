@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 108,
-    "unreachable": 16,
+    "reachable": 105,
+    "unreachable": 19,
     "redirected": 21
   },
   "entries": [
@@ -490,12 +490,8 @@
       "title": "Purdue OWL",
       "category": "study",
       "source": "https://owl.purdue.edu/",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://owl.purdue.edu/",
-      "pageTitle": "Purdue OWL® - Purdue OWL® - Purdue University",
-      "sourceChanged": false,
-      "signals": []
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "Zotero",
@@ -635,16 +631,12 @@
       "title": "Stanford Campus Visit",
       "category": "visit",
       "source": "https://admission.stanford.edu/engage/",
-      "status": 200,
-      "reachable": true,
+      "status": 403,
+      "reachable": false,
       "finalUrl": "https://admission.stanford.edu/engage/",
-      "pageTitle": "Engage : Stanford University",
+      "pageTitle": "Visitor anti-robot validation",
       "sourceChanged": false,
-      "signals": [
-        "Apply Visit --> Quick Links News &amp; Announcements Application Requirements Tours and Programs Cost of Attendance Parents Counselors --> Admiss",
-        "Application Requirements Tours and Programs Cost of Attendance Parents Counselors Admission Volunteers --> Updates for applicants in response to COVID-",
-        "Register for a live, virtual \"visit\" Nothing can replace visiting a college campus, but we are happy to offer virtual visit programming for those wh"
-      ]
+      "signals": []
     },
     {
       "id": "Georgia Tech Visit",
@@ -1177,10 +1169,10 @@
       "title": "VEX Robotics Competition",
       "category": "competition",
       "source": "https://www.vexrobotics.com/competition",
-      "status": 200,
-      "reachable": true,
+      "status": 403,
+      "reachable": false,
       "finalUrl": "https://www.vexrobotics.com/competition",
-      "pageTitle": "VEX Robotics Competitions | Events, Rules and Resources | Grades 4-12 - VEX Robotics",
+      "pageTitle": "Just a moment...",
       "sourceChanged": false,
       "signals": []
     },
