@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 104,
-    "unreachable": 20,
+    "reachable": 108,
+    "unreachable": 16,
     "redirected": 21
   },
   "entries": [
@@ -120,12 +120,14 @@
       "title": "Girls Who Code Pathways",
       "category": "program",
       "source": "https://girlswhocode.zendesk.com/hc/en-us/articles/44033965033243-What-program-is-Girls-Who-Code-offering-during-the-summer",
-      "status": 403,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://girlswhocode.zendesk.com/hc/en-us/articles/44033965033243-What-program-is-Girls-Who-Code-offering-during-the-summer",
-      "pageTitle": "Just a moment...",
+      "pageTitle": "What program is Girls Who Code offering during the summer? &ndash; Girls Who Code FAQ",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "apply"
+      ]
     },
     {
       "id": "Bank of America Student Leaders",
@@ -633,12 +635,16 @@
       "title": "Stanford Campus Visit",
       "category": "visit",
       "source": "https://admission.stanford.edu/engage/",
-      "status": 403,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://admission.stanford.edu/engage/",
-      "pageTitle": "Visitor anti-robot validation",
+      "pageTitle": "Engage : Stanford University",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Apply Visit --> Quick Links News &amp; Announcements Application Requirements Tours and Programs Cost of Attendance Parents Counselors --> Admiss",
+        "Application Requirements Tours and Programs Cost of Attendance Parents Counselors Admission Volunteers --> Updates for applicants in response to COVID-",
+        "Register for a live, virtual \"visit\" Nothing can replace visiting a college campus, but we are happy to offer virtual visit programming for those wh"
+      ]
     },
     {
       "id": "Georgia Tech Visit",
@@ -1171,10 +1177,10 @@
       "title": "VEX Robotics Competition",
       "category": "competition",
       "source": "https://www.vexrobotics.com/competition",
-      "status": 403,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://www.vexrobotics.com/competition",
-      "pageTitle": "Just a moment...",
+      "pageTitle": "VEX Robotics Competitions | Events, Rules and Resources | Grades 4-12 - VEX Robotics",
       "sourceChanged": false,
       "signals": []
     },
@@ -1225,12 +1231,16 @@
       "title": "MathWorks Math Modeling Challenge",
       "category": "competition",
       "source": "https://m3challenge.siam.org/",
-      "status": 403,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://m3challenge.siam.org/",
-      "pageTitle": "Just a moment...",
+      "pageTitle": "MathWorks Math Modeling Challenge (M3 Challenge)",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Register Math Modeling Modeling Handbooks Teaching Math Modeling The Challenge Important Dates Scholarships and Recognition Judging Rules and Guidel",
+        "registration or participation fees Flexible work time Learn More Eligibility ↗ High school juniors and seniors (U",
+        "Register ↗ Registration is now closed for 2026"
+      ]
     },
     {
       "id": "American Mathematics Competitions",
