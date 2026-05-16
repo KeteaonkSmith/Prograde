@@ -490,8 +490,12 @@
       "title": "Purdue OWL",
       "category": "study",
       "source": "https://owl.purdue.edu/",
-      "reachable": false,
-      "error": "TypeError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://owl.purdue.edu/",
+      "pageTitle": "Purdue OWL® - Purdue OWL® - Purdue University",
+      "sourceChanged": false,
+      "signals": []
     },
     {
       "id": "Zotero",
@@ -631,12 +635,16 @@
       "title": "Stanford Campus Visit",
       "category": "visit",
       "source": "https://admission.stanford.edu/engage/",
-      "status": 403,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://admission.stanford.edu/engage/",
-      "pageTitle": "Visitor anti-robot validation",
+      "pageTitle": "Engage : Stanford University",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Apply Visit --> Quick Links News &amp; Announcements Application Requirements Tours and Programs Cost of Attendance Parents Counselors --> Admiss",
+        "Application Requirements Tours and Programs Cost of Attendance Parents Counselors Admission Volunteers --> Updates for applicants in response to COVID-",
+        "Register for a live, virtual \"visit\" Nothing can replace visiting a college campus, but we are happy to offer virtual visit programming for those wh"
+      ]
     },
     {
       "id": "Georgia Tech Visit",
@@ -691,16 +699,12 @@
       "title": "University of Michigan Visit",
       "category": "visit",
       "source": "https://admissions.umich.edu/explore-visit/visit-campus",
-      "status": 200,
-      "reachable": true,
+      "status": 403,
+      "reachable": false,
       "finalUrl": "https://admissions.umich.edu/explore-visit/visit-campus",
-      "pageTitle": "Visit Campus | University of Michigan Office of Undergraduate Admissions",
+      "pageTitle": "Just a moment...",
       "sourceChanged": false,
-      "signals": [
-        "Apply Costs &amp; Aid Explore &amp; Visit Search Close search menu Academics &amp; Majors Apply Costs &amp; Aid Explore &amp; Visit Visit Campus",
-        "Apply to U-M Costs AP &amp; IB Credit Visit Campus Transfer Applicants Common Questions What materials does U-M need in order to review a first-y",
-        "application? Am I required to submit an SAT or ACT score with my admissions application? What is Early Action (EA) and will an EA app be reviewed diffe"
-      ]
+      "signals": []
     },
     {
       "id": "Cornell Visit",
@@ -1223,16 +1227,12 @@
       "title": "MathWorks Math Modeling Challenge",
       "category": "competition",
       "source": "https://m3challenge.siam.org/",
-      "status": 200,
-      "reachable": true,
+      "status": 403,
+      "reachable": false,
       "finalUrl": "https://m3challenge.siam.org/",
-      "pageTitle": "MathWorks Math Modeling Challenge (M3 Challenge)",
+      "pageTitle": "Just a moment...",
       "sourceChanged": false,
-      "signals": [
-        "Register Math Modeling Modeling Handbooks Teaching Math Modeling The Challenge Important Dates Scholarships and Recognition Judging Rules and Guidel",
-        "registration or participation fees Flexible work time Learn More Eligibility ↗ High school juniors and seniors (U",
-        "Register ↗ Registration is now closed for 2026"
-      ]
+      "signals": []
     },
     {
       "id": "American Mathematics Competitions",
