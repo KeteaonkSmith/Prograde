@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 102,
-    "unreachable": 22,
+    "reachable": 103,
+    "unreachable": 21,
     "redirected": 21
   },
   "entries": [
@@ -565,8 +565,16 @@
       "title": "UIUC College Open Houses",
       "category": "visit",
       "source": "https://www.admissions.illinois.edu/visit/open-houses",
-      "reachable": false,
-      "error": "TypeError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://www.admissions.illinois.edu/visit/open-houses",
+      "pageTitle": "College Open Houses, Undergraduate Admissions, University of Illinois Urbana-Champaign",
+      "sourceChanged": false,
+      "signals": [
+        "Open Houses, Undergraduate Admissions, University of Illinois Urbana-Champaign You are using an outdated browser",
+        "Apply First-Year How to Apply Help With Applying Dates &amp; Deadlines Requirements Majors Writing Prompts How We Review College Credit College P",
+        "Apply Dates &amp; Deadlines Transfer Handbook Majors Essay Questions How We Review Transferring Credit GPA Guidelines Applicant FAQ More Internat"
+      ]
     },
     {
       "id": "Summer SAIL at University of Oregon",
