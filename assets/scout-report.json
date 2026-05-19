@@ -4,7 +4,7 @@
     "totalResources": 124,
     "reachable": 103,
     "unreachable": 21,
-    "redirected": 20
+    "redirected": 21
   },
   "entries": [
     {
@@ -120,14 +120,12 @@
       "title": "Girls Who Code Pathways",
       "category": "program",
       "source": "https://girlswhocode.zendesk.com/hc/en-us/articles/44033965033243-What-program-is-Girls-Who-Code-offering-during-the-summer",
-      "status": 200,
-      "reachable": true,
+      "status": 403,
+      "reachable": false,
       "finalUrl": "https://girlswhocode.zendesk.com/hc/en-us/articles/44033965033243-What-program-is-Girls-Who-Code-offering-during-the-summer",
-      "pageTitle": "What program is Girls Who Code offering during the summer? &ndash; Girls Who Code FAQ",
+      "pageTitle": "Just a moment...",
       "sourceChanged": false,
-      "signals": [
-        "apply"
-      ]
+      "signals": []
     },
     {
       "id": "Bank of America Student Leaders",
@@ -284,7 +282,7 @@
       "pageTitle": "USACO",
       "sourceChanged": false,
       "signals": [
-        "Open / EGOI Selection Contest Our final contest of the season (the US Open / EGOI Selection contest) has recently been held -- an invitational c",
+        "Open\" championship contest",
         "Register for New Account 2025-2026 Schedule Jan 9-12: First Contest Jan 30-Feb 2: Second Contest Feb 20-23: Third Contest For each contest, USA stud",
         "Open (Proctored) May 12-18: EGOI (Italy) May 21-30: Training Camp Aug 9-16: IOI (Uzbekistan) Our Sponsors"
       ]
@@ -631,12 +629,16 @@
       "title": "Stanford Campus Visit",
       "category": "visit",
       "source": "https://admission.stanford.edu/engage/",
-      "status": 403,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://admission.stanford.edu/engage/",
-      "pageTitle": "Visitor anti-robot validation",
+      "pageTitle": "Engage : Stanford University",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Apply Visit --> Quick Links News &amp; Announcements Application Requirements Tours and Programs Cost of Attendance Parents Counselors --> Admiss",
+        "Application Requirements Tours and Programs Cost of Attendance Parents Counselors Admission Volunteers --> Updates for applicants in response to COVID-",
+        "Register for a live, virtual \"visit\" Nothing can replace visiting a college campus, but we are happy to offer virtual visit programming for those wh"
+      ]
     },
     {
       "id": "Georgia Tech Visit",
@@ -978,12 +980,16 @@
       "title": "LEDA Scholars",
       "category": "program",
       "source": "https://ledascholars.org/our-program/",
-      "status": 202,
+      "status": 200,
       "reachable": true,
       "finalUrl": "https://ledascholars.org/our-program/",
-      "pageTitle": "",
+      "pageTitle": "What We Do | LEDA",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Close The Need The Need Exceptional students from low-income backgrounds have unequal access to the top-tier colleges that cultivate most of our",
+        "Close What We Do What We Do LEDA runs the LEDA Scholars Program, the LEDA Career Network, and the LEDA Policy Project",
+        "Close Impact Impact A look at LEDA Scholars since our inception in 2003"
+      ]
     },
     {
       "id": "Matriculate",
@@ -1066,12 +1072,16 @@
       "title": "Ron Brown Scholar Program",
       "category": "scholarship",
       "source": "https://ronbrown.org/apply/ron-brown-scholarship/",
-      "status": 202,
+      "status": 200,
       "reachable": true,
-      "finalUrl": "https://ronbrown.org/apply/ron-brown-scholarship/",
-      "pageTitle": "",
-      "sourceChanged": false,
-      "signals": []
+      "finalUrl": "https://ronbrown.org/ron-brown-scholarship/",
+      "pageTitle": "The Ron Brown Signature Scholarship &#8211; Ron Brown Scholar Program",
+      "sourceChanged": true,
+      "signals": [
+        "Application for 2026 is now closed",
+        "APPLY NOW - 2025 Application is now open! Tickets &amp; Sponsorships Now Available for AJA 2025—Reserve Your Place! Remembering Our Dear Friend C",
+        "APPLICATION FOR THE 2026 SCHOLARSHIP COMPETITION IS NOW CLOSED - ABOUT THE RON BROWN SIGNATURE SCHOLARSHIP The Ron Brown Scholarship honors the legacy"
+      ]
     },
     {
       "id": "Hispanic Scholarship Fund",
@@ -1175,7 +1185,7 @@
       "pageTitle": "Regeneron International Science and Engineering Fair - Society for Science",
       "sourceChanged": false,
       "signals": [
-        "Close the menu Site Search Search Close the sitewide search Regeneron ISEF 2026 - Phoenix, Arizona From May 9 to May 15, more than 1,700 young sc",
+        "Close the menu Site Search Search Close the sitewide search Congratulations to all the 2026 Finalists! From May 9 to May 15, more than 1,700 youn",
         "Registration Complimentary press registration, including access to most Regeneron ISEF programs and events, is available to applicants with valid media"
       ]
     },
@@ -1196,12 +1206,15 @@
       "title": "Science Olympiad",
       "category": "competition",
       "source": "https://www.soinc.org/",
-      "status": 202,
+      "status": 200,
       "reachable": true,
       "finalUrl": "https://www.soinc.org/",
-      "pageTitle": "",
+      "pageTitle": "Science Olympiad",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "open now! 2026 National Tournament State Team Numbers CCIR Coaching Scholarship Application USC National Tournament Website Science Olympiad Sto",
+        "Open now! 2026 Div"
+      ]
     },
     {
       "id": "MathWorks Math Modeling Challenge",
@@ -1268,6 +1281,7 @@
       "pageTitle": "Page Not Found - NASA",
       "sourceChanged": false,
       "signals": [
+        "Close Look at Rock That Got Stuck on Drill article 1 week ago 2 min read NASA, Industry Prepare Cryogenic Fuel Technology Demo article 4 days ago",
         "opens in new tab) Follow NASA More NASA Social Accounts NASA Newsletters Sitemap For Media Privacy Policy FOIA No FEAR Act Office of the IG (open"
       ]
     },
@@ -1282,9 +1296,9 @@
       "pageTitle": "Texas Aerospace Scholars - NASA",
       "sourceChanged": true,
       "signals": [
+        "Close Look at Rock That Got Stuck on Drill article 1 week ago 2 min read NASA, Industry Prepare Cryogenic Fuel Technology Demo article 4 days ago",
         "open Summer 2026 event location Virtual",
-        "Apply Important Dates FAQs Senior Experience Educator Opportunities How to Apply Review the eligibility requirements and learn how to submit an a",
-        "open in the summer of 2026"
+        "Apply Important Dates FAQs Senior Experience Educator Opportunities How to Apply Review the eligibility requirements and learn how to submit an a"
       ]
     },
     {
