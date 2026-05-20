@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 105,
-    "unreachable": 19,
+    "reachable": 101,
+    "unreachable": 23,
     "redirected": 21
   },
   "entries": [
@@ -120,14 +120,12 @@
       "title": "Girls Who Code Pathways",
       "category": "program",
       "source": "https://girlswhocode.zendesk.com/hc/en-us/articles/44033965033243-What-program-is-Girls-Who-Code-offering-during-the-summer",
-      "status": 200,
-      "reachable": true,
+      "status": 403,
+      "reachable": false,
       "finalUrl": "https://girlswhocode.zendesk.com/hc/en-us/articles/44033965033243-What-program-is-Girls-Who-Code-offering-during-the-summer",
-      "pageTitle": "What program is Girls Who Code offering during the summer? &ndash; Girls Who Code FAQ",
+      "pageTitle": "Just a moment...",
       "sourceChanged": false,
-      "signals": [
-        "apply"
-      ]
+      "signals": []
     },
     {
       "id": "Bank of America Student Leaders",
@@ -567,16 +565,8 @@
       "title": "UIUC College Open Houses",
       "category": "visit",
       "source": "https://www.admissions.illinois.edu/visit/open-houses",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://www.admissions.illinois.edu/visit/open-houses",
-      "pageTitle": "College Open Houses, Undergraduate Admissions, University of Illinois Urbana-Champaign",
-      "sourceChanged": false,
-      "signals": [
-        "Open Houses, Undergraduate Admissions, University of Illinois Urbana-Champaign You are using an outdated browser",
-        "Apply First-Year How to Apply Help With Applying Dates &amp; Deadlines Requirements Majors Writing Prompts How We Review College Credit College P",
-        "Apply Dates &amp; Deadlines Transfer Handbook Majors Essay Questions How We Review Transferring Credit GPA Guidelines Applicant FAQ More Internat"
-      ]
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "Summer SAIL at University of Oregon",
@@ -631,16 +621,8 @@
       "title": "Stanford Campus Visit",
       "category": "visit",
       "source": "https://admission.stanford.edu/engage/",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://admission.stanford.edu/engage/",
-      "pageTitle": "Engage : Stanford University",
-      "sourceChanged": false,
-      "signals": [
-        "Apply Visit --> Quick Links News &amp; Announcements Application Requirements Tours and Programs Cost of Attendance Parents Counselors --> Admiss",
-        "Application Requirements Tours and Programs Cost of Attendance Parents Counselors Admission Volunteers --> Updates for applicants in response to COVID-",
-        "Register for a live, virtual \"visit\" Nothing can replace visiting a college campus, but we are happy to offer virtual visit programming for those wh"
-      ]
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "Georgia Tech Visit",
@@ -810,8 +792,8 @@
       "sourceChanged": true,
       "signals": [
         "Apply to COSMOS Application and Payment Basics Dates &amp; Deadlines Program Fees Financial Assistance Residential Life Statewide Policies and Pr",
-        "Apply Now Preparing the next generation of STEM leaders ONLINE APPLICATIONS WILL BE AVAILABLE: JANUARY 7, 2026, 8:00 AM DEADLINE FOR ALL APPLICAT",
-        "apply to ONE of the listed University of California’s COSMOS campuses — UC Davis, UC Irvine, UC Los Angeles, UC Merced, UC San Diego, and UC Sant"
+        "Apply Now Welcome to COSMOS - California State Summer School for Mathematics and Science Preparing the next generation of STEM leaders ONLINE APP",
+        "DEADLINE FOR ALL APPLICATION MATERIAL: FEBRUARY 6, 2026, 11:59 PM COSMOS is Limited to California High-School Students Only ** COSMOS is a full resi"
       ]
     },
     {
@@ -1283,7 +1265,6 @@
       "pageTitle": "Page Not Found - NASA",
       "sourceChanged": false,
       "signals": [
-        "Close Look at Rock That Got Stuck on Drill article 1 week ago 2 min read NASA, Industry Prepare Cryogenic Fuel Technology Demo article 5 days ago",
         "opens in new tab) Follow NASA More NASA Social Accounts NASA Newsletters Sitemap For Media Privacy Policy FOIA No FEAR Act Office of the IG (open"
       ]
     },
@@ -1298,9 +1279,9 @@
       "pageTitle": "Texas Aerospace Scholars - NASA",
       "sourceChanged": true,
       "signals": [
-        "Close Look at Rock That Got Stuck on Drill article 1 week ago 2 min read NASA, Industry Prepare Cryogenic Fuel Technology Demo article 5 days ago",
         "open Summer 2026 event location Virtual",
-        "Apply Important Dates FAQs Senior Experience Educator Opportunities How to Apply Review the eligibility requirements and learn how to submit an a"
+        "Apply Important Dates FAQs Senior Experience Educator Opportunities How to Apply Review the eligibility requirements and learn how to submit an a",
+        "open in the summer of 2026"
       ]
     },
     {
@@ -1370,10 +1351,10 @@
       "title": "College Scorecard",
       "category": "tool",
       "source": "https://collegescorecard.ed.gov/",
-      "status": 200,
-      "reachable": true,
+      "status": 403,
+      "reachable": false,
       "finalUrl": "https://collegescorecard.ed.gov/",
-      "pageTitle": "Home | College Scorecard",
+      "pageTitle": "ERROR: The request could not be satisfied",
       "sourceChanged": false,
       "signals": []
     },
@@ -1694,8 +1675,8 @@
       "sourceChanged": false,
       "signals": [
         "Open Submenu Financing and Deploying Clean Energy SOM Executive Education Yale Divinity School Open Submenu Youth Ministry Leadership Summer Stu",
-        "Open Submenu Foundations of Animal Ethics Foundations of Bioethics Yale School of Medicine Open Submenu Continuing Medical Education Master of H",
-        "Open Submenu Continuing Nursing Education Hybrid Doctor of Nursing Practice Hybrid Psychiatric-Mental Health Nurse Practitioner Yale School of P"
+        "Open Submenu Foundations of Animal Ethics Foundations of Bioethics Yale School of Medicine Open Submenu Continuing Medical Education Medical Sof",
+        "Open Submenu Hybrid Doctor of Nursing Practice Hybrid Psychiatric-Mental Health Nurse Practitioner Planetary Health Leadership Program Yale Scho"
       ]
     },
     {
