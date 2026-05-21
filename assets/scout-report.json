@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 103,
-    "unreachable": 21,
+    "reachable": 104,
+    "unreachable": 20,
     "redirected": 21
   },
   "entries": [
@@ -1251,7 +1251,7 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://picoctf.org/",
-      "pageTitle": "Welcome to CyLab Security Academy — Welcome to CyLab Security Academy",
+      "pageTitle": "picoCTF.org is now CyLab Security Academy",
       "sourceChanged": false,
       "signals": []
     },
@@ -1366,10 +1366,10 @@
       "title": "College Scorecard",
       "category": "tool",
       "source": "https://collegescorecard.ed.gov/",
-      "status": 403,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://collegescorecard.ed.gov/",
-      "pageTitle": "ERROR: The request could not be satisfied",
+      "pageTitle": "Home | College Scorecard",
       "sourceChanged": false,
       "signals": []
     },
