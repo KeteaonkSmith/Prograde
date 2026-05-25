@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 101,
-    "unreachable": 23,
+    "reachable": 102,
+    "unreachable": 22,
     "redirected": 20
   },
   "entries": [
@@ -104,13 +104,15 @@
       "title": "PROMYS",
       "category": "program",
       "source": "https://promys.org/programs/promys/for-students/",
-      "status": 403,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://promys.org/programs/promys/for-students/",
-      "pageTitle": "GoDaddy Security - Access Denied",
+      "pageTitle": "For Students &#8211; PROMYS | Program in Mathematics for Young Scientists",
       "sourceChanged": false,
       "signals": [
-        "open a support ticket and make sure to include the block details (displayed in the box below), so we can assist you in troubleshooting the issue"
+        "Apply For Counselors Quick Facts Counselor Mathematics FAQ Testimonials To Apply PROMYS for Teachers PROMYS Pathways PROMYS Europe PROMYS India P",
+        "close environment of people with a shared passion fosters truly brilliant collaboration, and the structure of each problem set weaves deep thinki",
+        "Application Deadline: February 27, 2026, 11:59 pm (EST) Admissions Decisions: end of April 2026 TBD Cost and Financial Aid &amp; Scholarships PROMYS be"
       ]
     },
     {
@@ -985,10 +987,10 @@
       "title": "Matriculate",
       "category": "program",
       "source": "https://matriculate.org/",
-      "status": 403,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://matriculate.org/",
-      "pageTitle": "Attention Required! | Cloudflare",
+      "pageTitle": "Home - Matriculate",
       "sourceChanged": false,
       "signals": []
     },
@@ -1191,12 +1193,15 @@
       "title": "Science Olympiad",
       "category": "competition",
       "source": "https://www.soinc.org/",
-      "status": 202,
+      "status": 200,
       "reachable": true,
       "finalUrl": "https://www.soinc.org/",
-      "pageTitle": "",
+      "pageTitle": "Science Olympiad",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "open now! 2026 National Tournament State Team Numbers CCIR Coaching Scholarship Application USC National Tournament Website Science Olympiad Sto",
+        "Open now! 2026 Div"
+      ]
     },
     {
       "id": "MathWorks Math Modeling Challenge",
@@ -1350,16 +1355,12 @@
       "title": "College Scorecard",
       "category": "tool",
       "source": "https://collegescorecard.ed.gov/",
-      "status": 200,
-      "reachable": true,
+      "status": 403,
+      "reachable": false,
       "finalUrl": "https://collegescorecard.ed.gov/",
-      "pageTitle": "Home | College Scorecard",
+      "pageTitle": "ERROR: The request could not be satisfied",
       "sourceChanged": false,
-      "signals": [
-        "Application You can learn more about the types of financial aid that are available at StudentAid",
-        "Application for Federal Student Aid (FAFSA®) form",
-        "Application Veterans are eligible for higher education funding through the G"
-      ]
+      "signals": []
     },
     {
       "id": "FAFSA",
