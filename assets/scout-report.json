@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 102,
-    "unreachable": 22,
+    "reachable": 103,
+    "unreachable": 21,
     "redirected": 21
   },
   "entries": [
@@ -346,9 +346,9 @@
       "pageTitle": "Get Started | MIT OpenCourseWare | Free Online Course Materials",
       "sourceChanged": false,
       "signals": [
+        "close menu search Give Now About OCW Help &amp; Faqs Contact Us search GIVE NOW about ocw help &amp; faqs contact us Get Started What is OCW? OCW",
         "open publication of material from thousands of MIT courses across the entire MIT curriculum",
-        "Open Educational Resources (OER)",
-        "register to use MIT OpenCourseWare? There’s no registration and no enrollment to use OCW"
+        "Open Educational Resources (OER)"
       ]
     },
     {
@@ -374,6 +374,7 @@
       "pageTitle": "HarvardX: CS50&#x27;s Introduction to Artificial Intelligence with Python | edX",
       "sourceChanged": false,
       "signals": [
+        "Close site banner",
         "Open edX 2U Advisory Council Careers News Connect Idea Hub Contact Us Help Center Security Media Kit Legal Terms of Service &amp; Honor Code Pri",
         "Apply © 2026 edX LLC"
       ]
@@ -1276,7 +1277,7 @@
       "pageTitle": "Page Not Found - NASA",
       "sourceChanged": false,
       "signals": [
-        "Application Guide article 3 days ago 1 min read Frequently Asked Questions article 3 days ago Highlights 4 min read Keeping NASA Flying: Ground Crews E",
+        "Application Guide article 4 days ago Highlights 4 min read Keeping NASA Flying: Ground Crews Ensure Aircraft Readiness article 4 days ago 4 min read NA",
         "opens in new tab) Follow NASA More NASA Social Accounts NASA Newsletters Sitemap For Media Privacy Policy FOIA No FEAR Act Office of the IG (open"
       ]
     },
@@ -1291,7 +1292,7 @@
       "pageTitle": "Texas Aerospace Scholars - NASA",
       "sourceChanged": true,
       "signals": [
-        "Application Guide article 3 days ago 1 min read Frequently Asked Questions article 3 days ago Highlights 4 min read Keeping NASA Flying: Ground Crews E",
+        "Application Guide article 4 days ago Highlights 4 min read Keeping NASA Flying: Ground Crews Ensure Aircraft Readiness article 4 days ago 4 min read NA",
         "open Summer 2026 event location Virtual",
         "Apply Important Dates FAQs Senior Experience Educator Opportunities How to Apply Review the eligibility requirements and learn how to submit an a"
       ]
@@ -1363,12 +1364,16 @@
       "title": "College Scorecard",
       "category": "tool",
       "source": "https://collegescorecard.ed.gov/",
-      "status": 403,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://collegescorecard.ed.gov/",
-      "pageTitle": "ERROR: The request could not be satisfied",
+      "pageTitle": "Home | College Scorecard",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Application You can learn more about the types of financial aid that are available at StudentAid",
+        "Application for Federal Student Aid (FAFSA®) form",
+        "Application Veterans are eligible for higher education funding through the G"
+      ]
     },
     {
       "id": "FAFSA",
