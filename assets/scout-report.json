@@ -12,16 +12,12 @@
       "title": "CyberPatriot",
       "category": "hackathon",
       "source": "https://www.uscyberpatriot.org/competition/Competition-Overview/competition-overview",
-      "status": 200,
-      "reachable": true,
+      "status": 404,
+      "reachable": false,
       "finalUrl": "https://www.uscyberpatriot.org/competition/Competition-Overview/competition-overview",
-      "pageTitle": "Competition Overview",
+      "pageTitle": "Page not found &#8211; CyberPatriot",
       "sourceChanged": false,
-      "signals": [
-        "Register Team or Volunteer Registration Competition Getting Started Competition Overview Join the Competition New Coach Resources Current Competitio",
-        "open to all schools and approved youth organizations",
-        "registration process, review this competition overview to get a better understanding of the competition! WHO TEAM MEMBERS Coach&#58; An adult (e"
-      ]
+      "signals": []
     },
     {
       "id": "Congressional App Challenge",
@@ -36,7 +32,7 @@
       "signals": [
         "REGISTRATION - Skip to content Menu Connecting today's Congress with tomorrow's innovators",
         "REGISTRATION RULES PARTICIPATING DISTRICTS PAST WINNERS LEARN TO CODE TOP APPS PRESENTED BY THECODERSCHOOL #HOUSEOFCODE CONGRESS RESOURCES CONGRESSIONAL",
-        "Close Menu REGISTER IN 2026 Registration for the 2026 Congressional App Challenge will open in May 2026"
+        "Close Menu REGISTER IN 2026 Registration for the 2026 Congressional App Challenge is now open! The 2026 competition deadline is scheduled for Oct"
       ]
     },
     {
@@ -164,12 +160,16 @@
       "title": "Stanford Summer Session High School",
       "category": "program",
       "source": "https://summer.stanford.edu/high-school",
-      "status": 404,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://summer.stanford.edu/students/high-school",
-      "pageTitle": "",
+      "pageTitle": "High School | Summer Session",
       "sourceChanged": true,
-      "signals": []
+      "signals": [
+        "Apply now Menu Search this site Submit Search Apply now Request info Students Undergraduate Graduate Gap Year High School Stanford Students Cours",
+        "Application Process Dates and Deadlines International Students Cost Tuition &amp; Fees Calculator Tuition Grants Student Life Events Residential or Com",
+        "Application Requirements As part of the application, you will be asked to supply: transcripts, one essay, and proof of English proficiency (if necessar"
+      ]
     },
     {
       "id": "Coca-Cola Scholars Program",
@@ -272,16 +272,8 @@
       "title": "USA Computing Olympiad",
       "category": "competition",
       "source": "https://usaco.org/",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://usaco.org/",
-      "pageTitle": "USACO",
-      "sourceChanged": false,
-      "signals": [
-        "Open\" championship contest",
-        "Register for New Account 2025-2026 Schedule Jan 9-12: First Contest Jan 30-Feb 2: Second Contest Feb 20-23: Third Contest For each contest, USA stud",
-        "Open (Proctored) May 12-18: EGOI (Italy) May 21-30: Training Camp Aug 9-16: IOI (Uzbekistan) Our Sponsors"
-      ]
+      "reachable": false,
+      "error": "AbortError"
     },
     {
       "id": "Conrad Challenge",
@@ -483,9 +475,12 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://owl.purdue.edu/",
-      "pageTitle": "Purdue OWL® - Purdue OWL® - Purdue University",
+      "pageTitle": "Purdue University",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "CLOSE Home About Become a Student Academics Life at Purdue Research Alumni Athletics Helpful links Current Students Faculty and Staff Give Events",
+        "Application Information Online Programs Graduate Programs Accept Your Offer The requested URL was rejected"
+      ]
     },
     {
       "id": "Zotero",
@@ -521,12 +516,11 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://admissions.purdue.edu/visit/",
-      "pageTitle": "Purdue University – Visit Us",
+      "pageTitle": "Purdue University",
       "sourceChanged": false,
       "signals": [
-        "CLOSE Undergraduate Admissions Search Home Become a Student Support Your Student Admitted Students Academics Cost &amp; Aid Student Life Visit Co",
-        "Application Deadlines Apply Now Check Application Status Transfer Scholarships Quick links Accept Your Offer Class Profile College Prep Guide to Applyi",
-        "Apply plus_icon Apply Now Guide to Applying Deadlines First-Year Class Profile Closed Programs Application Status College Prep Timeline Informati"
+        "CLOSE Home About Become a Student Academics Life at Purdue Research Alumni Athletics Helpful links Current Students Faculty and Staff Give Events",
+        "Application Information Online Programs Graduate Programs Accept Your Offer The requested URL was rejected"
       ]
     },
     {
@@ -625,8 +619,16 @@
       "title": "Stanford Campus Visit",
       "category": "visit",
       "source": "https://admission.stanford.edu/engage/",
-      "reachable": false,
-      "error": "TypeError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://admission.stanford.edu/engage/",
+      "pageTitle": "Engage : Stanford University",
+      "sourceChanged": false,
+      "signals": [
+        "Apply Visit --> Quick Links News &amp; Announcements Application Requirements Tours and Programs Cost of Attendance Parents Counselors --> Admiss",
+        "Application Requirements Tours and Programs Cost of Attendance Parents Counselors Admission Volunteers --> Updates for applicants in response to COVID-",
+        "Register for a live, virtual \"visit\" Nothing can replace visiting a college campus, but we are happy to offer virtual visit programming for those wh"
+      ]
     },
     {
       "id": "Georgia Tech Visit",
@@ -1276,16 +1278,12 @@
       "title": "NASA High School Aerospace Scholars",
       "category": "program",
       "source": "https://www.nasa.gov/learning-resources/high-school-aerospace-scholars/",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://www.nasa.gov/learning-resources/texas-aerospace-scholars/",
-      "pageTitle": "Texas Aerospace Scholars - NASA",
+      "status": 429,
+      "reachable": false,
+      "finalUrl": "https://www.nasa.gov/learning-resources/texas-aerospace-scholars",
+      "pageTitle": "429 Too Many Requests",
       "sourceChanged": true,
-      "signals": [
-        "open Summer 2026 event location Virtual",
-        "Apply Important Dates FAQs Senior Experience Educator Opportunities How to Apply Review the eligibility requirements and learn how to submit an a",
-        "open in the summer of 2026"
-      ]
+      "signals": []
     },
     {
       "id": "NASA STEM Gateway",
@@ -1354,12 +1352,16 @@
       "title": "College Scorecard",
       "category": "tool",
       "source": "https://collegescorecard.ed.gov/",
-      "status": 403,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://collegescorecard.ed.gov/",
-      "pageTitle": "ERROR: The request could not be satisfied",
+      "pageTitle": "Home | College Scorecard",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Application You can learn more about the types of financial aid that are available at StudentAid",
+        "Application for Federal Student Aid (FAFSA®) form",
+        "Application Veterans are eligible for higher education funding through the G"
+      ]
     },
     {
       "id": "FAFSA",
