@@ -2,9 +2,9 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 101,
-    "unreachable": 23,
-    "redirected": 21
+    "reachable": 97,
+    "unreachable": 27,
+    "redirected": 20
   },
   "entries": [
     {
@@ -17,7 +17,9 @@
       "finalUrl": "https://www.uscyberpatriot.org/competition/Competition-Overview/competition-overview",
       "pageTitle": "Page not found &#8211; CyberPatriot",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Register Now Primary Menu --> CyberPatriot Competition Getting Started Competition Overview Join the Competition Register Now New Coach Resources Cu"
+      ]
     },
     {
       "id": "Congressional App Challenge",
@@ -69,16 +71,8 @@
       "title": "MIT PRIMES / PRIMES-USA",
       "category": "program",
       "source": "https://math.mit.edu/research/highschool/primes/index.php",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://math.mit.edu/research/highschool/primes/index.php",
-      "pageTitle": "PRIMES",
-      "sourceChanged": false,
-      "signals": [
-        "Apply PRIMES-USA PRIMES-USA Apply CrowdMath PRIMES Circle PRIMES Circle Students Say Circle Mentors Papers Apply Yulia's Dream Yulia's Dream 2025",
-        "Apply Other Programs FAQ Contact RSI RSI Past Projects Lecture Series Academics Academics Academic Services Academic Services Forms and Requests",
-        "Apply Other Programs FAQ Contact RSI RSI Past Projects Lecture Series PRIMES: Program for Research in Mathematics, Engineering and Science for Hi"
-      ]
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "Research Science Institute",
@@ -262,9 +256,9 @@
       "pageTitle": "Regeneron Science Talent Search - Society for Science",
       "sourceChanged": false,
       "signals": [
-        "Close the menu Site Search Search Close the sitewide search Congratulations to the winners of this year’s Regeneron Science Talent Search! Forty",
-        "Application Period Now Closed The 2027 application will open on June 1, 2026",
-        "Application Requirements Awards For Educators and Mentors Spread the Word! Meet the 2025 Finalists Visit the Virtual Project Exhibition of Projects to"
+        "Close the menu Site Search Search Close the sitewide search Regeneron Science Talent Search 2027 Application NOW OPEN! Unique among high school c",
+        "application for holistic review",
+        "Application Deadline is November 5, 2026 at 8pm ET"
       ]
     },
     {
@@ -272,8 +266,16 @@
       "title": "USA Computing Olympiad",
       "category": "competition",
       "source": "https://usaco.org/",
-      "reachable": false,
-      "error": "AbortError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://usaco.org/",
+      "pageTitle": "USACO",
+      "sourceChanged": false,
+      "signals": [
+        "Open\" championship contest",
+        "Register for New Account 2025-2026 Schedule Jan 9-12: First Contest Jan 30-Feb 2: Second Contest Feb 20-23: Third Contest For each contest, USA stud",
+        "Open (Proctored) May 12-18: EGOI (Italy) May 21-30: Training Camp Aug 9-16: IOI (Uzbekistan) Our Sponsors"
+      ]
     },
     {
       "id": "Conrad Challenge",
@@ -475,12 +477,9 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://owl.purdue.edu/",
-      "pageTitle": "Purdue University",
+      "pageTitle": "Purdue OWL® - Purdue OWL® - Purdue University",
       "sourceChanged": false,
-      "signals": [
-        "CLOSE Home About Become a Student Academics Life at Purdue Research Alumni Athletics Helpful links Current Students Faculty and Staff Give Events",
-        "Application Information Online Programs Graduate Programs Accept Your Offer The requested URL was rejected"
-      ]
+      "signals": []
     },
     {
       "id": "Zotero",
@@ -516,11 +515,12 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://admissions.purdue.edu/visit/",
-      "pageTitle": "Purdue University",
+      "pageTitle": "Purdue University – Visit Us",
       "sourceChanged": false,
       "signals": [
-        "CLOSE Home About Become a Student Academics Life at Purdue Research Alumni Athletics Helpful links Current Students Faculty and Staff Give Events",
-        "Application Information Online Programs Graduate Programs Accept Your Offer The requested URL was rejected"
+        "CLOSE Undergraduate Admissions Search Home Become a Student Support Your Student Admitted Students Academics Cost &amp; Aid Student Life Visit Co",
+        "Application Deadlines Apply Now Check Application Status Transfer Scholarships Quick links Accept Your Offer Class Profile College Prep Guide to Applyi",
+        "Apply plus_icon Apply Now Guide to Applying Deadlines First-Year Class Profile Closed Programs Application Status College Prep Timeline Informati"
       ]
     },
     {
@@ -619,16 +619,12 @@
       "title": "Stanford Campus Visit",
       "category": "visit",
       "source": "https://admission.stanford.edu/engage/",
-      "status": 200,
-      "reachable": true,
+      "status": 403,
+      "reachable": false,
       "finalUrl": "https://admission.stanford.edu/engage/",
-      "pageTitle": "Engage : Stanford University",
+      "pageTitle": "Visitor anti-robot validation",
       "sourceChanged": false,
-      "signals": [
-        "Apply Visit --> Quick Links News &amp; Announcements Application Requirements Tours and Programs Cost of Attendance Parents Counselors --> Admiss",
-        "Application Requirements Tours and Programs Cost of Attendance Parents Counselors Admission Volunteers --> Updates for applicants in response to COVID-",
-        "Register for a live, virtual \"visit\" Nothing can replace visiting a college campus, but we are happy to offer virtual visit programming for those wh"
-      ]
+      "signals": []
     },
     {
       "id": "Georgia Tech Visit",
@@ -667,16 +663,8 @@
       "title": "Carnegie Mellon Admission Visits",
       "category": "visit",
       "source": "https://www.cmu.edu/admission/visit",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://www.cmu.edu/visit/campus-tours/",
-      "pageTitle": "Campus Tours | CMU Visit",
-      "sourceChanged": true,
-      "signals": [
-        "close look at our academic buildings and vibrant student life , allowing you to click and explore on your own schedule",
-        "open houses, we may limit the number of guests to three in order to allow more visitors the opportunity to register",
-        "open from 9 a"
-      ]
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "University of Michigan Visit",
@@ -686,7 +674,7 @@
       "status": 403,
       "reachable": false,
       "finalUrl": "https://admissions.umich.edu/explore-visit/visit-campus",
-      "pageTitle": "Just a moment...",
+      "pageTitle": "Access Denied",
       "sourceChanged": false,
       "signals": []
     },
@@ -743,16 +731,8 @@
       "title": "MIT Splash",
       "category": "program",
       "source": "https://esp.mit.edu/learn/Splash/index.html",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://esp.mit.edu/learn/Splash/index.html",
-      "pageTitle": "MIT ESP - Splash!",
-      "sourceChanged": false,
-      "signals": [
-        "Register! Registration Steps Program Details Walk-In Activities Navbar Category: Splash Learn Set navbar name/path/description Edit navbar contents",
-        "registration for Splash Fall 2025&nbsp;(Nov 22-23, 9th-12th graders) is now closed",
-        "open to you! Who Can Participate? High school studen ts&nbsp;in grades 9–12 can attend Splash"
-      ]
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "Stanford Splash",
@@ -954,16 +934,8 @@
       "title": "SAMS at Carnegie Mellon",
       "category": "program",
       "source": "https://www.cmu.edu/pre-college/academic-programs/sams.html",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://www.cmu.edu/pre-college/academic-programs/sams.html",
-      "pageTitle": "Summer Academy for Math and Science - Pre-College Programs - Carnegie Mellon University",
-      "sourceChanged": false,
-      "signals": [
-        "application preparation",
-        "apply collaborative learning strategies by engaging in group tutoring and academic coaching offered through the Student Academic Success Center",
-        "Application Essay SAMS offers a writing course to help students develop their Common App essays, recognizing that not having a strong draft can be a ma"
-      ]
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "LEDA Scholars",
