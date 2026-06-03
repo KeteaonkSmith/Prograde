@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 102,
-    "unreachable": 22,
+    "reachable": 101,
+    "unreachable": 23,
     "redirected": 21
   },
   "entries": [
@@ -1286,16 +1286,12 @@
       "title": "NASA High School Aerospace Scholars",
       "category": "program",
       "source": "https://www.nasa.gov/learning-resources/high-school-aerospace-scholars/",
-      "status": 200,
-      "reachable": true,
+      "status": 429,
+      "reachable": false,
       "finalUrl": "https://www.nasa.gov/learning-resources/texas-aerospace-scholars/",
-      "pageTitle": "Texas Aerospace Scholars - NASA",
+      "pageTitle": "429 Too Many Requests",
       "sourceChanged": true,
-      "signals": [
-        "open Summer 2026 event location Virtual",
-        "Apply Important Dates FAQs Senior Experience Educator Opportunities How to Apply Review the eligibility requirements and learn how to submit an a",
-        "open in the summer of 2026"
-      ]
+      "signals": []
     },
     {
       "id": "NASA STEM Gateway",
