@@ -2,9 +2,9 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 95,
-    "unreachable": 29,
-    "redirected": 20
+    "reachable": 102,
+    "unreachable": 22,
+    "redirected": 21
   },
   "entries": [
     {
@@ -71,8 +71,16 @@
       "title": "MIT PRIMES / PRIMES-USA",
       "category": "program",
       "source": "https://math.mit.edu/research/highschool/primes/index.php",
-      "reachable": false,
-      "error": "TypeError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://math.mit.edu/research/highschool/primes/index.php",
+      "pageTitle": "PRIMES",
+      "sourceChanged": false,
+      "signals": [
+        "Apply PRIMES-USA PRIMES-USA Apply CrowdMath PRIMES Circle PRIMES Circle Students Say Circle Mentors Papers Apply Yulia's Dream Yulia's Dream 2025",
+        "Apply Other Programs FAQ Contact RSI RSI Past Projects Lecture Series Academics Academics Academic Services Academic Services Forms and Requests",
+        "Apply Other Programs FAQ Contact RSI RSI Past Projects Lecture Series PRIMES: Program for Research in Mathematics, Engineering and Science for Hi"
+      ]
     },
     {
       "id": "Research Science Institute",
@@ -358,24 +366,32 @@
       "title": "edX CS50 AI with Python",
       "category": "course",
       "source": "https://www.edx.org/learn/artificial-intelligence/harvard-university-cs50-s-introduction-to-artificial-intelligence-with-python",
-      "status": 403,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://www.edx.org/learn/artificial-intelligence/harvard-university-cs50-s-introduction-to-artificial-intelligence-with-python",
-      "pageTitle": "ERROR: The request could not be satisfied",
+      "pageTitle": "HarvardX: CS50&#x27;s Introduction to Artificial Intelligence with Python | edX",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Close site banner",
+        "Open edX 2U Advisory Council Careers News Connect Idea Hub Contact Us Help Center Security Media Kit Legal Terms of Service &amp; Honor Code Pri",
+        "Apply © 2026 edX LLC"
+      ]
     },
     {
       "id": "Coursera Machine Learning Specialization",
       "title": "Coursera Machine Learning Specialization",
       "category": "course",
       "source": "https://www.coursera.org/specializations/machine-learning-introduction",
-      "status": 403,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://www.coursera.org/specializations/machine-learning-introduction",
-      "pageTitle": "ERROR: The request could not be satisfied",
+      "pageTitle": "Machine Learning | Coursera",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Apply best practices for ML development &amp; use unsupervised learning techniques for unsupervised learning including clustering &amp; anomaly d",
+        "apply machine learning to challenging real-world problems",
+        "Apply best practices for machine learning development so that your models generalize to data and tasks in the real world"
+      ]
     },
     {
       "id": "NASA STEM Engagement Internships",
@@ -390,12 +406,16 @@
       "title": "NSF Research Experiences for Undergraduates",
       "category": "program",
       "source": "https://www.nsf.gov/funding/initiatives/reu",
-      "status": 403,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://www.nsf.gov/funding/initiatives/reu",
-      "pageTitle": "ERROR: The request could not be satisfied",
+      "pageTitle": "NSF Research Experiences for Undergraduates | NSF - U.S. National Science Foundation",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Apply Preparing Your Proposal Submitting Your Proposal Proposal &amp; Award Policies &amp; Procedures Guide (PAPPG) Additional Resources Research",
+        "apply for funding to support a cohort of undergraduate students in research projects designed specifically for the NSF REU program (an REU Site)",
+        "apply for additional funding to involve undergraduate students in a new or ongoing NSF-funded research project (an REU Supplement)"
+      ]
     },
     {
       "id": "Canva Education",
@@ -465,12 +485,9 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://owl.purdue.edu/",
-      "pageTitle": "Purdue University",
+      "pageTitle": "Purdue OWL® - Purdue OWL® - Purdue University",
       "sourceChanged": false,
-      "signals": [
-        "CLOSE Home About Become a Student Academics Life at Purdue Research Alumni Athletics Helpful links Current Students Faculty and Staff Give Events",
-        "Application Information Online Programs Graduate Programs Accept Your Offer The requested URL was rejected"
-      ]
+      "signals": []
     },
     {
       "id": "Zotero",
@@ -506,11 +523,12 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://admissions.purdue.edu/visit/",
-      "pageTitle": "Purdue University",
+      "pageTitle": "Purdue University – Visit Us",
       "sourceChanged": false,
       "signals": [
-        "CLOSE Home About Become a Student Academics Life at Purdue Research Alumni Athletics Helpful links Current Students Faculty and Staff Give Events",
-        "Application Information Online Programs Graduate Programs Accept Your Offer The requested URL was rejected"
+        "CLOSE Undergraduate Admissions Search Home Become a Student Support Your Student Admitted Students Academics Cost &amp; Aid Student Life Visit Co",
+        "Application Deadlines Apply Now Check Application Status Transfer Scholarships Quick links Accept Your Offer Class Profile College Prep Guide to Applyi",
+        "Apply plus_icon Apply Now Guide to Applying Deadlines First-Year Class Profile Closed Programs Application Status College Prep Timeline Informati"
       ]
     },
     {
@@ -609,12 +627,16 @@
       "title": "Stanford Campus Visit",
       "category": "visit",
       "source": "https://admission.stanford.edu/engage/",
-      "status": 403,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://admission.stanford.edu/engage/",
-      "pageTitle": "Visitor anti-robot validation",
+      "pageTitle": "Engage : Stanford University",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Apply Visit --> Quick Links News &amp; Announcements Application Requirements Tours and Programs Cost of Attendance Parents Counselors --> Admiss",
+        "Application Requirements Tours and Programs Cost of Attendance Parents Counselors Admission Volunteers --> Updates for applicants in response to COVID-",
+        "Register for a live, virtual \"visit\" Nothing can replace visiting a college campus, but we are happy to offer virtual visit programming for those wh"
+      ]
     },
     {
       "id": "Georgia Tech Visit",
@@ -672,7 +694,7 @@
       "status": 403,
       "reachable": false,
       "finalUrl": "https://admissions.umich.edu/explore-visit/visit-campus",
-      "pageTitle": "Access Denied",
+      "pageTitle": "Just a moment...",
       "sourceChanged": false,
       "signals": []
     },
@@ -729,8 +751,16 @@
       "title": "MIT Splash",
       "category": "program",
       "source": "https://esp.mit.edu/learn/Splash/index.html",
-      "reachable": false,
-      "error": "TypeError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://esp.mit.edu/learn/Splash/index.html",
+      "pageTitle": "MIT ESP - Splash!",
+      "sourceChanged": false,
+      "signals": [
+        "Register! Registration Steps Program Details Walk-In Activities Navbar Category: Splash Learn Set navbar name/path/description Edit navbar contents",
+        "registration for Splash Fall 2025&nbsp;(Nov 22-23, 9th-12th graders) is now closed",
+        "open to you! Who Can Participate? High school studen ts&nbsp;in grades 9–12 can attend Splash"
+      ]
     },
     {
       "id": "Stanford Splash",
@@ -1000,11 +1030,13 @@
       "source": "https://www.thegatesscholarship.org/scholarship",
       "status": 200,
       "reachable": true,
-      "finalUrl": "https://www.thegatesscholarship.org/scholarship",
-      "pageTitle": "The Gates Scholarship: Home",
-      "sourceChanged": false,
+      "finalUrl": "https://www.thegatesscholarship.org/scholarship/",
+      "pageTitle": "The Gates Scholarship: Scholarship Main",
+      "sourceChanged": true,
       "signals": [
-        "Application Resources Help Center About Apply toggle menu Opportunity today, for America’s young change-makers The Gates Scholarship (TGS) is a highly"
+        "Application Resources Help Center About Apply toggle menu Home The Gates Scholarship The Gates Scholarship Status: Closed Sign in to apply Start Profil",
+        "Deadline Sept 15 2025 Semifinalist Phase Dec - Jan 2026 Finalist Interviews March 2026 Selection April 2026 Awards July-Sept 2026 About The Gates Sc",
+        "Application for Federal Student Aid (FAFSA), or the methodology used by a Scholar&rsquo;s college or university"
       ]
     },
     {
@@ -1779,12 +1811,16 @@
       "title": "Scholarship America Student Resources",
       "category": "scholarship",
       "source": "https://scholarshipamerica.org/students/",
-      "status": 403,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://scholarshipamerica.org/students/",
-      "pageTitle": "403 Forbidden",
+      "pageTitle": "Students - Scholarship America",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "apply for scholarships and pay for college",
+        "application",
+        "apply for right now, and what’s opening soon"
+      ]
     }
   ]
 }
