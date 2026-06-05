@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 102,
-    "unreachable": 22,
+    "reachable": 103,
+    "unreachable": 21,
     "redirected": 21
   },
   "entries": [
@@ -1242,7 +1242,7 @@
       "pageTitle": "American Mathematics Competitions &#8211; Mathematical Association of America",
       "sourceChanged": false,
       "signals": [
-        "Registration + Information MAA American Mathematics Competitions Policies AMC International MAA Putnam Events MAA MathFest National Events Community Eve",
+        "Registration + Information MAA American Mathematics Competitions Policies AMC International MAA Putnam National Math Talent Fund Events MAA MathFest Nat",
         "Registration Info AMC Policies &nbsp; Founded in 1950, the AMC is the preeminent math competition for students K-12",
         "register directly with the MAA"
       ]
@@ -1372,12 +1372,16 @@
       "title": "College Scorecard",
       "category": "tool",
       "source": "https://collegescorecard.ed.gov/",
-      "status": 403,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://collegescorecard.ed.gov/",
-      "pageTitle": "ERROR: The request could not be satisfied",
+      "pageTitle": "Home | College Scorecard",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Application You can learn more about the types of financial aid that are available at StudentAid",
+        "Application for Federal Student Aid (FAFSA®) form",
+        "Application Veterans are eligible for higher education funding through the G"
+      ]
     },
     {
       "id": "FAFSA",
