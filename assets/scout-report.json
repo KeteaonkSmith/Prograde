@@ -2,9 +2,9 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 102,
-    "unreachable": 22,
-    "redirected": 20
+    "reachable": 95,
+    "unreachable": 29,
+    "redirected": 19
   },
   "entries": [
     {
@@ -130,16 +130,12 @@
       "title": "Bank of America Student Leaders",
       "category": "program",
       "source": "https://about.bankofamerica.com/en/making-an-impact/student-leaders",
-      "status": 200,
-      "reachable": true,
+      "status": 403,
+      "reachable": false,
       "finalUrl": "https://about.bankofamerica.com/en/making-an-impact/student-leaders",
-      "pageTitle": "Bank of America Student Leaders® Program - Bank of America",
+      "pageTitle": "Access Denied",
       "sourceChanged": false,
-      "signals": [
-        "Close Important notice you are now leaving Bank of America Top Sign in Contact us Location finder Help Our company Responsible growth Business pr",
-        "apply",
-        "apply to wires and certain transfers"
-      ]
+      "signals": []
     },
     {
       "id": "Harvard Secondary School Program",
@@ -364,32 +360,24 @@
       "title": "edX CS50 AI with Python",
       "category": "course",
       "source": "https://www.edx.org/learn/artificial-intelligence/harvard-university-cs50-s-introduction-to-artificial-intelligence-with-python",
-      "status": 200,
-      "reachable": true,
+      "status": 403,
+      "reachable": false,
       "finalUrl": "https://www.edx.org/learn/artificial-intelligence/harvard-university-cs50-s-introduction-to-artificial-intelligence-with-python",
-      "pageTitle": "HarvardX: CS50&#x27;s Introduction to Artificial Intelligence with Python | edX",
+      "pageTitle": "ERROR: The request could not be satisfied",
       "sourceChanged": false,
-      "signals": [
-        "Close site banner",
-        "Open edX 2U Advisory Council Careers News Connect Idea Hub Contact Us Help Center Security Media Kit Legal Terms of Service &amp; Honor Code Pri",
-        "Apply © 2026 edX LLC"
-      ]
+      "signals": []
     },
     {
       "id": "Coursera Machine Learning Specialization",
       "title": "Coursera Machine Learning Specialization",
       "category": "course",
       "source": "https://www.coursera.org/specializations/machine-learning-introduction",
-      "status": 200,
-      "reachable": true,
+      "status": 403,
+      "reachable": false,
       "finalUrl": "https://www.coursera.org/specializations/machine-learning-introduction",
-      "pageTitle": "Machine Learning | Coursera",
+      "pageTitle": "ERROR: The request could not be satisfied",
       "sourceChanged": false,
-      "signals": [
-        "Apply best practices for ML development &amp; use unsupervised learning techniques for unsupervised learning including clustering &amp; anomaly d",
-        "apply machine learning to challenging real-world problems",
-        "Apply best practices for machine learning development so that your models generalize to data and tasks in the real world"
-      ]
+      "signals": []
     },
     {
       "id": "NASA STEM Engagement Internships",
@@ -404,16 +392,12 @@
       "title": "NSF Research Experiences for Undergraduates",
       "category": "program",
       "source": "https://www.nsf.gov/funding/initiatives/reu",
-      "status": 200,
-      "reachable": true,
+      "status": 403,
+      "reachable": false,
       "finalUrl": "https://www.nsf.gov/funding/initiatives/reu",
-      "pageTitle": "NSF Research Experiences for Undergraduates | NSF - U.S. National Science Foundation",
+      "pageTitle": "ERROR: The request could not be satisfied",
       "sourceChanged": false,
-      "signals": [
-        "Apply Preparing Your Proposal Submitting Your Proposal Proposal &amp; Award Policies &amp; Procedures Guide (PAPPG) Additional Resources Research",
-        "apply for funding to support a cohort of undergraduate students in research projects designed specifically for the NSF REU program (an REU Site)",
-        "apply for additional funding to involve undergraduate students in a new or ongoing NSF-funded research project (an REU Supplement)"
-      ]
+      "signals": []
     },
     {
       "id": "Canva Education",
@@ -625,12 +609,16 @@
       "title": "Stanford Campus Visit",
       "category": "visit",
       "source": "https://admission.stanford.edu/engage/",
-      "status": 403,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://admission.stanford.edu/engage/",
-      "pageTitle": "Visitor anti-robot validation",
+      "pageTitle": "Engage : Stanford University",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Apply Visit --> Quick Links News &amp; Announcements Application Requirements Tours and Programs Cost of Attendance Parents Counselors --> Admiss",
+        "Application Requirements Tours and Programs Cost of Attendance Parents Counselors Admission Volunteers --> Updates for applicants in response to COVID-",
+        "Register for a live, virtual \"visit\" Nothing can replace visiting a college campus, but we are happy to offer virtual visit programming for those wh"
+      ]
     },
     {
       "id": "Georgia Tech Visit",
@@ -978,12 +966,16 @@
       "title": "LEDA Scholars",
       "category": "program",
       "source": "https://ledascholars.org/our-program/",
-      "status": 202,
+      "status": 200,
       "reachable": true,
       "finalUrl": "https://ledascholars.org/our-program/",
-      "pageTitle": "",
+      "pageTitle": "What We Do | LEDA",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Close The Need The Need Exceptional students from low-income backgrounds have unequal access to the top-tier colleges that cultivate most of our",
+        "Close What We Do What We Do LEDA runs the LEDA Scholars Program, the LEDA Career Network, and the LEDA Policy Project",
+        "Close Impact Impact A look at LEDA Scholars since our inception in 2003"
+      ]
     },
     {
       "id": "Matriculate",
@@ -1020,13 +1012,11 @@
       "source": "https://www.thegatesscholarship.org/scholarship",
       "status": 200,
       "reachable": true,
-      "finalUrl": "https://www.thegatesscholarship.org/scholarship/",
-      "pageTitle": "The Gates Scholarship: Scholarship Main",
-      "sourceChanged": true,
+      "finalUrl": "https://www.thegatesscholarship.org/scholarship",
+      "pageTitle": "The Gates Scholarship: Home",
+      "sourceChanged": false,
       "signals": [
-        "Application Resources Help Center About Apply toggle menu Home The Gates Scholarship The Gates Scholarship Status: Closed Sign in to apply Start Profil",
-        "Deadline Sept 15 2025 Semifinalist Phase Dec - Jan 2026 Finalist Interviews March 2026 Selection April 2026 Awards July-Sept 2026 About The Gates Sc",
-        "Application for Federal Student Aid (FAFSA), or the methodology used by a Scholar&rsquo;s college or university"
+        "Application Resources Help Center About Apply toggle menu Opportunity today, for America’s young change-makers The Gates Scholarship (TGS) is a highly"
       ]
     },
     {
@@ -1066,12 +1056,16 @@
       "title": "Ron Brown Scholar Program",
       "category": "scholarship",
       "source": "https://ronbrown.org/apply/ron-brown-scholarship/",
-      "status": 202,
+      "status": 200,
       "reachable": true,
-      "finalUrl": "https://ronbrown.org/apply/ron-brown-scholarship/",
-      "pageTitle": "",
-      "sourceChanged": false,
-      "signals": []
+      "finalUrl": "https://ronbrown.org/ron-brown-scholarship/",
+      "pageTitle": "The Ron Brown Signature Scholarship &#8211; Ron Brown Scholar Program",
+      "sourceChanged": true,
+      "signals": [
+        "Application for 2026 is now closed",
+        "APPLY NOW - 2025 Application is now open! Tickets &amp; Sponsorships Now Available for AJA 2025—Reserve Your Place! Remembering Our Dear Friend C",
+        "APPLICATION FOR THE 2026 SCHOLARSHIP COMPETITION IS NOW CLOSED - ABOUT THE RON BROWN SIGNATURE SCHOLARSHIP The Ron Brown Scholarship honors the legacy"
+      ]
     },
     {
       "id": "Hispanic Scholarship Fund",
@@ -1196,12 +1190,14 @@
       "title": "Science Olympiad",
       "category": "competition",
       "source": "https://www.soinc.org/",
-      "status": 202,
+      "status": 200,
       "reachable": true,
       "finalUrl": "https://www.soinc.org/",
-      "pageTitle": "",
+      "pageTitle": "Science Olympiad",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Application USC National Tournament Website Science Olympiad Store &nbsp;&gt;&nbsp;2026&nbsp;practice materials 2026&nbsp; Ward's Science &nbsp;Olympia"
+      ]
     },
     {
       "id": "MathWorks Math Modeling Challenge",
@@ -1278,16 +1274,12 @@
       "title": "NASA High School Aerospace Scholars",
       "category": "program",
       "source": "https://www.nasa.gov/learning-resources/high-school-aerospace-scholars/",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://www.nasa.gov/learning-resources/texas-aerospace-scholars/",
-      "pageTitle": "Texas Aerospace Scholars - NASA",
+      "status": 429,
+      "reachable": false,
+      "finalUrl": "https://www.nasa.gov/learning-resources/texas-aerospace-scholars",
+      "pageTitle": "429 Too Many Requests",
       "sourceChanged": true,
-      "signals": [
-        "open Summer 2026 event location Virtual",
-        "Apply Important Dates FAQs Senior Experience Educator Opportunities How to Apply Review the eligibility requirements and learn how to submit an a",
-        "open in the summer of 2026"
-      ]
+      "signals": []
     },
     {
       "id": "NASA STEM Gateway",
@@ -1356,16 +1348,12 @@
       "title": "College Scorecard",
       "category": "tool",
       "source": "https://collegescorecard.ed.gov/",
-      "status": 200,
-      "reachable": true,
+      "status": 403,
+      "reachable": false,
       "finalUrl": "https://collegescorecard.ed.gov/",
-      "pageTitle": "Home | College Scorecard",
+      "pageTitle": "ERROR: The request could not be satisfied",
       "sourceChanged": false,
-      "signals": [
-        "Application You can learn more about the types of financial aid that are available at StudentAid",
-        "Application for Federal Student Aid (FAFSA®) form",
-        "Application Veterans are eligible for higher education funding through the G"
-      ]
+      "signals": []
     },
     {
       "id": "FAFSA",
@@ -1530,16 +1518,8 @@
       "title": "MIT Beaver Works Summer Institute",
       "category": "program",
       "source": "https://beaverworks.ll.mit.edu/CMS/bw/bwsi",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://beaverworks.ll.mit.edu/classes",
-      "pageTitle": "Classes | Beaver Works",
-      "sourceChanged": true,
-      "signals": [
-        "Open-Source Fluidics for Synthetic Biology (IAP) – Dr",
-        "apply principles of lasers and optical components, communication link design, and analog and digital modulation to build their own free-space las",
-        "Open Robotics Laboratory (IAP) Software Radio (IAP) Reverse Engineering (IAP) Courses may not be offered every semester or every year, may not a"
-      ]
+      "reachable": false,
+      "error": "AbortError"
     },
     {
       "id": "AI Scholars Live Online",
@@ -1799,16 +1779,12 @@
       "title": "Scholarship America Student Resources",
       "category": "scholarship",
       "source": "https://scholarshipamerica.org/students/",
-      "status": 200,
-      "reachable": true,
+      "status": 403,
+      "reachable": false,
       "finalUrl": "https://scholarshipamerica.org/students/",
-      "pageTitle": "Students - Scholarship America",
+      "pageTitle": "403 Forbidden",
       "sourceChanged": false,
-      "signals": [
-        "apply for scholarships and pay for college",
-        "application",
-        "apply for right now, and what’s opening soon"
-      ]
+      "signals": []
     }
   ]
 }
