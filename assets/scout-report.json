@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 103,
-    "unreachable": 21,
+    "reachable": 102,
+    "unreachable": 22,
     "redirected": 21
   },
   "entries": [
@@ -12,14 +12,8 @@
       "title": "CyberPatriot",
       "category": "hackathon",
       "source": "https://www.uscyberpatriot.org/competition/Competition-Overview/competition-overview",
-      "status": 404,
       "reachable": false,
-      "finalUrl": "https://www.uscyberpatriot.org/competition/Competition-Overview/competition-overview",
-      "pageTitle": "Page not found &#8211; CyberPatriot",
-      "sourceChanged": false,
-      "signals": [
-        "Register Now Primary Menu --> CyberPatriot Competition Getting Started Competition Overview Join the Competition Register Now New Coach Resources Cu"
-      ]
+      "error": "TypeError"
     },
     {
       "id": "Congressional App Challenge",
@@ -480,12 +474,8 @@
       "title": "Purdue OWL",
       "category": "study",
       "source": "https://owl.purdue.edu/",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://owl.purdue.edu/",
-      "pageTitle": "Purdue OWL® - Purdue OWL® - Purdue University",
-      "sourceChanged": false,
-      "signals": []
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "Zotero",
