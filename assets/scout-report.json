@@ -12,8 +12,14 @@
       "title": "CyberPatriot",
       "category": "hackathon",
       "source": "https://www.uscyberpatriot.org/competition/Competition-Overview/competition-overview",
+      "status": 404,
       "reachable": false,
-      "error": "TypeError"
+      "finalUrl": "https://www.uscyberpatriot.org/competition/Competition-Overview/competition-overview",
+      "pageTitle": "Page not found &#8211; CyberPatriot",
+      "sourceChanged": false,
+      "signals": [
+        "Register Now Primary Menu --> CyberPatriot Competition Getting Started Competition Overview Join the Competition Register Now New Coach Resources Cu"
+      ]
     },
     {
       "id": "Congressional App Challenge",
@@ -148,7 +154,7 @@
       "signals": [
         "Registration Summer 2026 Academic Calendar Harvard Extension School Students Adult Course Takers Visiting College Students Harvard College Students Tuit",
         "Apply Costs and Funding Policies and Safety For Admitted Students Students in Need of Accommodations For Students Campus Life Support and Service",
-        "Registration for Summer 2026 Is Open Browse Courses How to Register Facebook YouTube Instagram LinkedIn High School Programs / Secondary School Program"
+        "application fee Courses 7-Week: 200+ Courses to Choose From 4-Week: 20 Courses to Choose From 4-Week July 12–August 8, 2026 Residential Only 7-Week Jun"
       ]
     },
     {
@@ -474,8 +480,12 @@
       "title": "Purdue OWL",
       "category": "study",
       "source": "https://owl.purdue.edu/",
-      "reachable": false,
-      "error": "TypeError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://owl.purdue.edu/",
+      "pageTitle": "Purdue OWL® - Purdue OWL® - Purdue University",
+      "sourceChanged": false,
+      "signals": []
     },
     {
       "id": "Zotero",
@@ -1360,16 +1370,12 @@
       "title": "College Scorecard",
       "category": "tool",
       "source": "https://collegescorecard.ed.gov/",
-      "status": 200,
-      "reachable": true,
+      "status": 403,
+      "reachable": false,
       "finalUrl": "https://collegescorecard.ed.gov/",
-      "pageTitle": "Home | College Scorecard",
+      "pageTitle": "ERROR: The request could not be satisfied",
       "sourceChanged": false,
-      "signals": [
-        "Application You can learn more about the types of financial aid that are available at StudentAid",
-        "Application for Federal Student Aid (FAFSA®) form",
-        "Application Veterans are eligible for higher education funding through the G"
-      ]
+      "signals": []
     },
     {
       "id": "FAFSA",
