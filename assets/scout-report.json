@@ -2,9 +2,9 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 97,
-    "unreachable": 27,
-    "redirected": 19
+    "reachable": 101,
+    "unreachable": 23,
+    "redirected": 20
   },
   "entries": [
     {
@@ -130,12 +130,16 @@
       "title": "Bank of America Student Leaders",
       "category": "program",
       "source": "https://about.bankofamerica.com/en/making-an-impact/student-leaders",
-      "status": 403,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://about.bankofamerica.com/en/making-an-impact/student-leaders",
-      "pageTitle": "Access Denied",
+      "pageTitle": "Bank of America Student Leaders® Program - Bank of America",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Close Important notice you are now leaving Bank of America Top Sign in Contact us Location finder Help Our company Responsible growth Business pr",
+        "apply",
+        "apply to wires and certain transfers"
+      ]
     },
     {
       "id": "Harvard Secondary School Program",
@@ -360,24 +364,32 @@
       "title": "edX CS50 AI with Python",
       "category": "course",
       "source": "https://www.edx.org/learn/artificial-intelligence/harvard-university-cs50-s-introduction-to-artificial-intelligence-with-python",
-      "status": 403,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://www.edx.org/learn/artificial-intelligence/harvard-university-cs50-s-introduction-to-artificial-intelligence-with-python",
-      "pageTitle": "ERROR: The request could not be satisfied",
+      "pageTitle": "HarvardX: CS50&#x27;s Introduction to Artificial Intelligence with Python | edX",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Close site banner",
+        "Open edX 2U Advisory Council Careers News Connect Idea Hub Contact Us Help Center Security Media Kit Legal Terms of Service &amp; Honor Code Pri",
+        "Apply © 2026 edX LLC"
+      ]
     },
     {
       "id": "Coursera Machine Learning Specialization",
       "title": "Coursera Machine Learning Specialization",
       "category": "course",
       "source": "https://www.coursera.org/specializations/machine-learning-introduction",
-      "status": 403,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://www.coursera.org/specializations/machine-learning-introduction",
-      "pageTitle": "ERROR: The request could not be satisfied",
+      "pageTitle": "Machine Learning | Coursera",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Apply best practices for ML development &amp; use unsupervised learning techniques for unsupervised learning including clustering &amp; anomaly d",
+        "apply machine learning to challenging real-world problems",
+        "Apply best practices for machine learning development so that your models generalize to data and tasks in the real world"
+      ]
     },
     {
       "id": "NASA STEM Engagement Internships",
@@ -392,12 +404,16 @@
       "title": "NSF Research Experiences for Undergraduates",
       "category": "program",
       "source": "https://www.nsf.gov/funding/initiatives/reu",
-      "status": 403,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://www.nsf.gov/funding/initiatives/reu",
-      "pageTitle": "ERROR: The request could not be satisfied",
+      "pageTitle": "NSF Research Experiences for Undergraduates | NSF - U.S. National Science Foundation",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Apply Preparing Your Proposal Submitting Your Proposal Proposal &amp; Award Policies &amp; Procedures Guide (PAPPG) Additional Resources Research",
+        "apply for funding to support a cohort of undergraduate students in research projects designed specifically for the NSF REU program (an REU Site)",
+        "apply for additional funding to involve undergraduate students in a new or ongoing NSF-funded research project (an REU Supplement)"
+      ]
     },
     {
       "id": "Canva Education",
@@ -502,16 +518,8 @@
       "title": "Purdue Campus Visits",
       "category": "visit",
       "source": "https://admissions.purdue.edu/visit/",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://admissions.purdue.edu/visit/",
-      "pageTitle": "Purdue University – Visit Us",
-      "sourceChanged": false,
-      "signals": [
-        "CLOSE Undergraduate Admissions Search Home Become a Student Support Your Student Admitted Students Academics Cost &amp; Aid Student Life Visit Co",
-        "Application Deadlines Apply Now Check Application Status Transfer Scholarships Quick links Accept Your Offer Class Profile College Prep Guide to Applyi",
-        "Apply plus_icon Apply Now Guide to Applying Deadlines First-Year Class Profile Closed Programs Application Status College Prep Timeline Informati"
-      ]
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "Purdue AAE Prospective Family Visits",
@@ -545,16 +553,8 @@
       "title": "UIUC College Open Houses",
       "category": "visit",
       "source": "https://www.admissions.illinois.edu/visit/open-houses",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://www.admissions.illinois.edu/visit/open-houses",
-      "pageTitle": "College Open Houses, Undergraduate Admissions, University of Illinois Urbana-Champaign",
-      "sourceChanged": false,
-      "signals": [
-        "Open Houses, Undergraduate Admissions, University of Illinois Urbana-Champaign You are using an outdated browser",
-        "Apply First-Year How to Apply Help With Applying Dates &amp; Deadlines Requirements Majors Writing Prompts How We Review College Credit College P",
-        "Apply Dates &amp; Deadlines Transfer Handbook Majors Essay Questions How We Review Transferring Credit GPA Guidelines Applicant FAQ More Internat"
-      ]
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "Summer SAIL at University of Oregon",
@@ -1008,11 +1008,13 @@
       "source": "https://www.thegatesscholarship.org/scholarship",
       "status": 200,
       "reachable": true,
-      "finalUrl": "https://www.thegatesscholarship.org/scholarship",
-      "pageTitle": "The Gates Scholarship: Home",
-      "sourceChanged": false,
+      "finalUrl": "https://www.thegatesscholarship.org/scholarship/",
+      "pageTitle": "The Gates Scholarship: Scholarship Main",
+      "sourceChanged": true,
       "signals": [
-        "Application Resources Help Center About Apply toggle menu Opportunity today, for America’s young change-makers The Gates Scholarship (TGS) is a highly"
+        "Application Resources Help Center About Apply toggle menu Home The Gates Scholarship The Gates Scholarship Status: Closed Sign in to apply Start Profil",
+        "Deadline Sept 15 2025 Semifinalist Phase Dec - Jan 2026 Finalist Interviews March 2026 Selection April 2026 Awards July-Sept 2026 About The Gates Sc",
+        "Application for Federal Student Aid (FAFSA), or the methodology used by a Scholar&rsquo;s college or university"
       ]
     },
     {
@@ -1342,12 +1344,16 @@
       "title": "College Scorecard",
       "category": "tool",
       "source": "https://collegescorecard.ed.gov/",
-      "status": 403,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://collegescorecard.ed.gov/",
-      "pageTitle": "ERROR: The request could not be satisfied",
+      "pageTitle": "Home | College Scorecard",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Application You can learn more about the types of financial aid that are available at StudentAid",
+        "Application for Federal Student Aid (FAFSA®) form",
+        "Application Veterans are eligible for higher education funding through the G"
+      ]
     },
     {
       "id": "FAFSA",
@@ -1781,12 +1787,16 @@
       "title": "Scholarship America Student Resources",
       "category": "scholarship",
       "source": "https://scholarshipamerica.org/students/",
-      "status": 403,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://scholarshipamerica.org/students/",
-      "pageTitle": "403 Forbidden",
+      "pageTitle": "Students - Scholarship America",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "apply for scholarships and pay for college",
+        "application",
+        "apply for right now, and what’s opening soon"
+      ]
     }
   ]
 }
