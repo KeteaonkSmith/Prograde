@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 102,
-    "unreachable": 22,
+    "reachable": 98,
+    "unreachable": 26,
     "redirected": 20
   },
   "entries": [
@@ -12,14 +12,8 @@
       "title": "CyberPatriot",
       "category": "hackathon",
       "source": "https://www.uscyberpatriot.org/competition/Competition-Overview/competition-overview",
-      "status": 404,
       "reachable": false,
-      "finalUrl": "https://www.uscyberpatriot.org/competition/Competition-Overview/competition-overview",
-      "pageTitle": "Page not found &#8211; CyberPatriot",
-      "sourceChanged": false,
-      "signals": [
-        "Register Now Primary Menu --> CyberPatriot Competition Getting Started Competition Overview Join the Competition Register Now New Coach Resources Cu"
-      ]
+      "error": "TypeError"
     },
     {
       "id": "Congressional App Challenge",
@@ -71,16 +65,8 @@
       "title": "MIT PRIMES / PRIMES-USA",
       "category": "program",
       "source": "https://math.mit.edu/research/highschool/primes/index.php",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://math.mit.edu/research/highschool/primes/index.php",
-      "pageTitle": "PRIMES",
-      "sourceChanged": false,
-      "signals": [
-        "Apply PRIMES-USA PRIMES-USA Apply CrowdMath PRIMES Circle PRIMES Circle Students Say Circle Mentors Papers Apply Yulia's Dream Yulia's Dream 2025",
-        "Apply Other Programs FAQ Contact RSI RSI Past Projects Lecture Series Academics Academics Academic Services Academic Services Forms and Requests",
-        "Apply Other Programs FAQ Contact RSI RSI Past Projects Lecture Series PRIMES: Program for Research in Mathematics, Engineering and Science for Hi"
-      ]
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "Research Science Institute",
@@ -130,16 +116,12 @@
       "title": "Bank of America Student Leaders",
       "category": "program",
       "source": "https://about.bankofamerica.com/en/making-an-impact/student-leaders",
-      "status": 200,
-      "reachable": true,
+      "status": 403,
+      "reachable": false,
       "finalUrl": "https://about.bankofamerica.com/en/making-an-impact/student-leaders",
-      "pageTitle": "Bank of America Student Leaders® Program - Bank of America",
+      "pageTitle": "Access Denied",
       "sourceChanged": false,
-      "signals": [
-        "Close Important notice you are now leaving Bank of America Top Sign in Contact us Location finder Help Our company Responsible growth Business pr",
-        "apply",
-        "apply to wires and certain transfers"
-      ]
+      "signals": []
     },
     {
       "id": "Harvard Secondary School Program",
@@ -749,16 +731,8 @@
       "title": "MIT Splash",
       "category": "program",
       "source": "https://esp.mit.edu/learn/Splash/index.html",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://esp.mit.edu/learn/Splash/index.html",
-      "pageTitle": "MIT ESP - Splash!",
-      "sourceChanged": false,
-      "signals": [
-        "Register! Registration Steps Program Details Walk-In Activities Navbar Category: Splash Learn Set navbar name/path/description Edit navbar contents",
-        "registration for Splash Fall 2025&nbsp;(Nov 22-23, 9th-12th graders) is now closed",
-        "open to you! Who Can Participate? High school studen ts&nbsp;in grades 9–12 can attend Splash"
-      ]
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "Stanford Splash",
@@ -1274,7 +1248,7 @@
       "pageTitle": "Page Not Found - NASA",
       "sourceChanged": false,
       "signals": [
-        "Register article 9 hours ago 6 min read Total Solar Eclipse on August 12, 2026 article 2 weeks ago 5 min read NASA’s Artemis II Moon Mission Researc",
+        "Register article 20 hours ago 6 min read Total Solar Eclipse on August 12, 2026 article 2 weeks ago 5 min read NASA’s Artemis II Moon Mission Resear",
         "opens in new tab) Follow NASA More NASA Social Accounts NASA Newsletters Sitemap For Media Privacy Policy FOIA No FEAR Act Office of the IG (open"
       ]
     },
@@ -1283,16 +1257,12 @@
       "title": "NASA High School Aerospace Scholars",
       "category": "program",
       "source": "https://www.nasa.gov/learning-resources/high-school-aerospace-scholars/",
-      "status": 200,
-      "reachable": true,
+      "status": 429,
+      "reachable": false,
       "finalUrl": "https://www.nasa.gov/learning-resources/texas-aerospace-scholars/",
-      "pageTitle": "Texas Aerospace Scholars - NASA",
+      "pageTitle": "429 Too Many Requests",
       "sourceChanged": true,
-      "signals": [
-        "Register article 8 hours ago 6 min read Total Solar Eclipse on August 12, 2026 article 2 weeks ago 5 min read NASA’s Artemis II Moon Mission Researc",
-        "open Summer 2026 event location Virtual",
-        "Apply Important Dates FAQs Senior Experience Educator Opportunities How to Apply Review the eligibility requirements and learn how to submit an a"
-      ]
+      "signals": []
     },
     {
       "id": "NASA STEM Gateway",
