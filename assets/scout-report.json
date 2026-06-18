@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 101,
-    "unreachable": 23,
+    "reachable": 102,
+    "unreachable": 22,
     "redirected": 20
   },
   "entries": [
@@ -518,8 +518,16 @@
       "title": "Purdue Campus Visits",
       "category": "visit",
       "source": "https://admissions.purdue.edu/visit/",
-      "reachable": false,
-      "error": "TypeError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://admissions.purdue.edu/visit/",
+      "pageTitle": "Purdue University – Visit Us",
+      "sourceChanged": false,
+      "signals": [
+        "CLOSE Undergraduate Admissions Search Home Become a Student Support Your Student Admitted Students Academics Cost &amp; Aid Student Life Visit Co",
+        "Application Deadlines Apply Now Check Application Status Transfer Scholarships Quick links Accept Your Offer Class Profile College Prep Guide to Applyi",
+        "Apply plus_icon Apply Now Guide to Applying Deadlines First-Year Class Profile Closed Programs Application Status College Prep Timeline Informati"
+      ]
     },
     {
       "id": "Purdue AAE Prospective Family Visits",
@@ -553,8 +561,16 @@
       "title": "UIUC College Open Houses",
       "category": "visit",
       "source": "https://www.admissions.illinois.edu/visit/open-houses",
-      "reachable": false,
-      "error": "TypeError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://www.admissions.illinois.edu/visit/open-houses",
+      "pageTitle": "College Open Houses, Undergraduate Admissions, University of Illinois Urbana-Champaign",
+      "sourceChanged": false,
+      "signals": [
+        "Open Houses, Undergraduate Admissions, University of Illinois Urbana-Champaign You are using an outdated browser",
+        "Apply First-Year How to Apply Help With Applying Dates &amp; Deadlines Requirements Majors Writing Prompts How We Review College Credit College P",
+        "Apply Dates &amp; Deadlines Transfer Handbook Majors Essay Questions How We Review Transferring Credit GPA Guidelines Applicant FAQ More Internat"
+      ]
     },
     {
       "id": "Summer SAIL at University of Oregon",
@@ -676,7 +692,7 @@
       "status": 403,
       "reachable": false,
       "finalUrl": "https://admissions.umich.edu/explore-visit/visit-campus",
-      "pageTitle": "Just a moment...",
+      "pageTitle": "Access Denied",
       "sourceChanged": false,
       "signals": []
     },
@@ -1258,6 +1274,7 @@
       "pageTitle": "Page Not Found - NASA",
       "sourceChanged": false,
       "signals": [
+        "Register article 9 hours ago 6 min read Total Solar Eclipse on August 12, 2026 article 2 weeks ago 5 min read NASA’s Artemis II Moon Mission Researc",
         "opens in new tab) Follow NASA More NASA Social Accounts NASA Newsletters Sitemap For Media Privacy Policy FOIA No FEAR Act Office of the IG (open"
       ]
     },
@@ -1272,9 +1289,9 @@
       "pageTitle": "Texas Aerospace Scholars - NASA",
       "sourceChanged": true,
       "signals": [
+        "Register article 8 hours ago 6 min read Total Solar Eclipse on August 12, 2026 article 2 weeks ago 5 min read NASA’s Artemis II Moon Mission Researc",
         "open Summer 2026 event location Virtual",
-        "Apply Important Dates FAQs Senior Experience Educator Opportunities How to Apply Review the eligibility requirements and learn how to submit an a",
-        "open in the summer of 2026"
+        "Apply Important Dates FAQs Senior Experience Educator Opportunities How to Apply Review the eligibility requirements and learn how to submit an a"
       ]
     },
     {
@@ -1344,16 +1361,12 @@
       "title": "College Scorecard",
       "category": "tool",
       "source": "https://collegescorecard.ed.gov/",
-      "status": 200,
-      "reachable": true,
+      "status": 403,
+      "reachable": false,
       "finalUrl": "https://collegescorecard.ed.gov/",
-      "pageTitle": "Home | College Scorecard",
+      "pageTitle": "ERROR: The request could not be satisfied",
       "sourceChanged": false,
-      "signals": [
-        "Application You can learn more about the types of financial aid that are available at StudentAid",
-        "Application for Federal Student Aid (FAFSA®) form",
-        "Application Veterans are eligible for higher education funding through the G"
-      ]
+      "signals": []
     },
     {
       "id": "FAFSA",
