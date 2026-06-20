@@ -2,9 +2,9 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 98,
-    "unreachable": 26,
-    "redirected": 20
+    "reachable": 101,
+    "unreachable": 23,
+    "redirected": 21
   },
   "entries": [
     {
@@ -71,8 +71,16 @@
       "title": "MIT PRIMES / PRIMES-USA",
       "category": "program",
       "source": "https://math.mit.edu/research/highschool/primes/index.php",
-      "reachable": false,
-      "error": "TypeError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://math.mit.edu/research/highschool/primes/index.php",
+      "pageTitle": "PRIMES",
+      "sourceChanged": false,
+      "signals": [
+        "Apply PRIMES-USA PRIMES-USA Apply CrowdMath PRIMES Circle PRIMES Circle Students Say Circle Mentors Papers Apply Yulia's Dream Yulia's Dream 2025",
+        "Apply Other Programs FAQ Contact RSI RSI Past Projects Lecture Series Academics Academics Academic Services Academic Services Forms and Requests",
+        "Apply Other Programs FAQ Contact RSI RSI Past Projects Lecture Series PRIMES: Program for Research in Mathematics, Engineering and Science for Hi"
+      ]
     },
     {
       "id": "Research Science Institute",
@@ -680,7 +688,7 @@
       "status": 403,
       "reachable": false,
       "finalUrl": "https://admissions.umich.edu/explore-visit/visit-campus",
-      "pageTitle": "Access Denied",
+      "pageTitle": "Just a moment...",
       "sourceChanged": false,
       "signals": []
     },
@@ -737,8 +745,16 @@
       "title": "MIT Splash",
       "category": "program",
       "source": "https://esp.mit.edu/learn/Splash/index.html",
-      "reachable": false,
-      "error": "TypeError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://esp.mit.edu/learn/Splash/index.html",
+      "pageTitle": "MIT ESP - Splash!",
+      "sourceChanged": false,
+      "signals": [
+        "Register! Registration Steps Program Details Walk-In Activities Navbar Category: Splash Learn Set navbar name/path/description Edit navbar contents",
+        "registration for Splash Fall 2025&nbsp;(Nov 22-23, 9th-12th graders) is now closed",
+        "open to you! Who Can Participate? High school studen ts&nbsp;in grades 9–12 can attend Splash"
+      ]
     },
     {
       "id": "Stanford Splash",
@@ -1052,9 +1068,9 @@
       "source": "https://ronbrown.org/apply/ron-brown-scholarship/",
       "status": 202,
       "reachable": true,
-      "finalUrl": "https://ronbrown.org/apply/ron-brown-scholarship/",
+      "finalUrl": "https://ronbrown.org/ron-brown-scholarship/",
       "pageTitle": "",
-      "sourceChanged": false,
+      "sourceChanged": true,
       "signals": []
     },
     {
@@ -1254,7 +1270,7 @@
       "pageTitle": "Page Not Found - NASA",
       "sourceChanged": false,
       "signals": [
-        "Register article 2 days ago Featured 2 min read Hubble Glimpses Merging Galaxy Clusters article 2 days ago 2 min read Search for Hidden Cosmic Compa",
+        "Register article 3 days ago Featured 2 min read Hubble Glimpses Merging Galaxy Clusters article 2 days ago 2 min read Search for Hidden Cosmic Compa",
         "opens in new tab) Follow NASA More NASA Social Accounts NASA Newsletters Sitemap For Media Privacy Policy FOIA No FEAR Act Office of the IG (open"
       ]
     },
@@ -1269,7 +1285,7 @@
       "pageTitle": "Texas Aerospace Scholars - NASA",
       "sourceChanged": true,
       "signals": [
-        "Register article 2 days ago Featured 2 min read Hubble Glimpses Merging Galaxy Clusters article 2 days ago 2 min read Search for Hidden Cosmic Compa",
+        "Register article 3 days ago Featured 2 min read Hubble Glimpses Merging Galaxy Clusters article 2 days ago 2 min read Search for Hidden Cosmic Compa",
         "open Summer 2026 event location Virtual",
         "Apply Important Dates FAQs Senior Experience Educator Opportunities How to Apply Review the eligibility requirements and learn how to submit an a"
       ]
@@ -1341,12 +1357,16 @@
       "title": "College Scorecard",
       "category": "tool",
       "source": "https://collegescorecard.ed.gov/",
-      "status": 403,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://collegescorecard.ed.gov/",
-      "pageTitle": "ERROR: The request could not be satisfied",
+      "pageTitle": "Home | College Scorecard",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Application You can learn more about the types of financial aid that are available at StudentAid",
+        "Application for Federal Student Aid (FAFSA®) form",
+        "Application Veterans are eligible for higher education funding through the G"
+      ]
     },
     {
       "id": "FAFSA",
