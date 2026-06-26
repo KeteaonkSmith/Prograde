@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 103,
-    "unreachable": 21,
+    "reachable": 104,
+    "unreachable": 20,
     "redirected": 20
   },
   "entries": [
@@ -12,8 +12,14 @@
       "title": "CyberPatriot",
       "category": "hackathon",
       "source": "https://www.uscyberpatriot.org/competition/Competition-Overview/competition-overview",
+      "status": 404,
       "reachable": false,
-      "error": "TypeError"
+      "finalUrl": "https://www.uscyberpatriot.org/competition/Competition-Overview/competition-overview",
+      "pageTitle": "Page not found &#8211; CyberPatriot",
+      "sourceChanged": false,
+      "signals": [
+        "Register Now Primary Menu --> CyberPatriot Competition Getting Started Competition Overview Join the Competition Register Now New Coach Resources Cu"
+      ]
     },
     {
       "id": "Congressional App Challenge",
@@ -112,10 +118,10 @@
       "title": "Girls Who Code Pathways",
       "category": "program",
       "source": "https://girlswhocode.zendesk.com/hc/en-us/articles/44033965033243-What-program-is-Girls-Who-Code-offering-during-the-summer",
-      "status": 403,
+      "status": 404,
       "reachable": false,
       "finalUrl": "https://girlswhocode.zendesk.com/hc/en-us/articles/44033965033243-What-program-is-Girls-Who-Code-offering-during-the-summer",
-      "pageTitle": "Just a moment...",
+      "pageTitle": "The page you were looking for doesn't exist &ndash; Girls Who Code FAQ",
       "sourceChanged": false,
       "signals": []
     },
@@ -1356,12 +1362,16 @@
       "title": "College Scorecard",
       "category": "tool",
       "source": "https://collegescorecard.ed.gov/",
-      "status": 403,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://collegescorecard.ed.gov/",
-      "pageTitle": "ERROR: The request could not be satisfied",
+      "pageTitle": "Home | College Scorecard",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Application You can learn more about the types of financial aid that are available at StudentAid",
+        "Application for Federal Student Aid (FAFSA®) form",
+        "Application Veterans are eligible for higher education funding through the G"
+      ]
     },
     {
       "id": "FAFSA",
