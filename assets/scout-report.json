@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 104,
-    "unreachable": 20,
+    "reachable": 106,
+    "unreachable": 18,
     "redirected": 21
   },
   "entries": [
@@ -71,8 +71,16 @@
       "title": "MIT PRIMES / PRIMES-USA",
       "category": "program",
       "source": "https://math.mit.edu/research/highschool/primes/index.php",
-      "reachable": false,
-      "error": "TypeError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://math.mit.edu/research/highschool/primes/index.php",
+      "pageTitle": "PRIMES",
+      "sourceChanged": false,
+      "signals": [
+        "Apply PRIMES-USA PRIMES-USA Apply CrowdMath PRIMES Circle PRIMES Circle Students Say Circle Mentors Papers Apply Yulia's Dream Yulia's Dream 2025",
+        "Apply Other Programs FAQ Contact RSI RSI Past Projects Lecture Series Academics Academics Academic Services Academic Services Forms and Requests",
+        "Apply Other Programs FAQ Contact RSI RSI Past Projects Lecture Series PRIMES: Program for Research in Mathematics, Engineering and Science for Hi"
+      ]
     },
     {
       "id": "Research Science Institute",
@@ -748,8 +756,16 @@
       "title": "MIT Splash",
       "category": "program",
       "source": "https://esp.mit.edu/learn/Splash/index.html",
-      "reachable": false,
-      "error": "TypeError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://esp.mit.edu/learn/Splash/index.html",
+      "pageTitle": "MIT ESP - Splash!",
+      "sourceChanged": false,
+      "signals": [
+        "Register! Registration Steps Program Details Walk-In Activities Navbar Category: Splash Learn Set navbar name/path/description Edit navbar contents",
+        "registration will open in mid October",
+        "open to you! Who Can Participate? High school studen ts&nbsp;in grades 9–12 can attend Splash"
+      ]
     },
     {
       "id": "Stanford Splash",
