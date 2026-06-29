@@ -699,7 +699,7 @@
       "status": 403,
       "reachable": false,
       "finalUrl": "https://admissions.umich.edu/explore-visit/visit-campus",
-      "pageTitle": "Access Denied",
+      "pageTitle": "Just a moment...",
       "sourceChanged": false,
       "signals": []
     },
