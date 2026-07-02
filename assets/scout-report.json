@@ -2,9 +2,9 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 104,
-    "unreachable": 20,
-    "redirected": 21
+    "reachable": 103,
+    "unreachable": 21,
+    "redirected": 20
   },
   "entries": [
     {
@@ -71,16 +71,8 @@
       "title": "MIT PRIMES / PRIMES-USA",
       "category": "program",
       "source": "https://math.mit.edu/research/highschool/primes/index.php",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://math.mit.edu/research/highschool/primes/index.php",
-      "pageTitle": "PRIMES",
-      "sourceChanged": false,
-      "signals": [
-        "Apply PRIMES-USA PRIMES-USA Apply CrowdMath PRIMES Circle PRIMES Circle Students Say Circle Mentors Papers Apply Yulia's Dream Yulia's Dream 2025",
-        "Apply Other Programs FAQ Contact RSI RSI Past Projects Lecture Series Academics Academics Academic Services Academic Services Forms and Requests",
-        "Apply Other Programs FAQ Contact RSI RSI Past Projects Lecture Series PRIMES: Program for Research in Mathematics, Engineering and Science for Hi"
-      ]
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "Research Science Institute",
@@ -567,8 +559,16 @@
       "title": "UIUC College Open Houses",
       "category": "visit",
       "source": "https://www.admissions.illinois.edu/visit/open-houses",
-      "reachable": false,
-      "error": "TypeError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://www.admissions.illinois.edu/visit/open-houses",
+      "pageTitle": "College Open Houses, Undergraduate Admissions, University of Illinois Urbana-Champaign",
+      "sourceChanged": false,
+      "signals": [
+        "Open Houses, Undergraduate Admissions, University of Illinois Urbana-Champaign You are using an outdated browser",
+        "Apply First-Year How to Apply Help With Applying Dates &amp; Deadlines Requirements Majors Writing Prompts How We Review College Credit College P",
+        "Apply Dates &amp; Deadlines Transfer Handbook Majors Essay Questions How We Review Transferring Credit GPA Guidelines Applicant FAQ More Internat"
+      ]
     },
     {
       "id": "Summer SAIL at University of Oregon",
@@ -662,7 +662,6 @@
       "sourceChanged": false,
       "signals": [
         "Close Welcome! We welcome you to visit UC Berkeley! We offer in-person, virtual, and self-guided campus tours, highlight campus attractions to vi",
-        "register for a virtual campus visit ! Bear Talk blog April 20, 2026 Apr 20 Studying Theater at Berkeley (and Falling in Love with What Happens Backs",
         "Open Berkeley Accessibility Statement Nondiscrimination Policy Statement Privacy Statement Copyright © 2026 UC Regents; all rights reserved Back"
       ]
     },
@@ -690,7 +689,7 @@
       "status": 403,
       "reachable": false,
       "finalUrl": "https://admissions.umich.edu/explore-visit/visit-campus",
-      "pageTitle": "Just a moment...",
+      "pageTitle": "Access Denied",
       "sourceChanged": false,
       "signals": []
     },
@@ -747,16 +746,8 @@
       "title": "MIT Splash",
       "category": "program",
       "source": "https://esp.mit.edu/learn/Splash/index.html",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://esp.mit.edu/learn/Splash/index.html",
-      "pageTitle": "MIT ESP - Splash!",
-      "sourceChanged": false,
-      "signals": [
-        "Register! Registration Steps Program Details Walk-In Activities Navbar Category: Splash Learn Set navbar name/path/description Edit navbar contents",
-        "registration will open in mid October",
-        "open to you! Who Can Participate? High school studen ts&nbsp;in grades 9–12 can attend Splash"
-      ]
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "Stanford Splash",
@@ -980,16 +971,12 @@
       "title": "LEDA Scholars",
       "category": "program",
       "source": "https://ledascholars.org/our-program/",
-      "status": 200,
+      "status": 202,
       "reachable": true,
       "finalUrl": "https://ledascholars.org/our-program/",
-      "pageTitle": "What We Do | LEDA",
+      "pageTitle": "",
       "sourceChanged": false,
-      "signals": [
-        "Close The Need The Need Exceptional students from low-income backgrounds have unequal access to the top-tier colleges that cultivate most of our",
-        "Close What We Do What We Do LEDA runs the LEDA Scholars Program, the LEDA Career Network, and the LEDA Policy Project",
-        "Close Impact Impact A look at LEDA Scholars since our inception in 2003"
-      ]
+      "signals": []
     },
     {
       "id": "Matriculate",
@@ -1072,16 +1059,12 @@
       "title": "Ron Brown Scholar Program",
       "category": "scholarship",
       "source": "https://ronbrown.org/apply/ron-brown-scholarship/",
-      "status": 200,
+      "status": 202,
       "reachable": true,
-      "finalUrl": "https://ronbrown.org/ron-brown-scholarship/",
-      "pageTitle": "The Ron Brown Signature Scholarship &#8211; Ron Brown Scholar Program",
-      "sourceChanged": true,
-      "signals": [
-        "Register Today",
-        "APPLY NOW - 2025 Application is now open! Tickets &amp; Sponsorships Now Available for AJA 2025—Reserve Your Place! Remembering Our Dear Friend C",
-        "APPLICATION FOR THE 2026 SCHOLARSHIP COMPETITION IS NOW CLOSED - ABOUT THE RON BROWN SIGNATURE SCHOLARSHIP The Ron Brown Scholarship honors the legacy"
-      ]
+      "finalUrl": "https://ronbrown.org/apply/ron-brown-scholarship/",
+      "pageTitle": "",
+      "sourceChanged": false,
+      "signals": []
     },
     {
       "id": "Hispanic Scholarship Fund",
@@ -1206,14 +1189,12 @@
       "title": "Science Olympiad",
       "category": "competition",
       "source": "https://www.soinc.org/",
-      "status": 200,
+      "status": 202,
       "reachable": true,
       "finalUrl": "https://www.soinc.org/",
-      "pageTitle": "Science Olympiad",
+      "pageTitle": "",
       "sourceChanged": false,
-      "signals": [
-        "Application USC National Tournament Website Science Olympiad Store &nbsp;&gt;&nbsp;2026&nbsp;practice materials 2026&nbsp; Ward's Science &nbsp;Olympia"
-      ]
+      "signals": []
     },
     {
       "id": "MathWorks Math Modeling Challenge",
@@ -1487,7 +1468,7 @@
       "pageTitle": "iD Tech Scholarship Programs | 2026",
       "sourceChanged": false,
       "signals": [
-        "Close Payment plans available during checkout, for as low as $375! Close Automatically save $50 when you add courses or siblings! Pay standard tu",
+        "Close Automatically save $50 when you add courses or siblings! Pay standard tuition for one student to attend a small-group program and receive $",
         "apply to Online Private Lessons",
         "Close Refer a friend and save $25"
       ]
