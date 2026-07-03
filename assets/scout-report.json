@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 105,
-    "unreachable": 19,
+    "reachable": 106,
+    "unreachable": 18,
     "redirected": 21
   },
   "entries": [
@@ -274,12 +274,16 @@
       "title": "USA Computing Olympiad",
       "category": "competition",
       "source": "https://usaco.org/",
-      "status": 526,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://usaco.org/",
-      "pageTitle": "usaco.org | 526: Invalid SSL certificate",
+      "pageTitle": "USACO",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Open\" championship contest",
+        "Register for New Account 2025-2026 Schedule Jan 9-12: First Contest Jan 30-Feb 2: Second Contest Feb 20-23: Third Contest For each contest, USA stud",
+        "Open (Proctored) May 12-18: EGOI (Italy) May 21-30: Training Camp Aug 9-16: IOI (Uzbekistan) Our Sponsors"
+      ]
     },
     {
       "id": "Conrad Challenge",
@@ -366,6 +370,7 @@
       "pageTitle": "HarvardX: CS50&#x27;s Introduction to Artificial Intelligence with Python | edX",
       "sourceChanged": false,
       "signals": [
+        "Close site banner",
         "Open edX 2U Advisory Council Careers News Connect Idea Hub Contact Us Help Center Security Media Kit Legal Terms of Service &amp; Honor Code Pri"
       ]
     },
@@ -1285,6 +1290,7 @@
       "pageTitle": "Page Not Found - NASA",
       "sourceChanged": false,
       "signals": [
+        "Close Date Deferred article 5 hours ago 2 min read Amendment 60: Final 2025 Due Date Extended for C",
         "opens in new tab) Follow NASA More NASA Social Accounts NASA Newsletters Sitemap For Media Privacy Policy FOIA No FEAR Act Office of the IG (open"
       ]
     },
@@ -1299,9 +1305,9 @@
       "pageTitle": "Texas Aerospace Scholars - NASA",
       "sourceChanged": true,
       "signals": [
+        "Close Date Deferred article 5 hours ago 2 min read Amendment 60: Final 2025 Due Date Extended for C",
         "Application Window July 1 &#8211; Sept",
-        "Application Window Late Summer – September TBD Online Course End of September – Mid March TBD Summer Virtual Experience First two weeks of June Second",
-        "opens in new tab) Follow NASA More NASA Social Accounts NASA Newsletters Sitemap For Media Privacy Policy FOIA No FEAR Act Office of the IG (open"
+        "Application Window Late Summer – September TBD Online Course End of September – Mid March TBD Summer Virtual Experience First two weeks of June Second"
       ]
     },
     {
