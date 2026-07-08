@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 104,
-    "unreachable": 20,
+    "reachable": 105,
+    "unreachable": 19,
     "redirected": 21
   },
   "entries": [
@@ -679,12 +679,16 @@
       "title": "Carnegie Mellon Admission Visits",
       "category": "visit",
       "source": "https://www.cmu.edu/admission/visit",
-      "status": 503,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://www.cmu.edu/visit/campus-tours/",
-      "pageTitle": "Site under maintenance | CMU Visit",
+      "pageTitle": "Campus Tours | CMU Visit",
       "sourceChanged": true,
-      "signals": []
+      "signals": [
+        "close look at our academic buildings and vibrant student life , allowing you to click and explore on your own schedule",
+        "open houses, we may limit the number of guests to three in order to allow more visitors the opportunity to register",
+        "open from 9 a"
+      ]
     },
     {
       "id": "University of Michigan Visit",
@@ -1294,12 +1298,16 @@
       "title": "NASA High School Aerospace Scholars",
       "category": "program",
       "source": "https://www.nasa.gov/learning-resources/high-school-aerospace-scholars/",
-      "status": 429,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://www.nasa.gov/learning-resources/texas-aerospace-scholars/",
-      "pageTitle": "429 Too Many Requests",
+      "pageTitle": "Texas Aerospace Scholars - NASA",
       "sourceChanged": true,
-      "signals": []
+      "signals": [
+        "Application about Texas Aerospace Scholars 2026-2027 Junior Application Window July 1 &#8211; Sept",
+        "Application Window Late Summer – September TBD Online Course End of September – Mid March TBD Summer Virtual Experience First two weeks of June Second",
+        "opens in new tab) Follow NASA More NASA Social Accounts NASA Newsletters Sitemap For Media Privacy Policy FOIA No FEAR Act Office of the IG (open"
+      ]
     },
     {
       "id": "NASA STEM Gateway",
@@ -1371,24 +1379,26 @@
       "title": "College Scorecard",
       "category": "tool",
       "source": "https://collegescorecard.ed.gov/",
-      "status": 200,
-      "reachable": true,
+      "status": 403,
+      "reachable": false,
       "finalUrl": "https://collegescorecard.ed.gov/",
-      "pageTitle": "Home | College Scorecard",
+      "pageTitle": "ERROR: The request could not be satisfied",
       "sourceChanged": false,
-      "signals": [
-        "Application You can learn more about the types of financial aid that are available at StudentAid",
-        "Application for Federal Student Aid (FAFSA®) form",
-        "Application Veterans are eligible for higher education funding through the G"
-      ]
+      "signals": []
     },
     {
       "id": "FAFSA",
       "title": "FAFSA",
       "category": "tool",
       "source": "https://studentaid.gov/h/apply-for-aid/fafsa",
+      "status": 403,
       "reachable": false,
-      "error": "AbortError"
+      "finalUrl": "https://studentaid.gov/h/apply-for-aid/fafsa",
+      "pageTitle": "Access Denied",
+      "sourceChanged": false,
+      "signals": [
+        "apply&#45;for&#45;aid&#47;fafsa\" on this server"
+      ]
     },
     {
       "id": "Common App",
