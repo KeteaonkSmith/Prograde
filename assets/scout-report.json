@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 106,
-    "unreachable": 18,
+    "reachable": 105,
+    "unreachable": 19,
     "redirected": 21
   },
   "entries": [
@@ -568,16 +568,8 @@
       "title": "UIUC College Open Houses",
       "category": "visit",
       "source": "https://www.admissions.illinois.edu/visit/open-houses",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://www.admissions.illinois.edu/visit/open-houses",
-      "pageTitle": "College Open Houses, Undergraduate Admissions, University of Illinois Urbana-Champaign",
-      "sourceChanged": false,
-      "signals": [
-        "Open Houses, Undergraduate Admissions, University of Illinois Urbana-Champaign You are using an outdated browser",
-        "Apply First-Year How to Apply Help With Applying Dates &amp; Deadlines Requirements Majors Writing Prompts How We Review College Credit College P",
-        "Apply Dates &amp; Deadlines Transfer Handbook Majors Essay Questions How We Review Transferring Credit GPA Guidelines Applicant FAQ More Internat"
-      ]
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "Summer SAIL at University of Oregon",
@@ -1481,12 +1473,9 @@
       "status": 404,
       "reachable": false,
       "finalUrl": "https://www.davidsongifted.org/gifted-programs/think-summer/",
-      "pageTitle": "Page not found - Davidson Institute",
+      "pageTitle": "",
       "sourceChanged": false,
-      "signals": [
-        "Open Search Open Search Programs and Scholarships Toggle Submenu Young Scholars Summer Opportunities Toggle Submenu Camps Annual Family Events F",
-        "Close search dialog Enter a search term Search Oh no! The page you're looking for doesn't exist Please use the quick links or the link below to g"
-      ]
+      "signals": []
     },
     {
       "id": "iD Tech Scholarships",
