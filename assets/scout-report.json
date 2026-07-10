@@ -2,9 +2,9 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 105,
-    "unreachable": 19,
-    "redirected": 20
+    "reachable": 106,
+    "unreachable": 18,
+    "redirected": 21
   },
   "entries": [
     {
@@ -441,7 +441,7 @@
       "pageTitle": "GitHub Education for students - GitHub Docs",
       "sourceChanged": true,
       "signals": [
-        "Open menu Open Sidebar GitHub Education / About GitHub Education / For students Home GitHub Education Quickstart for educators About GitHub Educ",
+        "Open menu Open Sidebar GitHub Education About GitHub Education For students Home GitHub Education Quickstart for educators About GitHub Educatio",
         "Apply to GitHub Education Troubleshooting access About Community Exchange Terms for Student Benefits For teachers About Apply to GitHub Education",
         "Application not approved At your institution GitHub Campus Program GitHub Campus Experts Program Apply to Campus Experts GitHub Community Exchange Get"
       ]
@@ -988,12 +988,16 @@
       "title": "LEDA Scholars",
       "category": "program",
       "source": "https://ledascholars.org/our-program/",
-      "status": 202,
+      "status": 200,
       "reachable": true,
       "finalUrl": "https://ledascholars.org/our-program/",
-      "pageTitle": "",
+      "pageTitle": "What We Do | LEDA",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Close The Need The Need Exceptional students from low-income backgrounds have unequal access to the top-tier colleges that cultivate most of our",
+        "Close What We Do What We Do LEDA runs the LEDA Scholars Program, the LEDA Career Network, and the LEDA Policy Project",
+        "Close Impact Impact A look at LEDA Scholars since our inception in 2003"
+      ]
     },
     {
       "id": "Matriculate",
@@ -1076,12 +1080,16 @@
       "title": "Ron Brown Scholar Program",
       "category": "scholarship",
       "source": "https://ronbrown.org/apply/ron-brown-scholarship/",
-      "status": 202,
+      "status": 200,
       "reachable": true,
-      "finalUrl": "https://ronbrown.org/apply/ron-brown-scholarship/",
-      "pageTitle": "",
-      "sourceChanged": false,
-      "signals": []
+      "finalUrl": "https://ronbrown.org/ron-brown-scholarship/",
+      "pageTitle": "The Ron Brown Signature Scholarship &#8211; Ron Brown Scholar Program",
+      "sourceChanged": true,
+      "signals": [
+        "Register Today",
+        "APPLY NOW - 2025 Application is now open! Tickets &amp; Sponsorships Now Available for AJA 2025—Reserve Your Place! Remembering Our Dear Friend C",
+        "APPLICATION FOR THE 2026 SCHOLARSHIP COMPETITION IS NOW CLOSED - ABOUT THE RON BROWN SIGNATURE SCHOLARSHIP The Ron Brown Scholarship honors the legacy"
+      ]
     },
     {
       "id": "Hispanic Scholarship Fund",
@@ -1206,12 +1214,14 @@
       "title": "Science Olympiad",
       "category": "competition",
       "source": "https://www.soinc.org/",
-      "status": 202,
+      "status": 200,
       "reachable": true,
       "finalUrl": "https://www.soinc.org/",
-      "pageTitle": "",
+      "pageTitle": "Science Olympiad",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Application USC National Tournament Website Science Olympiad Store &nbsp;&gt;&nbsp;2026&nbsp;practice materials 2026&nbsp; Ward's Science &nbsp;Olympia"
+      ]
     },
     {
       "id": "MathWorks Math Modeling Challenge",
@@ -1369,12 +1379,16 @@
       "title": "College Scorecard",
       "category": "tool",
       "source": "https://collegescorecard.ed.gov/",
-      "status": 403,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://collegescorecard.ed.gov/",
-      "pageTitle": "ERROR: The request could not be satisfied",
+      "pageTitle": "Home | College Scorecard",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Application You can learn more about the types of financial aid that are available at StudentAid",
+        "Application for Federal Student Aid (FAFSA®) form",
+        "Application Veterans are eligible for higher education funding through the G"
+      ]
     },
     {
       "id": "FAFSA",
@@ -1485,9 +1499,9 @@
       "pageTitle": "iD Tech Scholarship Programs | 2026",
       "sourceChanged": false,
       "signals": [
-        "Close Automatically save $50 when you add courses or siblings! Pay standard tuition for one student to attend a small-group program and receive $",
-        "apply to Online Private Lessons",
-        "Close Refer a friend and save $25"
+        "Register for summer today so your child can join their dream team",
+        "Close Payment plans available during checkout, for as low as $375! Close Automatically save $50 when you add courses or siblings! Pay standard tu",
+        "apply to Online Private Lessons"
       ]
     },
     {
