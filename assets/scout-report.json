@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 104,
-    "unreachable": 20,
+    "reachable": 103,
+    "unreachable": 21,
     "redirected": 21
   },
   "entries": [
@@ -102,16 +102,8 @@
       "title": "PROMYS",
       "category": "program",
       "source": "https://promys.org/programs/promys/for-students/",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://promys.org/programs/promys/for-students/",
-      "pageTitle": "For Students &#8211; PROMYS | Program in Mathematics for Young Scientists",
-      "sourceChanged": false,
-      "signals": [
-        "Apply For Counselors Quick Facts Counselor Mathematics FAQ Testimonials To Apply PROMYS for Teachers PROMYS Pathways PROMYS Europe PROMYS India P",
-        "close environment of people with a shared passion fosters truly brilliant collaboration, and the structure of each problem set weaves deep thinki",
-        "Application Deadline: February 27, 2026, 11:59 pm (EST) Admissions Decisions: end of April 2026 TBD Cost and Financial Aid &amp; Scholarships PROMYS be"
-      ]
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "Girls Who Code Pathways",
