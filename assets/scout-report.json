@@ -2,9 +2,9 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 103,
-    "unreachable": 21,
-    "redirected": 21
+    "reachable": 105,
+    "unreachable": 19,
+    "redirected": 20
   },
   "entries": [
     {
@@ -102,8 +102,16 @@
       "title": "PROMYS",
       "category": "program",
       "source": "https://promys.org/programs/promys/for-students/",
-      "reachable": false,
-      "error": "TypeError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://promys.org/programs/promys/for-students/",
+      "pageTitle": "For Students &#8211; PROMYS | Program in Mathematics for Young Scientists",
+      "sourceChanged": false,
+      "signals": [
+        "Apply For Counselors Quick Facts Counselor Mathematics FAQ Testimonials To Apply PROMYS for Teachers PROMYS Pathways PROMYS Europe PROMYS India P",
+        "close environment of people with a shared passion fosters truly brilliant collaboration, and the structure of each problem set weaves deep thinki",
+        "Application Deadline: February 27, 2026, 11:59 pm (EST) Admissions Decisions: end of April 2026 TBD Cost and Financial Aid &amp; Scholarships PROMYS be"
+      ]
     },
     {
       "id": "Girls Who Code Pathways",
@@ -624,8 +632,16 @@
       "title": "Stanford Campus Visit",
       "category": "visit",
       "source": "https://admission.stanford.edu/engage/",
-      "reachable": false,
-      "error": "TypeError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://admission.stanford.edu/engage/",
+      "pageTitle": "Engage : Stanford University",
+      "sourceChanged": false,
+      "signals": [
+        "Apply Visit --> Quick Links News &amp; Announcements Application Requirements Tours and Programs Cost of Attendance Parents Counselors --> Admiss",
+        "Application Requirements Tours and Programs Cost of Attendance Parents Counselors Admission Volunteers --> Updates for applicants in response to COVID-",
+        "Register for a live, virtual \"visit\" Nothing can replace visiting a college campus, but we are happy to offer virtual visit programming for those wh"
+      ]
     },
     {
       "id": "Georgia Tech Visit",
@@ -1268,30 +1284,24 @@
       "title": "NASA HUNCH",
       "category": "program",
       "source": "https://www.nasa.gov/learning-resources/hunch/",
-      "status": 404,
+      "status": 429,
       "reachable": false,
       "finalUrl": "https://www.nasa.gov/learning-resources/hunch/",
-      "pageTitle": "Page Not Found - NASA",
+      "pageTitle": "429 Too Many Requests",
       "sourceChanged": false,
-      "signals": [
-        "opens in new tab) Follow NASA More NASA Social Accounts NASA Newsletters Sitemap For Media Privacy Policy FOIA No FEAR Act Office of the IG (open"
-      ]
+      "signals": []
     },
     {
       "id": "NASA High School Aerospace Scholars",
       "title": "NASA High School Aerospace Scholars",
       "category": "program",
       "source": "https://www.nasa.gov/learning-resources/high-school-aerospace-scholars/",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://www.nasa.gov/learning-resources/texas-aerospace-scholars/",
-      "pageTitle": "Texas Aerospace Scholars - NASA",
-      "sourceChanged": true,
-      "signals": [
-        "Application about Texas Aerospace Scholars 2026-2027 Junior Application Window July 1 &#8211; Sept",
-        "Application Window Late Summer – September TBD Online Course End of September – Mid March TBD Summer Virtual Experience First two weeks of June Second",
-        "opens in new tab) Follow NASA More NASA Social Accounts NASA Newsletters Sitemap For Media Privacy Policy FOIA No FEAR Act Office of the IG (open"
-      ]
+      "status": 429,
+      "reachable": false,
+      "finalUrl": "https://www.nasa.gov/learning-resources/high-school-aerospace-scholars/",
+      "pageTitle": "429 Too Many Requests",
+      "sourceChanged": false,
+      "signals": []
     },
     {
       "id": "NASA STEM Gateway",
@@ -1363,12 +1373,16 @@
       "title": "College Scorecard",
       "category": "tool",
       "source": "https://collegescorecard.ed.gov/",
-      "status": 403,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://collegescorecard.ed.gov/",
-      "pageTitle": "ERROR: The request could not be satisfied",
+      "pageTitle": "Home | College Scorecard",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Application You can learn more about the types of financial aid that are available at StudentAid",
+        "Application for Federal Student Aid (FAFSA®) form",
+        "Application Veterans are eligible for higher education funding through the G"
+      ]
     },
     {
       "id": "FAFSA",
