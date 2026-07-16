@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 104,
-    "unreachable": 20,
+    "reachable": 103,
+    "unreachable": 21,
     "redirected": 20
   },
   "entries": [
@@ -483,8 +483,12 @@
       "title": "Purdue OWL",
       "category": "study",
       "source": "https://owl.purdue.edu/",
-      "reachable": false,
-      "error": "TypeError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://owl.purdue.edu/",
+      "pageTitle": "Purdue OWL® - Purdue OWL® - Purdue University",
+      "sourceChanged": false,
+      "signals": []
     },
     {
       "id": "Zotero",
@@ -1500,16 +1504,8 @@
       "title": "Girls Who Code Clubs",
       "category": "program",
       "source": "https://girlswhocode.com/programs/clubs-program",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://girlswhocode.com/programs/clubs-program",
-      "pageTitle": "Girls Who Code | Join 670,000 Girls Who Code today!",
-      "sourceChanged": false,
-      "signals": [
-        "Apply to Start a Club What&#x27;s a Club? Clubs are free programs for all 3rd-12th graders of any skill level to join a sisterhood of supportive",
-        "Apply to Start a Club Sisterhood Join a safe and supportive environment of peers and role models where students learn to see themselves as comput",
-        "apply computational thinking and problem-solving skills in a rapidly evolving tech landscape"
-      ]
+      "reachable": false,
+      "error": "AbortError"
     },
     {
       "id": "Kode With Klossy",
@@ -1606,16 +1602,8 @@
       "title": "IBM SkillsBuild",
       "category": "course",
       "source": "https://skillsbuild.org/",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://skillsbuild.org/",
-      "pageTitle": "Unlock your future | IBM SkillBuild",
-      "sourceChanged": false,
-      "signals": [
-        "Open menu Trending AI Cybersecurity Data Cloud Industry Enroll in courses and learning pathways based on in-demand jobs and skills See all cours",
-        "apply analytic tools to analyze data, predict outcomes, and visualize results professionally See all data courses Learn cloud computing fundament",
-        "Open menu Security and Standards Privacy Terms of use for students and educators Terms of use for adult learners Contact us Accessibility"
-      ]
+      "reachable": false,
+      "error": "AbortError"
     },
     {
       "id": "Codecademy Free Courses",
