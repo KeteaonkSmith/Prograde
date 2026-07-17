@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 103,
-    "unreachable": 21,
+    "reachable": 105,
+    "unreachable": 19,
     "redirected": 20
   },
   "entries": [
@@ -12,14 +12,8 @@
       "title": "CyberPatriot",
       "category": "hackathon",
       "source": "https://www.uscyberpatriot.org/competition/Competition-Overview/competition-overview",
-      "status": 404,
       "reachable": false,
-      "finalUrl": "https://www.uscyberpatriot.org/competition/Competition-Overview/competition-overview",
-      "pageTitle": "Page not found &#8211; CyberPatriot",
-      "sourceChanged": false,
-      "signals": [
-        "Register Now Primary Menu --> CyberPatriot Competition Getting Started Competition Overview Join the Competition Register Now New Coach Resources Cu"
-      ]
+      "error": "TypeError"
     },
     {
       "id": "Congressional App Challenge",
@@ -1504,8 +1498,16 @@
       "title": "Girls Who Code Clubs",
       "category": "program",
       "source": "https://girlswhocode.com/programs/clubs-program",
-      "reachable": false,
-      "error": "AbortError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://girlswhocode.com/programs/clubs-program",
+      "pageTitle": "Girls Who Code | Join 670,000 Girls Who Code today!",
+      "sourceChanged": false,
+      "signals": [
+        "Apply to Start a Club What&#x27;s a Club? Clubs are free programs for all 3rd-12th graders of any skill level to join a sisterhood of supportive",
+        "Apply to Start a Club Sisterhood Join a safe and supportive environment of peers and role models where students learn to see themselves as comput",
+        "apply computational thinking and problem-solving skills in a rapidly evolving tech landscape"
+      ]
     },
     {
       "id": "Kode With Klossy",
@@ -1602,8 +1604,16 @@
       "title": "IBM SkillsBuild",
       "category": "course",
       "source": "https://skillsbuild.org/",
-      "reachable": false,
-      "error": "AbortError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://skillsbuild.org/",
+      "pageTitle": "Unlock your future | IBM SkillBuild",
+      "sourceChanged": false,
+      "signals": [
+        "Open menu Trending AI Cybersecurity Data Cloud Industry Enroll in courses and learning pathways based on in-demand jobs and skills See all cours",
+        "apply analytic tools to analyze data, predict outcomes, and visualize results professionally See all data courses Learn cloud computing fundament",
+        "Open menu Security and Standards Privacy Terms of use for students and educators Terms of use for adult learners Contact us Accessibility"
+      ]
     },
     {
       "id": "Codecademy Free Courses",
