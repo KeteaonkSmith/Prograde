@@ -4,7 +4,7 @@
     "totalResources": 124,
     "reachable": 105,
     "unreachable": 19,
-    "redirected": 21
+    "redirected": 20
   },
   "entries": [
     {
@@ -988,16 +988,12 @@
       "title": "LEDA Scholars",
       "category": "program",
       "source": "https://ledascholars.org/our-program/",
-      "status": 200,
+      "status": 202,
       "reachable": true,
       "finalUrl": "https://ledascholars.org/our-program/",
-      "pageTitle": "What We Do | LEDA",
+      "pageTitle": "",
       "sourceChanged": false,
-      "signals": [
-        "Close The Need The Need Exceptional students from low-income backgrounds have unequal access to the top-tier colleges that cultivate most of our",
-        "Close What We Do What We Do LEDA runs the LEDA Scholars Program, the LEDA Career Network, and the LEDA Policy Project",
-        "Close Impact Impact A look at LEDA Scholars since our inception in 2003"
-      ]
+      "signals": []
     },
     {
       "id": "Matriculate",
@@ -1080,16 +1076,12 @@
       "title": "Ron Brown Scholar Program",
       "category": "scholarship",
       "source": "https://ronbrown.org/apply/ron-brown-scholarship/",
-      "status": 200,
+      "status": 202,
       "reachable": true,
-      "finalUrl": "https://ronbrown.org/ron-brown-scholarship/",
-      "pageTitle": "The Ron Brown Signature Scholarship &#8211; Ron Brown Scholar Program",
-      "sourceChanged": true,
-      "signals": [
-        "Register Today",
-        "APPLY NOW - 2025 Application is now open! Tickets &amp; Sponsorships Now Available for AJA 2025—Reserve Your Place! Remembering Our Dear Friend C",
-        "APPLICATION FOR THE 2026 SCHOLARSHIP COMPETITION IS NOW CLOSED - ABOUT THE RON BROWN SIGNATURE SCHOLARSHIP The Ron Brown Scholarship honors the legacy"
-      ]
+      "finalUrl": "https://ronbrown.org/apply/ron-brown-scholarship/",
+      "pageTitle": "",
+      "sourceChanged": false,
+      "signals": []
     },
     {
       "id": "Hispanic Scholarship Fund",
@@ -1290,7 +1282,7 @@
       "pageTitle": "Page Not Found - NASA",
       "sourceChanged": false,
       "signals": [
-        "Closes Out Space Station Mission article 3 days ago 4 min read NASA Announces New Spacecraft Technology Demonstration Mission at Moon article 1 da",
+        "Closes Out Space Station Mission article 3 days ago 4 min read NASA Announces New Spacecraft Technology Demonstration Mission at Moon article 2 da",
         "opens in new tab) Follow NASA More NASA Social Accounts NASA Newsletters Sitemap For Media Privacy Policy FOIA No FEAR Act Office of the IG (open"
       ]
     },
@@ -1305,7 +1297,7 @@
       "pageTitle": "Texas Aerospace Scholars - NASA",
       "sourceChanged": true,
       "signals": [
-        "Closes Out Space Station Mission article 2 days ago 4 min read NASA Announces New Spacecraft Technology Demonstration Mission at Moon article 21 h",
+        "Closes Out Space Station Mission article 3 days ago 4 min read NASA Announces New Spacecraft Technology Demonstration Mission at Moon article 2 da",
         "Application about Texas Aerospace Scholars 2026-2027 Junior Application Window July 1 &#8211; Sept",
         "Application Window Late Summer – September TBD Online Course End of September – Mid March TBD Summer Virtual Experience First two weeks of June Second"
       ]
