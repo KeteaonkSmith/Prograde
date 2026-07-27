@@ -470,7 +470,7 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://www.notion.com/help/notion-for-education",
-      "pageTitle": "Notion for education – Notion Help Center",
+      "pageTitle": "Notion for students &amp; education | Notion Help – Notion Help Center",
       "sourceChanged": false,
       "signals": [
         "application here → The Plus Plan may not be available for every workspace",
@@ -1206,14 +1206,12 @@
       "title": "Science Olympiad",
       "category": "competition",
       "source": "https://www.soinc.org/",
-      "status": 200,
+      "status": 202,
       "reachable": true,
       "finalUrl": "https://www.soinc.org/",
-      "pageTitle": "Science Olympiad",
+      "pageTitle": "",
       "sourceChanged": false,
-      "signals": [
-        "Application USC National Tournament Website Science Olympiad Store &nbsp;&gt;&nbsp;2026&nbsp;practice materials 2026&nbsp; Ward's Science &nbsp;Olympia"
-      ]
+      "signals": []
     },
     {
       "id": "MathWorks Math Modeling Challenge",
@@ -1282,7 +1280,7 @@
       "pageTitle": "Page Not Found - NASA",
       "sourceChanged": false,
       "signals": [
-        "Closes Out Space Station Mission article 3 days ago 4 min read NASA Announces New Spacecraft Technology Demonstration Mission at Moon article 2 da",
+        "Closes Out Space Station Mission article 4 days ago 4 min read NASA Announces New Spacecraft Technology Demonstration Mission at Moon article 2 da",
         "opens in new tab) Follow NASA More NASA Social Accounts NASA Newsletters Sitemap For Media Privacy Policy FOIA No FEAR Act Office of the IG (open"
       ]
     },
