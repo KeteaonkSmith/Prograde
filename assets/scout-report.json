@@ -4,7 +4,7 @@
     "totalResources": 124,
     "reachable": 105,
     "unreachable": 19,
-    "redirected": 21
+    "redirected": 20
   },
   "entries": [
     {
@@ -1078,9 +1078,9 @@
       "source": "https://ronbrown.org/apply/ron-brown-scholarship/",
       "status": 202,
       "reachable": true,
-      "finalUrl": "https://ronbrown.org/ron-brown-scholarship/",
+      "finalUrl": "https://ronbrown.org/apply/ron-brown-scholarship/",
       "pageTitle": "",
-      "sourceChanged": true,
+      "sourceChanged": false,
       "signals": []
     },
     {
