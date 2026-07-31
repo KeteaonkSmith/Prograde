@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 101,
-    "unreachable": 23,
+    "reachable": 104,
+    "unreachable": 20,
     "redirected": 21
   },
   "entries": [
@@ -407,8 +407,16 @@
       "title": "NSF Research Experiences for Undergraduates",
       "category": "program",
       "source": "https://www.nsf.gov/funding/initiatives/reu",
-      "reachable": false,
-      "error": "TypeError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://www.nsf.gov/funding/initiatives/reu",
+      "pageTitle": "NSF Research Experiences for Undergraduates | NSF - U.S. National Science Foundation",
+      "sourceChanged": false,
+      "signals": [
+        "Apply Preparing Your Proposal Submitting Your Proposal Proposal &amp; Award Policies &amp; Procedures Guide (PAPPG) Additional Resources Research",
+        "apply for funding to support a cohort of undergraduate students in research projects designed specifically for the NSF REU program (an REU Site)",
+        "apply for additional funding to involve undergraduate students in a new or ongoing NSF-funded research project (an REU Supplement)"
+      ]
     },
     {
       "id": "Canva Education",
@@ -624,8 +632,16 @@
       "title": "Stanford Campus Visit",
       "category": "visit",
       "source": "https://admission.stanford.edu/engage/",
-      "reachable": false,
-      "error": "TypeError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://admission.stanford.edu/engage/",
+      "pageTitle": "Engage : Stanford University",
+      "sourceChanged": false,
+      "signals": [
+        "Apply Quick Links News &amp; Announcements Application Requirements Tours and Programs Cost of Attendance Admission Volunteers Updates for applic",
+        "Register for a live, virtual \"visit\" Nothing can replace visiting a college campus, but we are happy to offer virtual visit programming for those wh",
+        "registration do so purely for planning purposes"
+      ]
     },
     {
       "id": "Georgia Tech Visit",
@@ -1282,12 +1298,16 @@
       "title": "NASA High School Aerospace Scholars",
       "category": "program",
       "source": "https://www.nasa.gov/learning-resources/high-school-aerospace-scholars/",
-      "status": 429,
-      "reachable": false,
-      "finalUrl": "https://www.nasa.gov/learning-resources/texas-aerospace-scholars",
-      "pageTitle": "429 Too Many Requests",
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://www.nasa.gov/learning-resources/texas-aerospace-scholars/",
+      "pageTitle": "Texas Aerospace Scholars - NASA",
       "sourceChanged": true,
-      "signals": []
+      "signals": [
+        "Application about Texas Aerospace Scholars 2026-2027 Junior Application Window July 1 &#8211; Sept",
+        "Application Window Late Summer – September TBD Online Course End of September – Mid March TBD Summer Virtual Experience First two weeks of June Second",
+        "opens in new tab) Follow NASA More NASA Social Accounts NASA Newsletters Sitemap For Media Privacy Policy FOIA No FEAR Act Office of the IG (open"
+      ]
     },
     {
       "id": "NASA STEM Gateway",
@@ -1382,10 +1402,10 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://www.commonapp.org/",
-      "pageTitle": "Apply to college with Common App | Your future starts here",
+      "pageTitle": "Apply to college with Common App",
       "sourceChanged": false,
       "signals": [
-        "Apply to college with Common App | Your future starts here Skip navigation For counselors and teachers Overview Recommender guide Recommender sys",
+        "Apply to college with Common App Skip navigation For counselors and teachers Overview Recommender guide Recommender system Student resources Repo",
         "Apply to college Overview Guides and resources Essay prompts Help and FAQs Pay for college Overview Scholarship matching Menu Sign in Create an a",
         "Apply to college for the first time or transfer to complete your degree"
       ]
