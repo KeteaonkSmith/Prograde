@@ -2,9 +2,9 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 105,
-    "unreachable": 19,
-    "redirected": 20
+    "reachable": 104,
+    "unreachable": 20,
+    "redirected": 21
   },
   "entries": [
     {
@@ -568,12 +568,16 @@
       "title": "UIUC College Open Houses",
       "category": "visit",
       "source": "https://www.admissions.illinois.edu/visit/open-houses",
-      "status": 200,
-      "reachable": true,
+      "status": 404,
+      "reachable": false,
       "finalUrl": "https://www.admissions.illinois.edu/visit/open-houses",
-      "pageTitle": "One moment, please...",
+      "pageTitle": "Page Not Found | Undergraduate Admissions | Illinois",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Apply Choose Your Path First-Year Transfer Pathways Non-Degree Second Bachelor's Requirements First-Year Requirements Transfer Requirements Inter",
+        "Application Help How Admission Works Application Workshops Applicant FAQ Admissions Stats Applicant Communities Parents & Families In-State First-Gener",
+        "Registration Financial Aid Notification International Admitted Students Transfer Course Evaluation Report FAQ Get Updates Counselors myIllini Hide Sideb"
+      ]
     },
     {
       "id": "Summer SAIL at University of Oregon",
@@ -984,12 +988,16 @@
       "title": "LEDA Scholars",
       "category": "program",
       "source": "https://ledascholars.org/our-program/",
-      "status": 202,
+      "status": 200,
       "reachable": true,
       "finalUrl": "https://ledascholars.org/our-program/",
-      "pageTitle": "",
+      "pageTitle": "What We Do | LEDA",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Close The Need The Need Exceptional students from low-income backgrounds have unequal access to the top-tier colleges that cultivate most of our",
+        "Close What We Do What We Do LEDA runs the LEDA Scholars Program, the LEDA Career Network, and the LEDA Policy Project",
+        "Close Impact Impact A look at LEDA Scholars since our inception in 2003"
+      ]
     },
     {
       "id": "Matriculate",
@@ -1072,12 +1080,16 @@
       "title": "Ron Brown Scholar Program",
       "category": "scholarship",
       "source": "https://ronbrown.org/apply/ron-brown-scholarship/",
-      "status": 202,
+      "status": 200,
       "reachable": true,
-      "finalUrl": "https://ronbrown.org/apply/ron-brown-scholarship/",
-      "pageTitle": "",
-      "sourceChanged": false,
-      "signals": []
+      "finalUrl": "https://ronbrown.org/ron-brown-scholarship/",
+      "pageTitle": "The Ron Brown Signature Scholarship &#8211; Ron Brown Scholar Program",
+      "sourceChanged": true,
+      "signals": [
+        "Register Today",
+        "APPLY NOW - 2025 Application is now open! Tickets &amp; Sponsorships Now Available for AJA 2025—Reserve Your Place! Remembering Our Dear Friend C",
+        "APPLICATION FOR THE 2026 SCHOLARSHIP COMPETITION IS NOW CLOSED - ABOUT THE RON BROWN SIGNATURE SCHOLARSHIP The Ron Brown Scholarship honors the legacy"
+      ]
     },
     {
       "id": "Hispanic Scholarship Fund",
@@ -1202,12 +1214,14 @@
       "title": "Science Olympiad",
       "category": "competition",
       "source": "https://www.soinc.org/",
-      "status": 202,
+      "status": 200,
       "reachable": true,
       "finalUrl": "https://www.soinc.org/",
-      "pageTitle": "",
+      "pageTitle": "Science Olympiad",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Application USC National Tournament Website Science Olympiad Store &nbsp;&gt;&nbsp;2026&nbsp;practice materials 2026&nbsp; Ward's Science &nbsp;Olympia"
+      ]
     },
     {
       "id": "MathWorks Math Modeling Challenge",
@@ -1276,8 +1290,8 @@
       "pageTitle": "Page Not Found - NASA",
       "sourceChanged": false,
       "signals": [
-        "Opens New Flight Dynamics Research Facility in Virginia article 9 hours ago 2 min read NASA Sets Coverage for August Northern Hemisphere Total So",
-        "Opens New Flight Dynamics Research Facility in Virginia article 9 hours ago Highlights 11 min read La NASA anuncia la cobertura de la misión luna",
+        "Opens New Flight Dynamics Research Facility in Virginia article 19 hours ago 2 min read NASA Sets Coverage for August Northern Hemisphere Total S",
+        "Opens New Flight Dynamics Research Facility in Virginia article 19 hours ago Highlights 11 min read La NASA anuncia la cobertura de la misión lun",
         "opens in new tab) Follow NASA More NASA Social Accounts NASA Newsletters Sitemap For Media Privacy Policy FOIA No FEAR Act Office of the IG (open"
       ]
     },
@@ -1292,8 +1306,8 @@
       "pageTitle": "Texas Aerospace Scholars - NASA",
       "sourceChanged": true,
       "signals": [
-        "Opens New Flight Dynamics Research Facility in Virginia article 7 hours ago 2 min read NASA Sets Coverage for August Northern Hemisphere Total So",
-        "Opens New Flight Dynamics Research Facility in Virginia article 7 hours ago Highlights 11 min read La NASA anuncia la cobertura de la misión luna",
+        "Opens New Flight Dynamics Research Facility in Virginia article 18 hours ago 2 min read NASA Sets Coverage for August Northern Hemisphere Total S",
+        "Opens New Flight Dynamics Research Facility in Virginia article 18 hours ago Highlights 11 min read La NASA anuncia la cobertura de la misión lun",
         "Application about Texas Aerospace Scholars 2026-2027 Junior Application Window July 1 &#8211; Sept"
       ]
     },
