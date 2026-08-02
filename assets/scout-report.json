@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 104,
-    "unreachable": 20,
+    "reachable": 103,
+    "unreachable": 21,
     "redirected": 21
   },
   "entries": [
@@ -483,12 +483,8 @@
       "title": "Purdue OWL",
       "category": "study",
       "source": "https://owl.purdue.edu/",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://owl.purdue.edu/",
-      "pageTitle": "Purdue OWL® - Purdue OWL® - Purdue University",
-      "sourceChanged": false,
-      "signals": []
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "Zotero",
@@ -1290,8 +1286,8 @@
       "pageTitle": "Page Not Found - NASA",
       "sourceChanged": false,
       "signals": [
-        "Opens New Flight Dynamics Research Facility in Virginia article 19 hours ago 2 min read NASA Sets Coverage for August Northern Hemisphere Total S",
-        "Opens New Flight Dynamics Research Facility in Virginia article 19 hours ago Highlights 11 min read La NASA anuncia la cobertura de la misión lun",
+        "Opens New Flight Dynamics Research Facility in Virginia article 1 day ago 2 min read NASA Sets Coverage for August Northern Hemisphere Total Sola",
+        "Opens New Flight Dynamics Research Facility in Virginia article 1 day ago Highlights 11 min read La NASA anuncia la cobertura de la misión lunar",
         "opens in new tab) Follow NASA More NASA Social Accounts NASA Newsletters Sitemap For Media Privacy Policy FOIA No FEAR Act Office of the IG (open"
       ]
     },
@@ -1306,8 +1302,8 @@
       "pageTitle": "Texas Aerospace Scholars - NASA",
       "sourceChanged": true,
       "signals": [
-        "Opens New Flight Dynamics Research Facility in Virginia article 18 hours ago 2 min read NASA Sets Coverage for August Northern Hemisphere Total S",
-        "Opens New Flight Dynamics Research Facility in Virginia article 18 hours ago Highlights 11 min read La NASA anuncia la cobertura de la misión lun",
+        "Opens New Flight Dynamics Research Facility in Virginia article 1 day ago 2 min read NASA Sets Coverage for August Northern Hemisphere Total Sola",
+        "Opens New Flight Dynamics Research Facility in Virginia article 1 day ago Highlights 11 min read La NASA anuncia la cobertura de la misión lunar",
         "Application about Texas Aerospace Scholars 2026-2027 Junior Application Window July 1 &#8211; Sept"
       ]
     },
