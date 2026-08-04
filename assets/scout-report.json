@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 104,
-    "unreachable": 20,
+    "reachable": 101,
+    "unreachable": 23,
     "redirected": 20
   },
   "entries": [
@@ -71,16 +71,8 @@
       "title": "MIT PRIMES / PRIMES-USA",
       "category": "program",
       "source": "https://math.mit.edu/research/highschool/primes/index.php",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://math.mit.edu/research/highschool/primes/index.php",
-      "pageTitle": "PRIMES",
-      "sourceChanged": false,
-      "signals": [
-        "Apply PRIMES-USA PRIMES-USA Apply CrowdMath PRIMES Circle PRIMES Circle Students Say Circle Mentors Papers Apply Yulia's Dream Yulia's Dream 2025",
-        "Apply Other Programs FAQ Contact RSI RSI Past Projects Lecture Series Academics Academics Academic Services Academic Services Forms and Requests",
-        "Apply Other Programs FAQ Contact RSI RSI Past Projects Lecture Series PRIMES: Program for Research in Mathematics, Engineering and Science for Hi"
-      ]
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "Research Science Institute",
@@ -698,7 +690,7 @@
       "status": 403,
       "reachable": false,
       "finalUrl": "https://admissions.umich.edu/explore-visit/visit-campus",
-      "pageTitle": "Just a moment...",
+      "pageTitle": "Access Denied",
       "sourceChanged": false,
       "signals": []
     },
@@ -755,16 +747,8 @@
       "title": "MIT Splash",
       "category": "program",
       "source": "https://esp.mit.edu/learn/Splash/index.html",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://esp.mit.edu/learn/Splash/index.html",
-      "pageTitle": "MIT ESP - Splash!",
-      "sourceChanged": false,
-      "signals": [
-        "Register! Registration Steps Program Details Walk-In Activities Navbar Category: Splash Learn Set navbar name/path/description Edit navbar contents",
-        "registration will open in mid October",
-        "open to you! Who Can Participate? High school studen ts&nbsp;in grades 9–12 can attend Splash"
-      ]
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "Stanford Splash",
@@ -1197,9 +1181,9 @@
       "source": "https://jshs.org/",
       "status": 200,
       "reachable": true,
-      "finalUrl": "https://jshs.org/",
-      "pageTitle": "",
-      "sourceChanged": false,
+      "finalUrl": "https://www.jshs.org/",
+      "pageTitle": "Student STEM Competitions - Junior Science and Humanities Symposium",
+      "sourceChanged": true,
       "signals": []
     },
     {
@@ -1281,8 +1265,8 @@
       "pageTitle": "Page Not Found - NASA",
       "sourceChanged": false,
       "signals": [
-        "Opens New Flight Dynamics Research Facility in Virginia article 3 days ago 2 min read NASA Sets Coverage for August Northern Hemisphere Total Sol",
-        "Opens New Flight Dynamics Research Facility in Virginia article 3 days ago Highlights 11 min read La NASA anuncia la cobertura de la misión lunar",
+        "Opens New Flight Dynamics Research Facility in Virginia article 4 days ago 2 min read NASA Sets Coverage for August Northern Hemisphere Total Sol",
+        "Opens New Flight Dynamics Research Facility in Virginia article 4 days ago Highlights 11 min read La NASA anuncia la cobertura de la misión lunar",
         "opens in new tab) Follow NASA More NASA Social Accounts NASA Newsletters Sitemap For Media Privacy Policy FOIA No FEAR Act Office of the IG (open"
       ]
     },
@@ -1291,16 +1275,12 @@
       "title": "NASA High School Aerospace Scholars",
       "category": "program",
       "source": "https://www.nasa.gov/learning-resources/high-school-aerospace-scholars/",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://www.nasa.gov/learning-resources/texas-aerospace-scholars/",
-      "pageTitle": "Texas Aerospace Scholars - NASA",
-      "sourceChanged": true,
-      "signals": [
-        "Opens New Flight Dynamics Research Facility in Virginia article 3 days ago 2 min read NASA Sets Coverage for August Northern Hemisphere Total Sol",
-        "Opens New Flight Dynamics Research Facility in Virginia article 3 days ago Highlights 11 min read La NASA anuncia la cobertura de la misión lunar",
-        "Application about Texas Aerospace Scholars 2026-2027 Junior Application Window July 1 &#8211; Sept"
-      ]
+      "status": 429,
+      "reachable": false,
+      "finalUrl": "https://www.nasa.gov/learning-resources/high-school-aerospace-scholars/",
+      "pageTitle": "429 Too Many Requests",
+      "sourceChanged": false,
+      "signals": []
     },
     {
       "id": "NASA STEM Gateway",
