@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 102,
-    "unreachable": 22,
+    "reachable": 104,
+    "unreachable": 20,
     "redirected": 22
   },
   "entries": [
@@ -42,12 +42,14 @@
       "title": "Technovation Girls",
       "category": "hackathon",
       "source": "https://technovationchallenge.org/program-overview/program-overview-us/",
-      "status": 504,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://technovationchallenge.org/program-overview/program-overview-us/",
-      "pageTitle": "technovationchallenge.org | 504: Gateway time-out",
+      "pageTitle": "U.S. Program Overview - Technovation Girls",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "open to girls, non-binary, and gender non-conforming youth there are ways boys are welcome to use the curriculum and resources too! ANYONE can u"
+      ]
     },
     {
       "id": "Major League Hacking Events",
@@ -100,8 +102,16 @@
       "title": "PROMYS",
       "category": "program",
       "source": "https://promys.org/programs/promys/for-students/",
-      "reachable": false,
-      "error": "TypeError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://promys.org/programs/promys/for-students/",
+      "pageTitle": "For Students &#8211; PROMYS | Program in Mathematics for Young Scientists",
+      "sourceChanged": false,
+      "signals": [
+        "Apply For Counselors Quick Facts Counselor Mathematics FAQ Testimonials To Apply PROMYS for Teachers PROMYS Pathways PROMYS Europe PROMYS India P",
+        "close environment of people with a shared passion fosters truly brilliant collaboration, and the structure of each problem set weaves deep thinki",
+        "Application Deadline: February 27, 2026, 11:59 pm (EST) Admissions Decisions: end of April 2026 TBD Cost and Financial Aid &amp; Scholarships PROMYS be"
+      ]
     },
     {
       "id": "Girls Who Code Pathways",
@@ -1281,7 +1291,7 @@
       "pageTitle": "Page Not Found - NASA",
       "sourceChanged": false,
       "signals": [
-        "Opens New Flight Dynamics Research Facility in Virginia article 4 days ago Highlights 11 min read La NASA anuncia la cobertura de la misión lunar",
+        "Opens New Flight Dynamics Research Facility in Virginia article 5 days ago Highlights 11 min read La NASA anuncia la cobertura de la misión lunar",
         "opens in new tab) Follow NASA More NASA Social Accounts NASA Newsletters Sitemap For Media Privacy Policy FOIA No FEAR Act Office of the IG (open"
       ]
     },
@@ -1296,7 +1306,7 @@
       "pageTitle": "Texas Aerospace Scholars - NASA",
       "sourceChanged": true,
       "signals": [
-        "Opens New Flight Dynamics Research Facility in Virginia article 4 days ago Highlights 11 min read La NASA anuncia la cobertura de la misión lunar",
+        "Opens New Flight Dynamics Research Facility in Virginia article 5 days ago Highlights 11 min read La NASA anuncia la cobertura de la misión lunar",
         "Application about Texas Aerospace Scholars 2026-2027 Junior Application Window July 1 &#8211; Sept",
         "Application Window Late Summer – September TBD Online Course End of September – Mid March TBD Summer Virtual Experience First two weeks of June Second"
       ]
