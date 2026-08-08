@@ -4,7 +4,7 @@
     "totalResources": 124,
     "reachable": 102,
     "unreachable": 22,
-    "redirected": 22
+    "redirected": 20
   },
   "entries": [
     {
@@ -130,12 +130,16 @@
       "title": "Bank of America Student Leaders",
       "category": "program",
       "source": "https://about.bankofamerica.com/en/making-an-impact/student-leaders",
-      "status": 403,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://about.bankofamerica.com/en/making-an-impact/student-leaders",
-      "pageTitle": "Access Denied",
+      "pageTitle": "Bank of America Student Leaders® Program - Bank of America",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Close Important notice you are now leaving Bank of America Top Sign in Contact us Location finder Help Our company Responsible growth Business pr",
+        "apply",
+        "apply to wires and certain transfers"
+      ]
     },
     {
       "id": "Harvard Secondary School Program",
@@ -479,8 +483,12 @@
       "title": "Purdue OWL",
       "category": "study",
       "source": "https://owl.purdue.edu/",
-      "reachable": false,
-      "error": "TypeError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://owl.purdue.edu/",
+      "pageTitle": "Purdue OWL® - Purdue OWL® - Purdue University",
+      "sourceChanged": false,
+      "signals": []
     },
     {
       "id": "Zotero",
@@ -560,16 +568,12 @@
       "title": "UIUC College Open Houses",
       "category": "visit",
       "source": "https://www.admissions.illinois.edu/visit/open-houses",
-      "status": 404,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://www.admissions.illinois.edu/visit/open-houses",
-      "pageTitle": "Page Not Found | Undergraduate Admissions | Illinois",
+      "pageTitle": "One moment, please...",
       "sourceChanged": false,
-      "signals": [
-        "Apply Choose Your Path First-Year Transfer Pathways Non-Degree Second Bachelor's Requirements First-Year Requirements Transfer Requirements Inter",
-        "Application Help How Admission Works Application Workshops Applicant FAQ Admissions Stats Applicant Communities Parents & Families In-State First-Gener",
-        "Registration Financial Aid Notification International Admitted Students Transfer Course Evaluation Report FAQ Get Updates Counselors myIllini Hide Sideb"
-      ]
+      "signals": []
     },
     {
       "id": "Summer SAIL at University of Oregon",
@@ -980,16 +984,8 @@
       "title": "LEDA Scholars",
       "category": "program",
       "source": "https://ledascholars.org/our-program/",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://ledascholars.org/our-program/",
-      "pageTitle": "What We Do | LEDA",
-      "sourceChanged": false,
-      "signals": [
-        "Close The Need The Need Exceptional students from low-income backgrounds have unequal access to the top-tier colleges that cultivate most of our",
-        "Close What We Do What We Do LEDA runs the LEDA Scholars Program, the LEDA Career Network, and the LEDA Policy Project",
-        "Close Impact Impact A look at LEDA Scholars since our inception in 2003"
-      ]
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "Matriculate",
@@ -1072,16 +1068,8 @@
       "title": "Ron Brown Scholar Program",
       "category": "scholarship",
       "source": "https://ronbrown.org/apply/ron-brown-scholarship/",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://ronbrown.org/ron-brown-scholarship/",
-      "pageTitle": "The Ron Brown Signature Scholarship &#8211; Ron Brown Scholar Program",
-      "sourceChanged": true,
-      "signals": [
-        "Register Today",
-        "APPLY NOW - 2025 Application is now open! Tickets &amp; Sponsorships Now Available for AJA 2025—Reserve Your Place! Remembering Our Dear Friend C",
-        "APPLICATION FOR THE 2026 SCHOLARSHIP COMPETITION IS NOW CLOSED - ABOUT THE RON BROWN SIGNATURE SCHOLARSHIP The Ron Brown Scholarship honors the legacy"
-      ]
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "Hispanic Scholarship Fund",
@@ -1277,31 +1265,24 @@
       "title": "NASA HUNCH",
       "category": "program",
       "source": "https://www.nasa.gov/learning-resources/hunch/",
-      "status": 404,
+      "status": 429,
       "reachable": false,
       "finalUrl": "https://www.nasa.gov/learning-resources/hunch/",
-      "pageTitle": "Page Not Found - NASA",
+      "pageTitle": "429 Too Many Requests",
       "sourceChanged": false,
-      "signals": [
-        "Opens New Flight Dynamics Research Facility in Virginia article 7 days ago Highlights 11 min read La NASA anuncia la cobertura de la misión lunar",
-        "opens in new tab) Follow NASA More NASA Social Accounts NASA Newsletters Sitemap For Media Privacy Policy FOIA No FEAR Act Office of the IG (open"
-      ]
+      "signals": []
     },
     {
       "id": "NASA High School Aerospace Scholars",
       "title": "NASA High School Aerospace Scholars",
       "category": "program",
       "source": "https://www.nasa.gov/learning-resources/high-school-aerospace-scholars/",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://www.nasa.gov/learning-resources/texas-aerospace-scholars/",
-      "pageTitle": "Texas Aerospace Scholars - NASA",
-      "sourceChanged": true,
-      "signals": [
-        "Opens New Flight Dynamics Research Facility in Virginia article 7 days ago Highlights 11 min read La NASA anuncia la cobertura de la misión lunar",
-        "Application about Texas Aerospace Scholars 2026-2027 Junior Application Window July 1 &#8211; Sept",
-        "Application Window Late Summer – September TBD Online Course End of September – Mid March TBD Summer Virtual Experience First two weeks of June Second"
-      ]
+      "status": 429,
+      "reachable": false,
+      "finalUrl": "https://www.nasa.gov/learning-resources/high-school-aerospace-scholars/",
+      "pageTitle": "429 Too Many Requests",
+      "sourceChanged": false,
+      "signals": []
     },
     {
       "id": "NASA STEM Gateway",
@@ -1606,9 +1587,9 @@
       "pageTitle": "AWS Educate - Cloud Skills for Education- AWS",
       "sourceChanged": false,
       "signals": [
+        "Application Integration Artificial Intelligence Business Applications Compute Customer Experience Databases Developer Tools End User Computing Game Tec",
         "Register now Sign in to AWS Educate Overwhelmed by too many choices when it comes to learning cloud? AWS Educate is open to any individual, regardle",
-        "Register now Compute Getting Started with Compute Practice building and managing your own cloud computing instance in the AWS Cloud",
-        "Register now Networking Getting Started with Networking Gain hands-on experience with Amazon Virtual Private Cloud (Amazon VPC) and learn how to set"
+        "Register now Compute Getting Started with Compute Practice building and managing your own cloud computing instance in the AWS Cloud"
       ]
     },
     {
