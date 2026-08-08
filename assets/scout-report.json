@@ -2,9 +2,9 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 102,
-    "unreachable": 22,
-    "redirected": 20
+    "reachable": 104,
+    "unreachable": 20,
+    "redirected": 21
   },
   "entries": [
     {
@@ -568,12 +568,16 @@
       "title": "UIUC College Open Houses",
       "category": "visit",
       "source": "https://www.admissions.illinois.edu/visit/open-houses",
-      "status": 200,
-      "reachable": true,
+      "status": 404,
+      "reachable": false,
       "finalUrl": "https://www.admissions.illinois.edu/visit/open-houses",
-      "pageTitle": "One moment, please...",
+      "pageTitle": "Page Not Found | Undergraduate Admissions | Illinois",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Apply Choose Your Path First-Year Transfer Pathways Non-Degree Second Bachelor's Requirements First-Year Requirements Transfer Requirements Inter",
+        "Application Help How Admission Works Application Workshops Applicant FAQ Admissions Stats Applicant Communities Parents & Families In-State First-Gener",
+        "Registration Financial Aid Notification International Admitted Students Transfer Course Evaluation Report FAQ Get Updates Counselors myIllini Hide Sideb"
+      ]
     },
     {
       "id": "Summer SAIL at University of Oregon",
@@ -984,8 +988,12 @@
       "title": "LEDA Scholars",
       "category": "program",
       "source": "https://ledascholars.org/our-program/",
-      "reachable": false,
-      "error": "TypeError"
+      "status": 202,
+      "reachable": true,
+      "finalUrl": "https://ledascholars.org/our-program/",
+      "pageTitle": "",
+      "sourceChanged": false,
+      "signals": []
     },
     {
       "id": "Matriculate",
@@ -1068,8 +1076,12 @@
       "title": "Ron Brown Scholar Program",
       "category": "scholarship",
       "source": "https://ronbrown.org/apply/ron-brown-scholarship/",
-      "reachable": false,
-      "error": "TypeError"
+      "status": 202,
+      "reachable": true,
+      "finalUrl": "https://ronbrown.org/apply/ron-brown-scholarship/",
+      "pageTitle": "",
+      "sourceChanged": false,
+      "signals": []
     },
     {
       "id": "Hispanic Scholarship Fund",
@@ -1195,14 +1207,12 @@
       "title": "Science Olympiad",
       "category": "competition",
       "source": "https://www.soinc.org/",
-      "status": 200,
+      "status": 202,
       "reachable": true,
       "finalUrl": "https://www.soinc.org/",
-      "pageTitle": "Science Olympiad",
+      "pageTitle": "",
       "sourceChanged": false,
-      "signals": [
-        "Application USC National Tournament Website Science Olympiad Store &nbsp;&gt;&nbsp;2026&nbsp;practice materials 2026&nbsp; Ward's Science &nbsp;Olympia"
-      ]
+      "signals": []
     },
     {
       "id": "MathWorks Math Modeling Challenge",
@@ -1265,24 +1275,30 @@
       "title": "NASA HUNCH",
       "category": "program",
       "source": "https://www.nasa.gov/learning-resources/hunch/",
-      "status": 429,
+      "status": 404,
       "reachable": false,
       "finalUrl": "https://www.nasa.gov/learning-resources/hunch/",
-      "pageTitle": "429 Too Many Requests",
+      "pageTitle": "Page Not Found - NASA",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "opens in new tab) Follow NASA More NASA Social Accounts NASA Newsletters Sitemap For Media Privacy Policy FOIA No FEAR Act Office of the IG (open"
+      ]
     },
     {
       "id": "NASA High School Aerospace Scholars",
       "title": "NASA High School Aerospace Scholars",
       "category": "program",
       "source": "https://www.nasa.gov/learning-resources/high-school-aerospace-scholars/",
-      "status": 429,
-      "reachable": false,
-      "finalUrl": "https://www.nasa.gov/learning-resources/high-school-aerospace-scholars/",
-      "pageTitle": "429 Too Many Requests",
-      "sourceChanged": false,
-      "signals": []
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://www.nasa.gov/learning-resources/texas-aerospace-scholars/",
+      "pageTitle": "Texas Aerospace Scholars - NASA",
+      "sourceChanged": true,
+      "signals": [
+        "Application about Texas Aerospace Scholars 2026-2027 Junior Application Window July 1 &#8211; Sept",
+        "Application Window Late Summer – September TBD Online Course End of September – Mid March TBD Summer Virtual Experience First two weeks of June Second",
+        "opens in new tab) Follow NASA More NASA Social Accounts NASA Newsletters Sitemap For Media Privacy Policy FOIA No FEAR Act Office of the IG (open"
+      ]
     },
     {
       "id": "NASA STEM Gateway",
