@@ -2,9 +2,9 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 101,
-    "unreachable": 23,
-    "redirected": 21
+    "reachable": 103,
+    "unreachable": 21,
+    "redirected": 20
   },
   "entries": [
     {
@@ -56,15 +56,8 @@
       "title": "Major League Hacking Events",
       "category": "hackathon",
       "source": "https://mlh.io/",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://www.mlh.com/",
-      "pageTitle": "Major League Hacking | Hackathons and Developer Programs | Major League Hacking",
-      "sourceChanged": true,
-      "signals": [
-        "open source projects with peers and engineers from top companies",
-        "Apply Resources Code of Conduct Prizes &amp; Freebies Branding Guidelines About MLH Contact Us Blog Partners Work at MLH Privacy Terms of Service"
-      ]
+      "reachable": false,
+      "error": "AbortError"
     },
     {
       "id": "MIT PRIMES / PRIMES-USA",
@@ -521,8 +514,16 @@
       "title": "Purdue Campus Visits",
       "category": "visit",
       "source": "https://admissions.purdue.edu/visit/",
-      "reachable": false,
-      "error": "AbortError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://admissions.purdue.edu/visit/",
+      "pageTitle": "Purdue University – Visit Us",
+      "sourceChanged": false,
+      "signals": [
+        "CLOSE Undergraduate Admissions Search Home Become a Student Support Your Student Admitted Students Academics Cost &amp; Aid Student Life Visit Co",
+        "Application Deadlines Apply Now Check Application Status Transfer Scholarships Quick links Accept Your Offer Class Profile College Prep Guide to Applyi",
+        "Apply plus_icon Apply Now Guide to Applying Deadlines First-Year Class Profile Closed Programs Application Status College Prep Timeline Informati"
+      ]
     },
     {
       "id": "Purdue AAE Prospective Family Visits",
@@ -980,8 +981,12 @@
       "title": "LEDA Scholars",
       "category": "program",
       "source": "https://ledascholars.org/our-program/",
-      "reachable": false,
-      "error": "TypeError"
+      "status": 202,
+      "reachable": true,
+      "finalUrl": "https://ledascholars.org/our-program/",
+      "pageTitle": "",
+      "sourceChanged": false,
+      "signals": []
     },
     {
       "id": "Matriculate",
@@ -1064,8 +1069,12 @@
       "title": "Ron Brown Scholar Program",
       "category": "scholarship",
       "source": "https://ronbrown.org/apply/ron-brown-scholarship/",
-      "reachable": false,
-      "error": "TypeError"
+      "status": 202,
+      "reachable": true,
+      "finalUrl": "https://ronbrown.org/apply/ron-brown-scholarship/",
+      "pageTitle": "",
+      "sourceChanged": false,
+      "signals": []
     },
     {
       "id": "Hispanic Scholarship Fund",
