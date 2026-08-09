@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 104,
-    "unreachable": 20,
+    "reachable": 101,
+    "unreachable": 23,
     "redirected": 21
   },
   "entries": [
@@ -521,16 +521,8 @@
       "title": "Purdue Campus Visits",
       "category": "visit",
       "source": "https://admissions.purdue.edu/visit/",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://admissions.purdue.edu/visit/",
-      "pageTitle": "Purdue University – Visit Us",
-      "sourceChanged": false,
-      "signals": [
-        "CLOSE Undergraduate Admissions Search Home Become a Student Support Your Student Admitted Students Academics Cost &amp; Aid Student Life Visit Co",
-        "Application Deadlines Apply Now Check Application Status Transfer Scholarships Quick links Accept Your Offer Class Profile College Prep Guide to Applyi",
-        "Apply plus_icon Apply Now Guide to Applying Deadlines First-Year Class Profile Closed Programs Application Status College Prep Timeline Informati"
-      ]
+      "reachable": false,
+      "error": "AbortError"
     },
     {
       "id": "Purdue AAE Prospective Family Visits",
@@ -988,12 +980,8 @@
       "title": "LEDA Scholars",
       "category": "program",
       "source": "https://ledascholars.org/our-program/",
-      "status": 202,
-      "reachable": true,
-      "finalUrl": "https://ledascholars.org/our-program/",
-      "pageTitle": "",
-      "sourceChanged": false,
-      "signals": []
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "Matriculate",
@@ -1076,12 +1064,8 @@
       "title": "Ron Brown Scholar Program",
       "category": "scholarship",
       "source": "https://ronbrown.org/apply/ron-brown-scholarship/",
-      "status": 202,
-      "reachable": true,
-      "finalUrl": "https://ronbrown.org/apply/ron-brown-scholarship/",
-      "pageTitle": "",
-      "sourceChanged": false,
-      "signals": []
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "Hispanic Scholarship Fund",
