@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 105,
-    "unreachable": 19,
+    "reachable": 103,
+    "unreachable": 21,
     "redirected": 22
   },
   "entries": [
@@ -130,16 +130,12 @@
       "title": "Bank of America Student Leaders",
       "category": "program",
       "source": "https://about.bankofamerica.com/en/making-an-impact/student-leaders",
-      "status": 200,
-      "reachable": true,
+      "status": 403,
+      "reachable": false,
       "finalUrl": "https://about.bankofamerica.com/en/making-an-impact/student-leaders",
-      "pageTitle": "Bank of America Student Leaders® Program - Bank of America",
+      "pageTitle": "Access Denied",
       "sourceChanged": false,
-      "signals": [
-        "Close Important notice you are now leaving Bank of America Top Sign in Contact us Location finder Help Our company Responsible growth Business pr",
-        "apply",
-        "apply to wires and certain transfers"
-      ]
+      "signals": []
     },
     {
       "id": "Harvard Secondary School Program",
@@ -423,16 +419,12 @@
       "title": "Canva Education",
       "category": "tool",
       "source": "https://www.canva.com/education/eligibility-guidelines/",
-      "status": 200,
-      "reachable": true,
+      "status": 403,
+      "reachable": false,
       "finalUrl": "https://www.canva.com/education/eligibility-guidelines/",
-      "pageTitle": "Eligibility Guidelines | Canva Education",
+      "pageTitle": "Canva",
       "sourceChanged": false,
-      "signals": [
-        "opens in a new tab or window) Jump to: Eligibility guidelines How long does my access to Canva Education last? Who can’t access Canva Education?",
-        "opens in a new tab or window) ) College and university students ( Check out our Canva for Campus product ⁠ (opens in a new tab or window) ) Conti",
-        "opens in a new tab or window) ) Early stage start-ups with an educational focus Parents of children who are in K-12 (primary or secondary) educat"
-      ]
+      "signals": []
     },
     {
       "id": "GitHub Student Developer Pack",
