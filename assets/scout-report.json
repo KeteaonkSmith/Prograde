@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 104,
-    "unreachable": 20,
+    "reachable": 105,
+    "unreachable": 19,
     "redirected": 22
   },
   "entries": [
@@ -423,12 +423,16 @@
       "title": "Canva Education",
       "category": "tool",
       "source": "https://www.canva.com/education/eligibility-guidelines/",
-      "status": 403,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://www.canva.com/education/eligibility-guidelines/",
-      "pageTitle": "Canva",
+      "pageTitle": "Eligibility Guidelines | Canva Education",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "opens in a new tab or window) Jump to: Eligibility guidelines How long does my access to Canva Education last? Who can’t access Canva Education?",
+        "opens in a new tab or window) ) College and university students ( Check out our Canva for Campus product ⁠ (opens in a new tab or window) ) Conti",
+        "opens in a new tab or window) ) Early stage start-ups with an educational focus Parents of children who are in K-12 (primary or secondary) educat"
+      ]
     },
     {
       "id": "GitHub Student Developer Pack",
@@ -686,8 +690,8 @@
       "sourceChanged": true,
       "signals": [
         "close look at our academic buildings and vibrant student life , allowing you to click and explore on your own schedule",
-        "open houses, we may limit the number of guests to three in order to allow more visitors the opportunity to register",
-        "open from 9 a"
+        "register for scheduled events and tours",
+        "open houses, we may limit the number of guests to three in order to allow more visitors the opportunity to register"
       ]
     },
     {
