@@ -152,9 +152,9 @@
       "pageTitle": "Secondary School Program for High School Students | Harvard Summer School",
       "sourceChanged": false,
       "signals": [
-        "Registration Summer 2026 Academic Calendar Harvard Extension School Students Adult Course Takers Visiting College Students Harvard College Students Tuit",
-        "Apply Costs and Funding Policies and Safety For Admitted Students Students in Need of Accommodations For Students Campus Life Support and Service",
-        "application fee Courses 7-Week: 200+ Courses to Choose From 4-Week: 20 Courses to Choose From 4-Week July 12–August 8, 2026 Residential Only 7-Week Jun"
+        "Apply Costs and Funding Policies and Safety For Admitted Students Students in Need of Accommodations Registration Course Registration Internation",
+        "application fee Courses 7-Week: 200+ Courses to Choose From 4-Week: 20 Courses to Choose From 4-Week July 12–August 8, 2026 Residential Only 7-Week Jun",
+        "Apply to the Secondary School Program Program Activities The SSP Advantage Cost & Aid FAQs Why Choose Harvard’s Secondary School Program? Related"
       ]
     },
     {
@@ -458,7 +458,7 @@
       "sourceChanged": false,
       "signals": [
         "close Figma Design Design and prototype in one place Figma Make Prompt to code anything you can imagine Dev Mode Translate designs into code Figm",
-        "apply to Education users: AI tools : AI tools are available for higher education and bootcamp Education users",
+        "apply to Education users: Available only to higher education and bootcamp Education users (not available to K-12 or high school Education users):",
         "Application process 1"
       ]
     },
@@ -1343,10 +1343,10 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://phet.colorado.edu/",
-      "pageTitle": "PhET: Free online physics, chemistry, biology, earth science and math simulations",
+      "pageTitle": "PhET: Free online physics, chemistry, biology, earth science and math simulations | PhET Simulations",
       "sourceChanged": false,
       "signals": [
-        "Register Sign in / Register My Account My Account My Bookmarks My Contributions My Presets My License Administration Activity Review Edit profile Si"
+        "Register Choose Language Choose an option"
       ]
     },
     {
