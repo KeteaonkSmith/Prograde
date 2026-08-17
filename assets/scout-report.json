@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 104,
-    "unreachable": 20,
+    "reachable": 103,
+    "unreachable": 21,
     "redirected": 22
   },
   "entries": [
@@ -632,16 +632,8 @@
       "title": "Stanford Campus Visit",
       "category": "visit",
       "source": "https://admission.stanford.edu/engage/",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://admission.stanford.edu/engage/",
-      "pageTitle": "Engage : Stanford University",
-      "sourceChanged": false,
-      "signals": [
-        "Apply Quick Links News &amp; Announcements Application Requirements Tours and Programs Cost of Attendance Admission Volunteers Updates for applic",
-        "Register for a live, virtual \"visit\" Nothing can replace visiting a college campus, but we are happy to offer virtual visit programming for those wh",
-        "registration do so purely for planning purposes"
-      ]
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "Georgia Tech Visit",
@@ -882,7 +874,7 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://education.msu.edu/hshsp/",
-      "pageTitle": "High School Honors Science, Math and Engineering Program",
+      "pageTitle": "High School Honors Science, Math and Engineering Program | College of Education | Michigan State University",
       "sourceChanged": false,
       "signals": [
         "Application information Join us for the sixty-third annual High School Honors Science, Mathematics, and Engineering Program at Michigan State Universit"
@@ -1222,7 +1214,7 @@
       "pageTitle": "Science Olympiad",
       "sourceChanged": false,
       "signals": [
-        "Application USC National Tournament Website Science Olympiad Store &nbsp;&gt;&nbsp;2026&nbsp;practice materials 2026&nbsp; Ward's Science &nbsp;Olympia"
+        "Application 2026 Discovery 3M Young Scientist Challenge 2026 Season Event Logistics Resource Updated 2025 signed W9 for vendor requests, print &amp; da"
       ]
     },
     {
