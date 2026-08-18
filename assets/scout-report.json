@@ -12,14 +12,8 @@
       "title": "CyberPatriot",
       "category": "hackathon",
       "source": "https://www.uscyberpatriot.org/competition/Competition-Overview/competition-overview",
-      "status": 404,
       "reachable": false,
-      "finalUrl": "https://www.uscyberpatriot.org/competition/Competition-Overview/competition-overview",
-      "pageTitle": "Page not found &#8211; CyberPatriot",
-      "sourceChanged": false,
-      "signals": [
-        "Register Now Primary Menu --> CyberPatriot Competition Getting Started Competition Overview Join the Competition Register Now New Coach Resources Cu"
-      ]
+      "error": "TypeError"
     },
     {
       "id": "Congressional App Challenge",
@@ -568,16 +562,12 @@
       "title": "UIUC College Open Houses",
       "category": "visit",
       "source": "https://www.admissions.illinois.edu/visit/open-houses",
-      "status": 404,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://www.admissions.illinois.edu/visit/open-houses",
-      "pageTitle": "Page Not Found | Undergraduate Admissions | Illinois",
+      "pageTitle": "One moment, please...",
       "sourceChanged": false,
-      "signals": [
-        "Apply Choose Your Path First-Year Transfer Pathways Non-Degree Second Bachelor's Requirements First-Year Requirements Transfer Requirements Inter",
-        "Application Help How Admission Works Application Workshops Applicant FAQ Admissions Stats Applicant Communities Parents & Families In-State First-Gener",
-        "Registration Financial Aid Notification International Admitted Students Transfer Course Evaluation Report FAQ Get Updates Counselors myIllini Hide Sideb"
-      ]
+      "signals": []
     },
     {
       "id": "Summer SAIL at University of Oregon",
@@ -882,7 +872,7 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://education.msu.edu/hshsp/",
-      "pageTitle": "High School Honors Science, Math and Engineering Program",
+      "pageTitle": "High School Honors Science, Math and Engineering Program | College of Education | Michigan State University",
       "sourceChanged": false,
       "signals": [
         "Application information Join us for the sixty-third annual High School Honors Science, Mathematics, and Engineering Program at Michigan State Universit"
@@ -941,12 +931,16 @@
       "title": "TASS",
       "category": "program",
       "source": "https://www.tellurideassociation.org/our-programs/high-school-students/",
-      "status": 503,
-      "reachable": false,
-      "finalUrl": "https://www.tellurideassociation.org/our-programs/high-school-students/",
-      "pageTitle": "Site is offline",
-      "sourceChanged": false,
-      "signals": []
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://tellurideassociation.org/our-programs/high-school-students/",
+      "pageTitle": "Telluride Association Summer Seminar (TASS) - Telluride Association",
+      "sourceChanged": true,
+      "signals": [
+        "Application Timeline FAQ for Applicants FAQ for Parents FAQ for Educators Past TASS Topics Have you received a confusing or contradictory email claimin",
+        "open October 15, 2025 and close December 3, 2025 Applications for the TASS 2026 are now closed",
+        "apply? TASS applications are open to high school sophomores and juniors (“rising juniors” and “rising seniors”)"
+      ]
     },
     {
       "id": "NSLI-Y",
@@ -985,16 +979,8 @@
       "title": "LEDA Scholars",
       "category": "program",
       "source": "https://ledascholars.org/our-program/",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://ledascholars.org/our-program/",
-      "pageTitle": "What We Do | LEDA",
-      "sourceChanged": false,
-      "signals": [
-        "Close The Need The Need Exceptional students from low-income backgrounds have unequal access to the top-tier colleges that cultivate most of our",
-        "Close What We Do What We Do LEDA runs the LEDA Scholars Program, the LEDA Career Network, and the LEDA Policy Project",
-        "Close Impact Impact A look at LEDA Scholars since our inception in 2003"
-      ]
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "Matriculate",
@@ -1077,16 +1063,8 @@
       "title": "Ron Brown Scholar Program",
       "category": "scholarship",
       "source": "https://ronbrown.org/apply/ron-brown-scholarship/",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://ronbrown.org/ron-brown-scholarship/",
-      "pageTitle": "The Ron Brown Signature Scholarship &#8211; Ron Brown Scholar Program",
-      "sourceChanged": true,
-      "signals": [
-        "Register Today",
-        "APPLY NOW - 2025 Application is now open! Tickets &amp; Sponsorships Now Available for AJA 2025—Reserve Your Place! Remembering Our Dear Friend C",
-        "APPLICATION FOR THE 2026 SCHOLARSHIP COMPETITION IS NOW CLOSED - ABOUT THE RON BROWN SIGNATURE SCHOLARSHIP The Ron Brown Scholarship honors the legacy"
-      ]
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "Hispanic Scholarship Fund",
