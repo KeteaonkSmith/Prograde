@@ -4,7 +4,7 @@
     "totalResources": 124,
     "reachable": 103,
     "unreachable": 21,
-    "redirected": 22
+    "redirected": 21
   },
   "entries": [
     {
@@ -632,8 +632,16 @@
       "title": "Stanford Campus Visit",
       "category": "visit",
       "source": "https://admission.stanford.edu/engage/",
-      "reachable": false,
-      "error": "TypeError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://admission.stanford.edu/engage/",
+      "pageTitle": "Engage : Stanford University",
+      "sourceChanged": false,
+      "signals": [
+        "Apply Quick Links News &amp; Announcements Application Requirements Tours and Programs Cost of Attendance Admission Volunteers Updates for applic",
+        "Register for a live, virtual \"visit\" Nothing can replace visiting a college campus, but we are happy to offer virtual visit programming for those wh",
+        "registration do so purely for planning purposes"
+      ]
     },
     {
       "id": "Georgia Tech Visit",
@@ -874,7 +882,7 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://education.msu.edu/hshsp/",
-      "pageTitle": "High School Honors Science, Math and Engineering Program | College of Education | Michigan State University",
+      "pageTitle": "High School Honors Science, Math and Engineering Program",
       "sourceChanged": false,
       "signals": [
         "Application information Join us for the sixty-third annual High School Honors Science, Mathematics, and Engineering Program at Michigan State Universit"
@@ -892,7 +900,7 @@
       "sourceChanged": false,
       "signals": [
         "Application Portal Faculty And Staff Quick Links Toggle navigation Search Search Search Enter the terms you wish to search for",
-        "Registration Type of Student Registration Dates Session Dates Deadlines Courses Course Spotlight Online Courses Course Offerings Programs Overview Fresh",
+        "Registration Type of Student Registration Dates Session Dates Deadlines Courses Course Spotlight Online Courses Course Offerings Summer Minors Programs",
         "Application Portal Faculty And Staff Quick links Housing Financial Aid BARC Office of the Registrar Basic Needs Research Mentorship Program Research Me"
       ]
     },
@@ -933,16 +941,12 @@
       "title": "TASS",
       "category": "program",
       "source": "https://www.tellurideassociation.org/our-programs/high-school-students/",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://tellurideassociation.org/our-programs/high-school-students/",
-      "pageTitle": "Telluride Association Summer Seminar (TASS) - Telluride Association",
-      "sourceChanged": true,
-      "signals": [
-        "Application Timeline FAQ for Applicants FAQ for Parents FAQ for Educators Past TASS Topics Have you received a confusing or contradictory email claimin",
-        "open October 15, 2025 and close December 3, 2025 Applications for the TASS 2026 are now closed",
-        "apply? TASS applications are open to high school sophomores and juniors (“rising juniors” and “rising seniors”)"
-      ]
+      "status": 503,
+      "reachable": false,
+      "finalUrl": "https://www.tellurideassociation.org/our-programs/high-school-students/",
+      "pageTitle": "Site is offline",
+      "sourceChanged": false,
+      "signals": []
     },
     {
       "id": "NSLI-Y",
