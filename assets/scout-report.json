@@ -216,8 +216,8 @@
       "pageTitle": "College Scholarship Program - Jack Kent Cooke Foundation",
       "sourceChanged": false,
       "signals": [
-        "Apply FAQs For Educators Resources for High Schoolers Notify Me College Scholarship Program The Cooke College Scholarship Program is an undergrad",
-        "Apply Learn More Contact Us The Cooke College Scholarship Program application will open on August 19, 2026",
+        "Apply FAQs For Educators Resources for High Schoolers Apply Now College Scholarship Program The Cooke College Scholarship Program is an undergrad",
+        "Apply Learn More Contact Us The Cooke College Scholarship Program application is currently open and will close on November 11, 2026",
         "application or the program, please do not call the Foundation"
       ]
     },
@@ -882,7 +882,7 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://education.msu.edu/hshsp/",
-      "pageTitle": "High School Honors Science, Math and Engineering Program",
+      "pageTitle": "High School Honors Science, Math and Engineering Program | College of Education | Michigan State University",
       "sourceChanged": false,
       "signals": [
         "Application information Join us for the sixty-third annual High School Honors Science, Mathematics, and Engineering Program at Michigan State Universit"
