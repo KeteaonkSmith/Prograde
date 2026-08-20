@@ -4,7 +4,7 @@
     "totalResources": 124,
     "reachable": 104,
     "unreachable": 20,
-    "redirected": 21
+    "redirected": 22
   },
   "entries": [
     {
@@ -56,8 +56,15 @@
       "title": "Major League Hacking Events",
       "category": "hackathon",
       "source": "https://mlh.io/",
-      "reachable": false,
-      "error": "AbortError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://www.mlh.com/",
+      "pageTitle": "Major League Hacking | Hackathons and Developer Programs | Major League Hacking",
+      "sourceChanged": true,
+      "signals": [
+        "open source projects with peers and engineers from top companies",
+        "Apply Resources Code of Conduct Prizes &amp; Freebies Branding Guidelines About MLH Contact Us Blog Partners Work at MLH Privacy Terms of Service"
+      ]
     },
     {
       "id": "MIT PRIMES / PRIMES-USA",
@@ -561,12 +568,16 @@
       "title": "UIUC College Open Houses",
       "category": "visit",
       "source": "https://www.admissions.illinois.edu/visit/open-houses",
-      "status": 200,
-      "reachable": true,
+      "status": 404,
+      "reachable": false,
       "finalUrl": "https://www.admissions.illinois.edu/visit/open-houses",
-      "pageTitle": "One moment, please...",
+      "pageTitle": "Page Not Found | Undergraduate Admissions | Illinois",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Apply Choose Your Path First-Year Transfer Pathways Non-Degree Second Bachelor's Requirements First-Year Requirements Transfer Requirements Inter",
+        "Application Help How Admission Works Application Workshops Applicant FAQ Admissions Stats Applicant Communities Parents & Families In-State First-Gener",
+        "Registration Financial Aid Notification International Admitted Students Transfer Course Evaluation Report FAQ Get Updates Counselors myIllini Hide Sideb"
+      ]
     },
     {
       "id": "Summer SAIL at University of Oregon",
@@ -799,8 +810,8 @@
       "sourceChanged": true,
       "signals": [
         "Apply to COSMOS Application and Payment Basics Dates &amp; Deadlines Program Fees Financial Assistance Residential Life Statewide Policies and Pr",
-        "Apply Now Welcome to COSMOS - California State Summer School for Mathematics and Science Preparing the next generation of STEM leaders ONLINE APP",
-        "DEADLINE FOR ALL APPLICATION MATERIAL: FEBRUARY 6, 2026, 11:59 PM COSMOS is Limited to California High-School Students Only ** COSMOS is a full resi"
+        "DEADLINE FOR ALL APPLICATION MATERIAL: FEBRUARY 6, 2026, 11:59 PM COSMOS is Limited to California High-School Students Only ** COSMOS is a full resi",
+        "apply to ONE of the listed University of California’s COSMOS campuses — UC Davis, UC Irvine, UC Los Angeles, UC Merced, UC San Diego, and UC Sant"
       ]
     },
     {
@@ -871,7 +882,7 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://education.msu.edu/hshsp/",
-      "pageTitle": "High School Honors Science, Math and Engineering Program | College of Education | Michigan State University",
+      "pageTitle": "High School Honors Science, Math and Engineering Program",
       "sourceChanged": false,
       "signals": [
         "Application information Join us for the sixty-third annual High School Honors Science, Mathematics, and Engineering Program at Michigan State Universit"
