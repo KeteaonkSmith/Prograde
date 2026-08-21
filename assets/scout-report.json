@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 104,
-    "unreachable": 20,
+    "reachable": 103,
+    "unreachable": 21,
     "redirected": 22
   },
   "entries": [
@@ -632,16 +632,8 @@
       "title": "Stanford Campus Visit",
       "category": "visit",
       "source": "https://admission.stanford.edu/engage/",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://admission.stanford.edu/engage/",
-      "pageTitle": "Engage : Stanford University",
-      "sourceChanged": false,
-      "signals": [
-        "Apply Quick Links News &amp; Announcements Application Requirements Tours and Programs Cost of Attendance Admission Volunteers Updates for applic",
-        "Register for a live, virtual \"visit\" Nothing can replace visiting a college campus, but we are happy to offer virtual visit programming for those wh",
-        "registration do so purely for planning purposes"
-      ]
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "Georgia Tech Visit",
@@ -915,7 +907,7 @@
       "pageTitle": "Leadership Seminars | Office of Pre-College Programs | University of Notre Dame",
       "sourceChanged": false,
       "signals": [
-        "Application live mid-October",
+        "Application live October 19, 2026",
         "apply what I learn to real world problems and issues",
         "Application Requirements Fees &amp; Financial Aid Dates &amp; Deadlines Summer Scholars Study Abroad ADAM Program Contact Us Eligibility &amp; Applicat"
       ]
@@ -1209,7 +1201,11 @@
       "finalUrl": "https://www.jshs.org/",
       "pageTitle": "Student STEM Competitions - Junior Science and Humanities Symposium",
       "sourceChanged": true,
-      "signals": []
+      "signals": [
+        "opens in new tab) Junior Science and Humanities Symposium National Science Teaching Association admin@jshs",
+        "opens in new tab) (opens in new tab) (opens in new tab) (opens in new tab) Sign Up for Our Newsletter CLICK HERE TO SUBSCRIBE JSHS Facebook Link",
+        "opens in new tab) JSHS Twitter Link (opens in new tab) JSHS Instagram Link (opens in new tab) JSHS LinkedIn Link (opens in new tab) JSHS YouTube"
+      ]
     },
     {
       "id": "Science Olympiad",
