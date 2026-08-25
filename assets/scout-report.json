@@ -118,10 +118,10 @@
       "title": "Girls Who Code Pathways",
       "category": "program",
       "source": "https://girlswhocode.zendesk.com/hc/en-us/articles/44033965033243-What-program-is-Girls-Who-Code-offering-during-the-summer",
-      "status": 403,
+      "status": 404,
       "reachable": false,
       "finalUrl": "https://girlswhocode.zendesk.com/hc/en-us/articles/44033965033243-What-program-is-Girls-Who-Code-offering-during-the-summer",
-      "pageTitle": "Just a moment...",
+      "pageTitle": "The page you were looking for doesn't exist &ndash; Girls Who Code FAQ",
       "sourceChanged": false,
       "signals": []
     },
@@ -632,8 +632,16 @@
       "title": "Stanford Campus Visit",
       "category": "visit",
       "source": "https://admission.stanford.edu/engage/",
-      "reachable": false,
-      "error": "TypeError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://admission.stanford.edu/engage/",
+      "pageTitle": "Engage : Stanford University",
+      "sourceChanged": false,
+      "signals": [
+        "Apply Quick Links News &amp; Announcements Application Requirements Tours and Programs Cost of Attendance Admission Volunteers Updates for applic",
+        "Register for a live, virtual \"visit\" Nothing can replace visiting a college campus, but we are happy to offer virtual visit programming for those wh",
+        "registration do so purely for planning purposes"
+      ]
     },
     {
       "id": "Georgia Tech Visit",
@@ -874,7 +882,7 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://education.msu.edu/hshsp/",
-      "pageTitle": "High School Honors Science, Math and Engineering Program",
+      "pageTitle": "High School Honors Science, Math and Engineering Program | College of Education | Michigan State University",
       "sourceChanged": false,
       "signals": [
         "Application information Join us for the sixty-third annual High School Honors Science, Mathematics, and Engineering Program at Michigan State Universit"
@@ -1296,16 +1304,12 @@
       "title": "NASA High School Aerospace Scholars",
       "category": "program",
       "source": "https://www.nasa.gov/learning-resources/high-school-aerospace-scholars/",
-      "status": 200,
-      "reachable": true,
+      "status": 429,
+      "reachable": false,
       "finalUrl": "https://www.nasa.gov/learning-resources/texas-aerospace-scholars/",
-      "pageTitle": "Texas Aerospace Scholars - NASA",
+      "pageTitle": "429 Too Many Requests",
       "sourceChanged": true,
-      "signals": [
-        "Application about Texas Aerospace Scholars 2026-2027 Junior Application Window July 1 &#8211; Sept",
-        "Application Window Late Summer – September TBD Online Course End of September – Mid March TBD Summer Virtual Experience First two weeks of June Second",
-        "opens in new tab) Follow NASA More NASA Social Accounts NASA Newsletters Sitemap For Media Privacy Policy FOIA No FEAR Act Office of the IG (open"
-      ]
+      "signals": []
     },
     {
       "id": "NASA STEM Gateway",
@@ -1568,8 +1572,8 @@
       "pageTitle": "Inspirit AI: AI High School Program taught by Stanford/MIT Alums",
       "sourceChanged": false,
       "signals": [
-        "Apply Now Open Menu Close Menu Home About Team Alumni Journeys Our Impact Small Group AI Scholars (High School) AI Pioneers (Middle School) Silic",
-        "Apply Now Open Menu Close Menu Home Folder: About Back Team Alumni Journeys Our Impact Folder: Small Group Back AI Scholars (High School) AI Pion",
+        "Apply Now Open Menu Close Menu Home About Team Alumni Journeys Impact Small Group AI Scholars (High School) AI Pioneers (Middle School) Silicon V",
+        "Apply Now Open Menu Close Menu Home Folder: About Back Team Alumni Journeys Impact Folder: Small Group Back AI Scholars (High School) AI Pioneers",
         "Apply Now AI Scholars 2026 Artificial Intelligence Program for High School Students Developed and Taught by Stanford and MIT Alumni and Graduate"
       ]
     },
