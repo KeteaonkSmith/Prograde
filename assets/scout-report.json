@@ -2,9 +2,9 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 104,
-    "unreachable": 20,
-    "redirected": 21
+    "reachable": 103,
+    "unreachable": 21,
+    "redirected": 22
   },
   "entries": [
     {
@@ -184,8 +184,8 @@
       "pageTitle": "FAQ - Coca-Cola Scholars Foundation",
       "sourceChanged": false,
       "signals": [
-        "Apply About About Us Leadership Our 2026 Coke Scholars Impact Strategic Plan FAQ Toggle navigation Give Give Now Scholars Banquet Sponsors 2025 D",
-        "Apply About About Us Leadership Our 2026 Coke Scholars Impact Strategic Plan FAQ How can we help you&#8230; Frequently Asked Questions Applicatio",
+        "Apply Share About About Us Leadership Our 2026 Coke Scholars Impact Strategic Plan FAQ Toggle navigation Give Give Now Scholars Banquet Sponsors",
+        "Apply Share About About Us Leadership Our 2026 Coke Scholars Impact Strategic Plan FAQ How can we help you&#8230; Frequently Asked Questions Appl",
         "application, this is for you"
       ]
     },
@@ -632,16 +632,8 @@
       "title": "Stanford Campus Visit",
       "category": "visit",
       "source": "https://admission.stanford.edu/engage/",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://admission.stanford.edu/engage/",
-      "pageTitle": "Engage : Stanford University",
-      "sourceChanged": false,
-      "signals": [
-        "Apply Quick Links News &amp; Announcements Application Requirements Tours and Programs Cost of Attendance Admission Volunteers Updates for applic",
-        "Register for a live, virtual \"visit\" Nothing can replace visiting a college campus, but we are happy to offer virtual visit programming for those wh",
-        "registration do so purely for planning purposes"
-      ]
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "Georgia Tech Visit",
@@ -1081,12 +1073,16 @@
       "title": "Ron Brown Scholar Program",
       "category": "scholarship",
       "source": "https://ronbrown.org/apply/ron-brown-scholarship/",
-      "status": 202,
+      "status": 200,
       "reachable": true,
-      "finalUrl": "https://ronbrown.org/apply/ron-brown-scholarship/",
-      "pageTitle": "",
-      "sourceChanged": false,
-      "signals": []
+      "finalUrl": "https://ronbrown.org/ron-brown-scholarship/",
+      "pageTitle": "The Ron Brown Signature Scholarship &#8211; Ron Brown Scholar Program",
+      "sourceChanged": true,
+      "signals": [
+        "Register Today",
+        "APPLY NOW - 2025 Application is now open! Tickets &amp; Sponsorships Now Available for AJA 2025—Reserve Your Place! Remembering Our Dear Friend C",
+        "APPLICATION FOR THE 2026 SCHOLARSHIP COMPETITION IS NOW CLOSED - ABOUT THE RON BROWN SIGNATURE SCHOLARSHIP The Ron Brown Scholarship honors the legacy"
+      ]
     },
     {
       "id": "Hispanic Scholarship Fund",
@@ -1216,12 +1212,14 @@
       "title": "Science Olympiad",
       "category": "competition",
       "source": "https://www.soinc.org/",
-      "status": 202,
+      "status": 200,
       "reachable": true,
       "finalUrl": "https://www.soinc.org/",
-      "pageTitle": "",
+      "pageTitle": "Science Olympiad",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Application 2026 Discovery 3M Young Scientist Challenge 2026 Season Event Logistics Resource Updated 2025 signed W9 for vendor requests, print &amp; da"
+      ]
     },
     {
       "id": "MathWorks Math Modeling Challenge",
@@ -1570,8 +1568,8 @@
       "pageTitle": "Inspirit AI: AI High School Program taught by Stanford/MIT Alums",
       "sourceChanged": false,
       "signals": [
-        "Apply Now Open Menu Close Menu Home Our Impact Team Programs AI Scholars Program Overview AI Scholars Program Schedule AI Scholars Projects 2026",
-        "Apply Now Open Menu Close Menu Folder: Home Back Our Impact Team Folder: Programs Back AI Scholars Program Overview AI Scholars Program Schedule",
+        "Apply Now Open Menu Close Menu Home About Team Alumni Journeys Our Impact Small Group AI Scholars (High School) AI Pioneers (Middle School) Silic",
+        "Apply Now Open Menu Close Menu Home Folder: About Back Team Alumni Journeys Our Impact Folder: Small Group Back AI Scholars (High School) AI Pion",
         "Apply Now AI Scholars 2026 Artificial Intelligence Program for High School Students Developed and Taught by Stanford and MIT Alumni and Graduate"
       ]
     },
