@@ -118,10 +118,10 @@
       "title": "Girls Who Code Pathways",
       "category": "program",
       "source": "https://girlswhocode.zendesk.com/hc/en-us/articles/44033965033243-What-program-is-Girls-Who-Code-offering-during-the-summer",
-      "status": 404,
+      "status": 403,
       "reachable": false,
       "finalUrl": "https://girlswhocode.zendesk.com/hc/en-us/articles/44033965033243-What-program-is-Girls-Who-Code-offering-during-the-summer",
-      "pageTitle": "The page you were looking for doesn't exist &ndash; Girls Who Code FAQ",
+      "pageTitle": "Just a moment...",
       "sourceChanged": false,
       "signals": []
     },
@@ -473,7 +473,7 @@
       "pageTitle": "Notion for students &amp; education | Notion Help – Notion Help Center",
       "sourceChanged": false,
       "signals": [
-        "application here → The Plus Plan may not be available for every workspace",
+        "application here → Check out more of the differences below: Education Plan for individual students and teachers Education Plan for student organization",
         "apply, make sure of the following: You&#x27;re a student representing a student organization at an accredited institution recognized by and liste",
         "apply here"
       ]
@@ -882,7 +882,7 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://education.msu.edu/hshsp/",
-      "pageTitle": "High School Honors Science, Math and Engineering Program",
+      "pageTitle": "High School Honors Science, Math and Engineering Program | College of Education | Michigan State University",
       "sourceChanged": false,
       "signals": [
         "Application information Join us for the sixty-third annual High School Honors Science, Mathematics, and Engineering Program at Michigan State Universit"
@@ -1252,7 +1252,7 @@
       "pageTitle": "American Mathematics Competitions &#8211; Mathematical Association of America",
       "sourceChanged": false,
       "signals": [
-        "Registration + Information MAA American Mathematics Competitions Policies AMC International MAA Putnam National Math Talent Fund Events MAA MathFest Nat",
+        "Registration + Information Competitions Policies AMC International MAA Putnam National Math Talent Fund Events MAA MathFest National Events Community Ev",
         "Registration Info AMC Policies &nbsp; Founded in 1950, the AMC is the preeminent math competition for students K-12",
         "register directly with the MAA"
       ]
