@@ -18,7 +18,7 @@
       "pageTitle": "Page not found &#8211; CyberPatriot",
       "sourceChanged": false,
       "signals": [
-        "Register Now Primary Menu --> CyberPatriot Competition Getting Started Competition Overview Join the Competition Register Now New Coach Resources Cu"
+        "Register Now Primary Menu --> CyberPatriot Competition Competition Overview Getting Started New Coach Resources Join the Competition Current Competi"
       ]
     },
     {
@@ -483,12 +483,8 @@
       "title": "Purdue OWL",
       "category": "study",
       "source": "https://owl.purdue.edu/",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://owl.purdue.edu/",
-      "pageTitle": "Purdue OWL® - Purdue OWL® - Purdue University",
-      "sourceChanged": false,
-      "signals": []
+      "reachable": false,
+      "error": "AbortError"
     },
     {
       "id": "Zotero",
@@ -521,8 +517,16 @@
       "title": "Purdue Campus Visits",
       "category": "visit",
       "source": "https://admissions.purdue.edu/visit/",
-      "reachable": false,
-      "error": "TypeError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://admissions.purdue.edu/visit/",
+      "pageTitle": "Purdue University – Visit Us",
+      "sourceChanged": false,
+      "signals": [
+        "CLOSE Undergraduate Admissions Search Home Become a Student Support Your Student Admitted Students Academics Cost &amp; Aid Student Life Visit Co",
+        "Application Deadlines Apply Now Check Application Status Transfer Scholarships Quick links Accept Your Offer Class Profile College Prep Guide to Applyi",
+        "Apply plus_icon Apply Now Guide to Applying Deadlines First-Year Class Profile Closed Programs Application Status College Prep Timeline Informati"
+      ]
     },
     {
       "id": "Purdue AAE Prospective Family Visits",
