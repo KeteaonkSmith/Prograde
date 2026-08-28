@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 104,
-    "unreachable": 20,
+    "reachable": 103,
+    "unreachable": 21,
     "redirected": 22
   },
   "entries": [
@@ -521,16 +521,8 @@
       "title": "Purdue Campus Visits",
       "category": "visit",
       "source": "https://admissions.purdue.edu/visit/",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://admissions.purdue.edu/visit/",
-      "pageTitle": "Purdue University – Visit Us",
-      "sourceChanged": false,
-      "signals": [
-        "CLOSE Undergraduate Admissions Search Home Become a Student Support Your Student Admitted Students Academics Cost &amp; Aid Student Life Visit Co",
-        "Application Deadlines Apply Now Check Application Status Transfer Scholarships Quick links Accept Your Offer Class Profile College Prep Guide to Applyi",
-        "Apply plus_icon Apply Now Guide to Applying Deadlines First-Year Class Profile Closed Programs Application Status College Prep Timeline Informati"
-      ]
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "Purdue AAE Prospective Family Visits",
@@ -1349,9 +1341,7 @@
       "finalUrl": "https://phet.colorado.edu/",
       "pageTitle": "PhET: Free online physics, chemistry, biology, earth science and math simulations | PhET Simulations",
       "sourceChanged": false,
-      "signals": [
-        "Register Choose Language Choose an option"
-      ]
+      "signals": []
     },
     {
       "id": "CK-12",
