@@ -71,16 +71,8 @@
       "title": "MIT PRIMES / PRIMES-USA",
       "category": "program",
       "source": "https://math.mit.edu/research/highschool/primes/index.php",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://math.mit.edu/research/highschool/primes/index.php",
-      "pageTitle": "PRIMES",
-      "sourceChanged": false,
-      "signals": [
-        "Apply PRIMES-USA PRIMES-USA Apply CrowdMath PRIMES Circle PRIMES Circle Students Say Circle Mentors Papers Apply Yulia's Dream Yulia's Dream 2025",
-        "Apply Other Programs FAQ Contact RSI RSI Past Projects Lecture Series Academics Academics Academic Services Academic Services Forms and Requests",
-        "Apply Other Programs FAQ Contact RSI RSI Past Projects Lecture Series PRIMES: Program for Research in Mathematics, Engineering and Science for Hi"
-      ]
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "Research Science Institute",
@@ -483,8 +475,12 @@
       "title": "Purdue OWL",
       "category": "study",
       "source": "https://owl.purdue.edu/",
-      "reachable": false,
-      "error": "TypeError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://owl.purdue.edu/",
+      "pageTitle": "Purdue OWL® - Purdue OWL® - Purdue University",
+      "sourceChanged": false,
+      "signals": []
     },
     {
       "id": "Zotero",
@@ -628,8 +624,16 @@
       "title": "Stanford Campus Visit",
       "category": "visit",
       "source": "https://admission.stanford.edu/engage/",
-      "reachable": false,
-      "error": "TypeError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://admission.stanford.edu/engage/",
+      "pageTitle": "Engage : Stanford University",
+      "sourceChanged": false,
+      "signals": [
+        "Apply Quick Links News &amp; Announcements Application Requirements Tours and Programs Cost of Attendance Admission Volunteers Updates for applic",
+        "Register for a live, virtual \"visit\" Nothing can replace visiting a college campus, but we are happy to offer virtual visit programming for those wh",
+        "registration do so purely for planning purposes"
+      ]
     },
     {
       "id": "Georgia Tech Visit",
@@ -686,7 +690,7 @@
       "status": 403,
       "reachable": false,
       "finalUrl": "https://admissions.umich.edu/explore-visit/visit-campus",
-      "pageTitle": "Just a moment...",
+      "pageTitle": "Access Denied",
       "sourceChanged": false,
       "signals": []
     },
@@ -743,16 +747,8 @@
       "title": "MIT Splash",
       "category": "program",
       "source": "https://esp.mit.edu/learn/Splash/index.html",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://esp.mit.edu/learn/Splash/index.html",
-      "pageTitle": "MIT ESP - Splash!",
-      "sourceChanged": false,
-      "signals": [
-        "Register! Registration Steps Program Details Walk-In Activities Navbar Category: Splash Learn Set navbar name/path/description Edit navbar contents",
-        "registration will open in mid October",
-        "open to you! Who Can Participate? High school studen ts&nbsp;in grades 9–12 can attend Splash"
-      ]
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "Stanford Splash",
