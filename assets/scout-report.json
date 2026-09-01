@@ -2,9 +2,9 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 104,
-    "unreachable": 20,
-    "redirected": 21
+    "reachable": 102,
+    "unreachable": 22,
+    "redirected": 22
   },
   "entries": [
     {
@@ -71,16 +71,8 @@
       "title": "MIT PRIMES / PRIMES-USA",
       "category": "program",
       "source": "https://math.mit.edu/research/highschool/primes/index.php",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://math.mit.edu/research/highschool/primes/index.php",
-      "pageTitle": "PRIMES",
-      "sourceChanged": false,
-      "signals": [
-        "Apply PRIMES-USA PRIMES-USA Apply CrowdMath PRIMES Circle PRIMES Circle Students Say Circle Mentors Papers Apply Yulia's Dream Yulia's Dream 2025",
-        "Apply Other Programs FAQ Contact RSI RSI Past Projects Lecture Series Academics Academics Academic Services Academic Services Forms and Requests",
-        "Apply Other Programs FAQ Contact RSI RSI Past Projects Lecture Series PRIMES: Program for Research in Mathematics, Engineering and Science for Hi"
-      ]
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "Research Science Institute",
@@ -298,8 +290,12 @@
       "title": "National History Day",
       "category": "competition",
       "source": "https://nhd.org/",
-      "reachable": false,
-      "error": "AbortError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://nhd.org/en/",
+      "pageTitle": "Home - National History Day",
+      "sourceChanged": true,
+      "signals": []
     },
     {
       "id": "Scholastic Art & Writing Awards",
@@ -564,12 +560,16 @@
       "title": "UIUC College Open Houses",
       "category": "visit",
       "source": "https://www.admissions.illinois.edu/visit/open-houses",
-      "status": 200,
-      "reachable": true,
+      "status": 404,
+      "reachable": false,
       "finalUrl": "https://www.admissions.illinois.edu/visit/open-houses",
-      "pageTitle": "One moment, please...",
+      "pageTitle": "Page Not Found | Undergraduate Admissions | Illinois",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Apply Choose Your Path First-Year Transfer Pathways Non-Degree Second Bachelor's Requirements First-Year Requirements Transfer Requirements Inter",
+        "Application Help How Admission Works Application Workshops Applicant FAQ Admissions Stats Applicant Communities Parents & Families In-State First-Gener",
+        "Registration Financial Aid Notification International Admitted Students Transfer Course Evaluation Report FAQ Get Updates Counselors myIllini Hide Sideb"
+      ]
     },
     {
       "id": "Summer SAIL at University of Oregon",
@@ -747,16 +747,8 @@
       "title": "MIT Splash",
       "category": "program",
       "source": "https://esp.mit.edu/learn/Splash/index.html",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://esp.mit.edu/learn/Splash/index.html",
-      "pageTitle": "MIT ESP - Splash!",
-      "sourceChanged": false,
-      "signals": [
-        "Register! Registration Steps Program Details Walk-In Activities Navbar Category: Splash Learn Set navbar name/path/description Edit navbar contents",
-        "registration will open in mid October",
-        "open to you! Who Can Participate? High school studen ts&nbsp;in grades 9–12 can attend Splash"
-      ]
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "Stanford Splash",
@@ -1080,8 +1072,8 @@
       "sourceChanged": true,
       "signals": [
         "Register Today",
-        "APPLY NOW - 2025 Application is now open! Tickets &amp; Sponsorships Now Available for AJA 2025—Reserve Your Place! Remembering Our Dear Friend C",
-        "APPLICATION FOR THE 2026 SCHOLARSHIP COMPETITION IS NOW CLOSED - ABOUT THE RON BROWN SIGNATURE SCHOLARSHIP The Ron Brown Scholarship honors the legacy"
+        "APPLY NOW - 2027 Application is now open! Tickets &amp; Sponsorships Now Available for AJA 2025—Reserve Your Place! Remembering Our Dear Friend C",
+        "APPLICATION FOR THE 2027 SCHOLARSHIP COMPETITION IS NOW OPEN - ABOUT THE RON BROWN SIGNATURE SCHOLARSHIP The Ron Brown Scholarship honors the legacy of"
       ]
     },
     {
