@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 103,
-    "unreachable": 21,
+    "reachable": 104,
+    "unreachable": 20,
     "redirected": 21
   },
   "entries": [
@@ -226,8 +226,16 @@
       "title": "Elks Most Valuable Student",
       "category": "scholarship",
       "source": "https://hq.elks.org/scholars/mvs.cfm",
-      "reachable": false,
-      "error": "TypeError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://hq.elks.org/scholars/mvs.cfm",
+      "pageTitle": "Most Valuable Student",
+      "sourceChanged": false,
+      "signals": [
+        "Register Login &#160; Menu Donate ELKS HOME WHO WE ARE Who We Are Info and Testimonials Elks History Project History of BPO Elks Elks Video Gallery",
+        "application has closed",
+        "application opens on August 1, 2026"
+      ]
     },
     {
       "id": "Davidson Fellows Scholarship",
@@ -290,12 +298,8 @@
       "title": "National History Day",
       "category": "competition",
       "source": "https://nhd.org/",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://nhd.org/en/",
-      "pageTitle": "Home - National History Day",
-      "sourceChanged": true,
-      "signals": []
+      "reachable": false,
+      "error": "AbortError"
     },
     {
       "id": "Scholastic Art & Writing Awards",
@@ -560,16 +564,12 @@
       "title": "UIUC College Open Houses",
       "category": "visit",
       "source": "https://www.admissions.illinois.edu/visit/open-houses",
-      "status": 404,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://www.admissions.illinois.edu/visit/open-houses",
-      "pageTitle": "Page Not Found | Undergraduate Admissions | Illinois",
+      "pageTitle": "One moment, please...",
       "sourceChanged": false,
-      "signals": [
-        "Apply Choose Your Path First-Year Transfer Pathways Non-Degree Second Bachelor's Requirements First-Year Requirements Transfer Requirements Inter",
-        "Application Help How Admission Works Application Workshops Applicant FAQ Admissions Stats Applicant Communities Parents & Families In-State First-Gener",
-        "Registration Financial Aid Notification International Admitted Students Transfer Course Evaluation Report FAQ Get Updates Counselors myIllini Hide Sideb"
-      ]
+      "signals": []
     },
     {
       "id": "Summer SAIL at University of Oregon",
@@ -981,12 +981,16 @@
       "title": "LEDA Scholars",
       "category": "program",
       "source": "https://ledascholars.org/our-program/",
-      "status": 202,
+      "status": 200,
       "reachable": true,
       "finalUrl": "https://ledascholars.org/our-program/",
-      "pageTitle": "",
+      "pageTitle": "What We Do | LEDA",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Close The Need The Need Exceptional students from low-income backgrounds have unequal access to the top-tier colleges that cultivate most of our",
+        "Close What We Do What We Do LEDA runs the LEDA Scholars Program, the LEDA Career Network, and the LEDA Policy Project",
+        "Close Impact Impact A look at LEDA Scholars since our inception in 2003"
+      ]
     },
     {
       "id": "Matriculate",
@@ -1069,12 +1073,16 @@
       "title": "Ron Brown Scholar Program",
       "category": "scholarship",
       "source": "https://ronbrown.org/apply/ron-brown-scholarship/",
-      "status": 202,
+      "status": 200,
       "reachable": true,
-      "finalUrl": "https://ronbrown.org/apply/ron-brown-scholarship/",
-      "pageTitle": "",
-      "sourceChanged": false,
-      "signals": []
+      "finalUrl": "https://ronbrown.org/ron-brown-scholarship/",
+      "pageTitle": "The Ron Brown Signature Scholarship &#8211; Ron Brown Scholar Program",
+      "sourceChanged": true,
+      "signals": [
+        "Register Today",
+        "APPLY NOW - 2025 Application is now open! Tickets &amp; Sponsorships Now Available for AJA 2025—Reserve Your Place! Remembering Our Dear Friend C",
+        "APPLICATION FOR THE 2026 SCHOLARSHIP COMPETITION IS NOW CLOSED - ABOUT THE RON BROWN SIGNATURE SCHOLARSHIP The Ron Brown Scholarship honors the legacy"
+      ]
     },
     {
       "id": "Hispanic Scholarship Fund",
@@ -1204,12 +1212,14 @@
       "title": "Science Olympiad",
       "category": "competition",
       "source": "https://www.soinc.org/",
-      "status": 202,
+      "status": 200,
       "reachable": true,
       "finalUrl": "https://www.soinc.org/",
-      "pageTitle": "",
+      "pageTitle": "Science Olympiad",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Application 2026 Discovery 3M Young Scientist Challenge 2026 Season Event Logistics Resource Updated 2025 signed W9 for vendor requests, print &amp; da"
+      ]
     },
     {
       "id": "MathWorks Math Modeling Challenge",
