@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 102,
-    "unreachable": 22,
+    "reachable": 104,
+    "unreachable": 20,
     "redirected": 22
   },
   "entries": [
@@ -71,8 +71,16 @@
       "title": "MIT PRIMES / PRIMES-USA",
       "category": "program",
       "source": "https://math.mit.edu/research/highschool/primes/index.php",
-      "reachable": false,
-      "error": "TypeError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://math.mit.edu/research/highschool/primes/index.php",
+      "pageTitle": "PRIMES",
+      "sourceChanged": false,
+      "signals": [
+        "Apply PRIMES-USA PRIMES-USA Apply CrowdMath PRIMES Circle PRIMES Circle Students Say Circle Mentors Papers Apply Yulia's Dream Yulia's Dream 2025",
+        "Apply Other Programs FAQ Contact RSI RSI Past Projects Lecture Series Academics Academics Academic Services Academic Services Forms and Requests",
+        "Apply Other Programs FAQ Contact RSI RSI Past Projects Lecture Series PRIMES: Program for Research in Mathematics, Engineering and Science for Hi"
+      ]
     },
     {
       "id": "Research Science Institute",
@@ -110,10 +118,10 @@
       "title": "Girls Who Code Pathways",
       "category": "program",
       "source": "https://girlswhocode.zendesk.com/hc/en-us/articles/44033965033243-What-program-is-Girls-Who-Code-offering-during-the-summer",
-      "status": 403,
+      "status": 404,
       "reachable": false,
       "finalUrl": "https://girlswhocode.zendesk.com/hc/en-us/articles/44033965033243-What-program-is-Girls-Who-Code-offering-during-the-summer",
-      "pageTitle": "Just a moment...",
+      "pageTitle": "The page you were looking for doesn't exist &ndash; Girls Who Code FAQ",
       "sourceChanged": false,
       "signals": []
     },
@@ -308,6 +316,7 @@
       "pageTitle": "",
       "sourceChanged": false,
       "signals": [
+        "open for entries on October 1, 2026 for the 2027 Scholastic Awards! Regional deadlines for submission vary by region, check yours here",
         "opens the door for recognition, scholarships, and more Programs Exhibitions and workshop for teens, professional development for educators Suppor"
       ]
     },
@@ -747,8 +756,16 @@
       "title": "MIT Splash",
       "category": "program",
       "source": "https://esp.mit.edu/learn/Splash/index.html",
-      "reachable": false,
-      "error": "TypeError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://esp.mit.edu/learn/Splash/index.html",
+      "pageTitle": "MIT ESP - Splash!",
+      "sourceChanged": false,
+      "signals": [
+        "Register! Registration Steps Program Details Walk-In Activities Navbar Category: Splash Learn Set navbar name/path/description Edit navbar contents",
+        "registration will open in mid October",
+        "open to you! Who Can Participate? High school studen ts&nbsp;in grades 9–12 can attend Splash"
+      ]
     },
     {
       "id": "Stanford Splash",
@@ -866,7 +883,7 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://education.msu.edu/hshsp/",
-      "pageTitle": "High School Honors Science, Math and Engineering Program | College of Education | Michigan State University",
+      "pageTitle": "High School Honors Science, Math and Engineering Program",
       "sourceChanged": false,
       "signals": [
         "Application information Join us for the sixty-third annual High School Honors Science, Mathematics, and Engineering Program at Michigan State Universit"
