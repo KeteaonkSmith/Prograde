@@ -2,9 +2,9 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 103,
-    "unreachable": 21,
-    "redirected": 22
+    "reachable": 104,
+    "unreachable": 20,
+    "redirected": 21
   },
   "entries": [
     {
@@ -45,7 +45,7 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://technovationchallenge.org/program-overview/program-overview-us/",
-      "pageTitle": "U.S. Program Overview - Technovation Girls",
+      "pageTitle": "U.S. Program Overview - Technovation Challenge",
       "sourceChanged": false,
       "signals": [
         "open to girls, non-binary, and gender non-conforming youth there are ways boys are welcome to use the curriculum and resources too! ANYONE can u"
@@ -197,7 +197,7 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://www.questbridge.org/apply-to-college/programs/national-college-match",
-      "pageTitle": "National College Match | QuestBridge",
+      "pageTitle": "National College Match: Full Four-Year Scholarships | QuestBridge | QuestBridge",
       "sourceChanged": false,
       "signals": [
         "apply-to-college')) hovering = true; openPanel('apply-to-college') })\" > Apply to College Apply to College QuestBridge supports high-achieving st",
@@ -316,7 +316,7 @@
       "pageTitle": "",
       "sourceChanged": false,
       "signals": [
-        "open for entries on October 1, 2026 for the 2027 Scholastic Awards! Regional deadlines for submission vary by region, check yours here",
+        "open for entries on October 1, 2026 , for the 2027 Scholastic Awards! Deadlines vary by region; check yours here",
         "opens the door for recognition, scholarships, and more Programs Exhibitions and workshop for teens, professional development for educators Suppor"
       ]
     },
@@ -883,7 +883,7 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://education.msu.edu/hshsp/",
-      "pageTitle": "High School Honors Science, Math and Engineering Program",
+      "pageTitle": "High School Honors Science, Math and Engineering Program | College of Education | Michigan State University",
       "sourceChanged": false,
       "signals": [
         "Application information Join us for the sixty-third annual High School Honors Science, Mathematics, and Engineering Program at Michigan State Universit"
@@ -990,16 +990,12 @@
       "title": "LEDA Scholars",
       "category": "program",
       "source": "https://ledascholars.org/our-program/",
-      "status": 200,
+      "status": 202,
       "reachable": true,
       "finalUrl": "https://ledascholars.org/our-program/",
-      "pageTitle": "What We Do | LEDA",
+      "pageTitle": "",
       "sourceChanged": false,
-      "signals": [
-        "Close The Need The Need Exceptional students from low-income backgrounds have unequal access to the top-tier colleges that cultivate most of our",
-        "Close What We Do What We Do LEDA runs the LEDA Scholars Program, the LEDA Career Network, and the LEDA Policy Project",
-        "Close Impact Impact A look at LEDA Scholars since our inception in 2003"
-      ]
+      "signals": []
     },
     {
       "id": "Matriculate",
@@ -1082,16 +1078,12 @@
       "title": "Ron Brown Scholar Program",
       "category": "scholarship",
       "source": "https://ronbrown.org/apply/ron-brown-scholarship/",
-      "status": 200,
+      "status": 202,
       "reachable": true,
-      "finalUrl": "https://ronbrown.org/ron-brown-scholarship/",
-      "pageTitle": "The Ron Brown Signature Scholarship &#8211; Ron Brown Scholar Program",
-      "sourceChanged": true,
-      "signals": [
-        "Register Today",
-        "APPLY NOW - 2027 Application is now open! Tickets &amp; Sponsorships Now Available for AJA 2025—Reserve Your Place! Remembering Our Dear Friend C",
-        "APPLICATION FOR THE 2027 SCHOLARSHIP COMPETITION IS NOW OPEN - ABOUT THE RON BROWN SIGNATURE SCHOLARSHIP The Ron Brown Scholarship honors the legacy of"
-      ]
+      "finalUrl": "https://ronbrown.org/apply/ron-brown-scholarship/",
+      "pageTitle": "",
+      "sourceChanged": false,
+      "signals": []
     },
     {
       "id": "Hispanic Scholarship Fund",
@@ -1221,14 +1213,12 @@
       "title": "Science Olympiad",
       "category": "competition",
       "source": "https://www.soinc.org/",
-      "status": 200,
+      "status": 202,
       "reachable": true,
       "finalUrl": "https://www.soinc.org/",
-      "pageTitle": "Science Olympiad",
+      "pageTitle": "",
       "sourceChanged": false,
-      "signals": [
-        "Application 2026 Discovery 3M Young Scientist Challenge 2026 Season Event Logistics Resource Updated 2025 signed W9 for vendor requests, print &amp; da"
-      ]
+      "signals": []
     },
     {
       "id": "MathWorks Math Modeling Challenge",
@@ -1305,12 +1295,16 @@
       "title": "NASA High School Aerospace Scholars",
       "category": "program",
       "source": "https://www.nasa.gov/learning-resources/high-school-aerospace-scholars/",
-      "status": 429,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://www.nasa.gov/learning-resources/texas-aerospace-scholars/",
-      "pageTitle": "429 Too Many Requests",
+      "pageTitle": "Texas Aerospace Scholars - NASA",
       "sourceChanged": true,
-      "signals": []
+      "signals": [
+        "Application about Texas Aerospace Scholars 2026-2027 Junior Application Window July 1 &#8211; Sept",
+        "Application Window Late Summer – September TBD Online Course End of September – Mid March TBD Summer Virtual Experience First two weeks of June Second",
+        "opens in new tab) Follow NASA More NASA Social Accounts NASA Newsletters Sitemap For Media Privacy Policy FOIA No FEAR Act Office of the IG (open"
+      ]
     },
     {
       "id": "NASA STEM Gateway",
