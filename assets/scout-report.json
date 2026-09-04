@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 105,
-    "unreachable": 19,
+    "reachable": 101,
+    "unreachable": 23,
     "redirected": 21
   },
   "entries": [
@@ -633,16 +633,8 @@
       "title": "Stanford Campus Visit",
       "category": "visit",
       "source": "https://admission.stanford.edu/engage/",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://admission.stanford.edu/engage/",
-      "pageTitle": "Engage : Stanford University",
-      "sourceChanged": false,
-      "signals": [
-        "Apply Quick Links News &amp; Announcements Application Requirements Tours and Programs Cost of Attendance Admission Volunteers Updates for applic",
-        "Register for a live, virtual \"visit\" Nothing can replace visiting a college campus, but we are happy to offer virtual visit programming for those wh",
-        "registration do so purely for planning purposes"
-      ]
+      "reachable": false,
+      "error": "AbortError"
     },
     {
       "id": "Georgia Tech Visit",
@@ -828,7 +820,7 @@
       "signals": [
         "Register English Proficiency Requirements Health Records &amp; Medical Insurance Housing &amp; Dining Arriving on Campus Contact Us High School Prog",
         "Registration Current BU Students Visiting US Students Visiting International Students High School Students Adults &amp; Professionals Course Codes &amp;",
-        "Apply Now Ask a Question RISE Internship / Practicum A 6-week program The RISE application deadline has passed and applications are now closed"
+        "application"
       ]
     },
     {
@@ -883,7 +875,7 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://education.msu.edu/hshsp/",
-      "pageTitle": "High School Honors Science, Math and Engineering Program",
+      "pageTitle": "High School Honors Science, Math and Engineering Program | College of Education | Michigan State University",
       "sourceChanged": false,
       "signals": [
         "Application information Join us for the sixty-third annual High School Honors Science, Mathematics, and Engineering Program at Michigan State Universit"
@@ -990,12 +982,8 @@
       "title": "LEDA Scholars",
       "category": "program",
       "source": "https://ledascholars.org/our-program/",
-      "status": 202,
-      "reachable": true,
-      "finalUrl": "https://ledascholars.org/our-program/",
-      "pageTitle": "",
-      "sourceChanged": false,
-      "signals": []
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "Matriculate",
@@ -1078,12 +1066,8 @@
       "title": "Ron Brown Scholar Program",
       "category": "scholarship",
       "source": "https://ronbrown.org/apply/ron-brown-scholarship/",
-      "status": 202,
-      "reachable": true,
-      "finalUrl": "https://ronbrown.org/apply/ron-brown-scholarship/",
-      "pageTitle": "",
-      "sourceChanged": false,
-      "signals": []
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "Hispanic Scholarship Fund",
@@ -1213,28 +1197,26 @@
       "title": "Science Olympiad",
       "category": "competition",
       "source": "https://www.soinc.org/",
-      "status": 202,
+      "status": 200,
       "reachable": true,
       "finalUrl": "https://www.soinc.org/",
-      "pageTitle": "",
+      "pageTitle": "Science Olympiad",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Application 2026 Discovery 3M Young Scientist Challenge 2026 Season Event Logistics Resource Updated 2025 signed W9 for vendor requests, print &amp; da"
+      ]
     },
     {
       "id": "MathWorks Math Modeling Challenge",
       "title": "MathWorks Math Modeling Challenge",
       "category": "competition",
       "source": "https://m3challenge.siam.org/",
-      "status": 200,
-      "reachable": true,
+      "status": 403,
+      "reachable": false,
       "finalUrl": "https://m3challenge.siam.org/",
-      "pageTitle": "MathWorks Math Modeling Challenge (M3 Challenge)",
+      "pageTitle": "Just a moment...",
       "sourceChanged": false,
-      "signals": [
-        "Register Math Modeling Modeling Handbooks Teaching Math Modeling The Challenge Important Dates Scholarships and Recognition Judging Rules and Guidel",
-        "registration or participation fees Flexible work time Learn More Eligibility ↗ High school juniors and seniors (U",
-        "Register ↗ Registration is now closed for 2026"
-      ]
+      "signals": []
     },
     {
       "id": "American Mathematics Competitions",
