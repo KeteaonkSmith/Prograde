@@ -2,9 +2,9 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 103,
-    "unreachable": 21,
-    "redirected": 22
+    "reachable": 102,
+    "unreachable": 22,
+    "redirected": 21
   },
   "entries": [
     {
@@ -118,10 +118,10 @@
       "title": "Girls Who Code Pathways",
       "category": "program",
       "source": "https://girlswhocode.zendesk.com/hc/en-us/articles/44033965033243-What-program-is-Girls-Who-Code-offering-during-the-summer",
-      "status": 403,
+      "status": 404,
       "reachable": false,
       "finalUrl": "https://girlswhocode.zendesk.com/hc/en-us/articles/44033965033243-What-program-is-Girls-Who-Code-offering-during-the-summer",
-      "pageTitle": "Just a moment...",
+      "pageTitle": "The page you were looking for doesn't exist &ndash; Girls Who Code FAQ",
       "sourceChanged": false,
       "signals": []
     },
@@ -990,16 +990,8 @@
       "title": "LEDA Scholars",
       "category": "program",
       "source": "https://ledascholars.org/our-program/",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://ledascholars.org/our-program/",
-      "pageTitle": "What We Do | LEDA",
-      "sourceChanged": false,
-      "signals": [
-        "Close The Need The Need Exceptional students from low-income backgrounds have unequal access to the top-tier colleges that cultivate most of our",
-        "Close What We Do What We Do LEDA runs the LEDA Scholars Program, the LEDA Career Network, and the LEDA Policy Project",
-        "Close Impact Impact A look at LEDA Scholars since our inception in 2003"
-      ]
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "Matriculate",
@@ -1082,16 +1074,8 @@
       "title": "Ron Brown Scholar Program",
       "category": "scholarship",
       "source": "https://ronbrown.org/apply/ron-brown-scholarship/",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://ronbrown.org/ron-brown-scholarship/",
-      "pageTitle": "The Ron Brown Signature Scholarship &#8211; Ron Brown Scholar Program",
-      "sourceChanged": true,
-      "signals": [
-        "Register Today",
-        "APPLY NOW - 2027 Application is now open! Tickets &amp; Sponsorships Now Available for AJA 2025—Reserve Your Place! Remembering Our Dear Friend C",
-        "APPLICATION FOR THE 2027 SCHOLARSHIP COMPETITION IS NOW OPEN - ABOUT THE RON BROWN SIGNATURE SCHOLARSHIP The Ron Brown Scholarship honors the legacy of"
-      ]
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "Hispanic Scholarship Fund",
@@ -1321,8 +1305,12 @@
       "title": "NASA STEM Gateway",
       "category": "program",
       "source": "https://stemgateway.nasa.gov/s/",
-      "reachable": false,
-      "error": "AbortError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://stemgateway.nasa.gov/s/",
+      "pageTitle": "STEM Gateway",
+      "sourceChanged": false,
+      "signals": []
     },
     {
       "id": "OpenStax",
