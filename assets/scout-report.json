@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 104,
-    "unreachable": 20,
+    "reachable": 102,
+    "unreachable": 22,
     "redirected": 21
   },
   "entries": [
@@ -184,9 +184,9 @@
       "pageTitle": "FAQ - Coca-Cola Scholars Foundation",
       "sourceChanged": false,
       "signals": [
-        "Apply Share About About Us Leadership Our 2026 Coke Scholars Impact Strategic Plan FAQ Toggle navigation Give Give Now Scholars Banquet Sponsors",
-        "Apply Share About About Us Leadership Our 2026 Coke Scholars Impact Strategic Plan FAQ How can we help you&#8230; Frequently Asked Questions Appl",
-        "application, this is for you"
+        "Apply Share About About Us Leadership Careers Our 2026 Coke Scholars Impact Strategic Plan FAQ Toggle navigation Give Give Now Scholars Banquet S",
+        "Apply Share About About Us Leadership Careers Our 2026 Coke Scholars Impact Strategic Plan FAQ How can we help you&#8230; Frequently Asked Questi",
+        "Application Questions If you're in your final year of high school and have questions about our scholarship application, this is for you"
       ]
     },
     {
@@ -688,7 +688,7 @@
       "signals": [
         "close look at our academic buildings and vibrant student life , allowing you to click and explore on your own schedule",
         "register for scheduled events and tours",
-        "Registration for Tartan Preview Day is now open! Join us on campus to learn about campus life, academics, the admission process and more at Carnegie Mel"
+        "open houses, we may limit the number of guests to three in order to allow more visitors the opportunity to register"
       ]
     },
     {
@@ -990,12 +990,8 @@
       "title": "LEDA Scholars",
       "category": "program",
       "source": "https://ledascholars.org/our-program/",
-      "status": 202,
-      "reachable": true,
-      "finalUrl": "https://ledascholars.org/our-program/",
-      "pageTitle": "",
-      "sourceChanged": false,
-      "signals": []
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "Matriculate",
@@ -1078,12 +1074,8 @@
       "title": "Ron Brown Scholar Program",
       "category": "scholarship",
       "source": "https://ronbrown.org/apply/ron-brown-scholarship/",
-      "status": 202,
-      "reachable": true,
-      "finalUrl": "https://ronbrown.org/apply/ron-brown-scholarship/",
-      "pageTitle": "",
-      "sourceChanged": false,
-      "signals": []
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "Hispanic Scholarship Fund",
@@ -1213,12 +1205,14 @@
       "title": "Science Olympiad",
       "category": "competition",
       "source": "https://www.soinc.org/",
-      "status": 202,
+      "status": 200,
       "reachable": true,
       "finalUrl": "https://www.soinc.org/",
-      "pageTitle": "",
+      "pageTitle": "Science Olympiad",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Application 2026 Discovery 3M Young Scientist Challenge 2027 Season Event Logistics Resource - Coming soon! Code of Conduct Review&nbsp;- for all teams"
+      ]
     },
     {
       "id": "MathWorks Math Modeling Challenge",
