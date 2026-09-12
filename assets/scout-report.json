@@ -2,9 +2,9 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 104,
-    "unreachable": 20,
-    "redirected": 22
+    "reachable": 103,
+    "unreachable": 21,
+    "redirected": 21
   },
   "entries": [
     {
@@ -522,16 +522,8 @@
       "title": "Purdue Campus Visits",
       "category": "visit",
       "source": "https://admissions.purdue.edu/visit/",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://admissions.purdue.edu/visit/",
-      "pageTitle": "Purdue University – Visit Us",
-      "sourceChanged": false,
-      "signals": [
-        "CLOSE Undergraduate Admissions Search Home Become a Student Support Your Student Admitted Students Academics Cost &amp; Aid Student Life Visit Co",
-        "Application Deadlines Apply Now Check Application Status Transfer Scholarships Quick links Accept Your Offer Class Profile College Prep Guide to Applyi",
-        "Apply plus_icon Apply Now Guide to Applying Deadlines First-Year Class Profile Closed Programs Application Status College Prep Timeline Informati"
-      ]
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "Purdue AAE Prospective Family Visits",
@@ -883,7 +875,7 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://education.msu.edu/hshsp/",
-      "pageTitle": "High School Honors Science, Math and Engineering Program | College of Education | Michigan State University",
+      "pageTitle": "High School Honors Science, Math and Engineering Program",
       "sourceChanged": false,
       "signals": [
         "Application information Join us for the sixty-third annual High School Honors Science, Mathematics, and Engineering Program at Michigan State Universit"
@@ -1082,16 +1074,12 @@
       "title": "Ron Brown Scholar Program",
       "category": "scholarship",
       "source": "https://ronbrown.org/apply/ron-brown-scholarship/",
-      "status": 200,
+      "status": 202,
       "reachable": true,
-      "finalUrl": "https://ronbrown.org/ron-brown-scholarship/",
-      "pageTitle": "The Ron Brown Signature Scholarship &#8211; Ron Brown Scholar Program",
-      "sourceChanged": true,
-      "signals": [
-        "Register Today",
-        "APPLY NOW - 2027 Application is now open! Tickets &amp; Sponsorships Now Available for AJA 2025—Reserve Your Place! Remembering Our Dear Friend C",
-        "APPLICATION FOR THE 2027 SCHOLARSHIP COMPETITION IS NOW OPEN - ABOUT THE RON BROWN SIGNATURE SCHOLARSHIP The Ron Brown Scholarship honors the legacy of"
-      ]
+      "finalUrl": "https://ronbrown.org/apply/ron-brown-scholarship/",
+      "pageTitle": "",
+      "sourceChanged": false,
+      "signals": []
     },
     {
       "id": "Hispanic Scholarship Fund",
@@ -1221,14 +1209,12 @@
       "title": "Science Olympiad",
       "category": "competition",
       "source": "https://www.soinc.org/",
-      "status": 200,
+      "status": 202,
       "reachable": true,
       "finalUrl": "https://www.soinc.org/",
-      "pageTitle": "Science Olympiad",
+      "pageTitle": "",
       "sourceChanged": false,
-      "signals": [
-        "Application 2026 Discovery 3M Young Scientist Challenge 2027 Season Event Logistics Resource - Coming soon! Code of Conduct Review&nbsp;- for all teams"
-      ]
+      "signals": []
     },
     {
       "id": "MathWorks Math Modeling Challenge",
@@ -1297,7 +1283,8 @@
       "pageTitle": "Page Not Found - NASA",
       "sourceChanged": false,
       "signals": [
-        "Open Science, Data Sharing with Artemis Accords article 44 minutes ago 4 min read Monterrey Amid Mountains article 12 hours ago 1 min read Atmos",
+        "Open Science, Data Sharing with Artemis Accords article 12 hours ago 5 min read How 2 US, European Satellites Are Studying Hurricanes During El",
+        "Open Science, Data Sharing with Artemis Accords article 12 hours ago 4 min read CSDA Vendor – OroraTech article 13 hours ago Highlights 3 min re",
         "opens in new tab) Follow NASA More NASA Social Accounts NASA Newsletters Sitemap For Media Privacy Policy FOIA No FEAR Act Office of the IG (open"
       ]
     },
@@ -1312,9 +1299,9 @@
       "pageTitle": "Texas Aerospace Scholars - NASA",
       "sourceChanged": true,
       "signals": [
-        "Application about Texas Aerospace Scholars 2026-2027 Junior Application Window July 1 &#8211; Sept",
-        "Application Window Late Summer – September TBD Online Course End of September – Mid March TBD Summer Virtual Experience First two weeks of June Second",
-        "opens in new tab) Follow NASA More NASA Social Accounts NASA Newsletters Sitemap For Media Privacy Policy FOIA No FEAR Act Office of the IG (open"
+        "Open Science, Data Sharing with Artemis Accords article 11 hours ago 5 min read How 2 US, European Satellites Are Studying Hurricanes During El",
+        "Open Science, Data Sharing with Artemis Accords article 11 hours ago 4 min read CSDA Vendor – OroraTech article 12 hours ago Highlights 3 min re",
+        "Application about Texas Aerospace Scholars 2026-2027 Junior Application Window July 1 &#8211; Sept"
       ]
     },
     {
