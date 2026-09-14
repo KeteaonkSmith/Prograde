@@ -168,9 +168,9 @@
       "pageTitle": "High School | Summer Session",
       "sourceChanged": true,
       "signals": [
-        "Application Process Dates and Deadlines International Students Cost Tuition &amp; Fees Calculator Student Life Events Welcome Weekend Getting To and Ar",
         "Application Requirements As part of the application, you will be asked to supply: transcripts, one essay, and proof of English proficiency (if necessar",
-        "application"
+        "application",
+        "Apply Now Ready to dive in? Start your application today – let&#x27;s make things happen! Return to Top Summer Session Stanford Summer Session pr"
       ]
     },
     {
@@ -883,7 +883,7 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://education.msu.edu/hshsp/",
-      "pageTitle": "High School Honors Science, Math and Engineering Program | College of Education | Michigan State University",
+      "pageTitle": "High School Honors Science, Math and Engineering Program",
       "sourceChanged": false,
       "signals": [
         "Application information Join us for the sixty-third annual High School Honors Science, Mathematics, and Engineering Program at Michigan State Universit"
@@ -1288,7 +1288,6 @@
       "sourceChanged": false,
       "signals": [
         "Open Science, Data Sharing with Artemis Accords article 3 days ago 5 min read How 2 US, European Satellites Are Studying Hurricanes During El Ni",
-        "Open Science, Data Sharing with Artemis Accords article 3 days ago 4 min read CSDA Vendor – OroraTech article 3 days ago Highlights 3 min read N",
         "opens in new tab) Follow NASA More NASA Social Accounts NASA Newsletters Sitemap For Media Privacy Policy FOIA No FEAR Act Office of the IG (open"
       ]
     },
@@ -1304,7 +1303,7 @@
       "sourceChanged": true,
       "signals": [
         "Open Science, Data Sharing with Artemis Accords article 3 days ago 5 min read How 2 US, European Satellites Are Studying Hurricanes During El Ni",
-        "Open Science, Data Sharing with Artemis Accords article 3 days ago 4 min read CSDA Vendor – OroraTech article 3 days ago Highlights 3 min read N",
+        "Open Science, Data Sharing with Artemis Accords article 3 days ago Highlights 3 min read NASA Johnson Pilots Chase Moon’s Shadow for Eclipse Sci",
         "Application about Texas Aerospace Scholars 2026-2027 Junior Application Window July 1 &#8211; Sept"
       ]
     },
@@ -1750,9 +1749,7 @@
       "finalUrl": "https://www.mendeley.com/features/",
       "pageTitle": "Mendeley | Features",
       "sourceChanged": true,
-      "signals": [
-        "open access content, the relevant licensing terms apply"
-      ]
+      "signals": []
     },
     {
       "id": "Obsidian",
