@@ -442,9 +442,9 @@
       "pageTitle": "GitHub Education for students - GitHub Docs",
       "sourceChanged": true,
       "signals": [
-        "Open menu Collapse sidebar Expand sidebar Scroll breadcrumbs left Home GitHub Education About GitHub Education For students Scroll breadcrumbs r",
         "Apply to GitHub Education Troubleshooting access About Community Exchange Terms for Student Benefits For teachers About Apply to GitHub Education",
-        "Application not approved At your institution GitHub Campus Program GitHub Campus Experts Program Apply to Campus Experts GitHub Community Exchange Get"
+        "Application not approved At your institution GitHub Campus Program GitHub Campus Experts Program Apply to Campus Experts GitHub Community Exchange Get",
+        "deadline Use assignment overview Reuse an assignment Template repository Pull requests Use autograding GitHub Classroom CLI Register an LMS Connect"
       ]
     },
     {
@@ -484,8 +484,12 @@
       "title": "Purdue OWL",
       "category": "study",
       "source": "https://owl.purdue.edu/",
-      "reachable": false,
-      "error": "TypeError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://owl.purdue.edu/",
+      "pageTitle": "Purdue OWL® - Purdue OWL® - Purdue University",
+      "sourceChanged": false,
+      "signals": []
     },
     {
       "id": "Zotero",
@@ -1308,7 +1312,7 @@
       "pageTitle": "Texas Aerospace Scholars - NASA",
       "sourceChanged": true,
       "signals": [
-        "Open Science, Data Sharing with Artemis Accords article 4 days ago Back Missions Search All NASA Missions A to Z List of Missions Upcoming Launc",
+        "Open Science, Data Sharing with Artemis Accords article 5 days ago Back Missions Search All NASA Missions A to Z List of Missions Upcoming Launc",
         "Application about Texas Aerospace Scholars 2026-2027 Junior Application Window July 1 &#8211; Sept",
         "Application Window Late Summer – September TBD Online Course End of September – Mid March TBD Summer Virtual Experience First two weeks of June Second"
       ]
@@ -1506,10 +1510,10 @@
       "title": "Google Code Next",
       "category": "program",
       "source": "https://codenext.withgoogle.com/",
-      "status": 200,
-      "reachable": true,
+      "status": 500,
+      "reachable": false,
       "finalUrl": "https://codenext.withgoogle.com/",
-      "pageTitle": "Code Next",
+      "pageTitle": "500 Server Error",
       "sourceChanged": false,
       "signals": []
     },
