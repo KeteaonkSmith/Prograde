@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 104,
-    "unreachable": 20,
+    "reachable": 103,
+    "unreachable": 21,
     "redirected": 22
   },
   "entries": [
@@ -484,12 +484,8 @@
       "title": "Purdue OWL",
       "category": "study",
       "source": "https://owl.purdue.edu/",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://owl.purdue.edu/",
-      "pageTitle": "Purdue OWL® - Purdue OWL® - Purdue University",
-      "sourceChanged": false,
-      "signals": []
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "Zotero",
@@ -795,8 +791,8 @@
       "sourceChanged": true,
       "signals": [
         "Application &nbsp; What We Do The Power of Science Programs Impact Mission & History Who We Are Board of Directors Leadership & Staff Faculty Contact U",
-        "Apply Getting Started Fees & Financial Aid Application Process Applicant Portal FAQs Get Involved Alumni Network College Link Mentorship Program",
-        "Apply Getting Started Fees & Financial Aid Application Process Applicant Portal FAQs Back Alumni Get Involved Alumni Network College Link Mentors"
+        "Apply Getting Started Fees & Financial Aid Application Process Applicant Portal FAQs Get Involved Manage Your Profile Make a Gift Volunteer Alumn",
+        "Apply Getting Started Fees & Financial Aid Application Process Applicant Portal FAQs Back Alumni Get Involved Manage Your Profile Make a Gift Vol"
       ]
     },
     {
@@ -883,7 +879,7 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://education.msu.edu/hshsp/",
-      "pageTitle": "High School Honors Science, Math and Engineering Program | College of Education | Michigan State University",
+      "pageTitle": "High School Honors Science, Math and Engineering Program",
       "sourceChanged": false,
       "signals": [
         "Application information Join us for the sixty-third annual High School Honors Science, Mathematics, and Engineering Program at Michigan State Universit"
@@ -933,8 +929,8 @@
       "sourceChanged": false,
       "signals": [
         "Open Main Navigation Close Main Navigation Search this site YYGS Partners YYGS Employment Yale Young Global Scholars About How to Apply Eligibil",
-        "APPLICATION WILL OPEN SOON",
-        "application will open soon"
+        "APPLICATION IS NOW OPEN! YYGS is excited to offer residential sessions for June &amp; July 2027",
+        "Apply webpage to learn more"
       ]
     },
     {
@@ -1297,7 +1293,7 @@
       "pageTitle": "Page Not Found - NASA",
       "sourceChanged": false,
       "signals": [
-        "Open Science, Data Sharing with Artemis Accords article 4 days ago 5 min read How 2 US, European Satellites Are Studying Hurricanes During El Ni",
+        "Open Science, Data Sharing with Artemis Accords article 5 days ago Back Missions Search All NASA Missions A to Z List of Missions Upcoming Launc",
         "opens in new tab) Follow NASA More NASA Social Accounts NASA Newsletters Sitemap For Media Privacy Policy FOIA No FEAR Act Office of the IG (open"
       ]
     },
@@ -1312,7 +1308,7 @@
       "pageTitle": "Texas Aerospace Scholars - NASA",
       "sourceChanged": true,
       "signals": [
-        "Open Science, Data Sharing with Artemis Accords article 4 days ago 5 min read How 2 US, European Satellites Are Studying Hurricanes During El Ni",
+        "Open Science, Data Sharing with Artemis Accords article 4 days ago Back Missions Search All NASA Missions A to Z List of Missions Upcoming Launc",
         "Application about Texas Aerospace Scholars 2026-2027 Junior Application Window July 1 &#8211; Sept",
         "Application Window Late Summer – September TBD Online Course End of September – Mid March TBD Summer Virtual Experience First two weeks of June Second"
       ]
