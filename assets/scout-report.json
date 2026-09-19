@@ -1506,10 +1506,10 @@
       "title": "Google Code Next",
       "category": "program",
       "source": "https://codenext.withgoogle.com/",
-      "status": 503,
+      "status": 500,
       "reachable": false,
       "finalUrl": "https://codenext.withgoogle.com/",
-      "pageTitle": "503 Server Error",
+      "pageTitle": "500 Server Error",
       "sourceChanged": false,
       "signals": []
     },
