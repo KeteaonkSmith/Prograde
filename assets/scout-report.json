@@ -558,7 +558,7 @@
       "pageTitle": "EOH 2026",
       "sourceChanged": false,
       "signals": [
-        "Open: Due Sept 18 Engineering Open House at the University of Illinois Urbana-Champaign brings Driven by Discovery April 9th &amp; April 10th, 2",
+        "Open House at the University of Illinois Urbana-Champaign brings Driven by Discovery April 9th &amp; April 10th, 2027 EOH 2026 Awards The Awards",
         "Open House (EOH) at the University of Illinois Urbana–Champaign! Whether this is your first visit or your tenth, we are incredibly excited to we",
         "open"
       ]
@@ -882,7 +882,7 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://education.msu.edu/hshsp/",
-      "pageTitle": "High School Honors Science, Math and Engineering Program | College of Education | Michigan State University",
+      "pageTitle": "High School Honors Science, Math and Engineering Program",
       "sourceChanged": false,
       "signals": [
         "Application information Join us for the sixty-third annual High School Honors Science, Mathematics, and Engineering Program at Michigan State Universit"
@@ -1294,7 +1294,6 @@
       "pageTitle": "Page Not Found - NASA",
       "sourceChanged": false,
       "signals": [
-        "Open Science, Data Sharing with Artemis Accords article 1 week ago Back Missions Search All NASA Missions A to Z List of Missions Upcoming Launc",
         "opens in new tab) Follow NASA More NASA Social Accounts NASA Newsletters Sitemap For Media Privacy Policy FOIA No FEAR Act Office of the IG (open"
       ]
     },
@@ -1309,9 +1308,9 @@
       "pageTitle": "Texas Aerospace Scholars - NASA",
       "sourceChanged": true,
       "signals": [
-        "Open Science, Data Sharing with Artemis Accords article 7 days ago Back Missions Search All NASA Missions A to Z List of Missions Upcoming Launc",
         "Application about Texas Aerospace Scholars 2026-2027 Junior Application Window July 1 &#8211; Sept",
-        "Application Window Late Summer – September TBD Online Course End of September – Mid March TBD Summer Virtual Experience First two weeks of June Second"
+        "Application Window Late Summer – September TBD Online Course End of September – Mid March TBD Summer Virtual Experience First two weeks of June Second",
+        "opens in new tab) Follow NASA More NASA Social Accounts NASA Newsletters Sitemap For Media Privacy Policy FOIA No FEAR Act Office of the IG (open"
       ]
     },
     {
@@ -1507,10 +1506,10 @@
       "title": "Google Code Next",
       "category": "program",
       "source": "https://codenext.withgoogle.com/",
-      "status": 500,
+      "status": 503,
       "reachable": false,
       "finalUrl": "https://codenext.withgoogle.com/",
-      "pageTitle": "500 Server Error",
+      "pageTitle": "503 Server Error",
       "sourceChanged": false,
       "signals": []
     },
