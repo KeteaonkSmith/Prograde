@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 102,
-    "unreachable": 22,
+    "reachable": 103,
+    "unreachable": 21,
     "redirected": 22
   },
   "entries": [
@@ -537,8 +537,15 @@
       "title": "Purdue AAE Prospective Family Visits",
       "category": "visit",
       "source": "https://engineering.purdue.edu/AAE/academics/undergraduate/Visit",
-      "reachable": false,
-      "error": "AbortError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://engineering.purdue.edu/AAE/academics/undergraduate/Visit",
+      "pageTitle": "Visit - School of Aeronautics and Astronautics - Purdue University",
+      "sourceChanged": false,
+      "signals": [
+        "Open Positions in AAE Academics Academics Prospective Students Undergraduate Program Space Engineering Certificate Graduate Program Online Gradu",
+        "Registration Course Information Reserve a Room Research Research Research Areas and Expertise Centers of Excellence Apollo 11 Postdoctoral Fellowship AA"
+      ]
     },
     {
       "id": "UIUC Engineering Open House",
@@ -875,7 +882,7 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://education.msu.edu/hshsp/",
-      "pageTitle": "High School Honors Science, Math and Engineering Program",
+      "pageTitle": "High School Honors Science, Math and Engineering Program | College of Education | Michigan State University",
       "sourceChanged": false,
       "signals": [
         "Application information Join us for the sixty-third annual High School Honors Science, Mathematics, and Engineering Program at Michigan State Universit"
@@ -940,9 +947,9 @@
       "pageTitle": "Telluride Association Summer Seminar (TASS) - Telluride Association",
       "sourceChanged": true,
       "signals": [
-        "Application Timeline FAQ for Applicants FAQ for Parents FAQ for Educators Past TASS Topics Have you received a confusing or contradictory email claimin",
-        "open October 15, 2025 and close December 3, 2025 Applications for the TASS 2026 are now closed",
-        "apply? TASS applications are open to high school sophomores and juniors (“rising juniors” and “rising seniors”)"
+        "Application Timeline FAQ for Applicants FAQ for Parents FAQ for Educators Past TASS Topics An Important Message About TASS 2027 Please Read» What is TA",
+        "apply? TASS applications are open to high school sophomores and juniors (“rising juniors” and “rising seniors”)",
+        "apply"
       ]
     },
     {
@@ -1499,10 +1506,10 @@
       "title": "Google Code Next",
       "category": "program",
       "source": "https://codenext.withgoogle.com/",
-      "status": 500,
+      "status": 503,
       "reachable": false,
       "finalUrl": "https://codenext.withgoogle.com/",
-      "pageTitle": "500 Server Error",
+      "pageTitle": "503 Server Error",
       "sourceChanged": false,
       "signals": []
     },
