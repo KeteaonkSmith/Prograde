@@ -4,7 +4,7 @@
     "totalResources": 124,
     "reachable": 102,
     "unreachable": 22,
-    "redirected": 22
+    "redirected": 21
   },
   "entries": [
     {
@@ -102,8 +102,16 @@
       "title": "PROMYS",
       "category": "program",
       "source": "https://promys.org/programs/promys/for-students/",
-      "reachable": false,
-      "error": "TypeError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://promys.org/programs/promys/for-students/",
+      "pageTitle": "For Students &#8211; PROMYS | Program in Mathematics for Young Scientists",
+      "sourceChanged": false,
+      "signals": [
+        "Apply For Counselors Quick Facts Counselor Mathematics FAQ Testimonials To Apply PROMYS for Teachers PROMYS Pathways PROMYS Europe PROMYS India P",
+        "close environment of people with a shared passion fosters truly brilliant collaboration, and the structure of each problem set weaves deep thinki",
+        "Application Deadline: end of February 2027 TBD Admissions Decisions: end of April 2027 TBD Cost and Financial Aid &amp; Scholarships PROMYS believes th"
+      ]
     },
     {
       "id": "Girls Who Code Pathways",
@@ -145,8 +153,8 @@
       "sourceChanged": false,
       "signals": [
         "Apply Costs and Funding Policies and Safety For Admitted Students Students in Need of Accommodations Registration Course Registration Internation",
-        "application fee Courses 7-Week: 200+ Courses to Choose From 4-Week: 20 Courses to Choose From 4-Week July 12–August 8, 2026 Residential Only 7-Week Jun",
-        "Apply to the Secondary School Program Program Activities The SSP Advantage Cost & Aid FAQs Why Choose Harvard’s Secondary School Program? Related"
+        "Register Today Facebook YouTube Instagram LinkedIn High School Programs / Secondary School Program Harvard Summer School’s Secondary School Program",
+        "application fee Courses 7-Week: 200+ Courses to Choose From 4-Week: 20 Courses to Choose From 4-Week July 12–August 8, 2026 Residential Only 7-Week Jun"
       ]
     },
     {
@@ -796,16 +804,8 @@
       "title": "COSMOS",
       "category": "program",
       "source": "https://cosmos-ucop.ucdavis.edu/",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://cosmos-ucop.ucdavis.edu/app/main",
-      "pageTitle": "Welcome to COSMOS - COSMOS Platform",
-      "sourceChanged": true,
-      "signals": [
-        "Apply to COSMOS Application and Payment Basics Dates &amp; Deadlines Program Fees Financial Assistance Residential Life Statewide Policies and Pr",
-        "DEADLINE FOR ALL APPLICATION MATERIAL: FEBRUARY 6, 2026, 11:59 PM COSMOS is Limited to California High-School Students Only ** COSMOS is a full resi",
-        "apply to ONE of the listed University of California’s COSMOS campuses — UC Davis, UC Irvine, UC Los Angeles, UC Merced, UC San Diego, and UC Sant"
-      ]
+      "reachable": false,
+      "error": "AbortError"
     },
     {
       "id": "Boston University RISE",
@@ -875,7 +875,7 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://education.msu.edu/hshsp/",
-      "pageTitle": "High School Honors Science, Math and Engineering Program | College of Education | Michigan State University",
+      "pageTitle": "High School Honors Science, Math and Engineering Program",
       "sourceChanged": false,
       "signals": [
         "Application information Join us for the sixty-third annual High School Honors Science, Mathematics, and Engineering Program at Michigan State Universit"
@@ -1050,7 +1050,7 @@
       "signals": [
         "Apply The challenges of navigating higher education while worrying about basic needs like food and housing felt overwhelming",
         "open to talk to is very helpful",
-        "Apply? To be eligible, you must: Be a high school senior participating in an approved college readiness program Plan to enroll full-time at an ac"
+        "Apply? To be eligible for the 2027 application cycle, you must: Be a high school senior graduating from a Texas high school Participate in an app"
       ]
     },
     {
@@ -1499,10 +1499,10 @@
       "title": "Google Code Next",
       "category": "program",
       "source": "https://codenext.withgoogle.com/",
-      "status": 500,
+      "status": 503,
       "reachable": false,
       "finalUrl": "https://codenext.withgoogle.com/",
-      "pageTitle": "500 Server Error",
+      "pageTitle": "503 Server Error",
       "sourceChanged": false,
       "signals": []
     },
@@ -1530,13 +1530,9 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://www.kodewithklossy.com/",
-      "pageTitle": "Kode With Klossy | free coding program",
+      "pageTitle": "Home | KWK 2026 - NEW",
       "sourceChanged": false,
-      "signals": [
-        "APPLY HERE DISCOVER MORE OUR IMPACT IS&nbsp;TANGIBLE LEARN MORE prior to camp, only 1 in 5 scholars have any computer science experience as a res",
-        "application! Share Thu, Feb 29 Summer 2024 Scholar Info Session (INDIA TIME) / Zoom Link in Description Details Feb 29, 2024, 7:00 PM – 8:00 PM GMT+5:3",
-        "application! Share Wed, Feb 14 Apple Swift Student Challenge Info Session / https://bit"
-      ]
+      "signals": []
     },
     {
       "id": "MIT Beaver Works Summer Institute",
