@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 102,
-    "unreachable": 22,
+    "reachable": 103,
+    "unreachable": 21,
     "redirected": 21
   },
   "entries": [
@@ -804,8 +804,16 @@
       "title": "COSMOS",
       "category": "program",
       "source": "https://cosmos-ucop.ucdavis.edu/",
-      "reachable": false,
-      "error": "AbortError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://cosmos-ucop.ucdavis.edu/app/main",
+      "pageTitle": "Welcome to COSMOS - COSMOS Platform",
+      "sourceChanged": true,
+      "signals": [
+        "Apply to COSMOS Application and Payment Basics Dates &amp; Deadlines Program Fees Financial Assistance Residential Life Statewide Policies and Pr",
+        "DEADLINE FOR ALL APPLICATION MATERIALS: FEBRUARY 5, 2027, 11:59 PM COSMOS is Limited to California High-School Students Only ** COSMOS is a full res",
+        "apply to ONE of the listed University of California’s COSMOS campuses — UC Davis, UC Irvine, UC Los Angeles, UC Merced, UC San Diego, and UC Sant"
+      ]
     },
     {
       "id": "Boston University RISE",
@@ -982,16 +990,12 @@
       "title": "LEDA Scholars",
       "category": "program",
       "source": "https://ledascholars.org/our-program/",
-      "status": 200,
+      "status": 202,
       "reachable": true,
       "finalUrl": "https://ledascholars.org/our-program/",
-      "pageTitle": "What We Do | LEDA",
+      "pageTitle": "",
       "sourceChanged": false,
-      "signals": [
-        "Close The Need The Need Exceptional students from low-income backgrounds have unequal access to the top-tier colleges that cultivate most of our",
-        "Close What We Do What We Do LEDA runs the LEDA Scholars Program, the LEDA Career Network, and the LEDA Policy Project",
-        "Close Impact Impact A look at LEDA Scholars since our inception in 2003"
-      ]
+      "signals": []
     },
     {
       "id": "Matriculate",
@@ -1074,16 +1078,12 @@
       "title": "Ron Brown Scholar Program",
       "category": "scholarship",
       "source": "https://ronbrown.org/apply/ron-brown-scholarship/",
-      "status": 200,
+      "status": 202,
       "reachable": true,
-      "finalUrl": "https://ronbrown.org/ron-brown-scholarship/",
-      "pageTitle": "The Ron Brown Signature Scholarship &#8211; Ron Brown Scholar Program",
-      "sourceChanged": true,
-      "signals": [
-        "Register Today",
-        "APPLY NOW - 2027 Application is now open! Tickets &amp; Sponsorships Now Available for AJA 2025—Reserve Your Place! Remembering Our Dear Friend C",
-        "APPLICATION FOR THE 2027 SCHOLARSHIP COMPETITION IS NOW OPEN - ABOUT THE RON BROWN SIGNATURE SCHOLARSHIP The Ron Brown Scholarship honors the legacy of"
-      ]
+      "finalUrl": "https://ronbrown.org/apply/ron-brown-scholarship/",
+      "pageTitle": "",
+      "sourceChanged": false,
+      "signals": []
     },
     {
       "id": "Hispanic Scholarship Fund",
@@ -1202,21 +1202,17 @@
       "finalUrl": "https://www.jshs.org/",
       "pageTitle": "Student STEM Competitions - Junior Science and Humanities Symposium",
       "sourceChanged": true,
-      "signals": [
-        "opens in new tab) Junior Science and Humanities Symposium National Science Teaching Association admin@jshs",
-        "opens in new tab) (opens in new tab) (opens in new tab) (opens in new tab) Sign Up for Our Newsletter CLICK HERE TO SUBSCRIBE JSHS Facebook Link",
-        "opens in new tab) JSHS Twitter Link (opens in new tab) JSHS Instagram Link (opens in new tab) JSHS LinkedIn Link (opens in new tab) JSHS YouTube"
-      ]
+      "signals": []
     },
     {
       "id": "Science Olympiad",
       "title": "Science Olympiad",
       "category": "competition",
       "source": "https://www.soinc.org/",
-      "status": 200,
+      "status": 202,
       "reachable": true,
       "finalUrl": "https://www.soinc.org/",
-      "pageTitle": "Science Olympiad",
+      "pageTitle": "",
       "sourceChanged": false,
       "signals": []
     },
@@ -1499,10 +1495,10 @@
       "title": "Google Code Next",
       "category": "program",
       "source": "https://codenext.withgoogle.com/",
-      "status": 503,
+      "status": 500,
       "reachable": false,
       "finalUrl": "https://codenext.withgoogle.com/",
-      "pageTitle": "503 Server Error",
+      "pageTitle": "500 Server Error",
       "sourceChanged": false,
       "signals": []
     },
@@ -1530,7 +1526,7 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://www.kodewithklossy.com/",
-      "pageTitle": "Home | KWK 2026 - NEW",
+      "pageTitle": "Home | Kode With Klossy",
       "sourceChanged": false,
       "signals": []
     },
