@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 101,
-    "unreachable": 23,
+    "reachable": 103,
+    "unreachable": 21,
     "redirected": 21
   },
   "entries": [
@@ -71,8 +71,16 @@
       "title": "MIT PRIMES / PRIMES-USA",
       "category": "program",
       "source": "https://math.mit.edu/research/highschool/primes/index.php",
-      "reachable": false,
-      "error": "TypeError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://math.mit.edu/research/highschool/primes/index.php",
+      "pageTitle": "PRIMES",
+      "sourceChanged": false,
+      "signals": [
+        "Apply PRIMES-USA PRIMES-USA Apply CrowdMath PRIMES Circle PRIMES Circle Students Say Circle Mentors Papers Apply Yulia's Dream Yulia's Dream 2025",
+        "Apply Other Programs FAQ Contact RSI RSI Past Projects Lecture Series Academics Academics Academic Services Academic Services Forms and Requests",
+        "Apply Other Programs FAQ Contact RSI RSI Past Projects Lecture Series PRIMES: Program for Research in Mathematics, Engineering and Science for Hi"
+      ]
     },
     {
       "id": "Research Science Institute",
@@ -241,7 +249,7 @@
       "sourceChanged": false,
       "signals": [
         "Open Search Open Search Programs and Scholarships Toggle Submenu Young Scholars Summer Opportunities Toggle Submenu Camps Annual Family Events F",
-        "Close search dialog Enter a search term Search Dismiss alert dialog 2026 Davidson Fellows Scholarship Recipients Announced! Meet the exceptional",
+        "Close search dialog Enter a search term Search Fellows Scholarship Eligibility Brochures on chairs at the Fellows reception Step 1: Eligibility a",
         "Deadline To be eligible for consideration as a Davidson Fellow, applicants must: Be 18 or younger as of the application deadline to be eligible"
       ]
     },
@@ -691,7 +699,7 @@
       "status": 403,
       "reachable": false,
       "finalUrl": "https://admissions.umich.edu/explore-visit/visit-campus",
-      "pageTitle": "Access Denied",
+      "pageTitle": "Just a moment...",
       "sourceChanged": false,
       "signals": []
     },
@@ -748,8 +756,16 @@
       "title": "MIT Splash",
       "category": "program",
       "source": "https://esp.mit.edu/learn/Splash/index.html",
-      "reachable": false,
-      "error": "TypeError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://esp.mit.edu/learn/Splash/index.html",
+      "pageTitle": "MIT ESP - Splash!",
+      "sourceChanged": false,
+      "signals": [
+        "Register! Registration Steps Program Details Walk-In Activities Navbar Category: Splash Learn Set navbar name/path/description Edit navbar contents",
+        "registration will open in mid October",
+        "open to you! Who Can Participate? High school studen ts&nbsp;in grades 9–12 can attend Splash"
+      ]
     },
     {
       "id": "Stanford Splash",
@@ -1439,7 +1455,7 @@
       "sourceChanged": false,
       "signals": [
         "Open Search Open Search Programs and Scholarships Toggle Submenu Young Scholars Summer Opportunities Toggle Submenu Camps Annual Family Events F",
-        "Close search dialog Enter a search term Search Dismiss alert dialog 2026 Davidson Fellows Scholarship Recipients Announced! Meet the exceptional",
+        "Close search dialog Enter a search term Search Young Scholars A Program for Profoundly Gifted Young Minds There should be no ceiling to your chil",
         "Apply Connecting and Supporting Gifted Families We provide a range of family services designed to nurture the intellectual, social, emotional, an"
       ]
     },
@@ -1455,7 +1471,7 @@
       "sourceChanged": false,
       "signals": [
         "Open Search Open Search Programs and Scholarships Toggle Submenu Young Scholars Summer Opportunities Toggle Submenu Camps Annual Family Events F",
-        "Close search dialog Enter a search term Search Dismiss alert dialog 2026 Davidson Fellows Scholarship Recipients Announced! Meet the exceptional"
+        "Close search dialog Enter a search term Search Oh no! The page you're looking for doesn't exist Please use the quick links or the link below to g"
       ]
     },
     {
