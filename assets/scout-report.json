@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 102,
-    "unreachable": 22,
+    "reachable": 103,
+    "unreachable": 21,
     "redirected": 22
   },
   "entries": [
@@ -94,6 +94,7 @@
       "sourceChanged": false,
       "signals": [
         "Apply to the RSI Program RSI Application FAQs RSI-India International Outreach Global Community USA Biolympiad USABO Portal Teacher Enrichment Pr",
+        "open October 1, 2026 and will stay open through December 11, 2026",
         "Apply to RSI High school juniors are eligible"
       ]
     },
@@ -633,8 +634,16 @@
       "title": "Stanford Campus Visit",
       "category": "visit",
       "source": "https://admission.stanford.edu/engage/",
-      "reachable": false,
-      "error": "TypeError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://admission.stanford.edu/engage/",
+      "pageTitle": "Engage : Stanford University",
+      "sourceChanged": false,
+      "signals": [
+        "Apply Quick Links News &amp; Announcements Application Requirements Tours and Programs Cost of Attendance Admission Volunteers Updates for applic",
+        "Register for a live, virtual \"visit\" Nothing can replace visiting a college campus, but we are happy to offer virtual visit programming for those wh",
+        "registration do so purely for planning purposes"
+      ]
     },
     {
       "id": "Georgia Tech Visit",
@@ -875,7 +884,7 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://education.msu.edu/hshsp/",
-      "pageTitle": "High School Honors Science, Math and Engineering Program",
+      "pageTitle": "High School Honors Science, Math and Engineering Program | College of Education | Michigan State University",
       "sourceChanged": false,
       "signals": [
         "Application information Join us for the sixty-third annual High School Honors Science, Mathematics, and Engineering Program at Michigan State Universit"
@@ -1283,9 +1292,9 @@
       "pageTitle": "Page Not Found - NASA",
       "sourceChanged": false,
       "signals": [
-        "Opens 2027 Human Lander Challenge for Lunar Communications article 20 hours ago 2 min read Researchers: Help NASA Prevent Blood Clot Formation in",
-        "Opens Applications for Second Season of ORBIT Student Challenge article 1 day ago 2 min read NASA Astronaut to Answer Questions from New Hampshir",
-        "opens in new tab) Follow NASA More NASA Social Accounts NASA Newsletters Sitemap For Media Privacy Policy FOIA No FEAR Act Office of the IG (open"
+        "Opens 2027 Human Lander Challenge for Lunar Communications article 1 day ago 2 min read Researchers: Help NASA Prevent Blood Clot Formation in Sp",
+        "Opens Applications for Second Season of ORBIT Student Challenge article 2 days ago 2 min read NASA Astronaut to Answer Questions from New Hampshi",
+        "Opens 2027 Human Lander Challenge for Lunar Communications article 1 day ago 2 min read NASA Armstrong Celebrates 80 Years of Flight Innovation a"
       ]
     },
     {
@@ -1299,9 +1308,9 @@
       "pageTitle": "Texas Aerospace Scholars - NASA",
       "sourceChanged": true,
       "signals": [
-        "Opens 2027 Human Lander Challenge for Lunar Communications article 20 hours ago 2 min read Researchers: Help NASA Prevent Blood Clot Formation in",
+        "Opens 2027 Human Lander Challenge for Lunar Communications article 1 day ago 2 min read Researchers: Help NASA Prevent Blood Clot Formation in Sp",
         "Opens Applications for Second Season of ORBIT Student Challenge article 1 day ago 2 min read NASA Astronaut to Answer Questions from New Hampshir",
-        "Application about Texas Aerospace Scholars 2026-2027 Junior Application Window July 1 &#8211; Sept"
+        "Opens 2027 Human Lander Challenge for Lunar Communications article 1 day ago 2 min read NASA Armstrong Celebrates 80 Years of Flight Innovation a"
       ]
     },
     {
