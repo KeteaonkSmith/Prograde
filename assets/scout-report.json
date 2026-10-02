@@ -4,7 +4,7 @@
     "totalResources": 124,
     "reachable": 103,
     "unreachable": 21,
-    "redirected": 21
+    "redirected": 22
   },
   "entries": [
     {
@@ -424,16 +424,12 @@
       "title": "Canva Education",
       "category": "tool",
       "source": "https://www.canva.com/education/eligibility-guidelines/",
-      "status": 200,
-      "reachable": true,
+      "status": 403,
+      "reachable": false,
       "finalUrl": "https://www.canva.com/education/eligibility-guidelines/",
-      "pageTitle": "Eligibility Guidelines | Canva Education",
+      "pageTitle": "Canva",
       "sourceChanged": false,
-      "signals": [
-        "opens in a new tab or window) Jump to: Eligibility guidelines How long does my access to Canva Education last? Who can’t access Canva Education?",
-        "opens in a new tab or window) ) College and university students ( Check out our Canva for Campus product ⁠ (opens in a new tab or window) ) Conti",
-        "opens in a new tab or window) ) Early stage start-ups with an educational focus Parents of children who are in K-12 (primary or secondary) educat"
-      ]
+      "signals": []
     },
     {
       "id": "GitHub Student Developer Pack",
@@ -1295,9 +1291,9 @@
       "pageTitle": "Page Not Found - NASA",
       "sourceChanged": false,
       "signals": [
-        "Opens 2027 Human Lander Challenge for Lunar Communications article 2 days ago 3 min read Researchers: Help NASA Prevent Blood Clot Formation in S",
+        "Opens 2027 Human Lander Challenge for Lunar Communications article 3 days ago 3 min read Researchers: Help NASA Prevent Blood Clot Formation in S",
         "Opens Applications for Second Season of ORBIT Student Challenge article 3 days ago 2 min read NASA Astronaut to Answer Questions from New Hampshi",
-        "Opens 2027 Human Lander Challenge for Lunar Communications article 2 days ago 2 min read NASA Armstrong Celebrates 80 Years of Flight Innovation"
+        "Opens 2027 Human Lander Challenge for Lunar Communications article 3 days ago 2 min read NASA Armstrong Celebrates 80 Years of Flight Innovation"
       ]
     },
     {
@@ -1311,9 +1307,9 @@
       "pageTitle": "Texas Aerospace Scholars - NASA",
       "sourceChanged": true,
       "signals": [
-        "Opens 2027 Human Lander Challenge for Lunar Communications article 2 days ago 3 min read Researchers: Help NASA Prevent Blood Clot Formation in S",
-        "Opens Applications for Second Season of ORBIT Student Challenge article 2 days ago 2 min read NASA Astronaut to Answer Questions from New Hampshi",
-        "Opens 2027 Human Lander Challenge for Lunar Communications article 2 days ago 2 min read NASA Armstrong Celebrates 80 Years of Flight Innovation"
+        "Opens 2027 Human Lander Challenge for Lunar Communications article 3 days ago 3 min read Researchers: Help NASA Prevent Blood Clot Formation in S",
+        "Opens Applications for Second Season of ORBIT Student Challenge article 3 days ago 2 min read NASA Astronaut to Answer Questions from New Hampshi",
+        "Opens 2027 Human Lander Challenge for Lunar Communications article 3 days ago 2 min read NASA Armstrong Celebrates 80 Years of Flight Innovation"
       ]
     },
     {
@@ -1549,8 +1545,16 @@
       "title": "MIT Beaver Works Summer Institute",
       "category": "program",
       "source": "https://beaverworks.ll.mit.edu/CMS/bw/bwsi",
-      "reachable": false,
-      "error": "AbortError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://beaverworks.ll.mit.edu/classes",
+      "pageTitle": "Classes | Beaver Works",
+      "sourceChanged": true,
+      "signals": [
+        "Apply autonomy and robotics concepts to a self-driving car Create a digital twin to do virtual testing of terrain navigation Collect and integrat",
+        "Register Here! Beaver Works Summer Institute: Project-based classes for high school students nationwide! BWSI has programs throughout the year in ad",
+        "Open-Source Fluidics for Synthetic Biology (IAP) – Dr"
+      ]
     },
     {
       "id": "AI Scholars Live Online",
@@ -1635,8 +1639,7 @@
       "pageTitle": "Catalog Home | Codecademy",
       "sourceChanged": true,
       "signals": [
-        "Open source PHP Professional skills Python R Ruby SQL Swift Web design Web development Beta catalog For business Where do I begin? Trending subj",
-        "open-source programming language supported by Google! Checker Dense Beginner Friendly"
+        "Open source PHP Professional skills Python R Ruby SQL Swift Web design Web development Beta catalog For business Where do I begin? Trending subj"
       ]
     },
     {
