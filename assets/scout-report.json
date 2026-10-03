@@ -2,9 +2,9 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 103,
-    "unreachable": 21,
-    "redirected": 22
+    "reachable": 102,
+    "unreachable": 22,
+    "redirected": 21
   },
   "entries": [
     {
@@ -883,7 +883,7 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://education.msu.edu/hshsp/",
-      "pageTitle": "High School Honors Science, Math and Engineering Program",
+      "pageTitle": "High School Honors Science, Math and Engineering Program | College of Education | Michigan State University",
       "sourceChanged": false,
       "signals": [
         "Application information Join us for the sixty-third annual High School Honors Science, Mathematics, and Engineering Program at Michigan State Universit"
@@ -1291,9 +1291,9 @@
       "pageTitle": "Page Not Found - NASA",
       "sourceChanged": false,
       "signals": [
-        "Opens 2027 Human Lander Challenge for Lunar Communications article 3 days ago 3 min read Researchers: Help NASA Prevent Blood Clot Formation in S",
+        "Opens 2027 Human Lander Challenge for Lunar Communications article 4 days ago 3 min read Researchers: Help NASA Prevent Blood Clot Formation in S",
         "Opens Applications for Second Season of ORBIT Student Challenge article 4 days ago 2 min read NASA Astronaut to Answer Questions from New Hampshi",
-        "Opens 2027 Human Lander Challenge for Lunar Communications article 3 days ago 2 min read NASA Armstrong Celebrates 80 Years of Flight Innovation"
+        "Opens 2027 Human Lander Challenge for Lunar Communications article 4 days ago 2 min read NASA Armstrong Celebrates 80 Years of Flight Innovation"
       ]
     },
     {
@@ -1301,16 +1301,12 @@
       "title": "NASA High School Aerospace Scholars",
       "category": "program",
       "source": "https://www.nasa.gov/learning-resources/high-school-aerospace-scholars/",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://www.nasa.gov/learning-resources/texas-aerospace-scholars/",
-      "pageTitle": "Texas Aerospace Scholars - NASA",
-      "sourceChanged": true,
-      "signals": [
-        "Opens 2027 Human Lander Challenge for Lunar Communications article 3 days ago 3 min read Researchers: Help NASA Prevent Blood Clot Formation in S",
-        "Opens Applications for Second Season of ORBIT Student Challenge article 3 days ago 2 min read NASA Astronaut to Answer Questions from New Hampshi",
-        "Opens 2027 Human Lander Challenge for Lunar Communications article 3 days ago 2 min read NASA Armstrong Celebrates 80 Years of Flight Innovation"
-      ]
+      "status": 429,
+      "reachable": false,
+      "finalUrl": "https://www.nasa.gov/learning-resources/high-school-aerospace-scholars/",
+      "pageTitle": "429 Too Many Requests",
+      "sourceChanged": false,
+      "signals": []
     },
     {
       "id": "NASA STEM Gateway",
