@@ -2,9 +2,9 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 102,
-    "unreachable": 22,
-    "redirected": 21
+    "reachable": 103,
+    "unreachable": 21,
+    "redirected": 22
   },
   "entries": [
     {
@@ -522,8 +522,16 @@
       "title": "Purdue Campus Visits",
       "category": "visit",
       "source": "https://admissions.purdue.edu/visit/",
-      "reachable": false,
-      "error": "TypeError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://admissions.purdue.edu/visit/",
+      "pageTitle": "Purdue University – Visit Us",
+      "sourceChanged": false,
+      "signals": [
+        "CLOSE Undergraduate Admissions Search Home Become a Student Support Your Student Admitted Students Academics Cost &amp; Aid Student Life Visit Co",
+        "Application Deadlines Apply Now Check Application Status Transfer Scholarships Quick links Accept Your Offer Class Profile College Prep Guide to Applyi",
+        "Apply plus_icon Apply Now Guide to Applying Deadlines First-Year Class Profile Closed Programs Application Status College Prep Timeline Informati"
+      ]
     },
     {
       "id": "Purdue AAE Prospective Family Visits",
@@ -875,7 +883,7 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://education.msu.edu/hshsp/",
-      "pageTitle": "High School Honors Science, Math and Engineering Program",
+      "pageTitle": "High School Honors Science, Math and Engineering Program | College of Education | Michigan State University",
       "sourceChanged": false,
       "signals": [
         "Application information Join us for the sixty-third annual High School Honors Science, Mathematics, and Engineering Program at Michigan State Universit"
@@ -982,12 +990,16 @@
       "title": "LEDA Scholars",
       "category": "program",
       "source": "https://ledascholars.org/our-program/",
-      "status": 202,
+      "status": 200,
       "reachable": true,
       "finalUrl": "https://ledascholars.org/our-program/",
-      "pageTitle": "",
+      "pageTitle": "What We Do | LEDA",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Close The Need The Need Exceptional students from low-income backgrounds have unequal access to the top-tier colleges that cultivate most of our",
+        "Close What We Do What We Do LEDA runs the LEDA Scholars Program, the LEDA Career Network, and the LEDA Policy Project",
+        "Close Impact Impact A look at LEDA Scholars since our inception in 2003"
+      ]
     },
     {
       "id": "Matriculate",
@@ -1070,12 +1082,16 @@
       "title": "Ron Brown Scholar Program",
       "category": "scholarship",
       "source": "https://ronbrown.org/apply/ron-brown-scholarship/",
-      "status": 202,
+      "status": 200,
       "reachable": true,
-      "finalUrl": "https://ronbrown.org/apply/ron-brown-scholarship/",
-      "pageTitle": "",
-      "sourceChanged": false,
-      "signals": []
+      "finalUrl": "https://ronbrown.org/ron-brown-scholarship/",
+      "pageTitle": "The Ron Brown Signature Scholarship &#8211; Ron Brown Scholar Program",
+      "sourceChanged": true,
+      "signals": [
+        "Register Today",
+        "APPLY NOW - 2027 Application is now open! Tickets &amp; Sponsorships Now Available for AJA 2025—Reserve Your Place! Remembering Our Dear Friend C",
+        "APPLICATION FOR THE 2027 SCHOLARSHIP COMPETITION IS NOW OPEN - ABOUT THE RON BROWN SIGNATURE SCHOLARSHIP The Ron Brown Scholarship honors the legacy of"
+      ]
     },
     {
       "id": "Hispanic Scholarship Fund",
@@ -1201,10 +1217,10 @@
       "title": "Science Olympiad",
       "category": "competition",
       "source": "https://www.soinc.org/",
-      "status": 202,
+      "status": 200,
       "reachable": true,
       "finalUrl": "https://www.soinc.org/",
-      "pageTitle": "",
+      "pageTitle": "Science Olympiad",
       "sourceChanged": false,
       "signals": []
     },
@@ -1275,9 +1291,9 @@
       "pageTitle": "Page Not Found - NASA",
       "sourceChanged": false,
       "signals": [
-        "Opens 2027 Human Lander Challenge for Lunar Communications article 4 days ago 3 min read Researchers: Help NASA Prevent Blood Clot Formation in S",
+        "Opens 2027 Human Lander Challenge for Lunar Communications article 5 days ago 3 min read Researchers: Help NASA Prevent Blood Clot Formation in S",
         "Opens Applications for Second Season of ORBIT Student Challenge article 5 days ago 2 min read NASA Astronaut to Answer Questions from New Hampshi",
-        "Opens 2027 Human Lander Challenge for Lunar Communications article 4 days ago 2 min read NASA Armstrong Celebrates 80 Years of Flight Innovation"
+        "Opens 2027 Human Lander Challenge for Lunar Communications article 5 days ago 2 min read NASA Armstrong Celebrates 80 Years of Flight Innovation"
       ]
     },
     {
@@ -1291,9 +1307,9 @@
       "pageTitle": "Texas Aerospace Scholars - NASA",
       "sourceChanged": true,
       "signals": [
-        "Opens 2027 Human Lander Challenge for Lunar Communications article 4 days ago 3 min read Researchers: Help NASA Prevent Blood Clot Formation in S",
-        "Opens Applications for Second Season of ORBIT Student Challenge article 4 days ago 2 min read NASA Astronaut to Answer Questions from New Hampshi",
-        "Opens 2027 Human Lander Challenge for Lunar Communications article 4 days ago 2 min read NASA Armstrong Celebrates 80 Years of Flight Innovation"
+        "Opens 2027 Human Lander Challenge for Lunar Communications article 5 days ago 3 min read Researchers: Help NASA Prevent Blood Clot Formation in S",
+        "Opens Applications for Second Season of ORBIT Student Challenge article 5 days ago 2 min read NASA Astronaut to Answer Questions from New Hampshi",
+        "Opens 2027 Human Lander Challenge for Lunar Communications article 5 days ago 2 min read NASA Armstrong Celebrates 80 Years of Flight Innovation"
       ]
     },
     {
