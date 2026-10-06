@@ -772,16 +772,8 @@
       "title": "Stanford Splash",
       "category": "program",
       "source": "https://stanfordesp.org/",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://stanfordesp.org/",
-      "pageTitle": "Stanford Splash - Welcome",
-      "sourceChanged": false,
-      "signals": [
-        "Register Forgot Password Help Privacy Policy contact us Privacy Policy This is editable text",
-        "Register Directions My Classes Registration Guide Parents Live Teachers Register Ideas Logistics LiveScan My Classes Volunteers Join the Admin FAQ N",
-        "Register Directions My Classes Registration Guide Parents Live Teachers Register Ideas Logistics LiveScan My Classes Volunteers Join the Admin FAQ U"
-      ]
+      "reachable": false,
+      "error": "AbortError"
     },
     {
       "id": "Summer Science Program",
@@ -990,16 +982,12 @@
       "title": "LEDA Scholars",
       "category": "program",
       "source": "https://ledascholars.org/our-program/",
-      "status": 200,
+      "status": 202,
       "reachable": true,
       "finalUrl": "https://ledascholars.org/our-program/",
-      "pageTitle": "What We Do | LEDA",
+      "pageTitle": "",
       "sourceChanged": false,
-      "signals": [
-        "Close The Need The Need Exceptional students from low-income backgrounds have unequal access to the top-tier colleges that cultivate most of our",
-        "Close What We Do What We Do LEDA runs the LEDA Scholars Program, the LEDA Career Network, and the LEDA Policy Project",
-        "Close Impact Impact A look at LEDA Scholars since our inception in 2003"
-      ]
+      "signals": []
     },
     {
       "id": "Matriculate",
@@ -1082,16 +1070,12 @@
       "title": "Ron Brown Scholar Program",
       "category": "scholarship",
       "source": "https://ronbrown.org/apply/ron-brown-scholarship/",
-      "status": 200,
+      "status": 202,
       "reachable": true,
-      "finalUrl": "https://ronbrown.org/ron-brown-scholarship/",
-      "pageTitle": "The Ron Brown Signature Scholarship &#8211; Ron Brown Scholar Program",
-      "sourceChanged": true,
-      "signals": [
-        "Register Today",
-        "APPLY NOW - 2027 Application is now open! Tickets &amp; Sponsorships Now Available for AJA 2025—Reserve Your Place! Remembering Our Dear Friend C",
-        "APPLICATION FOR THE 2027 SCHOLARSHIP COMPETITION IS NOW OPEN - ABOUT THE RON BROWN SIGNATURE SCHOLARSHIP The Ron Brown Scholarship honors the legacy of"
-      ]
+      "finalUrl": "https://ronbrown.org/apply/ron-brown-scholarship/",
+      "pageTitle": "",
+      "sourceChanged": false,
+      "signals": []
     },
     {
       "id": "Hispanic Scholarship Fund",
@@ -1217,10 +1201,10 @@
       "title": "Science Olympiad",
       "category": "competition",
       "source": "https://www.soinc.org/",
-      "status": 200,
+      "status": 202,
       "reachable": true,
       "finalUrl": "https://www.soinc.org/",
-      "pageTitle": "Science Olympiad",
+      "pageTitle": "",
       "sourceChanged": false,
       "signals": []
     },
@@ -1285,24 +1269,32 @@
       "title": "NASA HUNCH",
       "category": "program",
       "source": "https://www.nasa.gov/learning-resources/hunch/",
-      "status": 429,
+      "status": 404,
       "reachable": false,
       "finalUrl": "https://www.nasa.gov/learning-resources/hunch/",
-      "pageTitle": "429 Too Many Requests",
+      "pageTitle": "Page Not Found - NASA",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Opens Applications for Next Class of Flight Directors article 4 days ago 4 min read NASA Adds New Science Investigations for Moon Base article 6",
+        "Opens 2027 Human Lander Challenge for Lunar Communications article 7 days ago 3 min read Researchers: Help NASA Prevent Blood Clot Formation in S",
+        "Opens Applications for Second Season of ORBIT Student Challenge article 1 week ago Featured 3 min read NASA Testing Aims at Supercooled Large Dro"
+      ]
     },
     {
       "id": "NASA High School Aerospace Scholars",
       "title": "NASA High School Aerospace Scholars",
       "category": "program",
       "source": "https://www.nasa.gov/learning-resources/high-school-aerospace-scholars/",
-      "status": 429,
-      "reachable": false,
-      "finalUrl": "https://www.nasa.gov/learning-resources/high-school-aerospace-scholars/",
-      "pageTitle": "429 Too Many Requests",
-      "sourceChanged": false,
-      "signals": []
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://www.nasa.gov/learning-resources/texas-aerospace-scholars/",
+      "pageTitle": "Texas Aerospace Scholars - NASA",
+      "sourceChanged": true,
+      "signals": [
+        "Opens Applications for Next Class of Flight Directors article 4 days ago 4 min read NASA Adds New Science Investigations for Moon Base article 6",
+        "Opens 2027 Human Lander Challenge for Lunar Communications article 7 days ago 3 min read Researchers: Help NASA Prevent Blood Clot Formation in S",
+        "Opens Applications for Second Season of ORBIT Student Challenge article 1 week ago Featured 3 min read NASA Testing Aims at Supercooled Large Dro"
+      ]
     },
     {
       "id": "NASA STEM Gateway",
