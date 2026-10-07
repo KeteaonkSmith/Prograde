@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 102,
-    "unreachable": 22,
+    "reachable": 103,
+    "unreachable": 21,
     "redirected": 21
   },
   "entries": [
@@ -772,8 +772,16 @@
       "title": "Stanford Splash",
       "category": "program",
       "source": "https://stanfordesp.org/",
-      "reachable": false,
-      "error": "AbortError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://stanfordesp.org/",
+      "pageTitle": "Stanford Splash - Welcome",
+      "sourceChanged": false,
+      "signals": [
+        "Register Forgot Password Help Privacy Policy contact us Privacy Policy This is editable text",
+        "Register Directions My Classes Registration Guide Parents Live Teachers Register Ideas Logistics LiveScan My Classes Volunteers Join the Admin FAQ N",
+        "Register Directions My Classes Registration Guide Parents Live Teachers Register Ideas Logistics LiveScan My Classes Volunteers Join the Admin FAQ U"
+      ]
     },
     {
       "id": "Summer Science Program",
@@ -875,7 +883,7 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://education.msu.edu/hshsp/",
-      "pageTitle": "High School Honors Science, Math and Engineering Program | College of Education | Michigan State University",
+      "pageTitle": "High School Honors Science, Math and Engineering Program",
       "sourceChanged": false,
       "signals": [
         "Application information Join us for the sixty-third annual High School Honors Science, Mathematics, and Engineering Program at Michigan State Universit"
@@ -1275,8 +1283,8 @@
       "pageTitle": "Page Not Found - NASA",
       "sourceChanged": false,
       "signals": [
-        "Opens Applications for Next Class of Flight Directors article 4 days ago 4 min read NASA Adds New Science Investigations for Moon Base article 6",
-        "Opens 2027 Human Lander Challenge for Lunar Communications article 7 days ago 3 min read Researchers: Help NASA Prevent Blood Clot Formation in S",
+        "Opens Applications for Next Class of Flight Directors article 5 days ago 4 min read NASA Adds New Science Investigations for Moon Base article 6",
+        "Opens 2027 Human Lander Challenge for Lunar Communications article 1 week ago 3 min read Researchers: Help NASA Prevent Blood Clot Formation in S",
         "Opens Applications for Second Season of ORBIT Student Challenge article 1 week ago Featured 3 min read NASA Testing Aims at Supercooled Large Dro"
       ]
     },
@@ -1292,7 +1300,7 @@
       "sourceChanged": true,
       "signals": [
         "Opens Applications for Next Class of Flight Directors article 4 days ago 4 min read NASA Adds New Science Investigations for Moon Base article 6",
-        "Opens 2027 Human Lander Challenge for Lunar Communications article 7 days ago 3 min read Researchers: Help NASA Prevent Blood Clot Formation in S",
+        "Opens 2027 Human Lander Challenge for Lunar Communications article 1 week ago 3 min read Researchers: Help NASA Prevent Blood Clot Formation in S",
         "Opens Applications for Second Season of ORBIT Student Challenge article 1 week ago Featured 3 min read NASA Testing Aims at Supercooled Large Dro"
       ]
     },
