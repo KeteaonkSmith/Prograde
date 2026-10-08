@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 102,
-    "unreachable": 22,
+    "reachable": 103,
+    "unreachable": 21,
     "redirected": 21
   },
   "entries": [
@@ -522,8 +522,16 @@
       "title": "Purdue Campus Visits",
       "category": "visit",
       "source": "https://admissions.purdue.edu/visit/",
-      "reachable": false,
-      "error": "TypeError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://admissions.purdue.edu/visit/",
+      "pageTitle": "Purdue University – Visit Us",
+      "sourceChanged": false,
+      "signals": [
+        "CLOSE Undergraduate Admissions Search Home Become a Student Support Your Student Admitted Students Academics Cost &amp; Aid Student Life Visit Co",
+        "Application Deadlines Apply Now Check Application Status Transfer Scholarships Quick links Accept Your Offer Class Profile College Prep Guide to Applyi",
+        "Apply plus_icon Apply Now Guide to Applying Deadlines First-Year Class Profile Closed Programs Application Status College Prep Timeline Informati"
+      ]
     },
     {
       "id": "Purdue AAE Prospective Family Visits",
@@ -1275,7 +1283,7 @@
       "pageTitle": "Page Not Found - NASA",
       "sourceChanged": false,
       "signals": [
-        "Opens Applications for Next Class of Flight Directors article 5 days ago 4 min read NASA Adds New Science Investigations for Moon Base article 7",
+        "Opens Applications for Next Class of Flight Directors article 6 days ago 4 min read NASA Adds New Science Investigations for Moon Base article 1",
         "Opens 2027 Human Lander Challenge for Lunar Communications article 1 week ago 3 min read Researchers: Help NASA Prevent Blood Clot Formation in S",
         "Opens Applications for Second Season of ORBIT Student Challenge article 1 week ago Featured 3 min read NASA Testing Aims at Supercooled Large Dro"
       ]
@@ -1291,7 +1299,7 @@
       "pageTitle": "Texas Aerospace Scholars - NASA",
       "sourceChanged": true,
       "signals": [
-        "Opens Applications for Next Class of Flight Directors article 5 days ago 4 min read NASA Adds New Science Investigations for Moon Base article 7",
+        "Opens Applications for Next Class of Flight Directors article 5 days ago 4 min read NASA Adds New Science Investigations for Moon Base article 1",
         "Opens 2027 Human Lander Challenge for Lunar Communications article 1 week ago 3 min read Researchers: Help NASA Prevent Blood Clot Formation in S",
         "Opens Applications for Second Season of ORBIT Student Challenge article 1 week ago Featured 3 min read NASA Testing Aims at Supercooled Large Dro"
       ]
