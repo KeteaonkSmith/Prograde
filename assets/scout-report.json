@@ -2,9 +2,9 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 101,
-    "unreachable": 23,
-    "redirected": 22
+    "reachable": 100,
+    "unreachable": 24,
+    "redirected": 21
   },
   "entries": [
     {
@@ -396,12 +396,8 @@
       "title": "NASA STEM Engagement Internships",
       "category": "program",
       "source": "https://stemgateway.nasa.gov/s/",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://stemgateway.nasa.gov/s/",
-      "pageTitle": "STEM Gateway",
-      "sourceChanged": false,
-      "signals": []
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "NSF Research Experiences for Undergraduates",
@@ -633,8 +629,16 @@
       "title": "Stanford Campus Visit",
       "category": "visit",
       "source": "https://admission.stanford.edu/engage/",
-      "reachable": false,
-      "error": "TypeError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://admission.stanford.edu/engage/",
+      "pageTitle": "Engage : Stanford University",
+      "sourceChanged": false,
+      "signals": [
+        "Apply Quick Links News &amp; Announcements Application Requirements Tours and Programs Cost of Attendance Admission Volunteers Updates for applic",
+        "Register for a live, virtual \"visit\" Nothing can replace visiting a college campus, but we are happy to offer virtual visit programming for those wh",
+        "registration do so purely for planning purposes"
+      ]
     },
     {
       "id": "Georgia Tech Visit",
@@ -982,16 +986,12 @@
       "title": "LEDA Scholars",
       "category": "program",
       "source": "https://ledascholars.org/our-program/",
-      "status": 200,
+      "status": 202,
       "reachable": true,
       "finalUrl": "https://ledascholars.org/our-program/",
-      "pageTitle": "What We Do | LEDA",
+      "pageTitle": "",
       "sourceChanged": false,
-      "signals": [
-        "Close The Need The Need Exceptional students from low-income backgrounds have unequal access to the top-tier colleges that cultivate most of our",
-        "Close What We Do What We Do LEDA runs the LEDA Scholars Program, the LEDA Career Network, and the LEDA Policy Project",
-        "Close Impact Impact A look at LEDA Scholars since our inception in 2003"
-      ]
+      "signals": []
     },
     {
       "id": "Matriculate",
@@ -1074,16 +1074,12 @@
       "title": "Ron Brown Scholar Program",
       "category": "scholarship",
       "source": "https://ronbrown.org/apply/ron-brown-scholarship/",
-      "status": 200,
+      "status": 202,
       "reachable": true,
-      "finalUrl": "https://ronbrown.org/ron-brown-scholarship/",
-      "pageTitle": "The Ron Brown Signature Scholarship &#8211; Ron Brown Scholar Program",
-      "sourceChanged": true,
-      "signals": [
-        "Register Today",
-        "APPLY NOW - 2027 Application is now open! Tickets &amp; Sponsorships Now Available for AJA 2025—Reserve Your Place! Remembering Our Dear Friend C",
-        "APPLICATION FOR THE 2027 SCHOLARSHIP COMPETITION IS NOW OPEN - ABOUT THE RON BROWN SIGNATURE SCHOLARSHIP The Ron Brown Scholarship honors the legacy of"
-      ]
+      "finalUrl": "https://ronbrown.org/apply/ron-brown-scholarship/",
+      "pageTitle": "",
+      "sourceChanged": false,
+      "signals": []
     },
     {
       "id": "Hispanic Scholarship Fund",
@@ -1209,10 +1205,10 @@
       "title": "Science Olympiad",
       "category": "competition",
       "source": "https://www.soinc.org/",
-      "status": 200,
+      "status": 202,
       "reachable": true,
       "finalUrl": "https://www.soinc.org/",
-      "pageTitle": "Science Olympiad",
+      "pageTitle": "",
       "sourceChanged": false,
       "signals": []
     },
@@ -1283,9 +1279,9 @@
       "pageTitle": "Page Not Found - NASA",
       "sourceChanged": false,
       "signals": [
-        "Opens Applications for Next Class of Flight Directors article 7 days ago 4 min read NASA Adds New Science Investigations for Moon Base article 1",
+        "Opens Applications for Next Class of Flight Directors article 1 week ago 4 min read NASA Adds New Science Investigations for Moon Base article 1",
         "Opens 2027 Human Lander Challenge for Lunar Communications article 1 week ago 3 min read Researchers: Help NASA Prevent Blood Clot Formation in S",
-        "Opens Applications for Second Season of ORBIT Student Challenge article 1 week ago Featured 3 min read NASA Testing Aims at Supercooled Large Dro"
+        "Opens Applications for Next Class of Flight Directors article 1 week ago 2 min read Help Overlap Zoo Reveal Cosmic Dust article 1 week ago Highli"
       ]
     },
     {
@@ -1293,24 +1289,24 @@
       "title": "NASA High School Aerospace Scholars",
       "category": "program",
       "source": "https://www.nasa.gov/learning-resources/high-school-aerospace-scholars/",
-      "status": 429,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://www.nasa.gov/learning-resources/texas-aerospace-scholars/",
-      "pageTitle": "429 Too Many Requests",
+      "pageTitle": "Texas Aerospace Scholars - NASA",
       "sourceChanged": true,
-      "signals": []
+      "signals": [
+        "Opens Applications for Next Class of Flight Directors article 7 days ago 4 min read NASA Adds New Science Investigations for Moon Base article 1",
+        "Opens 2027 Human Lander Challenge for Lunar Communications article 1 week ago 3 min read Researchers: Help NASA Prevent Blood Clot Formation in S",
+        "Opens Applications for Second Season of ORBIT Student Challenge article 1 week ago Featured 3 min read NASA Testing Aims at Supercooled Large Dro"
+      ]
     },
     {
       "id": "NASA STEM Gateway",
       "title": "NASA STEM Gateway",
       "category": "program",
       "source": "https://stemgateway.nasa.gov/s/",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://stemgateway.nasa.gov/s/",
-      "pageTitle": "STEM Gateway",
-      "sourceChanged": false,
-      "signals": []
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "OpenStax",
@@ -1505,16 +1501,8 @@
       "title": "Girls Who Code Clubs",
       "category": "program",
       "source": "https://girlswhocode.com/programs/clubs-program",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://girlswhocode.com/programs/clubs-program",
-      "pageTitle": "Girls Who Code | Join 670,000 Girls Who Code today!",
-      "sourceChanged": false,
-      "signals": [
-        "Apply to Start a Club What&#x27;s a Club? Clubs are free programs for all 3rd-12th graders of any skill level to join a sisterhood of supportive",
-        "Apply to Start a Club Sisterhood Join a safe and supportive environment of peers and role models where students learn to see themselves as comput",
-        "apply computational thinking and problem-solving skills in a rapidly evolving tech landscape"
-      ]
+      "reachable": false,
+      "error": "AbortError"
     },
     {
       "id": "Kode With Klossy",
