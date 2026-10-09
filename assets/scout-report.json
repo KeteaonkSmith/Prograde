@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 103,
-    "unreachable": 21,
+    "reachable": 101,
+    "unreachable": 23,
     "redirected": 22
   },
   "entries": [
@@ -633,16 +633,8 @@
       "title": "Stanford Campus Visit",
       "category": "visit",
       "source": "https://admission.stanford.edu/engage/",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://admission.stanford.edu/engage/",
-      "pageTitle": "Engage : Stanford University",
-      "sourceChanged": false,
-      "signals": [
-        "Apply Quick Links News &amp; Announcements Application Requirements Tours and Programs Cost of Attendance Admission Volunteers Updates for applic",
-        "Register for a live, virtual \"visit\" Nothing can replace visiting a college campus, but we are happy to offer virtual visit programming for those wh",
-        "registration do so purely for planning purposes"
-      ]
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "Georgia Tech Visit",
@@ -1291,7 +1283,7 @@
       "pageTitle": "Page Not Found - NASA",
       "sourceChanged": false,
       "signals": [
-        "Opens Applications for Next Class of Flight Directors article 6 days ago 4 min read NASA Adds New Science Investigations for Moon Base article 1",
+        "Opens Applications for Next Class of Flight Directors article 7 days ago 4 min read NASA Adds New Science Investigations for Moon Base article 1",
         "Opens 2027 Human Lander Challenge for Lunar Communications article 1 week ago 3 min read Researchers: Help NASA Prevent Blood Clot Formation in S",
         "Opens Applications for Second Season of ORBIT Student Challenge article 1 week ago Featured 3 min read NASA Testing Aims at Supercooled Large Dro"
       ]
@@ -1301,16 +1293,12 @@
       "title": "NASA High School Aerospace Scholars",
       "category": "program",
       "source": "https://www.nasa.gov/learning-resources/high-school-aerospace-scholars/",
-      "status": 200,
-      "reachable": true,
+      "status": 429,
+      "reachable": false,
       "finalUrl": "https://www.nasa.gov/learning-resources/texas-aerospace-scholars/",
-      "pageTitle": "Texas Aerospace Scholars - NASA",
+      "pageTitle": "429 Too Many Requests",
       "sourceChanged": true,
-      "signals": [
-        "Opens Applications for Next Class of Flight Directors article 6 days ago 4 min read NASA Adds New Science Investigations for Moon Base article 1",
-        "Opens 2027 Human Lander Challenge for Lunar Communications article 1 week ago 3 min read Researchers: Help NASA Prevent Blood Clot Formation in S",
-        "Opens Applications for Second Season of ORBIT Student Challenge article 1 week ago Featured 3 min read NASA Testing Aims at Supercooled Large Dro"
-      ]
+      "signals": []
     },
     {
       "id": "NASA STEM Gateway",
