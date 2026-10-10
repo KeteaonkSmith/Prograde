@@ -4,7 +4,7 @@
     "totalResources": 124,
     "reachable": 101,
     "unreachable": 23,
-    "redirected": 21
+    "redirected": 22
   },
   "entries": [
     {
@@ -986,12 +986,16 @@
       "title": "LEDA Scholars",
       "category": "program",
       "source": "https://ledascholars.org/our-program/",
-      "status": 202,
+      "status": 200,
       "reachable": true,
       "finalUrl": "https://ledascholars.org/our-program/",
-      "pageTitle": "",
+      "pageTitle": "What We Do | LEDA",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Close The Need The Need Exceptional students from low-income backgrounds have unequal access to the top-tier colleges that cultivate most of our",
+        "Close What We Do What We Do LEDA runs the LEDA Scholars Program, the LEDA Career Network, and the LEDA Policy Project",
+        "Close Impact Impact A look at LEDA Scholars since our inception in 2003"
+      ]
     },
     {
       "id": "Matriculate",
@@ -1074,12 +1078,16 @@
       "title": "Ron Brown Scholar Program",
       "category": "scholarship",
       "source": "https://ronbrown.org/apply/ron-brown-scholarship/",
-      "status": 202,
+      "status": 200,
       "reachable": true,
-      "finalUrl": "https://ronbrown.org/apply/ron-brown-scholarship/",
-      "pageTitle": "",
-      "sourceChanged": false,
-      "signals": []
+      "finalUrl": "https://ronbrown.org/ron-brown-scholarship/",
+      "pageTitle": "The Ron Brown Signature Scholarship &#8211; Ron Brown Scholar Program",
+      "sourceChanged": true,
+      "signals": [
+        "Register Today",
+        "APPLY NOW - 2027 Application is now open! Tickets &amp; Sponsorships Now Available for AJA 2025—Reserve Your Place! Remembering Our Dear Friend C",
+        "APPLICATION FOR THE 2027 SCHOLARSHIP COMPETITION IS NOW OPEN - ABOUT THE RON BROWN SIGNATURE SCHOLARSHIP The Ron Brown Scholarship honors the legacy of"
+      ]
     },
     {
       "id": "Hispanic Scholarship Fund",
@@ -1205,10 +1213,10 @@
       "title": "Science Olympiad",
       "category": "competition",
       "source": "https://www.soinc.org/",
-      "status": 202,
+      "status": 200,
       "reachable": true,
       "finalUrl": "https://www.soinc.org/",
-      "pageTitle": "",
+      "pageTitle": "Science Olympiad",
       "sourceChanged": false,
       "signals": []
     },
@@ -1279,8 +1287,8 @@
       "pageTitle": "Page Not Found - NASA",
       "sourceChanged": false,
       "signals": [
-        "Opens 2027 Human Lander Challenge for Lunar Communications article 1 week ago 3 min read Researchers: Help NASA Prevent Blood Clot Formation in S",
-        "Opens Applications for Next Class of Flight Directors article 1 week ago 2 min read NASA Releases Artemis II Lunar Science Data, Images article 2",
+        "Opens 2027 Human Lander Challenge for Lunar Communications article 2 weeks ago 3 min read Researchers: Help NASA Prevent Blood Clot Formation in",
+        "Opens Applications for Next Class of Flight Directors article 1 week ago 2 min read NASA Releases Artemis II Lunar Science Data, Images article 3",
         "opens in new tab) Follow NASA More NASA Social Accounts NASA Newsletters Sitemap For Media Privacy Policy FOIA No FEAR Act Office of the IG (open"
       ]
     },
@@ -1295,9 +1303,9 @@
       "pageTitle": "Texas Aerospace Scholars - NASA",
       "sourceChanged": true,
       "signals": [
-        "Opens Applications for Next Class of Flight Directors article 1 week ago 4 min read NASA Adds New Science Investigations for Moon Base article 1",
-        "Opens 2027 Human Lander Challenge for Lunar Communications article 1 week ago 3 min read Researchers: Help NASA Prevent Blood Clot Formation in S",
-        "Opens Applications for Next Class of Flight Directors article 1 week ago 2 min read Help Overlap Zoo Reveal Cosmic Dust article 1 week ago Highli"
+        "Opens 2027 Human Lander Challenge for Lunar Communications article 2 weeks ago 3 min read Researchers: Help NASA Prevent Blood Clot Formation in",
+        "Opens Applications for Next Class of Flight Directors article 1 week ago 2 min read NASA Releases Artemis II Lunar Science Data, Images article 3",
+        "Application about Texas Aerospace Scholars 2026-2027 Junior Application Window July 1 &#8211; Sept"
       ]
     },
     {
@@ -1375,14 +1383,8 @@
       "title": "FAFSA",
       "category": "tool",
       "source": "https://studentaid.gov/h/apply-for-aid/fafsa",
-      "status": 403,
       "reachable": false,
-      "finalUrl": "https://studentaid.gov/h/apply-for-aid/fafsa",
-      "pageTitle": "Access Denied",
-      "sourceChanged": false,
-      "signals": [
-        "apply&#45;for&#45;aid&#47;fafsa\" on this server"
-      ]
+      "error": "AbortError"
     },
     {
       "id": "Common App",
