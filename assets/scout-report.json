@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 100,
-    "unreachable": 24,
+    "reachable": 101,
+    "unreachable": 23,
     "redirected": 21
   },
   "entries": [
@@ -1279,9 +1279,9 @@
       "pageTitle": "Page Not Found - NASA",
       "sourceChanged": false,
       "signals": [
-        "Opens Applications for Next Class of Flight Directors article 1 week ago 4 min read NASA Adds New Science Investigations for Moon Base article 1",
         "Opens 2027 Human Lander Challenge for Lunar Communications article 1 week ago 3 min read Researchers: Help NASA Prevent Blood Clot Formation in S",
-        "Opens Applications for Next Class of Flight Directors article 1 week ago 2 min read Help Overlap Zoo Reveal Cosmic Dust article 1 week ago Highli"
+        "Opens Applications for Next Class of Flight Directors article 1 week ago 2 min read NASA Releases Artemis II Lunar Science Data, Images article 2",
+        "opens in new tab) Follow NASA More NASA Social Accounts NASA Newsletters Sitemap For Media Privacy Policy FOIA No FEAR Act Office of the IG (open"
       ]
     },
     {
@@ -1295,9 +1295,9 @@
       "pageTitle": "Texas Aerospace Scholars - NASA",
       "sourceChanged": true,
       "signals": [
-        "Opens Applications for Next Class of Flight Directors article 7 days ago 4 min read NASA Adds New Science Investigations for Moon Base article 1",
+        "Opens Applications for Next Class of Flight Directors article 1 week ago 4 min read NASA Adds New Science Investigations for Moon Base article 1",
         "Opens 2027 Human Lander Challenge for Lunar Communications article 1 week ago 3 min read Researchers: Help NASA Prevent Blood Clot Formation in S",
-        "Opens Applications for Second Season of ORBIT Student Challenge article 1 week ago Featured 3 min read NASA Testing Aims at Supercooled Large Dro"
+        "Opens Applications for Next Class of Flight Directors article 1 week ago 2 min read Help Overlap Zoo Reveal Cosmic Dust article 1 week ago Highli"
       ]
     },
     {
@@ -1375,8 +1375,14 @@
       "title": "FAFSA",
       "category": "tool",
       "source": "https://studentaid.gov/h/apply-for-aid/fafsa",
+      "status": 403,
       "reachable": false,
-      "error": "AbortError"
+      "finalUrl": "https://studentaid.gov/h/apply-for-aid/fafsa",
+      "pageTitle": "Access Denied",
+      "sourceChanged": false,
+      "signals": [
+        "apply&#45;for&#45;aid&#47;fafsa\" on this server"
+      ]
     },
     {
       "id": "Common App",
@@ -1501,8 +1507,16 @@
       "title": "Girls Who Code Clubs",
       "category": "program",
       "source": "https://girlswhocode.com/programs/clubs-program",
-      "reachable": false,
-      "error": "AbortError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://girlswhocode.com/programs/clubs-program",
+      "pageTitle": "Girls Who Code | Join 670,000 Girls Who Code today!",
+      "sourceChanged": false,
+      "signals": [
+        "Apply to Start a Club What&#x27;s a Club? Clubs are free programs for all 3rd-12th graders of any skill level to join a sisterhood of supportive",
+        "Apply to Start a Club Sisterhood Join a safe and supportive environment of peers and role models where students learn to see themselves as comput",
+        "apply computational thinking and problem-solving skills in a rapidly evolving tech landscape"
+      ]
     },
     {
       "id": "Kode With Klossy",
