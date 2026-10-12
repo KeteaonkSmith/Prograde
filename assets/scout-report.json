@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 100,
-    "unreachable": 24,
+    "reachable": 101,
+    "unreachable": 23,
     "redirected": 22
   },
   "entries": [
@@ -480,8 +480,12 @@
       "title": "Purdue OWL",
       "category": "study",
       "source": "https://owl.purdue.edu/",
-      "reachable": false,
-      "error": "TypeError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://owl.purdue.edu/",
+      "pageTitle": "Purdue OWL® - Purdue OWL® - Purdue University",
+      "sourceChanged": false,
+      "signals": []
     },
     {
       "id": "Zotero",
@@ -830,11 +834,13 @@
       "source": "https://www.stonybrook.edu/commcms/simons/",
       "status": 200,
       "reachable": true,
-      "finalUrl": "https://www.stonybrook.edu/commcms/simons/",
-      "pageTitle": "Simons Summer Research Program | Stony Brook University",
-      "sourceChanged": false,
+      "finalUrl": "https://www.stonybrook.edu/simons/",
+      "pageTitle": "Simons Summer Research Program",
+      "sourceChanged": true,
       "signals": [
-        "Application Guidelines Nomination Recommendations Forms Alumni News Recent Announcements Science Talent Search&nbsp;(STS) Siemens Competition Useful Li"
+        "Application Guidelines Nomination Recommendations Forms FAQ Contact Us More HOME About Fellows Mentors Applying to SSRP Application Guidelines Nominati",
+        "Application Guidelines Nomination Recommendations Forms FAQ Contact Us Welcome The&nbsp; Simons Summer Research Program &nbsp;gives academically talent",
+        "Application link will be posted on November 15"
       ]
     },
     {
@@ -875,7 +881,7 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://education.msu.edu/hshsp/",
-      "pageTitle": "High School Honors Science, Math and Engineering Program",
+      "pageTitle": "High School Honors Science, Math and Engineering Program | College of Education | Michigan State University",
       "sourceChanged": false,
       "signals": [
         "Application information Join us for the sixty-third annual High School Honors Science, Mathematics, and Engineering Program at Michigan State Universit"
@@ -982,16 +988,12 @@
       "title": "LEDA Scholars",
       "category": "program",
       "source": "https://ledascholars.org/our-program/",
-      "status": 200,
+      "status": 202,
       "reachable": true,
       "finalUrl": "https://ledascholars.org/our-program/",
-      "pageTitle": "What We Do | LEDA",
+      "pageTitle": "",
       "sourceChanged": false,
-      "signals": [
-        "Close The Need The Need Exceptional students from low-income backgrounds have unequal access to the top-tier colleges that cultivate most of our",
-        "Close What We Do What We Do LEDA runs the LEDA Scholars Program, the LEDA Career Network, and the LEDA Policy Project",
-        "Close Impact Impact A look at LEDA Scholars since our inception in 2003"
-      ]
+      "signals": []
     },
     {
       "id": "Matriculate",
@@ -1074,16 +1076,12 @@
       "title": "Ron Brown Scholar Program",
       "category": "scholarship",
       "source": "https://ronbrown.org/apply/ron-brown-scholarship/",
-      "status": 200,
+      "status": 202,
       "reachable": true,
-      "finalUrl": "https://ronbrown.org/ron-brown-scholarship/",
-      "pageTitle": "The Ron Brown Signature Scholarship &#8211; Ron Brown Scholar Program",
-      "sourceChanged": true,
-      "signals": [
-        "Register Today",
-        "APPLY NOW - 2027 Application is now open! Tickets &amp; Sponsorships Now Available for AJA 2025—Reserve Your Place! Remembering Our Dear Friend C",
-        "APPLICATION FOR THE 2027 SCHOLARSHIP COMPETITION IS NOW OPEN - ABOUT THE RON BROWN SIGNATURE SCHOLARSHIP The Ron Brown Scholarship honors the legacy of"
-      ]
+      "finalUrl": "https://ronbrown.org/apply/ron-brown-scholarship/",
+      "pageTitle": "",
+      "sourceChanged": false,
+      "signals": []
     },
     {
       "id": "Hispanic Scholarship Fund",
@@ -1209,10 +1207,10 @@
       "title": "Science Olympiad",
       "category": "competition",
       "source": "https://www.soinc.org/",
-      "status": 200,
+      "status": 202,
       "reachable": true,
       "finalUrl": "https://www.soinc.org/",
-      "pageTitle": "Science Olympiad",
+      "pageTitle": "",
       "sourceChanged": false,
       "signals": []
     },
@@ -1284,7 +1282,7 @@
       "sourceChanged": false,
       "signals": [
         "Opens 2027 Human Lander Challenge for Lunar Communications article 2 weeks ago 3 min read Researchers: Help NASA Prevent Blood Clot Formation in",
-        "Opens Applications for Next Class of Flight Directors article 1 week ago 2 min read NASA Releases Artemis II Lunar Science Data, Images article 4",
+        "Opens Applications for Next Class of Flight Directors article 1 week ago 2 min read NASA Releases Artemis II Lunar Science Data, Images article 5",
         "opens in new tab) Follow NASA More NASA Social Accounts NASA Newsletters Sitemap For Media Privacy Policy FOIA No FEAR Act Office of the IG (open"
       ]
     },
@@ -1300,7 +1298,7 @@
       "sourceChanged": true,
       "signals": [
         "Opens 2027 Human Lander Challenge for Lunar Communications article 2 weeks ago 3 min read Researchers: Help NASA Prevent Blood Clot Formation in",
-        "Opens Applications for Next Class of Flight Directors article 1 week ago 2 min read NASA Releases Artemis II Lunar Science Data, Images article 4",
+        "Opens Applications for Next Class of Flight Directors article 1 week ago 2 min read NASA Releases Artemis II Lunar Science Data, Images article 5",
         "Application about Texas Aerospace Scholars 2026-2027 Junior Application Window July 1 &#8211; Sept"
       ]
     },
@@ -1483,9 +1481,9 @@
       "pageTitle": "iD Tech Scholarship Programs | 2026",
       "sourceChanged": false,
       "signals": [
-        "Registration opens Nov 8th Registration for Summer ‘27 opens November 8th! In the meantime, check out our year-round Private Lessons to allow your child",
-        "Register now, pay later Spread the cost of camp out over time with a payment plan",
-        "Register for camp and invite friends! You'll earn a $25 credit for each new referral, and your friends save too!&nbsp; View details View details Req"
+        "application will go live in November 2026! Please check back then for updates and new opportunities",
+        "Registration for Summer ‘27 camps and academies opens to the public November 8th! Start planning an unforgettable summer by downloading our ‘26 brochure",
+        "apply On-campus Summer Programs Online Camps &amp; Classes Submit By submitting your number, you consent to receive occasional text messages from"
       ]
     },
     {
@@ -1627,7 +1625,8 @@
       "pageTitle": "Catalog Home | Codecademy",
       "sourceChanged": true,
       "signals": [
-        "Open source PHP Professional skills Python R Ruby SQL Swift Web design Web development Beta catalog For business Where do I begin? Trending subj"
+        "Open source PHP Professional skills Python R Ruby SQL Swift Web design Web development Beta catalog For business Where do I begin? Trending subj",
+        "open-source programming language supported by Google! Checker Dense Beginner Friendly"
       ]
     },
     {
