@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 100,
-    "unreachable": 24,
+    "reachable": 101,
+    "unreachable": 23,
     "redirected": 23
   },
   "entries": [
@@ -134,12 +134,12 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://about.bankofamerica.com/en/making-an-impact/student-leaders",
-      "pageTitle": "Bank of America Student Leaders® Program - Bank of America",
+      "pageTitle": "Bank of America Student Leaders®: Internship Program",
       "sourceChanged": false,
       "signals": [
-        "Close Important notice you are now leaving Bank of America Top Sign in Contact us Location finder Help Our company Responsible growth Business pr",
-        "apply",
-        "apply to wires and certain transfers"
+        "application",
+        "apply? Yes",
+        "apply if they meet all other eligibility requirements"
       ]
     },
     {
@@ -629,8 +629,16 @@
       "title": "Stanford Campus Visit",
       "category": "visit",
       "source": "https://admission.stanford.edu/engage/",
-      "reachable": false,
-      "error": "TypeError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://admission.stanford.edu/engage/",
+      "pageTitle": "Engage : Stanford University",
+      "sourceChanged": false,
+      "signals": [
+        "Apply Quick Links News &amp; Announcements Application Requirements Tours and Programs Cost of Attendance Admission Volunteers Updates for applic",
+        "Register for a live, virtual \"visit\" Nothing can replace visiting a college campus, but we are happy to offer virtual visit programming for those wh",
+        "registration do so purely for planning purposes"
+      ]
     },
     {
       "id": "Georgia Tech Visit",
@@ -1239,7 +1247,7 @@
       "signals": [
         "Registration + Information Competitions Policies AMC International MAA Putnam National Math Talent Fund Events MAA MathFest National Events Community Ev",
         "Registration Info AMC Policies &nbsp; Founded in 1950, the AMC is the preeminent math competition for students K-12",
-        "register directly with the MAA"
+        "Register your accredited middle/high school, university, math circle, or learning center to be an approved competition site, and pay the fees by the"
       ]
     },
     {
