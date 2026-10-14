@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 101,
-    "unreachable": 23,
+    "reachable": 100,
+    "unreachable": 24,
     "redirected": 23
   },
   "entries": [
@@ -154,7 +154,7 @@
       "sourceChanged": false,
       "signals": [
         "Apply Costs and Funding Policies and Safety For Admitted Students Students in Need of Accommodations Registration Course Registration Internation",
-        "Register Today Facebook YouTube Instagram LinkedIn High School Programs / Secondary School Program Harvard Summer School’s Secondary School Program",
+        "Apply for Summer 2027 Programs Register Today Facebook YouTube Instagram LinkedIn High School Programs / Secondary School Program Harvard Summer",
         "application fee Courses 7-Week: 200+ Courses to Choose From 4-Week: 20 Courses to Choose From 4-Week Session I: June 14–July 8, 2027 Session II: July 1"
       ]
     },
@@ -629,16 +629,8 @@
       "title": "Stanford Campus Visit",
       "category": "visit",
       "source": "https://admission.stanford.edu/engage/",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://admission.stanford.edu/engage/",
-      "pageTitle": "Engage : Stanford University",
-      "sourceChanged": false,
-      "signals": [
-        "Apply Quick Links News &amp; Announcements Application Requirements Tours and Programs Cost of Attendance Admission Volunteers Updates for applic",
-        "Register for a live, virtual \"visit\" Nothing can replace visiting a college campus, but we are happy to offer virtual visit programming for those wh",
-        "registration do so purely for planning purposes"
-      ]
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "Georgia Tech Visit",
@@ -881,7 +873,7 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://education.msu.edu/hshsp/",
-      "pageTitle": "High School Honors Science, Math and Engineering Program",
+      "pageTitle": "High School Honors Science, Math and Engineering Program | College of Education | Michigan State University",
       "sourceChanged": false,
       "signals": [
         "Application information Join us for the sixty-third annual High School Honors Science, Mathematics, and Engineering Program at Michigan State Universit"
