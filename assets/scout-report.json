@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 101,
-    "unreachable": 23,
+    "reachable": 100,
+    "unreachable": 24,
     "redirected": 23
   },
   "entries": [
@@ -59,12 +59,9 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://www.mlh.com/",
-      "pageTitle": "Major League Hacking | Hackathons and Developer Programs | Major League Hacking",
+      "pageTitle": "",
       "sourceChanged": true,
-      "signals": [
-        "open source projects with peers and engineers from top companies",
-        "Apply Resources Code of Conduct Prizes &amp; Freebies Branding Guidelines About MLH Contact Us Blog Partners Work at MLH Privacy Terms of Service"
-      ]
+      "signals": []
     },
     {
       "id": "MIT PRIMES / PRIMES-USA",
@@ -227,16 +224,8 @@
       "title": "Elks Most Valuable Student",
       "category": "scholarship",
       "source": "https://hq.elks.org/scholars/mvs.cfm",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://hq.elks.org/scholars/mvs.cfm",
-      "pageTitle": "Most Valuable Student",
-      "sourceChanged": false,
-      "signals": [
-        "Register Login &#160; Menu Donate ELKS HOME WHO WE ARE Who We Are Info and Testimonials Elks History Project History of BPO Elks Elks Video Gallery",
-        "application has closed",
-        "application opens on August 1, 2026"
-      ]
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "Davidson Fellows Scholarship",
@@ -881,7 +870,7 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://education.msu.edu/hshsp/",
-      "pageTitle": "High School Honors Science, Math and Engineering Program",
+      "pageTitle": "High School Honors Science, Math and Engineering Program | College of Education | Michigan State University",
       "sourceChanged": false,
       "signals": [
         "Application information Join us for the sixty-third annual High School Honors Science, Mathematics, and Engineering Program at Michigan State Universit"
