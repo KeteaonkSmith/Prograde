@@ -2,9 +2,9 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 101,
-    "unreachable": 23,
-    "redirected": 23
+    "reachable": 100,
+    "unreachable": 24,
+    "redirected": 22
   },
   "entries": [
     {
@@ -800,16 +800,8 @@
       "title": "COSMOS",
       "category": "program",
       "source": "https://cosmos-ucop.ucdavis.edu/",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://cosmos-ucop.ucdavis.edu/app/main",
-      "pageTitle": "Welcome to COSMOS - COSMOS Platform",
-      "sourceChanged": true,
-      "signals": [
-        "Apply to COSMOS Application and Payment Basics Dates &amp; Deadlines Program Fees Financial Assistance Residential Life Statewide Policies and Pr",
-        "DEADLINE FOR ALL APPLICATION MATERIALS: FEBRUARY 5, 2027, 11:59 PM COSMOS is Limited to California High-School Students Only ** COSMOS is a full res",
-        "apply to ONE of the listed University of California’s COSMOS campuses — UC Davis, UC Irvine, UC Los Angeles, UC Merced, UC San Diego, and UC Sant"
-      ]
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "Boston University RISE",
@@ -1512,7 +1504,7 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://girlswhocode.com/programs/clubs-program",
-      "pageTitle": "Girls Who Code | Join 670,000 Girls Who Code today!",
+      "pageTitle": "Girls Who Code | Clubs",
       "sourceChanged": false,
       "signals": [
         "Apply to Start a Club What&#x27;s a Club? Clubs are free programs for all 3rd-12th graders of any skill level to join a sisterhood of supportive",
