@@ -881,7 +881,7 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://education.msu.edu/hshsp/",
-      "pageTitle": "High School Honors Science, Math and Engineering Program | College of Education | Michigan State University",
+      "pageTitle": "High School Honors Science, Math and Engineering Program",
       "sourceChanged": false,
       "signals": [
         "Application information Join us for the sixty-third annual High School Honors Science, Mathematics, and Engineering Program at Michigan State Universit"
@@ -1054,9 +1054,9 @@
       "pageTitle": "For Students - Dell Scholars",
       "sourceChanged": true,
       "signals": [
+        "Apply Now Login Scholar Login Applicant Login Apply Now Your Journey Starts Here Coaching and Support From College to Career The Dell Scholars pr",
         "Apply The challenges of navigating higher education while worrying about basic needs like food and housing felt overwhelming",
-        "open to talk to is very helpful",
-        "Apply? To be eligible for the 2027 application cycle, you must: Be a high school senior graduating from a Texas high school Participate in an app"
+        "open to talk to is very helpful"
       ]
     },
     {
@@ -1631,7 +1631,7 @@
       "pageTitle": "Catalog Home | Codecademy",
       "sourceChanged": true,
       "signals": [
-        "Open source PHP Professional skills Python R Ruby SQL Swift Web design Web development Beta catalog For business Where do I begin? Trending subj"
+        "Open source PHP Professional skills Python R Ruby SQL Swift Web design Web development For business Where do I begin? Trending subjects &amp; la"
       ]
     },
     {
