@@ -1466,15 +1466,12 @@
       "title": "Davidson Institute THINK",
       "category": "program",
       "source": "https://www.davidsongifted.org/gifted-programs/think-summer/",
-      "status": 404,
+      "status": 504,
       "reachable": false,
       "finalUrl": "https://www.davidsongifted.org/gifted-programs/think-summer/",
-      "pageTitle": "Page not found - Davidson Institute",
+      "pageTitle": "wpenginepowered.com | 504: Gateway time-out",
       "sourceChanged": false,
-      "signals": [
-        "Open Search Open Search Programs and Scholarships Toggle Submenu Young Scholars Summer Opportunities Toggle Submenu Camps Annual Family Events F",
-        "Close search dialog Enter a search term Search Oh no! The page you're looking for doesn't exist Please use the quick links or the link below to g"
-      ]
+      "signals": []
     },
     {
       "id": "iD Tech Scholarships",
