@@ -34,7 +34,7 @@
       "signals": [
         "REGISTRATION - Skip to content Menu Connecting today's Congress with tomorrow's innovators",
         "REGISTRATION RULES PARTICIPATING DISTRICTS PAST WINNERS LEARN TO CODE TOP APPS PRESENTED BY THECODERSCHOOL #HOUSEOFCODE CONGRESS RESOURCES CONGRESSIONAL",
-        "Close Menu REGISTER IN 2026 Registration for the 2026 Congressional App Challenge is now open! The 2026 competition deadline is scheduled for Oct"
+        "Close Menu REGISTER IN 2026 Registration for the 2026 Congressional App Challenge is now closed"
       ]
     },
     {
@@ -881,7 +881,7 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://education.msu.edu/hshsp/",
-      "pageTitle": "High School Honors Science, Math and Engineering Program",
+      "pageTitle": "High School Honors Science, Math and Engineering Program | College of Education | Michigan State University",
       "sourceChanged": false,
       "signals": [
         "Application information Join us for the sixty-third annual High School Honors Science, Mathematics, and Engineering Program at Michigan State Universit"
@@ -1466,12 +1466,15 @@
       "title": "Davidson Institute THINK",
       "category": "program",
       "source": "https://www.davidsongifted.org/gifted-programs/think-summer/",
-      "status": 504,
+      "status": 404,
       "reachable": false,
       "finalUrl": "https://www.davidsongifted.org/gifted-programs/think-summer/",
-      "pageTitle": "wpenginepowered.com | 504: Gateway time-out",
+      "pageTitle": "Page not found - Davidson Institute",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Open Search Open Search Programs and Scholarships Toggle Submenu Young Scholars Summer Opportunities Toggle Submenu Camps Annual Family Events F",
+        "Close search dialog Enter a search term Search Oh no! The page you're looking for doesn't exist Please use the quick links or the link below to g"
+      ]
     },
     {
       "id": "iD Tech Scholarships",
