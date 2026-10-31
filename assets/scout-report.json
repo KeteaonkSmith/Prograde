@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 100,
-    "unreachable": 24,
+    "reachable": 101,
+    "unreachable": 23,
     "redirected": 23
   },
   "entries": [
@@ -629,8 +629,16 @@
       "title": "Stanford Campus Visit",
       "category": "visit",
       "source": "https://admission.stanford.edu/engage/",
-      "reachable": false,
-      "error": "TypeError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://admission.stanford.edu/engage/",
+      "pageTitle": "Engage : Stanford University",
+      "sourceChanged": false,
+      "signals": [
+        "Apply Quick Links News &amp; Announcements Application Requirements Tours and Programs Cost of Attendance Admission Volunteers Updates for applic",
+        "Register for a live, virtual \"visit\" Nothing can replace visiting a college campus, but we are happy to offer virtual visit programming for those wh",
+        "registration do so purely for planning purposes"
+      ]
     },
     {
       "id": "Georgia Tech Visit",
@@ -1479,9 +1487,9 @@
       "pageTitle": "iD Tech Scholarship Programs | 2026",
       "sourceChanged": false,
       "signals": [
-        "application will go live in November 2026! Please check back then for updates and new opportunities",
-        "apply On-campus Summer Programs Online Camps &amp; Classes Submit By submitting your number, you consent to receive occasional text messages from",
-        "apply"
+        "application DOES NOT guarantee receiving a scholarship",
+        "Application for 2027 Season (For Individuals) iD Tech is providing scholarship opportunities for underserved students ages 7-19 to experience the world",
+        "apply, submit your Individual application: Apply Now &nbsp; Entries accepted until Noon PT, July 1, 2027"
       ]
     },
     {
