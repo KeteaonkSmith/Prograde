@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 101,
-    "unreachable": 23,
+    "reachable": 102,
+    "unreachable": 22,
     "redirected": 23
   },
   "entries": [
@@ -169,9 +169,9 @@
       "pageTitle": "High School | Summer Session",
       "sourceChanged": true,
       "signals": [
-        "Apply now High School JUNE 19 – AUGUST 15, 2027 Study with a dynamic student body from more than 60 countries and earn an official transcript fro",
-        "Application Requirements As part of the application, you will be asked to supply: transcripts, one essay, and proof of English proficiency (if necessar",
-        "application"
+        "open! Residential space is limited",
+        "deadline for Early Decision is December 14",
+        "Apply now Summer Session Request info Apply now High School JUNE 19 – AUGUST 15, 2027 Study with a dynamic student body from more than 60 countri"
       ]
     },
     {
@@ -1371,12 +1371,16 @@
       "title": "College Scorecard",
       "category": "tool",
       "source": "https://collegescorecard.ed.gov/",
-      "status": 403,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://collegescorecard.ed.gov/",
-      "pageTitle": "ERROR: The request could not be satisfied",
+      "pageTitle": "Home | College Scorecard",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Application You can learn more about the types of financial aid that are available at StudentAid",
+        "Application for Federal Student Aid (FAFSA®) form",
+        "Application Veterans are eligible for higher education funding through the G"
+      ]
     },
     {
       "id": "FAFSA",
@@ -1513,7 +1517,7 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://girlswhocode.com/programs/clubs-program",
-      "pageTitle": "Girls Who Code | Join 670,000 Girls Who Code today!",
+      "pageTitle": "Girls Who Code | Clubs",
       "sourceChanged": false,
       "signals": [
         "Apply to Start a Club What&#x27;s a Club? Clubs are free programs for all 3rd-12th graders of any skill level to join a sisterhood of supportive",
