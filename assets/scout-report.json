@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 102,
-    "unreachable": 22,
+    "reachable": 100,
+    "unreachable": 24,
     "redirected": 23
   },
   "entries": [
@@ -629,16 +629,8 @@
       "title": "Stanford Campus Visit",
       "category": "visit",
       "source": "https://admission.stanford.edu/engage/",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://admission.stanford.edu/engage/",
-      "pageTitle": "Engage : Stanford University",
-      "sourceChanged": false,
-      "signals": [
-        "Apply Quick Links News &amp; Announcements Application Requirements Tours and Programs Cost of Attendance Admission Volunteers Updates for applic",
-        "Register for a live, virtual \"visit\" Nothing can replace visiting a college campus, but we are happy to offer virtual visit programming for those wh",
-        "registration do so purely for planning purposes"
-      ]
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "Georgia Tech Visit",
@@ -1134,9 +1126,9 @@
       "pageTitle": "Scholarship and Internship - Amazon Future Engineer",
       "sourceChanged": false,
       "signals": [
-        "opens",
-        "apply! When it comes to a paid industry internship and up to $40,000 in scholarships, your time can go a long way",
-        "Apply! Danielle Darfour University of California, 2027 I’m grateful for the opportunity to grow my career with Amazon, especially so early in my"
+        "Apply Now This year, we’ve made a BIG change! AFE is now supporting both Automation Engineering and Software Development Engineering",
+        "apply",
+        "Apply now! Eligibility requirements Be a high school senior in the U"
       ]
     },
     {
@@ -1371,16 +1363,12 @@
       "title": "College Scorecard",
       "category": "tool",
       "source": "https://collegescorecard.ed.gov/",
-      "status": 200,
-      "reachable": true,
+      "status": 403,
+      "reachable": false,
       "finalUrl": "https://collegescorecard.ed.gov/",
-      "pageTitle": "Home | College Scorecard",
+      "pageTitle": "ERROR: The request could not be satisfied",
       "sourceChanged": false,
-      "signals": [
-        "Application You can learn more about the types of financial aid that are available at StudentAid",
-        "Application for Federal Student Aid (FAFSA®) form",
-        "Application Veterans are eligible for higher education funding through the G"
-      ]
+      "signals": []
     },
     {
       "id": "FAFSA",
