@@ -4,7 +4,7 @@
     "totalResources": 124,
     "reachable": 101,
     "unreachable": 23,
-    "redirected": 23
+    "redirected": 24
   },
   "entries": [
     {
@@ -599,13 +599,13 @@
       "source": "https://spcs.stanford.edu/programs/stanford-ai4all",
       "status": 200,
       "reachable": true,
-      "finalUrl": "https://spcs.stanford.edu/programs/stanford-ai4all",
-      "pageTitle": "Stanford AI4ALL | Stanford Pre-Collegiate Studies",
-      "sourceChanged": false,
+      "finalUrl": "https://ai4all.spcs.stanford.edu/",
+      "pageTitle": "Stanford AI4ALL | Stanford AI4ALL",
+      "sourceChanged": true,
       "signals": [
-        "Close Help Navigation Explore Our Programs Jobs Join Our Mailing List Contact Us Support Us Search Search About Us Our Offerings Academic Enrichm",
-        "Open to current 9th graders, students learn alongside peers from around the globe and explore how AI tools can make a positive impact in the wor",
-        "Application Deadline February 6, 2026 Grade level(s) 9 Credit Non-Credit Enrichment Program format Online Residential Time of year Summer Program subje"
+        "Close Join Our Mailing List Contact Us Search Program Details Student Experience AI4ALL Residential AI4ALL Online Admissions Admissions Overview",
+        "Open to current 9th graders, students learn alongside peers from around the globe and explore how AI tools can help make the world a better plac",
+        "Open to current 9th grade students who are passionate about unlocking AI’s potential to make a positive impact and shape the future of computer"
       ]
     },
     {
@@ -881,7 +881,7 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://education.msu.edu/hshsp/",
-      "pageTitle": "High School Honors Science, Math and Engineering Program",
+      "pageTitle": "High School Honors Science, Math and Engineering Program | College of Education | Michigan State University",
       "sourceChanged": false,
       "signals": [
         "Application information Join us for the sixty-third annual High School Honors Science, Mathematics, and Engineering Program at Michigan State Universit"
