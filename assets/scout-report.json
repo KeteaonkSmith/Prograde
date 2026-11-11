@@ -2,9 +2,9 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 101,
-    "unreachable": 23,
-    "redirected": 24
+    "reachable": 100,
+    "unreachable": 24,
+    "redirected": 23
   },
   "entries": [
     {
@@ -676,16 +676,8 @@
       "title": "Carnegie Mellon Admission Visits",
       "category": "visit",
       "source": "https://www.cmu.edu/admission/visit",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://www.cmu.edu/visit/campus-tours/",
-      "pageTitle": "Campus Tours | CMU Visit",
-      "sourceChanged": true,
-      "signals": [
-        "close look at our academic buildings and vibrant student life , allowing you to click and explore on your own schedule",
-        "register for scheduled events and tours",
-        "open houses, we may limit the number of guests to three in order to allow more visitors the opportunity to register"
-      ]
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "University of Michigan Visit",
@@ -881,7 +873,7 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://education.msu.edu/hshsp/",
-      "pageTitle": "High School Honors Science, Math and Engineering Program",
+      "pageTitle": "High School Honors Science, Math and Engineering Program | College of Education | Michigan State University",
       "sourceChanged": false,
       "signals": [
         "Application information Join us for the sixty-third annual High School Honors Science, Mathematics, and Engineering Program at Michigan State Universit"
