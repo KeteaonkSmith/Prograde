@@ -4,7 +4,7 @@
     "totalResources": 124,
     "reachable": 100,
     "unreachable": 24,
-    "redirected": 23
+    "redirected": 24
   },
   "entries": [
     {
@@ -676,8 +676,16 @@
       "title": "Carnegie Mellon Admission Visits",
       "category": "visit",
       "source": "https://www.cmu.edu/admission/visit",
-      "reachable": false,
-      "error": "TypeError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://www.cmu.edu/visit/campus-tours/",
+      "pageTitle": "Campus Tours | CMU Visit",
+      "sourceChanged": true,
+      "signals": [
+        "close look at our academic buildings and vibrant student life , allowing you to click and explore on your own schedule",
+        "register for scheduled events and tours",
+        "open houses, we may limit the number of guests to three in order to allow more visitors the opportunity to register"
+      ]
     },
     {
       "id": "University of Michigan Visit",
@@ -760,16 +768,8 @@
       "title": "Stanford Splash",
       "category": "program",
       "source": "https://stanfordesp.org/",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://stanfordesp.org/",
-      "pageTitle": "Stanford Splash - Welcome",
-      "sourceChanged": false,
-      "signals": [
-        "Register Forgot Password Help Privacy Policy contact us Privacy Policy This is editable text",
-        "Register Directions My Classes Registration Guide Parents Live Teachers Register Ideas Logistics LiveScan My Classes Volunteers Join the Admin FAQ N",
-        "Register Directions My Classes Registration Guide Parents Live Teachers Register Ideas Logistics LiveScan My Classes Volunteers Join the Admin FAQ U"
-      ]
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "Summer Science Program",
