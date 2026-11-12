@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 100,
-    "unreachable": 24,
+    "reachable": 101,
+    "unreachable": 23,
     "redirected": 24
   },
   "entries": [
@@ -768,8 +768,16 @@
       "title": "Stanford Splash",
       "category": "program",
       "source": "https://stanfordesp.org/",
-      "reachable": false,
-      "error": "TypeError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://stanfordesp.org/",
+      "pageTitle": "Stanford Splash - Welcome",
+      "sourceChanged": false,
+      "signals": [
+        "Register Forgot Password Help Privacy Policy contact us Privacy Policy This is editable text",
+        "Register Directions My Classes Registration Guide Parents Live Teachers Register Ideas Logistics LiveScan My Classes Volunteers Join the Admin FAQ N",
+        "Register Directions My Classes Registration Guide Parents Live Teachers Register Ideas Logistics LiveScan My Classes Volunteers Join the Admin FAQ U"
+      ]
     },
     {
       "id": "Summer Science Program",
