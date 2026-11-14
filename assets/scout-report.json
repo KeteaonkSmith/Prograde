@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 101,
-    "unreachable": 23,
+    "reachable": 100,
+    "unreachable": 24,
     "redirected": 24
   },
   "entries": [
@@ -972,16 +972,8 @@
       "title": "SAMS at Carnegie Mellon",
       "category": "program",
       "source": "https://www.cmu.edu/pre-college/academic-programs/sams.html",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://www.cmu.edu/pre-college/academic-programs/sams.html",
-      "pageTitle": "Summer Academy for Math and Science - Pre-College Programs - Carnegie Mellon University",
-      "sourceChanged": false,
-      "signals": [
-        "application preparation",
-        "apply collaborative learning strategies by engaging in group tutoring and academic coaching offered through the Student Academic Success Center",
-        "Application Essay SAMS offers a writing course to help students develop their Common App essays, recognizing that not having a strong draft can be a ma"
-      ]
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "LEDA Scholars",
@@ -1513,7 +1505,7 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://girlswhocode.com/programs/clubs-program",
-      "pageTitle": "Girls Who Code | Join 670,000 Girls Who Code today!",
+      "pageTitle": "Girls Who Code | Clubs",
       "sourceChanged": false,
       "signals": [
         "Apply to Start a Club What&#x27;s a Club? Clubs are free programs for all 3rd-12th graders of any skill level to join a sisterhood of supportive",
