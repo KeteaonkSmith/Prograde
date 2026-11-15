@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 100,
-    "unreachable": 24,
+    "reachable": 101,
+    "unreachable": 23,
     "redirected": 24
   },
   "entries": [
@@ -840,7 +840,7 @@
       "signals": [
         "Apply Nomination Recommendations FAQ Contact Us More HOME About Fellows Mentors Applying to SSRP How To Apply Nomination Recommendations FAQ Cont",
         "Apply Nomination Recommendations FAQ Contact Us Welcome The&nbsp; Simons Summer Research Program &nbsp;gives academically talented, motivated hig",
-        "application will go live on November 15"
+        "APPLICATION Our Fellows Simons Fellows are high school juniors, nominated by their schools"
       ]
     },
     {
@@ -972,8 +972,16 @@
       "title": "SAMS at Carnegie Mellon",
       "category": "program",
       "source": "https://www.cmu.edu/pre-college/academic-programs/sams.html",
-      "reachable": false,
-      "error": "TypeError"
+      "status": 200,
+      "reachable": true,
+      "finalUrl": "https://www.cmu.edu/pre-college/academic-programs/sams.html",
+      "pageTitle": "Summer Academy for Math and Science - Pre-College Programs - Carnegie Mellon University",
+      "sourceChanged": false,
+      "signals": [
+        "application preparation",
+        "apply collaborative learning strategies by engaging in group tutoring and academic coaching offered through the Student Academic Success Center",
+        "Application Essay SAMS offers a writing course to help students develop their Common App essays, recognizing that not having a strong draft can be a ma"
+      ]
     },
     {
       "id": "LEDA Scholars",
