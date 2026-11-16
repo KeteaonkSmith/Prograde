@@ -304,7 +304,9 @@
       "finalUrl": "https://nhd.org/en/",
       "pageTitle": "Home - National History Day",
       "sourceChanged": true,
-      "signals": []
+      "signals": [
+        "close in 0 seconds"
+      ]
     },
     {
       "id": "Scholastic Art & Writing Awards",
@@ -791,8 +793,8 @@
       "sourceChanged": true,
       "signals": [
         "Application &nbsp; What We Do The Power of Science Programs Impact Mission & History Who We Are Board of Directors Leadership & Staff Faculty Contact U",
-        "Apply Getting Started Fees & Financial Aid Application Process Applicant Portal FAQs Get Involved Manage Your Profile Make a Gift Volunteer Alumn",
-        "Apply Getting Started Fees & Financial Aid Application Process Applicant Portal FAQs Back Alumni Get Involved Manage Your Profile Make a Gift Vol"
+        "Apply Getting Started Fees & Financial Aid Application Process Applicant Portal FAQs About Institute Overview Get Involved Call for District Part",
+        "Apply Getting Started Fees & Financial Aid Application Process Applicant Portal FAQs Back STEM Learning Institute About Institute Overview Get In"
       ]
     },
     {
@@ -1560,7 +1562,7 @@
       "pageTitle": "Inspirit AI: AI High School Program taught by Stanford/MIT Alums",
       "sourceChanged": false,
       "signals": [
-        "APPLY TO AI SCHOLARS LIVE ONLINE BY NOVEMBER 15 Skip to Content Home About Team Alumni Journeys Impact Small Group AI Scholars (High School) AI P",
+        "APPLY TO AI SCHOLARS LIVE ONLINE BY NOVEMBER 30 Skip to Content Home About Team Alumni Journeys Impact Small Group AI Scholars (High School) AI P",
         "Apply Now Open Menu Close Menu Home About Team Alumni Journeys Impact Small Group AI Scholars (High School) AI Pioneers (Middle School) Silicon V",
         "Apply Now Open Menu Close Menu Home Folder: About Back Team Alumni Journeys Impact Folder: Small Group Back AI Scholars (High School) AI Pioneers"
       ]
