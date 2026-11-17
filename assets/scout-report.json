@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 103,
-    "unreachable": 21,
+    "reachable": 101,
+    "unreachable": 23,
     "redirected": 24
   },
   "entries": [
@@ -358,7 +358,7 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://www.khanacademy.org/math/ap-calculus-ab",
-      "pageTitle": "Client Challenge",
+      "pageTitle": "Khan Academy",
       "sourceChanged": false,
       "signals": []
     },
@@ -567,12 +567,16 @@
       "title": "UIUC College Open Houses",
       "category": "visit",
       "source": "https://www.admissions.illinois.edu/visit/open-houses",
-      "status": 200,
-      "reachable": true,
+      "status": 404,
+      "reachable": false,
       "finalUrl": "https://www.admissions.illinois.edu/visit/open-houses",
-      "pageTitle": "One moment, please...",
+      "pageTitle": "Page Not Found | Undergraduate Admissions | Illinois",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Apply Choose Your Path First-Year Transfer Pathways Non-Degree Second Bachelor's Requirements First-Year Requirements Transfer Requirements Inter",
+        "Application Help How Admission Works Application Workshops Applicant FAQ Admissions Stats Applicant Communities Parents & Families In-State First-Gener",
+        "Registration Financial Aid Notification International Admitted Students Transfer Course Evaluation Report FAQ Get Updates Counselors myIllini Hide Sideb"
+      ]
     },
     {
       "id": "Summer SAIL at University of Oregon",
@@ -1132,9 +1136,9 @@
       "pageTitle": "Scholarship and Internship - Amazon Future Engineer",
       "sourceChanged": false,
       "signals": [
-        "Apply Now This year, we’ve made a BIG change! AFE is now supporting both Automation Engineering and Software Development Engineering",
+        "Apply Now This content is hosted by a third party",
         "apply",
-        "Apply now! Eligibility requirements Be a high school senior in the U"
+        "Apply now! This year, we’ve made a BIG change! AFE is now supporting both Automation Engineering and Software Development Engineering"
       ]
     },
     {
@@ -1369,16 +1373,12 @@
       "title": "College Scorecard",
       "category": "tool",
       "source": "https://collegescorecard.ed.gov/",
-      "status": 200,
-      "reachable": true,
+      "status": 403,
+      "reachable": false,
       "finalUrl": "https://collegescorecard.ed.gov/",
-      "pageTitle": "Home | College Scorecard",
+      "pageTitle": "ERROR: The request could not be satisfied",
       "sourceChanged": false,
-      "signals": [
-        "Application You can learn more about the types of financial aid that are available at StudentAid",
-        "Application for Federal Student Aid (FAFSA®) form",
-        "Application Veterans are eligible for higher education funding through the G"
-      ]
+      "signals": []
     },
     {
       "id": "FAFSA",
@@ -1703,7 +1703,7 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://www.khanacademy.org/humanities/ap-us-history",
-      "pageTitle": "Client Challenge",
+      "pageTitle": "Khan Academy",
       "sourceChanged": false,
       "signals": []
     },
