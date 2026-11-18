@@ -2,9 +2,9 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 101,
-    "unreachable": 23,
-    "redirected": 24
+    "reachable": 100,
+    "unreachable": 24,
+    "redirected": 23
   },
   "entries": [
     {
@@ -59,7 +59,7 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://www.mlh.com/",
-      "pageTitle": "Major League Hacking | Hackathons and Developer Programs | Major League Hacking",
+      "pageTitle": "Major League Hacking | Hackathons and Developer Programs",
       "sourceChanged": true,
       "signals": [
         "open source projects with peers and engineers from top companies",
@@ -131,16 +131,12 @@
       "title": "Bank of America Student Leaders",
       "category": "program",
       "source": "https://about.bankofamerica.com/en/making-an-impact/student-leaders",
-      "status": 200,
-      "reachable": true,
+      "status": 403,
+      "reachable": false,
       "finalUrl": "https://about.bankofamerica.com/en/making-an-impact/student-leaders",
-      "pageTitle": "Bank of America Student Leaders®: Internship Program",
+      "pageTitle": "Access Denied",
       "sourceChanged": false,
-      "signals": [
-        "application",
-        "apply? Yes",
-        "apply if they meet all other eligibility requirements"
-      ]
+      "signals": []
     },
     {
       "id": "Harvard Secondary School Program",
@@ -169,9 +165,9 @@
       "pageTitle": "High School | Summer Session",
       "sourceChanged": true,
       "signals": [
-        "open! Residential space is limited",
-        "deadline for Early Decision is December 14",
-        "Apply now Summer Session Request info Apply now High School JUNE 19 – AUGUST 15, 2027 Study with a dynamic student body from more than 60 countri"
+        "Apply now High School JUNE 19 – AUGUST 15, 2027 Study with a dynamic student body from more than 60 countries and earn an official transcript fro",
+        "Application Requirements As part of the application, you will be asked to supply: transcripts, one essay, and proof of English proficiency (if necessar",
+        "application"
       ]
     },
     {
@@ -358,7 +354,7 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://www.khanacademy.org/math/ap-calculus-ab",
-      "pageTitle": "Khan Academy",
+      "pageTitle": "Client Challenge",
       "sourceChanged": false,
       "signals": []
     },
@@ -482,12 +478,8 @@
       "title": "Purdue OWL",
       "category": "study",
       "source": "https://owl.purdue.edu/",
-      "status": 200,
-      "reachable": true,
-      "finalUrl": "https://owl.purdue.edu/",
-      "pageTitle": "Purdue OWL® - Purdue OWL® - Purdue University",
-      "sourceChanged": false,
-      "signals": []
+      "reachable": false,
+      "error": "TypeError"
     },
     {
       "id": "Zotero",
@@ -990,16 +982,12 @@
       "title": "LEDA Scholars",
       "category": "program",
       "source": "https://ledascholars.org/our-program/",
-      "status": 200,
+      "status": 202,
       "reachable": true,
       "finalUrl": "https://ledascholars.org/our-program/",
-      "pageTitle": "What We Do | LEDA",
+      "pageTitle": "",
       "sourceChanged": false,
-      "signals": [
-        "Close The Need The Need Exceptional students from low-income backgrounds have unequal access to the top-tier colleges that cultivate most of our",
-        "Close What We Do What We Do LEDA runs the LEDA Scholars Program, the LEDA Career Network, and the LEDA Policy Project",
-        "Close Impact Impact A look at LEDA Scholars since our inception in 2003"
-      ]
+      "signals": []
     },
     {
       "id": "Matriculate",
@@ -1082,16 +1070,12 @@
       "title": "Ron Brown Scholar Program",
       "category": "scholarship",
       "source": "https://ronbrown.org/apply/ron-brown-scholarship/",
-      "status": 200,
+      "status": 202,
       "reachable": true,
-      "finalUrl": "https://ronbrown.org/ron-brown-scholarship/",
-      "pageTitle": "The Ron Brown Signature Scholarship &#8211; Ron Brown Scholar Program",
-      "sourceChanged": true,
-      "signals": [
-        "Register Today",
-        "APPLY NOW - 2027 Application is now open! Tickets &amp; Sponsorships Now Available for AJA 2025—Reserve Your Place! Remembering Our Dear Friend C",
-        "APPLICATION FOR THE 2027 SCHOLARSHIP COMPETITION IS NOW OPEN - ABOUT THE RON BROWN SIGNATURE SCHOLARSHIP The Ron Brown Scholarship honors the legacy of"
-      ]
+      "finalUrl": "https://ronbrown.org/apply/ron-brown-scholarship/",
+      "pageTitle": "",
+      "sourceChanged": false,
+      "signals": []
     },
     {
       "id": "Hispanic Scholarship Fund",
@@ -1217,10 +1201,10 @@
       "title": "Science Olympiad",
       "category": "competition",
       "source": "https://www.soinc.org/",
-      "status": 200,
+      "status": 202,
       "reachable": true,
       "finalUrl": "https://www.soinc.org/",
-      "pageTitle": "Science Olympiad",
+      "pageTitle": "",
       "sourceChanged": false,
       "signals": []
     },
@@ -1373,12 +1357,16 @@
       "title": "College Scorecard",
       "category": "tool",
       "source": "https://collegescorecard.ed.gov/",
-      "status": 403,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://collegescorecard.ed.gov/",
-      "pageTitle": "ERROR: The request could not be satisfied",
+      "pageTitle": "Home | College Scorecard",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Application You can learn more about the types of financial aid that are available at StudentAid",
+        "Application for Federal Student Aid (FAFSA®) form",
+        "Application Veterans are eligible for higher education funding through the G"
+      ]
     },
     {
       "id": "FAFSA",
@@ -1703,7 +1691,7 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://www.khanacademy.org/humanities/ap-us-history",
-      "pageTitle": "Khan Academy",
+      "pageTitle": "Client Challenge",
       "sourceChanged": false,
       "signals": []
     },
