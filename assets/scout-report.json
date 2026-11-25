@@ -358,7 +358,7 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://www.khanacademy.org/math/ap-calculus-ab",
-      "pageTitle": "Khan Academy",
+      "pageTitle": "Client Challenge",
       "sourceChanged": false,
       "signals": []
     },
@@ -722,16 +722,12 @@
       "title": "Princeton Visit",
       "category": "visit",
       "source": "https://admission.princeton.edu/visit",
-      "status": 404,
+      "status": 503,
       "reachable": false,
       "finalUrl": "https://admission.princeton.edu/visit",
-      "pageTitle": "Page Not Found | Princeton Admission",
+      "pageTitle": "Site under maintenance | Princeton Admission",
       "sourceChanged": false,
-      "signals": [
-        "Apply Cost &amp; Aid Academics Community Diversity Main Navigation (Mid Col) Apply Overview Before you apply Helpful Tips How to Apply Internatio",
-        "Application Dates &amp; Deadlines Transfer Application Dates &amp; Deadlines Application Checklist Transfer Application Checklist Princeton-specific Qu",
-        "Apply Overview Before you apply Helpful Tips How to Apply International Students Update for Individuals who Ordinarily Reside in Iran Standardize"
-      ]
+      "signals": []
     },
     {
       "id": "Harvard Visit",
@@ -1519,7 +1515,7 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://girlswhocode.com/programs/clubs-program",
-      "pageTitle": "Girls Who Code | Clubs",
+      "pageTitle": "Girls Who Code | Join 670,000 Girls Who Code today!",
       "sourceChanged": false,
       "signals": [
         "Apply to Start a Club What&#x27;s a Club? Clubs are free programs for all 3rd-12th graders of any skill level to join a sisterhood of supportive",
@@ -1707,7 +1703,7 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://www.khanacademy.org/humanities/ap-us-history",
-      "pageTitle": "Khan Academy",
+      "pageTitle": "Client Challenge",
       "sourceChanged": false,
       "signals": []
     },
