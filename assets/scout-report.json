@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 101,
-    "unreachable": 23,
+    "reachable": 102,
+    "unreachable": 22,
     "redirected": 24
   },
   "entries": [
@@ -138,8 +138,8 @@
       "sourceChanged": false,
       "signals": [
         "application",
-        "apply? Yes",
-        "apply if they meet all other eligibility requirements"
+        "application stage, applicants provide reference contact information rather than recommendation letters",
+        "apply? Yes"
       ]
     },
     {
@@ -1373,12 +1373,16 @@
       "title": "College Scorecard",
       "category": "tool",
       "source": "https://collegescorecard.ed.gov/",
-      "status": 403,
-      "reachable": false,
+      "status": 200,
+      "reachable": true,
       "finalUrl": "https://collegescorecard.ed.gov/",
-      "pageTitle": "ERROR: The request could not be satisfied",
+      "pageTitle": "Home | College Scorecard",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Application You can learn more about the types of financial aid that are available at StudentAid",
+        "Application for Federal Student Aid (FAFSA®) form",
+        "Application Veterans are eligible for higher education funding through the G"
+      ]
     },
     {
       "id": "FAFSA",
@@ -1562,9 +1566,9 @@
       "pageTitle": "Inspirit AI: AI High School Program taught by Stanford/MIT Alums",
       "sourceChanged": false,
       "signals": [
-        "APPLY TO AI SCHOLARS LIVE ONLINE BY NOVEMBER 30 Skip to Content Home About Team Alumni Journeys Impact Small Group AI Scholars (High School) AI P",
-        "Apply Now Open Menu Close Menu Home About Team Alumni Journeys Impact Small Group AI Scholars (High School) AI Pioneers (Middle School) Silicon V",
-        "Apply Now Open Menu Close Menu Home Folder: About Back Team Alumni Journeys Impact Folder: Small Group Back AI Scholars (High School) AI Pioneers"
+        "APPLY TO AI SCHOLARS LIVE ONLINE BY NOVEMBER 30 Skip to Content Home About Team Alumni Journeys Impact Small Group AI Scholars: Engineering Lab (",
+        "Apply Now Open Menu Close Menu Home About Team Alumni Journeys Impact Small Group AI Scholars: Engineering Lab (High School) AI Innovators: Produ",
+        "Apply Now Open Menu Close Menu Home Folder: About Back Team Alumni Journeys Impact Folder: Small Group Back AI Scholars: Engineering Lab (High Sc"
       ]
     },
     {
