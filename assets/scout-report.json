@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 102,
-    "unreachable": 22,
+    "reachable": 101,
+    "unreachable": 23,
     "redirected": 24
   },
   "entries": [
@@ -358,7 +358,7 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://www.khanacademy.org/math/ap-calculus-ab",
-      "pageTitle": "Client Challenge",
+      "pageTitle": "Khan Academy",
       "sourceChanged": false,
       "signals": []
     },
@@ -722,12 +722,16 @@
       "title": "Princeton Visit",
       "category": "visit",
       "source": "https://admission.princeton.edu/visit",
-      "status": 503,
+      "status": 404,
       "reachable": false,
       "finalUrl": "https://admission.princeton.edu/visit",
-      "pageTitle": "Site under maintenance | Princeton Admission",
+      "pageTitle": "Page Not Found | Princeton Admission",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Apply Cost &amp; Aid Academics Community Diversity Main Navigation (Mid Col) Apply Overview Before you apply Helpful Tips How to Apply Internatio",
+        "Application Dates &amp; Deadlines Transfer Application Dates &amp; Deadlines Application Checklist Transfer Application Checklist Princeton-specific Qu",
+        "Apply Overview Before you apply Helpful Tips How to Apply International Students Update for Individuals who Ordinarily Reside in Iran Standardize"
+      ]
     },
     {
       "id": "Harvard Visit",
@@ -1369,16 +1373,12 @@
       "title": "College Scorecard",
       "category": "tool",
       "source": "https://collegescorecard.ed.gov/",
-      "status": 200,
-      "reachable": true,
+      "status": 403,
+      "reachable": false,
       "finalUrl": "https://collegescorecard.ed.gov/",
-      "pageTitle": "Home | College Scorecard",
+      "pageTitle": "ERROR: The request could not be satisfied",
       "sourceChanged": false,
-      "signals": [
-        "Application You can learn more about the types of financial aid that are available at StudentAid",
-        "Application for Federal Student Aid (FAFSA®) form",
-        "Application Veterans are eligible for higher education funding through the G"
-      ]
+      "signals": []
     },
     {
       "id": "FAFSA",
@@ -1515,7 +1515,7 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://girlswhocode.com/programs/clubs-program",
-      "pageTitle": "Girls Who Code | Join 670,000 Girls Who Code today!",
+      "pageTitle": "Girls Who Code | Clubs",
       "sourceChanged": false,
       "signals": [
         "Apply to Start a Club What&#x27;s a Club? Clubs are free programs for all 3rd-12th graders of any skill level to join a sisterhood of supportive",
@@ -1562,7 +1562,7 @@
       "pageTitle": "Inspirit AI: AI High School Program taught by Stanford/MIT Alums",
       "sourceChanged": false,
       "signals": [
-        "APPLY TO AI SCHOLARS LIVE ONLINE BY NOVEMBER 30 Skip to Content Home About Team Alumni Journeys Impact Small Group AI Scholars: Engineering Lab (",
+        "APPLY TO WINTER BREAK PROGRAMS BY NOVEMBER 30 Skip to Content Home About Team Alumni Journeys Impact Small Group AI Scholars: Engineering Lab (Hi",
         "Apply Now Open Menu Close Menu Home About Team Alumni Journeys Impact Small Group AI Scholars: Engineering Lab (High School) AI Innovators: Produ",
         "Apply Now Open Menu Close Menu Home Folder: About Back Team Alumni Journeys Impact Folder: Small Group Back AI Scholars: Engineering Lab (High Sc"
       ]
@@ -1703,7 +1703,7 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://www.khanacademy.org/humanities/ap-us-history",
-      "pageTitle": "Client Challenge",
+      "pageTitle": "Khan Academy",
       "sourceChanged": false,
       "signals": []
     },
