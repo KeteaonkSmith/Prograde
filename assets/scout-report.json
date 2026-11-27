@@ -2,8 +2,8 @@
   "siteUrl": "https://keteaonksmith.github.io/Prograde",
   "summary": {
     "totalResources": 124,
-    "reachable": 102,
-    "unreachable": 22,
+    "reachable": 101,
+    "unreachable": 23,
     "redirected": 24
   },
   "entries": [
@@ -485,9 +485,12 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://owl.purdue.edu/",
-      "pageTitle": "Purdue OWL® - Purdue OWL® - Purdue University",
+      "pageTitle": "Purdue University",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "CLOSE Home About Become a Student Academics Life at Purdue Research Alumni Athletics Helpful links Current Students Faculty and Staff Give Events",
+        "Application Information Online Programs Graduate Programs Accept Your Offer The requested URL was rejected"
+      ]
     },
     {
       "id": "Zotero",
@@ -523,12 +526,11 @@
       "status": 200,
       "reachable": true,
       "finalUrl": "https://admissions.purdue.edu/visit/",
-      "pageTitle": "Purdue University – Visit Us",
+      "pageTitle": "Purdue University",
       "sourceChanged": false,
       "signals": [
-        "CLOSE Undergraduate Admissions Search Home Become a Student Support Your Student Admitted Students Academics Cost &amp; Aid Student Life Visit Co",
-        "Application Deadlines Apply Now Check Application Status Transfer Scholarships Quick links Accept Your Offer Class Profile College Prep Guide to Applyi",
-        "Apply Apply plus_icon Apply Now Guide to Applying Deadlines First-Year Class Profile Closed Programs Application Status College Prep Timeline Inf"
+        "CLOSE Home About Become a Student Academics Life at Purdue Research Alumni Athletics Helpful links Current Students Faculty and Staff Give Events",
+        "Application Information Online Programs Graduate Programs Accept Your Offer The requested URL was rejected"
       ]
     },
     {
@@ -567,12 +569,16 @@
       "title": "UIUC College Open Houses",
       "category": "visit",
       "source": "https://www.admissions.illinois.edu/visit/open-houses",
-      "status": 200,
-      "reachable": true,
+      "status": 404,
+      "reachable": false,
       "finalUrl": "https://www.admissions.illinois.edu/visit/open-houses",
-      "pageTitle": "One moment, please...",
+      "pageTitle": "Page Not Found | Undergraduate Admissions | Illinois",
       "sourceChanged": false,
-      "signals": []
+      "signals": [
+        "Apply Choose Your Path First-Year Transfer Pathways Non-Degree Second Bachelor's Requirements First-Year Requirements Transfer Requirements Inter",
+        "Application Help How Admission Works Application Workshops Applicant FAQ Admissions Stats Applicant Communities Parents & Families In-State First-Gener",
+        "Apply Visit Campus Get Updates Undergraduate Admissions 901 West Illinois Street Urbana, IL 61801 217-333-0302 Email: admissions@illinois"
+      ]
     },
     {
       "id": "Summer SAIL at University of Oregon",
